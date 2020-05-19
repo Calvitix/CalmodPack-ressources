@@ -1,0 +1,99 @@
+
+
+portraits = {
+
+
+	hut01 = {	entity = "portrait_mammalian_13_entity_hutt"	clothes_selector = "no_texture" hair_selector = "general_no_hair" greeting_sound = "mammalian_01_greetings"
+			character_textures = {
+					"gfx/models/portraits/Star_Wars/hutt/hutt_male_01.dds"
+					"gfx/models/portraits/Star_Wars/hutt/hutt_male_02.dds"
+					"gfx/models/portraits/Star_Wars/hutt/hutt_male_03.dds"
+					
+				}
+	}
+	
+}
+
+portrait_groups = {
+	SW06_hutt = {
+		
+		default = hut01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					hut01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					hut01
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					hut01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					hut01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					hut01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					hut01
+				}
+			}		
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					hut01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					hut01
+				}
+			}
+		}
+	}
+}

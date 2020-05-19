@@ -1,0 +1,159 @@
+﻿### Hutt Cartel
+hutt_names = {
+	### SHIPS
+	randomized = no
+	ship_names = {
+
+		generic = {
+			Mynock Rancor "Flying Mynock" "Raging Rancor" "Dirty Zephyr" "Silver Zephyr" "Black Opal" "Centennial Falcon" "Millennium Mynock" "Ebon Hawk"
+			"Ebon Rancor" "Ebon Mynock" "Malta's Falcon" "New Ambition" "Orko's Ship" "Propserous Secret" Quicksilver "Red Nebula" Voracious Voidraker
+			"Tyaonon Ranger" "The Ark" Tempest Talisman "Startled Circuit" Starmaster "Moldy Crow" "Limping Lady" "Luminous Star" "Crimson Fleece" Darksaber
+			"Sun Runner" "Glorious Chariot" "Golden Opportunity" "Krayt Fang" "Spirit of Ziro" "Spirit of Jabba" "Startled Krayt" "Luminous Mynock"
+			"Dirty Krayt" "Flying Krayt" "Raging Zephyr" "Opportunity Knocks" "Old Ambitions" "Prosperous Mynock" "Blue Nebula" "Kobalt Star" "Wrinkled Lady"
+			"New Tempest" "Black Cloud" "Falling Star" Outrider Outlander Exile "Raven's Claw" "Radiant Rancor" "Rising Mynock" "White Gizka" "Dirty Gizka"
+			"Wild Gizka" "Tatooine's Ghost" "Coruscant's Gem" "Fett's Curse" "Mynock's Bane" "Raven's Bane" "Hound's Tooth" "Thunder Child" Warspite 
+			"Rogue Shadow" "Sly Rogue" "Silky Cat" "Bespin Sunrise" "Bantha's Luck" "Slimey Bantha" "Lucky Bantha" "Lucky Mynock" "Rampaging Dewback" 
+			"Sturdy Dewback" "Silver Bantha" "Falling Womp Rat" "Dirty Womp Rat" "Nerf Herder" "Crimson Nerf" "Wet Tauntaun" "Frigid Tauntaun" "Blue Dianoga"
+			"Black Dianoga" "Obsidian Payday" "Black Chance" "Last Chance" "Star Fang" "Bumbling Gungan" "Clever Gungan" "Shaved Wookiee" "Balding Wookiee"
+			"Dancing Twi'lek" "Healing Bacta" "Nal Hutta's Gem" "Droid's Demise" "Silent Handmaiden" "Cantina Nights" "Carbonite Burn" "Ion Trail"
+		}
+
+
+		mining_station = { }
+		research_station = { }
+
+		observation_station = { }
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		random_names = { }
+		sequential_name = "%O% Armada"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Ground Shield"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% War Guild"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave-Pit Fighters"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Division"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Robotic Lancers"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Autonomous Hunters"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Force-Sensitive Company"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Rancor Beasts"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Star Knights"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Nal Hutta" Varl Evocar Evona Ardos "Nar Shaddaa" "Arok's Fortress" "Durga's Citadel" "Gardulla's Holding" "Jabba's Freehold"
+				"Zorba's Shelter" "Ziro's Refuge" Alvorine Klatooine "Ord Ortag" Orondia Quesh "Rorak 4" Dandoran "Du Hutta" "Nar Haaska" "Nar Koska"
+				"Nal Yeshu" "Nar Chunna" "Nar Hekka" "Nar Kaaga" "Nar Kreeta" "Da Soocha" "Tol Amn" Hosko "Kor Bareesh" "Kor Besadii" "Kor Desilijic"
+				"Kor Gejalli" "Kor Hestilic" "Kor Hunamma" "Kor Jiramma" "Kor Nijiladii" "Kor Oktanivii" "Kor Trinivii" "Kor Usilic" "Kor Vosadii"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = { 
+				Jabba Marlo Nashi Niima Oruba Rotta Sutha Voras Ziro Grakkus Gorga Gardulla Ebor Boonta Arok Boondulla Eroc Xiro
+				Kashi Uroba Kotta Rupha Toras Viro Korga Nasdulla Tabba Gizz Ephant Amdra Basuda Nemro Faathra Zax Ajuur Vaklu
+				Calo Rax Rasuda Parlo Miina Kutha Vorga Vashi Borga Goondulla Lebor Umdru Beldorion Durga Kossak Jool Vogga
+				Grappa Korpa Bakto Brak Kraun Krakos Pontar Punta Gabba Gasuda Niro Murga Mogga Kebor Phoras Uroba Arock
+				Harlo Hiima Horas Gebor Basdulla Bastun Bagtun Pax Xax Purga Wasuda Wogga Webor Wondulla Wotta Worga Sabba
+				Salo Siina Sabba Soras Siro Srakkus Torga Tardulla Tundulla Taklu
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				Jabba Marlo Nashi Niima Oruba Rotta Sutha Voras Ziro Grakkus Gorga Gardulla Ebor Boonta Arok Boondulla Eroc Xiro
+				Kashi Uroba Kotta Rupha Toras Viro Korga Nasdulla Tabba Gizz Ephant Amdra Basuda Nemro Faathra Zax Ajuur Vaklu
+				Calo Rax Rasuda Parlo Miina Kutha Vorga Vashi Borga Goondulla Lebor Umdru
+			}
+			
+			regnal_second_names = {
+				"the Hutt"
+			}
+		}
+	}
+}

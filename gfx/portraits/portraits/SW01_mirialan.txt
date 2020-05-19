@@ -1,0 +1,281 @@
+
+
+
+portraits = {
+
+	mirf1 = {	entity = "zabrak_female_entity" 
+				clothes_selector = "human_SW_female_clothes_01" 	
+				hair_selector = "mirialan_female_hair_01" 
+				greeting_sound = "human_female_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_01a.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_01b.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_01c.dds"
+				}
+	}
+
+	mirf2 = {	entity = "zabrak_female_entity" 
+				clothes_selector = "human_SW_female_clothes_01" 	
+				hair_selector = "mirialan_female_hair_01" 	
+				greeting_sound = "human_female_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_02a.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_02b.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_02c.dds"
+				}
+	}
+	mirf3 = {	entity = "zabrak_female_entity" 
+				clothes_selector = "human_SW_female_clothes_01" 	
+				hair_selector = "mirialan_female_hair_01" 	
+				greeting_sound = "human_female_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_03a.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_03b.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_03c.dds"
+				}
+	}
+
+	mirf4 = {	entity = "zabrak_female_entity" 
+				clothes_selector = "human_SW_female_clothes_01" 	
+				hair_selector = "mirialan_female_hair_01" 	
+				greeting_sound = "human_female_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_04a.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_04b.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_04c.dds"
+				}
+	}	
+
+	mirm1 = {	entity = "zabrak_male_entity" 
+				clothes_selector = "human_SW_male_clothes_01" 	
+				hair_selector = "mirialan_male_hair_01" 
+				greeting_sound = "human_male_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_01a.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_01b.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_01c.dds"
+				}
+	}
+
+	mirm2 = {	entity = "zabrak_male_entity" 
+				clothes_selector = "human_SW_male_clothes_01" 	
+				hair_selector = "mirialan_male_hair_01" 	
+				greeting_sound = "human_male_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_02a.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_02b.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_02c.dds"
+				}
+	}
+	
+	mirm3 = {	entity = "zabrak_male_entity" 
+				clothes_selector = "human_SW_male_clothes_01" 	
+				hair_selector = "mirialan_male_hair_01" 	
+				greeting_sound = "human_male_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_03a.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_03b.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_03c.dds"
+				}
+	}	
+
+	mirm4 = {	entity = "zabrak_male_entity" 
+				clothes_selector = "human_SW_male_clothes_01" 	
+				hair_selector = "mirialan_male_hair_01" 	
+				greeting_sound = "human_male_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_04a.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_04b.dds"
+									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_04c.dds"
+				}
+	}
+	
+	}
+portrait_groups = {
+	SW01_mirialan= {
+		default = mirf3
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					mirm1
+					mirm2
+					mirm3
+					mirm4
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					mirf3
+					mirf1
+					mirf2
+					mirf4
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					mirf3
+					mirf1
+					mirf2
+					mirf4
+					mirm1
+					mirm2
+					mirm3
+					mirm4
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					mirf3
+					mirf1
+					mirf2
+					mirf4
+					mirm1
+					mirm2
+					mirm3
+					mirm4
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					mirf3
+					mirf1
+					mirf2
+					mirf4
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					mirm1
+					mirm2
+					mirm3
+					mirm4
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					mirf3
+					mirf1
+					mirf2
+					mirf4
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					mirm1
+					mirm2
+					mirm3
+					mirm4
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					mirf3
+					mirf1
+					mirf2
+					mirf4
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					mirm1
+					mirm2
+					mirm3
+					mirm4
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					mirf3
+					mirf1
+					mirf2
+					mirf4
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					mirm1
+					mirm2
+					mirm3
+					mirm4
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					mirf3
+					mirf1
+					mirf2
+					mirf4
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					mirm1
+					mirm2
+					mirm3
+					mirm4
+					
+				}
+			}
+		}		
+	
+	}
+}

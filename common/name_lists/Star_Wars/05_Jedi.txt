@@ -1,0 +1,142 @@
+﻿### Jedi 
+jedi_names = {
+	### SHIPS
+	randomized = no
+	ship_names = {
+
+		generic = {"Alpha Kentrum" "Luminosity" "Star Runner" "Twilight" "Obi-Wan Kenobi's courier" "Oss Wilum's courier"
+		"Qrrrl Toq's starship" "Jedi Shuttle" "Fairwind" "Nighthawk" "Kestrel Nova" "Beneficia" "Rogue Shadow" "Rahm Kota's starship" SunGem
+		"Starstorm One" "Metal beast" "Nebulon Ranger" "Outbound Flight" "Pathfinder" "Prosperity" "Wandering Diva" "Yoda's cruiser" "Outrider"
+
+		}
+
+
+		mining_station = { }
+		research_station = { }
+
+		observation_station = { }
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		random_names = { }
+		sequential_name = "%O% Armada"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Ground Shield"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% War Guild"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave-Pit Fighters"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Division"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Robotic Lancers"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Autonomous Hunters"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Force-Sensitive Company"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Rancor Beasts"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Star Knights"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {"Coruscant" "Cobal" "Tython" "Vrogas Vas" "Volik" "Eclipse" "Ermi" "Masposhani" "Kamparas" "Ilum" "Haashimut" " Lothal" " Devaron" "Jedha"
+
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = { "Acaadi" "Stass Allie" "Rees Alrix" "Serifa Altunen" "Ring-Sol Ambase" "Xiaan Amersu" "Soara Antana" "Koffi Arana" "Evan Asani" "Ausar Auset"
+			"Obi-Wan Kenobi" "Plun Kil" "Anakin Skywalker" "Aayla Secura" "Yoda" "Mace Windu" "Volryder" "Nanda-Ree Janoo" "Luke Skywalker" "Kit Fisto" "Plo Koon" "Kane Starkiller"
+
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+
+			}
+			
+			regnal_second_names = {
+
+			}
+		}
+	}
+}

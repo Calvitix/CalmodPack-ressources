@@ -1,0 +1,183 @@
+portraits = {
+
+	gungan01 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/gungan/gungan01.dds"}
+	gungan02 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/gungan/gungan02.dds"} 
+	gungan03 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/gungan/gungan03.dds"}	  
+}
+
+portrait_groups = {
+	SW10_gungan = {
+		default = gungan01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					gungan01
+					gungan02
+					gungan03
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

@@ -1,0 +1,32 @@
+#... gfx/models/portraits/Miscellaneous/ ...
+
+Misc = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = { #actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+	#Avatar
+	
+	#StarCraft
+	"MI11_zerg"
+	"MI12_protoss"
+	
+	}
+	#sekantis 31
+
+	non_randomized_portraits = {
+	
+	#StarCraft
+	"MI10_terran"
+	"MI11_zerg"
+	"MI12_protoss"
+		
+	}	
+	#new 33
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+}
+
+
+

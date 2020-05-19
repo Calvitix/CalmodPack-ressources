@@ -1,0 +1,3 @@
+# This is a template which multiple species can use. 
+  
+general_no_hair = { default = "gfx/transparent.dds"}

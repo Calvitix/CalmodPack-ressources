@@ -1,0 +1,14 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_eco_ap_land_ethic"
+		texturefile = "gfx/interface/icons/ascension_perks/eco_ap_land_ethic.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_eco_ap_land_ethic_gestalt"
+		texturefile = "gfx/interface/icons/ascension_perks/eco_ap_land_ethic_gestalt.dds"
+		alwaystransparent = yes
+	}
+}

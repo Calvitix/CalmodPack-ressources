@@ -1,0 +1,200 @@
+
+StarWars = {
+	SW01_mirialan = {
+		name = Mirialan
+		plural = Mirialans
+		home_planet = "Mirial"
+		home_system = "Mirial"
+		name_list = "mirialan_names"
+	}
+	SW02_sith = {
+		name = Sith
+		plural = Sith
+		home_planet = "Korriban"
+		home_system = "Horuset"
+		name_list = "sith_names"
+	}
+		
+	SW03_twilek= {
+		name = "Twi'lek"
+		plural = "Twi'lek"
+		home_planet = "Ryloth"
+		home_system = "Ryloth"
+		name_list = "twilek_names"
+	}
+		
+	SW04_zabrak = {
+		name = Zabrak
+		plural = Zabraks
+		home_planet = "Iridonia"
+		home_system = "Iridonia"
+		name_list = "zabrak_names"
+	}
+	
+	SW05_jedi = {
+		name = Jedi
+		plural = Jedi
+		home_planet = "Coruscant"
+		home_system = "Coruscant"
+		name_list = "jedi_names"
+	}
+	
+	SW06_hutt = {
+		name = Hutt
+		plural = Hutts
+		home_planet = "Nal Hutta"
+		home_system = "Nal Hutta"
+		name_list = "HUM1"
+	}
+	
+	SW07_chiss = {
+		name = Chiss
+		plural = Chiss
+		home_planet = "Bogo Rai"
+		home_system = "Bogo Rai"
+		name_list = "chiss_names"
+	}
+	
+	SW08_sith_lord = {
+		name = "Sith lord"
+		plural = "Sith lords"
+		home_planet = "Dromund Kaas"
+		home_system = "Dromund Kaas"
+		name_list = "sith_lord_names"
+	}
+	
+	SW09_wookiee = {
+		name = "Wookiee"
+		plural = "Wookiees"
+		home_planet = "Kashyyyk"
+		home_system = "Kashyyyk"
+		name_list = "MAM2"
+	}
+	
+	SW10_gungan = {
+		name = "Gungan"
+		plural = "Gungans"
+		home_planet = "Naboo"
+		home_system = "Naboo"
+		name_list = "MAM2"
+	}
+	
+	SW11_jawa = {
+		name = "Jawa"
+		plural = "Jawas"
+		home_planet = "Tatooine"
+		home_system = "Tatoo"
+		name_list = "MAM2"
+	}
+	
+	SW12_sullustan = {
+		name = "Sullustan"
+		plural = "Sullustans"
+		home_planet = "Sullust"
+		home_system = "Sullust"
+		name_list = "MAM2"
+	}
+	
+	SW13_rodian = {
+		name = "Rodian"
+		plural = "Rodians"
+		home_planet = "Rodia"
+		home_system = "Rodia"
+		name_list = "MAM2"
+	}
+	
+	SW14_mon_calamari = {	
+		name = "Mon Calamari"
+		plural = "Mon Calamari"
+		home_planet = "Mon Cala"
+		home_system = "Mon Cala"
+		name_list = "MAM2"
+	}
+	
+	SW15_rebel = {	
+		name = Rebel
+		plural = Rebels
+		home_planet = Alderaan
+		home_system = Alderaan
+		name_list = "MAM2"
+	}
+
+	SW16_rebel = {	
+		name = Togruta
+		plural = Togruta
+		home_planet = Shili
+		home_system = Shili
+		name_list = togruta_names
+	}	
+	
+	
+	SW19_rakata = {	
+		name = Rakata
+		plural = Rakata
+		home_planet = Lehon 
+		home_system = Lehon
+		name_list ="MAM1"
+	}
+	
+	SW20_dug = {	
+		name = Dug
+		plural = Dugs
+		home_planet = Malastare 
+		home_system = Malastare
+		name_list = "MAM1"
+	}
+
+	SW21_pantoran = {	
+		name = Pantoran
+		plural = Pantorans
+		home_planet = Pantora 
+		home_system = Pantora
+		name_list = "HUM2"
+	}
+	
+	SW22_chagrian = {	
+		name = Chagrian
+		plural = Chagrians
+		home_planet = Champala 
+		home_system = Champala
+		name_list = "HUM3"
+	}
+
+	SW23_empire = {	
+		name = "Imperial citizen"
+		plural = "Imperial citizens"
+		home_planet = "Imperial Center"
+		home_system = "Coruscant"
+		name_list = "HUM3"
+	}
+
+	SW24_ortolan = {
+		name = Ortolan
+		plural = Ortolans
+		home_planet = "Orto"
+		home_system = "Orto"
+		name_list = "MAM1"
+	}	
+
+	SW25_neimoidian = {
+		name = Neimoidian
+		plural = Neimoidians
+		home_planet = "Neimoidia"
+		home_system = "Neimoidia"
+		name_list = "MAM1"
+	}	
+	
+	SW26_duros = {
+		name = Duros	
+		plural = Duros
+		home_planet = "Duro"
+		home_system = "Duro"
+		name_list = "MAM1"
+	}	
+	
+}
+
+	
+
+
+	

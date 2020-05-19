@@ -1,0 +1,211 @@
+
+portraits = {
+	
+
+	ewok_1	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/ewok/ewok_1.dds"} 
+
+			
+	ewok_2	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/ewok/ewok_2.dds"} 
+
+			
+	ewok_3	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/ewok/ewok_3.dds"} 
+
+	ewok_4	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/ewok/ewok_4.dds"} 
+
+
+
+
+	}
+portrait_groups = {
+	SW17_ewok = {
+		default = ewok_4	
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					ewok_4	
+					ewok_3
+					ewok_2
+					ewok_1
+					
+				}
+			}
+		}		
+	
+	}
+}

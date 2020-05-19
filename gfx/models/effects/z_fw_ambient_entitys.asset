@@ -1,0 +1,42 @@
+###_z fw ambient effect entities	##################################################################
+
+
+###_[test]
+#_green
+entity = {
+	name = "z_fw_test_entity"
+	pdxmesh = "locator_mesh"
+	
+	#get_state_from_parent = no
+	locator = { name = "root" position = { 0 0 0 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 looping = no
+		event = { time = 0.0 node = root particle = "z_fw_fx_ambient_test_1" keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 1
+}
+
+
+
+
+###_[BOOM]
+#_green
+entity = {
+	name = "z_fw_star_explosion_green_entity"
+	pdxmesh = "locator_mesh"
+	
+	#get_state_from_parent = no
+	locator = { name = "root" position = { 0 0 0 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 looping = no
+		event = { time = 0.0 node = root particle = "warp_wind_up_effect" keep_particle = no trigger_once = yes }
+		event = { time = 2.0 node = root particle = "ftl_in_ship_particle" keep_particle = no trigger_once = yes }
+		event = { time = 3.0 node = root particle = "ftl_out_ship_particle" keep_particle = no trigger_once = yes }
+		event = { time = 3.0 node = root particle = "warp_wind_down_effect" keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 1
+}

@@ -1,0 +1,214 @@
+
+portraits = {
+	
+
+	rodian_1	= {	entity ="rodian_male_entity"	
+				clothes_selector = "rodian_clothes_01" 
+				hair_selector = "rodian_01_hair" 
+				greeting_sound = "human_male_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/rodian/rodian_body_1a.dds"
+									   "gfx/models/portraits/Star_Wars/rodian/rodian_body_1b.dds"
+									   "gfx/models/portraits/Star_Wars/rodian/rodian_body_1c.dds"
+									} 
+			}
+			
+	rodian_2	= {	entity ="rodian_male_entity"	
+				clothes_selector = "rodian_clothes_01" 
+				hair_selector = "rodian_02_hair" 
+				greeting_sound = "human_male_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/rodian/rodian_body_2a.dds"
+									   "gfx/models/portraits/Star_Wars/rodian/rodian_body_2b.dds"
+									   "gfx/models/portraits/Star_Wars/rodian/rodian_body_2c.dds"
+									} 
+			}
+
+	rodian_3	= {	entity ="rodian_male_entity"	
+				clothes_selector = "rodian_clothes_01" 
+				hair_selector = "rodian_03_hair" 
+				greeting_sound = "human_male_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/rodian/rodian_body_3a.dds"
+									   "gfx/models/portraits/Star_Wars/rodian/rodian_body_3b.dds"
+									   "gfx/models/portraits/Star_Wars/rodian/rodian_body_3c.dds"
+									} 
+			}
+			
+
+
+
+
+	}
+portrait_groups = {
+	SW13_rodian = {
+		default = rodian_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					rodian_1
+					rodian_2
+					rodian_3
+					
+				}
+			}
+		}		
+	
+	}
+}

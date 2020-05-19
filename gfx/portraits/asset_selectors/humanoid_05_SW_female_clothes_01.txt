@@ -1,0 +1,177 @@
+# This is a template which multiple species can use. 
+
+humanoid_05_SW_female_clothes_01 = {
+	default = "gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep1.dds" 
+	#"gfx/models/portraits/humanoid/humanoid_05_female_outfit_ruler.dds" - buvo pries tai default cia ir kitur zemiau
+	
+	
+	game_setup = {
+		default = "gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep1.dds"   
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep1.dds" 
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+
+	default = "gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep1.dds" 	
+
+	random = {
+			list = {
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_1.dds" 
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_2.dds" 
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_5.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_6.dds"
+				
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type2_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type2_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type2_3.dds"
+				
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_5.dds"
+
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep4.dds"
+
+				"gfx/models/portraits/humanoid/humanoid_05_female_outfit_ruler.dds"				
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n5.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n6.dds"				
+				
+				#other default clothes
+				"gfx/models/portraits/humanoid/humanoid_05_female_outfit_governor.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_scientist.dds"
+				#"gfx/models/portraits/humanoid/humanoid_05_outfit_general.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_admiral.dds"
+
+					}
+			}
+	
+		}
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+
+	default = "gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep1.dds" 	
+
+	random = {
+			list = {
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_1.dds" 
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_2.dds" 
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_5.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_6.dds"
+				
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type2_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type2_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type2_3.dds"
+				
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_5.dds"
+				
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep4.dds"
+				
+				"gfx/models/portraits/humanoid/humanoid_05_female_outfit_ruler.dds"				
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n5.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n6.dds"				
+				
+				#other default clothes
+				"gfx/models/portraits/humanoid/humanoid_05_female_outfit_governor.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_scientist.dds"
+				#"gfx/models/portraits/humanoid/humanoid_05_outfit_general.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_admiral.dds"
+					}
+			}
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep1.dds" 
+	
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+						
+					}
+				}
+			}
+
+			list = {
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_1.dds" 
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_2.dds" 
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_5.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type1_6.dds"
+				
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type2_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type2_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_type2_3.dds"
+
+				
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_bandit_5.dds"
+
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_female_01_rep4.dds"
+				
+				"gfx/models/portraits/humanoid/humanoid_05_female_outfit_ruler.dds"				
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n5.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_05_female_outfit_ruler_n6.dds"				
+				
+				#other default clothes
+				"gfx/models/portraits/humanoid/humanoid_05_female_outfit_governor.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_scientist.dds"
+				#"gfx/models/portraits/humanoid/humanoid_05_outfit_general.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_admiral.dds"
+			}
+		}
+	
+		
+	}
+	
+	
+	
+
+}
+
+

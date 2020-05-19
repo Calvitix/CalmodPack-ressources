@@ -1,0 +1,115 @@
+﻿### Togruta 
+togruta_names = {
+	### SHIPS
+	randomized = no
+	ship_names = {
+
+		generic = {Starfighter Crow "Star Skiff" Runner Starkiller Raven Destiny Hope Haven Horizon}
+
+
+		mining_station = { }
+		research_station = { }
+		observation_station = {"%O% observation station"}
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		random_names = { }
+		sequential_name = "%O% Stellar Fleet"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Troopers"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Assault Troopers"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave-Pit Fighters"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Division"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Robots"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Androids"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Troopers"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Enforcers"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Enforcers"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {Shili Kiros Rishi Dantooine}
+		}
+		
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = { "Jordan Karls" "Auxi Kray Korbin"}
+			
+			# Always combined with a second name
+			first_names_male = { 
+								Jordan Hozim Ututom Razeek Aharaahd Uzuzyn Tuny Osateer Bubom Turaa Kosee 
+								Uvukreek Zoko Madaash Kodo Banahd Vutyk Azonzaam Arukryr Bunash Okutee  Rolend 
+								}
+	
+	
+			first_names_female = {
+									Asoka Ashla Carshotta Acataa Bossa Aserla Baassa Ararlo Akoman Saattash Cersha Shaassan Noraa
+									Acotta Azaarsha Ahahsaa Shehla Ashehsaa Akema Ashaarna Lashaa Arana Acaarshah Shaak	Ashara	Yanila	
+								}
+	
+
+			# Always combined with a first name
+			second_names = {
+							Karls Narnaa Madu Tysa Lakaa Zydo Sash Ly Ty Bi Lil Tano Kyzal Lissul Zydush 
+							Phaaluaks Lyshaal Tyr He Naa Zyn His Rirliis Tizii Habraa Mevryr  Rishim Kin Baal Dyks Kil Kash Tiks Zaam Ti Zavros
+							}
+			
+			regnal_first_names_male = {
+								Jordan Hozim Ututom Razeek Aharaahd Uzuzyn Tuny Osateer Bubom Turaa Kosee 
+								Uvukreek Zoko Madaash Kodo Banahd Vutyk Azonzaam Arukryr Bunash Okutee  Rolend		
+			}
+			
+			regnal_first_names_female = { 
+									Asoka Ashla Carshotta Acataa Bossa Aserla Baassa Ararlo Akoman Saattash Cersha Shaassan Noraa
+									Acotta Azaarsha Ahahsaa Shehla Ashehsaa Akema Ashaarna Lashaa Arana Acaarshah Shaak	Ashara	Yanila			
+			}
+			
+			regnal_second_names = {
+							Karls Narnaa Madu Tysa Lakaa Zydo Sash Ly Ty Bi Lil Tano Kyzal Lissul Zydush 
+							Phaaluaks Lyshaal Tyr He Naa Zyn His Rirliis Tizii Habraa Mevryr  Rishim Kin Baal Dyks Kil Kash Tiks Zaam Ti Zavros
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+﻿l_english:
+
+ BiggerColonies.1.Name: "§YBigger Colonies Spawn Chance§!"
+ BiggerColonies.1.Desc: "Hi and welcome to the 'Bigger Colonies' mod. You have here the possibility to select the percentage of planets and moons which will have their size increased to turn them into giant colonies. Be careful once your choice is done, you can't go back unless you start playing on a new save game. The game will take a certain time to update the new amount of natural districts present on a planet on your HUD, but doing something important in the system like putting a Starbase will show the correct amount directly which can go up to 30."
+ BiggerColonies.1.Low: "(§R25%§!) Low Chances"
+ BiggerColonies.1.Default: "(§Y50%§!) Default Chances"
+ BiggerColonies.1.High: "(§G75%§!) High Chances"
+ BiggerColonies.1.All: "(§S100%§!) Always"
+
+ mod_bigger_colonies:0 "The planets can go up from 25 to 60 and moons can go up from 15 to 35."
+
+ d_bigger_colony:"Bigger Colony"
+ d_bigger_colony_desc:"Special deposit increasing the amount of rural districts present on the planet."

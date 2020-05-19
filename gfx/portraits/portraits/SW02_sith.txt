@@ -1,0 +1,225 @@
+portraits = {
+	# Sith
+	sitf1 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "sith_female_clothes_01" hair_selector = "sith_female_hair_01"	greeting_sound = "human_female_greetings_03"
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_female_body_01.dds"}}
+	sitf2 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "sith_female_clothes_01" hair_selector = "sith_female_hair_01"	greeting_sound = "human_female_greetings_03"
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_female_body_02.dds"}}
+	sitf3 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "sith_female_clothes_01" hair_selector = "sith_female_hair_01"	greeting_sound = "human_female_greetings_03"
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_female_body_03.dds"}}
+	sitf4 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "sith_female_clothes_01" hair_selector = "sith_female_hair_01"	greeting_sound = "human_female_greetings_03"
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_female_body_04.dds"}}
+		
+
+	sitm1 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_male_body_01.dds"}}	
+	sitm2 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_male_body_02.dds"}}		
+	sitm3 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_male_body_03.dds"}}		
+	sitm4 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_male_body_04.dds"}}	
+
+}	
+
+portrait_groups = {
+	SW02_sith = {
+		default = sitf1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					sitm1
+					sitm2
+					sitm3
+					sitm4
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					sitf1
+					sitf2
+					sitf3
+					sitf4
+
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sitm1
+					sitm2
+					sitm3
+					sitm4
+					sitf1
+					sitf2
+					sitf3
+					sitf4
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sitm1
+					sitm2
+					sitm3
+					sitm4
+					sitf1
+					sitf2
+					sitf3
+					sitf4
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					sitf1
+					sitf1
+					sitf2
+					sitf3
+					sitf4
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					sitm1
+					sitm2
+					sitm3
+					sitm4
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					sitf1
+					sitf1
+					sitf2
+					sitf3
+					sitf4
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					sitm1
+					sitm2
+					sitm3
+					sitm4
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					sitf1
+					sitf1
+					sitf2
+					sitf3
+					sitf4
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					sitm1
+					sitm2
+					sitm3
+					sitm4
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					sitf1
+					sitf1
+					sitf2
+					sitf3
+					sitf4
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					sitm1
+					sitm2
+					sitm3
+					sitm4
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sitf1
+					sitf1
+					sitf2
+					sitf3
+					sitf4
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sitm1
+					sitm2
+					sitm3
+					sitm4
+					
+				}
+			}
+		}		
+	
+	}
+}

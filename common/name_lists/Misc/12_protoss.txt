@@ -1,0 +1,180 @@
+﻿protoss_names = {
+	ship_names = {
+		generic = {
+		}
+
+		corvette = {
+			"Phoenix" "Corsair" "Venator" "Sagittarius" "Triarius" "Velitus" "Optio" "Equito" "Alaris" "Disruptor"
+		}
+		
+		constructor = {
+			"Probe" "Void Probe" "Probe of the Matriarch" "Probe of Aiur"
+		}
+		
+		colonizer = {
+			sequential_name = "Ark" "Nexus" "Void Bridge"
+		}
+
+		destroyer = {
+			"Void Ray" "Void Seeker" "Escort" "Retribution" "Ankh" "Pilus" "Legioni" "Spear" "Gladius"
+		}
+		
+		cruiser = {
+			"Executor" "Reacer" "Avenger" "Tempest" "Archon" "Centurion" "Shield" "Void Shield" "Templar"
+		}
+		
+		battleship = {
+			"Gantritor" "Cybros" "Protector" "Antamon" "Shield of Aiur" "Shield of Aiur" "Purifier"
+		}
+		
+		science = {
+			"Observer" "Void Observer"
+		}
+
+		mining_station = {
+			"Pylon" "Void Pylon"
+		}
+
+		research_station = {
+			"Core"
+		}
+
+		observation_station = {
+			"Observatory"
+		}
+
+		
+		transport = {
+			"Warp Prism"
+		}
+		
+		military_station_small = { "Megalith" "Energizer"
+		}
+		
+		military_station_medium = { "Warden" "Mirage"
+		}
+		
+		military_station_large = { "Sentinel" "Colossus"
+		}
+	}
+	
+	fleet_names = {
+		random_names = { "The Golden Armada" "Koprulu Expeditionary Force" "Fleet of the Matriarch" "Fleet of the Executor" "Conclave Fleet" "Fleet of the Hierarch"
+		}
+		sequential_name = "%O% Protoss Fleet"
+	}
+
+
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Zealot Rorarii"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Zealot Legion"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Caculi Legion"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Tirones Legion"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Immortal Legion"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Reaver Sagittarii"
+		}
+		
+		psionic_army = {
+			sequential_name = "%O% Templar Praetorians"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Numerus"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Archons"
+		}
+	}
+
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+			}
+		}
+		
+		pc_desert = {
+			names = { "Dylar"
+			}
+		}
+		
+		pc_tropical = {
+			names = { "Braken" "Zhakul" "Samiku" "Gyras" "Bel'Shir"
+			}
+		}
+		
+		pc_arid = {
+			names = { "Monlyth"
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = { "Glacius"
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = { "Braxis"
+			}
+		}
+		
+	}
+
+	
+	character_names = {
+		default = {
+
+			full_names = { "Adamis" "Adun" "Aedus" "Akam" "Aldrion" "Alzadar" "Amur" 
+			"Andinunn" "Andraxxus" "Argus" "Artanis" "Aurioch" "Bratalix" "Clolarion" "Damiarch" "Darsiris" 
+			"Deloria" "Demioch" "Edullon" "Eredas" "Erekul" "Fenix" "Feranon" "Forthum" "Garius" "Golarath" 
+			"Gruu" "Harrum" "Heiberg" "Iaalu" "Jhas" "Juras" "Kaeon" "Kaldalis" "Karass" "Karax" "Ketalis" "Khastiana" 
+			"Korlendir" "Koronis" "Ladranix" "Lasarra" "Lekila" "Martul" "Mertick" "Mess'Ta" "Minos" "Mojo" "Muadun" "Naganis"
+			"Nannoth" "Nubas" "Oong" "Palmet" "Quordas" "Rassidan" "Rihod" "Rimmicu" "Ruom" "Sacopo" "Selendis" "Sinar" "Tabrenus"
+			"Taeradun" "Taldarin" "Talis" "Tassadar" "Telbrus" "Tenzaal" "Teredal" "Thuras" "Turavis" "Urun" "Vetraas" "Xerxes" 
+			"Xulata" "Zeranek" "Zoranis" "Zyrkhan" 
+			}
+			
+			# Always combined with a second name
+			first_names = { 
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = { 
+			}
+			regnal_second_names = { 
+			}
+		}
+	}
+}

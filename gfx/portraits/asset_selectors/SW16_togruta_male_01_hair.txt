@@ -1,0 +1,71 @@
+# This is a template which multiple species can use. 
+  
+togruta_male_01_hair = {
+	default = "gfx/models/portraits/Star_Wars/togruta/togruta_male_head_1.dds"
+	
+	game_setup = {
+		default = "gfx/models/portraits/Star_Wars/togruta/togruta_male_head_1.dds"
+	}
+	
+	species = { 
+		default = "gfx/models/portraits/Star_Wars/togruta/togruta_male_head_1.dds"
+	}
+	
+	pop = { 
+	
+		default = "gfx/models/portraits/Star_Wars/togruta/togruta_male_head_1.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/Star_Wars/togruta/togruta_male_head_1.dds"
+				"gfx/models/portraits/Star_Wars/togruta/togruta_male_head_2.dds"
+				"gfx/models/portraits/Star_Wars/togruta/togruta_male_head_3.dds"				
+				"gfx/models/portraits/Star_Wars/togruta/togruta_male_head_4.dds"
+			}
+		}	
+	}
+	
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/Star_Wars/togruta/togruta_male_head_1.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/Star_Wars/togruta/togruta_male_head_1.dds"
+				"gfx/models/portraits/Star_Wars/togruta/togruta_male_head_2.dds"
+				"gfx/models/portraits/Star_Wars/togruta/togruta_male_head_3.dds"				
+				"gfx/models/portraits/Star_Wars/togruta/togruta_male_head_4.dds"
+			}
+		}		
+
+	}
+  
+	ruler = { 
+		
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+						
+					}
+				}
+			}
+
+			list = {
+				"gfx/models/portraits/Star_Wars/togruta/togruta_male_head_1.dds"
+				"gfx/models/portraits/Star_Wars/togruta/togruta_male_head_2.dds"
+				"gfx/models/portraits/Star_Wars/togruta/togruta_male_head_3.dds"				
+				"gfx/models/portraits/Star_Wars/togruta/togruta_male_head_4.dds"
+			}
+		}		
+		
+		
+		
+	}
+}
+  

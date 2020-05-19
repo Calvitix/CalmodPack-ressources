@@ -1,0 +1,78 @@
+# This is a template which multiple species can use. 
+  
+twilek_female_04_hair = {
+	default = "gfx/models/portraits/Star_Wars/twilek/twilek_female_purple_01.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/Star_Wars/twilek/twilek_female_purple_01.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/Star_Wars/twilek/twilek_female_purple_01.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/Star_Wars/twilek/twilek_female_purple_01.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/Star_Wars/twilek/twilek_female_purple_01.dds"
+				
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/Star_Wars/twilek/twilek_female_purple_01.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/Star_Wars/twilek/twilek_female_purple_01.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/Star_Wars/twilek/twilek_female_purple_01.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/Star_Wars/twilek/twilek_female_purple_01.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		default = "gfx/models/portraits/Star_Wars/twilek/twilek_female_purple_01.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/Star_Wars/twilek/twilek_female_purple_01.dds"
+				
+
+			}
+		}	
+	}
+}
+  

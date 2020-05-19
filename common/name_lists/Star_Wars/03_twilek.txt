@@ -1,0 +1,151 @@
+﻿### Twilek
+twilek_names = {
+	randomized = no
+	### SHIPS
+
+	
+	ship_names = {
+	
+		generic = { Ajuur Allusis Amphibion Ark Aurek Aurora Axehead Basilisk Beskad "Black Talon" Blackbolt Blade "Blue Sphere" "Brentaal Star" Carnage Carrack 
+			Chela Conductor Crescent Davaab Defender Deliverance Devastator Devourer Dominator Doombringer Dragonfly Dustmaker Dynamic "Ebon Hawk" Eclipse "Endar Rebirth"
+			"Endar Spire" Enforcer Enkindle Envoy Escort Esseles Farstar Flashfire Foray Fortitude Founder Fury "Gav Daragon" "Gilded Meteor" Gratua "Gray Secant"
+			Intercessor Hammerhead Harbinger Heraklon Herald Interdictor Justice "Kestrel Nova" Legion Lethisk Leviathan Liberator Lindworm "Lokani Dawn" "Lucky Lancer"
+			"Nebulon Ranger" Nova Mantis Peacemaker Parjai Phantom Praetorian Ocula Oppressor Outrider Overlord Quartermaster Ravager Razor "Red Reaper" Redeemer Regnant
+			Saber "Sarapin Wanderer" Serroco Shaadlar "Shadow Runner" Sojourn Sledgehammer Spearpoint "Star Blade" "Star Breaker" "Star Guard" Starlight "Star Saber" "Star Storm"
+			Steadfast Stormfire "Sun Crusher" Teroch Testament "Third Eye" Thranta 
+				Thunderclap "Toron Voq" Triumph Valor "Vanguard's Blade" Vaya "Victory Star" Vigilance Visionary Warcarrier "White Nova" "Zeta Five"
+				"Ambria's Fury" "Auriga Fire" "Ascendant Spear" "Bloodshot Rancor" Cal Cathedral Corsair Corvana Corvani Courageous "Crimson Fleece" 
+				"Dauntless Star" Derriphan Diligence "Dreaded Shyrack" "Enforcer One" "Flame of Sinthara" Gilagimar "Glory of Kamgeddon" "Illorbian's Hammer" Javlin Kumauri 
+				Kyramud "Mandellian Gambit" "Meridian Grace" "Mynock Fodder" Reliance "Scorching Pulsar" "Sendant Pride" "Shining Pathway" Sienar "Sky King" "Sky Queen" "Sky Prince"
+				"Sky Princess" "Spirit of Vengeance" "Star of Coruscant" Swiftsure "Tears of Taris" "Vehement Sword" Voidstar
+		}
+		
+		mining_station = { Agarees Alland Andrim Baas Bacrana Bavos Bilbringi Blastfield Calenz Cardan Carrick Cavrilhu Centerpoint Centurion Citadel Consortium Craedos 
+			Deponn Essien "Fire Star" Foundry Gallofree Gauntlet Golan "Golden Nyss" Guarja Hammer Hast Haven Horizon Juggerhead Koensayr Krasten Lormar Maelstrom "Ma'Haffee"
+			Nassem Obsidian Obulette Patriim Peragus Phaylenn Plasma "Pri-Andylan" Saberhing Scarl Sentinel Sienar "Sluis Van" Sovereign "Star Forge" "Sun Razer" Spike Telgorn Vaiken "Void Anvil" Vulture }
+		research_station = { Agarees Alland Andrim Baas Bacrana Bavos Bilbringi Blastfield Calenz Cardan Carrick Cavrilhu Centerpoint Centurion Citadel Consortium Craedos
+			Deponn Essien "Fire Star" Foundry Gallofree Gauntlet Golan "Golden Nyss" Guarja Hammer Hast Haven Horizon Juggerhead Koensayr Krasten Lormar Maelstrom "Ma'Haffee" 
+			Nassem Obsidian Obulette Patriim Peragus Phaylenn Plasma "Pri-Andylan" Saberhing Scarl Sentinel Sienar "Sluis Van" Sovereign "Star Forge" "Sun Razer" Spike Telgorn Vaiken "Void Anvil" Vulture  }
+		observation_station = { Agarees Alland Andrim Baas Bacrana Bavos Bilbringi Blastfield Calenz Cardan Carrick Cavrilhu Centerpoint Centurion Citadel Consortium Craedos 
+			Deponn Essien "Fire Star" Foundry Gallofree Gauntlet Golan "Golden Nyss" Guarja Hammer Hast Haven Horizon Juggerhead Koensayr Krasten Lormar Maelstrom 
+			"Ma'Haffee" Nassem 
+			Obsidian Obulette Patriim Peragus Phaylenn Plasma "Pri-Andylan" Saberhing Scarl Sentinel Sienar "Sluis Van" Sovereign "Star Forge" "Sun Razer" Spike Telgorn Vaiken "Void Anvil" Vulture }
+
+		military_station_small = { Agarees Alland Andrim Baas Bacrana Bavos Bilbringi Blastfield Calenz Cardan Carrick Cavrilhu Centerpoint Centurion Citadel Consortium Craedos Deponn Essien "Fire Star" Foundry Gallofree Gauntlet Golan "Golden Nyss" Guarja Hammer Hast Haven Horizon Juggerhead Koensayr Krasten Lormar Maelstrom "Ma'Haffee" Nassem Obsidian Obulette Patriim Peragus Phaylenn Plasma "Pri-Andylan" Saberhing Scarl Sentinel Sienar "Sluis Van" Sovereign "Star Forge" "Sun Razer" Spike Telgorn Vaiken "Void Anvil" Vulture }
+		military_station_medium = { Agarees Alland Andrim Baas Bacrana Bavos Bilbringi Blastfield Calenz Cardan Carrick Cavrilhu Centerpoint Centurion Citadel Consortium Craedos Deponn Essien "Fire Star" Foundry Gallofree Gauntlet Golan "Golden Nyss" Guarja Hammer Hast Haven Horizon Juggerhead Koensayr Krasten Lormar Maelstrom "Ma'Haffee" Nassem Obsidian Obulette Patriim Peragus Phaylenn Plasma "Pri-Andylan" Saberhing Scarl Sentinel Sienar "Sluis Van" Sovereign "Star Forge" "Sun Razer" Spike Telgorn Vaiken "Void Anvil" Vulture }
+		military_station_large = { Agarees Alland Andrim Baas Bacrana Bavos Bilbringi Blastfield Calenz Cardan Carrick Cavrilhu Centerpoint Centurion Citadel Consortium Craedos Deponn Essien "Fire Star" Foundry Gallofree Gauntlet Golan "Golden Nyss" Guarja Hammer Hast Haven Horizon Juggerhead Koensayr Krasten Lormar Maelstrom "Ma'Haffee" Nassem Obsidian Obulette Patriim Peragus Phaylenn Plasma "Pri-Andylan" Saberhing Scarl Sentinel Sienar "Sluis Van" Sovereign "Star Forge" "Sun Razer" Spike Telgorn Vaiken "Void Anvil" Vulture }
+		
+	}
+	
+	fleet_names = {
+		random_names = {
+		}
+		sequential_name = "%O% Stellar Fleet"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Colonial Guard Corps"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Assault Corps"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Penal Corps"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Corps"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Drone Corps"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Android Corps"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Jedi Knight Unit"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xeno Corps"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Gene Corps"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = { Ryloth "Mon Bala" "Or Tuma" "Tahu'ip" Lethan Rutian Ryll Tchin Tchun "Kala'uun" Lessu "Ko'lek" "Oo'rha" Kala'din Rycrit Lekku "Chir'daki" Ayy Mala Nolaa
+
+			}
+		}
+		
+		pc_desert = {
+			names = { Abafar "Altor XIV" Ambria Apatros Aridus "Bar Neth" Baros Blenjeel Bpfassh Cadinth "Ch'hodos" Corbos Dennogra "Dromund Fels" Filve Florrum Fondor Geonosis "Gholondreine beta" Jakku Kamar Klatooine Korriban Molavar Moraband "N'zoth" Ordo Ponemah Rattatak Rhommamool Ronika "Sevarcos II" Soterios Sriluur Tatooine "Te Hasa" Utapau Yinchorr "Zonju V"
+			}
+		}
+		
+		pc_tropical = {
+			names = { "Aaris III" Abbaji Abraxin Belkadan Borleias Cadannia "Corvis Minor IV" Cularin Dagobah Dathomir Despayre "Dromund Kaas" Drongar Duroon Dxun Ergeshui Felucia Generis Ithor Jagomir Kashyyyk Kidron Kowak Lwhekk Moltok Mrisst "Nal Hutta" "New Cov" "Nim Drovis" Onderon Rodia Ruuria Sebiris Seregar Seylott "Ska Gora" Thyferra Toprawa Trandosha Trigalis Woteba Xagobah "Yavin IV" Zakuul
+				
+			}
+		}
+		
+		pc_arid = {
+			names = { Abafar "Altor XIV" Ambria Apatros Aridus "Bar Neth" Baros Blenjeel Bpfassh Cadinth "Ch'hodos" Corbos Dennogra "Dromund Fels" Filve Florrum Fondor Geonosis "Gholondreine beta" Jakku Kamar Klatooine Korriban Molavar Moraband "N'zoth" Ordo Ponemah Rattatak Rhommamool Ronika "Sevarcos II" Soterios Sriluur Tatooine "Te Hasa" Utapau Yinchorr "Zonju V"
+
+			}
+		}
+		
+		pc_continental = { 
+			names = { Aargau "Agriworld 2079" Alderaan "Aphran IV" Arbra Bakura Balmorra Bothawui Callos "Cato Neimodia" Chandrila Corellia Dantooine Drall Endor Halmad Kirtania Kuat Krant Myrkr Naboo "Orron III" "Ragoon VI" Ruan Salliche Tallaan Talus Taris "Telos IV" Tralus Tython Volik Voss
+			}
+		}
+		
+		pc_ocean = {
+			names = { "Ahch-To" Ando "Bal'demnic" Baralou "Bestine IV" Champala "Da Soocha" Deyer Dubrillion "Glee Anselm" "Gorsh" Iskalon Kamino Kattada Lamaredd Lehon Makeb Manaan "Mon Calamari" Neona Ootoola "Paulking XIV" Pelagon Pria Rathalay Sedri Selonia Troxar Varn Velusia Zeffliffl
+			}
+		}
+		
+		pc_tundra = {
+			names = { Abridon Arkania Bardotta Basteel Carlac Galidraan Elom Ensolica "Eredenn Prime" Kaldahan Lanthrym "Meris VI" Mirial "Rafa V" Ziost
+			}
+		}
+		
+		pc_arctic = {
+			names = { "Bakura VI" "Bakura VIII" Belsavis Csilla Fest "Gertafuu VI" Hoth Ilum Jebble "Khar Delba" Kerest Lur Mygeeto "Nar Hekka" Ojom "Orto Plutonia" Polus "Raxus II" Rekkiad "Rhen Var" Rinn Saqqar Syned Tantra
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		full_names = {
+			first_names_male = { Ahrnell Alask Anoon Artruk Bib Bik Boc Bolook Bril Byt Cash Cazne Cel Cesi Chabak Cham Chee Chom Connus Cotan Darap Deesra Dez Dinek Doton Elav Fassa Femi Firith Gim Glie Griff Gobi Guldus Guun Hab Haly Harra Hid Ilar Inun Jan Jart Jekk Jela Jer Jinx Jor Jundo Kailur Kaim Kandon Karal Karawn Kaul Khwir Kidd Kiph Komad Leb Lon Lonay Lupo Lur Mannes Matrik Mazer Nabat Namen Nat Nawara Nerra Newar Nico Nilim Nuro Ob Olm Onok Orn Pol Poronth Pratari Quink Ree Remmik Ress Ro Rol Saresh Saylew Sedriss Shul Silais Siolo Skawn Tae Tal Tanith Tardon Tazonthe Tol Tott Tre Tymo Urgrec Valsil Van Vhilin Viyo Vort Vuren Warat Yuleph Yuned Zelada Zhar
+			}
+			first_names_female = { Aayla Alema Alora Anglu Ann Aola Ardana Arruna Astraal Berri Bink Borna Daesha Dia Drua Eleena Feen Finn Ghia Gida Giza Haly Hirani Isval Janice Jiljoo Jor Juda Hadiya Hera Kayi Kolovish Koyi Laranth Larrim Laseema Lena Leontyne Lubo Lunae Lyn Mala Malare Marny Mazie Memah Mission Nabrina Nalan Nima Nolaa Numa Oola Padda Palakwi Poy Ranna Rachi Ramana Rianna Rypka Saya Seddwia Seela Seku Shaeeah Shakka Shiri Sienn Sinya Suu Sumari Talik Tann Teeubo Trella Tronda Vant Vokara Xiaan Xiann Yadira Yuthura Zoriis
+			}
+			second_names = { Afa Amersu Ani Ark Aseca Bafka Ban Bem Blankuna Blen Bondara Bondura Boon Bril Chanzor Che Cholakk Chura Cinn Daru Distombe Doneta Doole Drakas Dura Eirriss Ertay Eyan Fenn Fortuna Forrth Freetaa Freykaa Garrulan Gella Ghon Glie Golor Han Het Idrall Jab Jada Kaar Kairn Kareen Kluub Kobbeth Komad Kru Ksi Kulavinar Lawquane Lestin Lor Luroon Lys Martik Mateil Me Minx Mobok Nall Nilim Norman Olan Olgkru Passik Phan Preyssola Rackus Racor Raloch Rar Rha Roothes Sana Saren Secura Sekia Senvi Shala Shar Sinya Sitra Sivron Smoo Sorzo Sulas Surool Syndulla Taa Tao'Ven Tar Tarak Tarkona Teksa Thorla Tiatkin Toqema Torr Tualin Utrila Vaal Valla Vao Ven Vida Vrei Waran Ziveri	
+			}
+			regnal_first_names_male = {Ahrnell Alask Anoon Artruk Bib Bik Boc Bolook Bril Byt Cash Cazne Cel Cesi Chabak Cham Chee Chom Connus Cotan Darap Deesra Dez Dinek Doton Elav Fassa Femi Firith Gim Glie Griff Gobi Guldus Guun Hab Haly Harra Hid Ilar Inun Jan Jart Jekk Jela Jer Jinx Jor Jundo Kailur Kaim Kandon Karal Karawn Kaul Khwir Kidd Kiph Komad Leb Lon Lonay Lupo Lur Mannes Matrik Mazer Nabat Namen Nat Nawara Nerra Newar Nico Nilim Nuro Ob Olm Onok Orn Pol Poronth Pratari Quink Ree Remmik Ress Ro Rol Saresh Saylew Sedriss Shul Silais Siolo Skawn Tae Tal Tanith Tardon Tazonthe Tol Tott Tre Tymo Urgrec Valsil Van Vhilin Viyo Vort Vuren Warat Yuleph Yuned Zelada Zhar 
+			}
+			regnal_first_names_female = {Aayla Alema Alora Anglu Ann Aola Ardana Arruna Astraal Berri Bink Borna Daesha Dia Drua Eleena Feen Finn Ghia Gida Giza Haly Hirani Isval Janice Jiljoo Jor Juda Hadiya Hera Kayi Kolovish Koyi Laranth Larrim Laseema Lena Leontyne Lubo Lunae Lyn Mala Malare Marny Mazie Memah Mission Nabrina Nalan Nima Nolaa Numa Oola Padda Palakwi Poy Ranna Rachi Ramana Rianna Rypka Saya Seddwia Seela Seku Shaeeah Shakka Shiri Sienn Sinya Suu Sumari Talik Tann Teeubo Trella Tronda Vant Vokara Xiaan Xiann Yadira Yuthura Zoriis
+			} 
+			regnal_second_names = { Afa Amersu Ani Ark Aseca Bafka Ban Bem Blankuna Blen Bondara Bondura Boon Bril Chanzor Che Cholakk Chura Cinn Daru Distombe Doneta Doole Drakas Dura Eirriss Ertay Eyan Fenn Fortuna Forrth Freetaa Freykaa Garrulan Gella Ghon Glie Golor Han Het Idrall Jab Jada Kaar Kairn Kareen Kluub Kobbeth Komad Kru Ksi Kulavinar Lawquane Lestin Lor Luroon Lys Martik Mateil Me Minx Mobok Nall Nilim Norman Olan Olgkru Passik Phan Preyssola Rackus Racor Raloch Rar Rha Roothes Sana Saren Secura Sekia Senvi Shala Shar Sinya Sitra Sivron Smoo Sorzo Sulas Surool Syndulla Taa Tao'Ven Tar Tarak Tarkona Teksa Thorla Tiatkin Toqema Torr Tualin Utrila Vaal Valla Vao Ven Vida Vrei Waran Ziveri
+			}
+		}

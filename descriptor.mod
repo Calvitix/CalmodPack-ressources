@@ -1,0 +1,11 @@
+version="0.1"
+tags={
+	"Translation"
+	"Graphics"
+	"Gameplay"
+	"Balance"
+}
+name="CalmodPack-Ressources"
+picture="thumbnail.png"
+supported_version="2.7.*"
+remote_file_id="2058074476"

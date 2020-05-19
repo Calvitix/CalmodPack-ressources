@@ -1,0 +1,11 @@
+spriteTypes = {	
+
+
+	spriteType = {
+		name = "GFX_evt_tea_mod"
+		texturefile = "gfx/event_pictures/tea_mod.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes	
+}
+}		
+	

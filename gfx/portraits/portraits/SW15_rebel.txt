@@ -1,0 +1,307 @@
+
+portraits = {
+	
+
+	rebel_m1	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_1.dds"} 
+
+			
+	rebel_m2	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_2.dds"} 
+
+			
+	rebel_m3	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_3.dds"} 
+
+	rebel_m4	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_4.dds"} 
+
+	rebel_m5	= {	greeting_sound = "human_male_greetings_04" 
+	texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_5.dds"} 
+			
+	rebel_m6	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_6.dds"} 
+			
+	rebel_m7	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_7.dds"} 
+
+			
+	rebel_f1	= {	greeting_sound = "human_female_greetings_04" 
+					texturefile ="gfx/models/portraits/Star_Wars/rebel/rebel_female_1.dds"} 
+			
+	rebel_f2	= {	greeting_sound = "human_female_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_2.dds"} 
+
+	rebel_f3	= {	greeting_sound = "human_female_greetings_04" 
+					texturefile ="gfx/models/portraits/Star_Wars/rebel/rebel_female_3.dds"} 
+
+	rebel_f4	= {	greeting_sound = "human_female_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_4.dds"} 
+
+	rebel_f5	= {	greeting_sound = "human_female_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_5.dds"} 
+
+	rebel_f6	= {	greeting_sound = "human_female_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_6.dds"} 
+
+	rebel_f7	= {	greeting_sound = "human_female_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_7.dds"} 
+
+	rebel_f8	= {	greeting_sound = "human_female_greetings_04" 
+					texturefile ="gfx/models/portraits/Star_Wars/rebel/rebel_female_8.dds"} 
+
+
+	}
+portrait_groups = {
+	SW15_rebel = {
+		default = rebel_f4
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					rebel_m1
+					rebel_m2
+					rebel_m3
+					rebel_m4
+					rebel_m5
+					rebel_m6
+					rebel_m7
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					rebel_f4
+					rebel_f1
+					rebel_f2
+					rebel_f3
+					rebel_f5
+					rebel_f6
+					rebel_f7
+					rebel_f8
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					rebel_m1
+					rebel_m2
+					rebel_m3
+					rebel_m4
+					rebel_m5
+					rebel_m6
+					rebel_m7
+					rebel_f1
+					rebel_f2
+					rebel_f3
+					rebel_f4
+					rebel_f5
+					rebel_f6
+					rebel_f7
+					rebel_f8
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					rebel_m1
+					rebel_m2
+					rebel_m3
+					rebel_m4
+					rebel_m5
+					rebel_m6
+					rebel_m7
+					rebel_f1
+					rebel_f2
+					rebel_f3
+					rebel_f4
+					rebel_f5
+					rebel_f6
+					rebel_f7
+					rebel_f8
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					rebel_f1
+					rebel_f2
+					rebel_f3
+					rebel_f4
+					rebel_f5
+					rebel_f6
+					rebel_f7
+					rebel_f8
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					rebel_m1
+					rebel_m2
+					rebel_m3
+					rebel_m4
+					rebel_m5
+					rebel_m6
+					rebel_m7
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					rebel_f1
+					rebel_f2
+					rebel_f3
+					rebel_f4
+					rebel_f5
+					rebel_f6
+					rebel_f7
+					rebel_f8
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					rebel_m1
+					rebel_m2
+					rebel_m3
+					rebel_m4
+					rebel_m5
+					rebel_m6
+					rebel_m7
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					rebel_f1
+					rebel_f2
+					rebel_f3
+					rebel_f4
+					rebel_f5
+					rebel_f6
+					rebel_f7
+					rebel_f8
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					rebel_m1
+					rebel_m2
+					rebel_m3
+					rebel_m4
+					rebel_m5
+					rebel_m6
+					rebel_m7
+
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					rebel_f1
+					rebel_f2
+					rebel_f3
+					rebel_f4
+					rebel_f5
+					rebel_f6
+					rebel_f7
+					rebel_f8
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					rebel_m1
+					rebel_m2
+					rebel_m3
+					rebel_m4
+					rebel_m5
+					rebel_m6
+					rebel_m7
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					rebel_f1
+					rebel_f2
+					rebel_f3
+					rebel_f4
+					rebel_f5
+					rebel_f6
+					rebel_f7
+					rebel_f8
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					rebel_m1
+					rebel_m2
+					rebel_m3
+					rebel_m4
+					rebel_m5
+					rebel_m6
+					rebel_m7
+					
+				}
+			}
+		}		
+	
+	}
+}

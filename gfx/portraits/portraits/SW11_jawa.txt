@@ -1,0 +1,221 @@
+portraits = {
+		
+	SW11_jawa01	= {	entity = "jawa_male_01_entity"	#female resized 
+				clothes_selector = "jawa_clothes_01"
+				hair_selector = "jawa_01_hair" 
+				greeting_sound = "cute_arthopoid_greetings"
+				character_textures = { "gfx/models/portraits/Star_Wars/jawa/body_jawa_1.dds"		  
+				} 
+			}
+			
+	SW11_jawa02	= {	entity = "jawa_male_01_entity"	#female resized 
+				clothes_selector = "jawa_clothes_02"
+				hair_selector = "jawa_02_hair" 
+				greeting_sound = "cute_arthopoid_greetings"
+				character_textures = { "gfx/models/portraits/Star_Wars/jawa/body_jawa_2.dds"
+				} 
+			}
+			
+	SW11_jawa03	= {	entity = "jawa_male_01_entity"	#female resized 
+				clothes_selector = "jawa_clothes_01"
+				hair_selector = "jawa_01_hair" 
+				greeting_sound = "cute_arthopoid_greetings"
+				character_textures = { "gfx/models/portraits/Star_Wars/jawa/body_jawa_1b.dds"
+				} 
+			}
+	
+	SW11_jawa04	= {	entity = "jawa_male_01_entity"	#female resized 
+				clothes_selector = "jawa_clothes_02"
+				hair_selector = "jawa_02_hair" 
+				greeting_sound = "cute_arthopoid_greetings"
+				character_textures = { "gfx/models/portraits/Star_Wars/jawa/body_jawa_2b.dds"
+				} 
+			}
+	
+	}
+
+portrait_groups = {
+	SW11_jawa = {
+		default = SW11_jawa01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+				
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					SW11_jawa01
+					SW11_jawa02
+					SW11_jawa03
+					SW11_jawa04
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

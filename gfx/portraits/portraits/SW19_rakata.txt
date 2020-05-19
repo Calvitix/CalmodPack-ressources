@@ -1,0 +1,206 @@
+portraits = {
+
+	rakata_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/rakata/rakata_1.dds"}
+	rakata_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/rakata/rakata_2.dds"}
+	rakata_3 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/rakata/rakata_3.dds"}
+	rakata_4 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/rakata/rakata_4.dds"}
+}
+
+portrait_groups = {
+	SW19_rakata = {
+		default = rakata_2
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					rakata_2
+					rakata_1
+					rakata_3
+					rakata_4
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

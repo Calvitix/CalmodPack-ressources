@@ -1,0 +1,183 @@
+portraits = {
+
+	mon_calamari_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/mon_calamari/mon_calamari_1.dds"}
+	mon_calamari_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/mon_calamari/mon_calamari_2.dds"} 
+	mon_calamari_3 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/mon_calamari/mon_calamari_3.dds"}	  
+}
+
+portrait_groups = {
+	SW14_mon_calamari = {
+		default = mon_calamari_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					mon_calamari_1
+					mon_calamari_2
+					mon_calamari_3
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

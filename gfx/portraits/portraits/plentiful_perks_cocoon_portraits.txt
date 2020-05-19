@@ -1,0 +1,200 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_smxspecies_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+##############################################################
+### Settings for character portrait
+
+character = {
+	size = { x = 475 y = 380 }
+
+	entity = {
+		orientation = center_down
+		position = { x = 50 y = -20 }
+		scale = 24
+	}
+	#2d Portrait position
+	icon = {
+		orientation = center_down
+		position = { x = 0 y = 0 }
+		scale = 1.0
+	}
+}
+
+##############################################################
+
+	portraits = { 
+		cocoon1 = { greeting_sound = "human_male_greetings_01" texturefile = "gfx/models/portraits/cocoon1.dds"	}
+#		cocoon2 = { greeting_sound = "human_male_greetings_02" texturefile = "gfx/models/portraits/cocoon2.dds"	}
+#		cocoon3 = { greeting_sound = "human_male_greetings_03" texturefile = "gfx/models/portraits/cocoon3.dds"	}
+#		cocoon4 = { greeting_sound = "human_male_greetings_04" texturefile = "gfx/models/portraits/cocoon4.dds"	}
+#		cocoon5 = { greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/cocoon5.dds"	}
+#		cocoon6 = { greeting_sound = "human_male_greetings_01" texturefile = "gfx/models/portraits/cocoon6.dds"	}
+#		cocoon7 = { greeting_sound = "human_male_greetings_02" texturefile = "gfx/models/portraits/cocoon7.dds"	}
+#		cocoon8 = { greeting_sound = "human_male_greetings_03" texturefile = "gfx/models/portraits/cocoon8.dds"	}
+#		cocoon9 = { greeting_sound = "human_male_greetings_04" texturefile = "gfx/models/portraits/cocoon9.dds"	}
+#		cocoon10 = { greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/cocoon10.dds"	}
+#		cocoon11 = { greeting_sound = "human_male_greetings_01" texturefile = "gfx/models/portraits/cocoon11.dds"	}
+#		cocoon12 = { greeting_sound = "human_male_greetings_02" texturefile = "gfx/models/portraits/cocoon12.dds"	}
+#		cocoon13 = { greeting_sound = "human_male_greetings_03" texturefile = "gfx/models/portraits/cocoon13.dds"	}
+#		cocoon14 = { greeting_sound = "human_male_greetings_04" texturefile = "gfx/models/portraits/cocoon14.dds"	}
+#		cocoon15 = { greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/cocoon15.dds"	}
+#		cocoon16 = { greeting_sound = "human_male_greetings_01" texturefile = "gfx/models/portraits/cocoon16.dds"	}
+#		cocoon17 = { greeting_sound = "human_male_greetings_02" texturefile = "gfx/models/portraits/cocoon17.dds"	}
+#		cocoon18 = { greeting_sound = "human_male_greetings_03" texturefile = "gfx/models/portraits/cocoon18.dds"	}
+#		cocoon19 = { greeting_sound = "human_male_greetings_04" texturefile = "gfx/models/portraits/cocoon19.dds"	}
+
+	}
+
+portrait_groups = {
+	cocoons = {
+		default = cocoon1
+		gender = male
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					cocoon1
+#					cocoon2
+#					cocoon3
+#					cocoon4
+#					cocoon5
+#					cocoon6
+#					cocoon7
+#					cocoon8
+#					cocoon9
+#					cocoon10
+#					cocoon11
+#					cocoon12
+#					cocoon13
+#					cocoon14
+#					cocoon15
+#					cocoon16
+#					cocoon17
+#					cocoon18
+#					cocoon19
+				}
+			}
+		}
+            
+		species = { #generic portrait for a species
+			add = {
+				portraits = { 
+					cocoon1
+#					cocoon2
+#					cocoon3
+#					cocoon4
+#					cocoon5
+#					cocoon6
+#					cocoon7
+#					cocoon8
+#					cocoon9
+#					cocoon10
+#					cocoon11
+#					cocoon12
+#					cocoon13
+#					cocoon14
+#					cocoon15
+#					cocoon16
+#					cocoon17
+#					cocoon18
+#					cocoon19
+				}
+			}
+		}
+
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					cocoon1
+#					cocoon2
+#					cocoon3
+#					cocoon4
+#					cocoon5
+#					cocoon6
+#					cocoon7
+#					cocoon8
+#					cocoon9
+#					cocoon10
+#					cocoon11
+#					cocoon12
+#					cocoon13
+#					cocoon14
+#					cocoon15
+#					cocoon16
+#					cocoon17
+#					cocoon18
+#					cocoon19
+				}
+			}
+		}
+
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					cocoon1
+#					cocoon2
+#					cocoon3
+#					cocoon4
+#					cocoon5
+#					cocoon6
+#					cocoon7
+#					cocoon8
+#					cocoon9
+#					cocoon10
+#					cocoon11
+#					cocoon12
+#					cocoon13
+#					cocoon14
+#					cocoon15
+#					cocoon16
+#					cocoon17
+#					cocoon18
+#					cocoon19
+				}
+			}
+		}
+			
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					cocoon1
+#					cocoon2
+#					cocoon3
+#					cocoon4
+#					cocoon5
+#					cocoon6
+#					cocoon7
+#					cocoon8
+#					cocoon9
+#					cocoon10
+#					cocoon11
+#					cocoon12
+#					cocoon13
+#					cocoon14
+#					cocoon15
+#					cocoon16
+#					cocoon17
+#					cocoon18
+#					cocoon19
+				}
+			}
+		}
+	}
+}
+
+

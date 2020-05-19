@@ -1,0 +1,140 @@
+# This is a template which multiple species can use. 
+
+humanoid_05_SW_male_clothes_01 = {
+	default = "gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_1.dds"
+	
+	#default = "gfx/models/portraits/humanoid/humanoid_05_outfit_ruler.dds" - buvo pries tai
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_1.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_1.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+	default = "gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_1.dds"	
+	
+		random = {
+			list = {
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_5.dds"
+		
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_5.dds"				
+				
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_5.dds"
+				
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_scientist.dds"
+				#"gfx/models/portraits/humanoid/humanoid_05_outfit_general.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_admiral.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_governor.dds"
+
+					}
+			}
+	
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+	default = "gfx/models/portraits/humanoid/humanoid_05_outfit_governor.dds" 
+	
+		random = {
+			list = {
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_5.dds"
+				
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_5.dds"				
+				
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_5.dds"
+				
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_scientist.dds"
+				#"gfx/models/portraits/humanoid/humanoid_05_outfit_general.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_admiral.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_governor.dds"
+
+
+					}
+			}
+
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_1.dds"
+		
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+						
+					}
+				}
+			}
+
+			list = {
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_typeX_5.dds"
+				
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type1_5.dds"				
+				
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_1.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_2.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_3.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_4.dds"
+				"gfx/models/portraits/humanoid_5/humanoid_5_male_type2_5.dds"
+				
+				#"gfx/models/portraits/humanoid/humanoid_05_outfit_general.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_ruler.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_ruler_02.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_ruler_03.dds"
+				"gfx/models/portraits/humanoid/humanoid_05_outfit_governor.dds"
+
+			}
+		}
+		
+		
+	}
+
+}
+
+

@@ -1,0 +1,172 @@
+﻿### Zabrak
+zabrak_names = {
+	randomized = no
+	### SHIPS
+	
+	
+		ship_names = {
+	
+		generic = { Ajuur Allusis Amphibion Ark Aurek Aurora Axehead Basilisk Beskad "Black Talon" Blackbolt Blade "Blue Sphere" "Brentaal Star" Carnage 
+		Carrack Chela Conductor Crescent Davaab Defender Deliverance Devastator Devourer Dominator Doombringer Dragonfly Dustmaker Dynamic "Ebon Hawk" Eclipse 
+		"Endar Rebirth" "Endar Spire" Enforcer Enkindle Envoy Escort Esseles Farstar Flashfire Foray Fortitude Founder Fury "Gav Daragon" "Gilded Meteor" Gratua 
+		"Gray Secant" Intercessor Hammerhead Harbinger Heraklon Herald Interdictor Justice "Kestrel Nova" Legion Lethisk Leviathan Liberator Lindworm "Lokani Dawn" 
+		"Lucky Lancer" "Nebulon Ranger" Nova Mantis Peacemaker Parjai Phantom Praetorian Ocula Oppressor Outrider Overlord Quartermaster Ravager Razor "Red Reaper"
+		Redeemer Regnant Saber "Sarapin Wanderer" Serroco Shaadlar "Shadow Runner" Sojourn Sledgehammer Spearpoint "Star Blade" "Star Breaker" "Star Guard" Starlight 
+		"Star Saber" "Star Storm" Steadfast Stormfire "Sun Crusher" Teroch Testament "Third Eye" Thranta 
+				Thunderclap "Toron Voq" Triumph Valor "Vanguard's Blade" Vaya "Victory Star" Vigilance Visionary Warcarrier "White Nova" "Zeta Five"
+				"Ambria's Fury" "Auriga Fire" "Ascendant Spear" "Bloodshot Rancor" Cal Cathedral Corsair Corvana Corvani Courageous "Crimson Fleece" 
+				"Dauntless Star" Derriphan Diligence "Dreaded Shyrack" "Enforcer One" "Flame of Sinthara" Gilagimar "Glory of Kamgeddon" "Illorbian's Hammer" 
+				Javlin Kumauri Kyramud "Mandellian Gambit" "Meridian Grace" "Mynock Fodder" Reliance "Scorching Pulsar" "Sendant Pride" "Shining Pathway" Sienar 
+				"Sky King" "Sky Queen" "Sky Prince" "Sky Princess" "Spirit of Vengeance" "Star of Coruscant" Swiftsure "Tears of Taris" "Vehement Sword" Voidstar
+		}
+		
+		construction_ship_ed = {
+			"Contructus"
+		}
+		
+		mining_station = { Agarees Alland Andrim Baas Bacrana Bavos Bilbringi Blastfield Calenz Cardan Carrick Cavrilhu Centerpoint Centurion Citadel Consortium Craedos Deponn Essien 
+		"Fire Star" Foundry Gallofree Gauntlet Golan "Golden Nyss" Guarja Hammer Hast Haven Horizon Juggerhead Koensayr Krasten Lormar Maelstrom "Ma'Haffee" Nassem Obsidian Obulette Patriim 
+		Peragus Phaylenn Plasma "Pri-Andylan" Saberhing Scarl Sentinel Sienar "Sluis Van" Sovereign "Star Forge" "Sun Razer" Spike Telgorn Vaiken "Void Anvil" Vulture }
+		
+		research_station = { Agarees Alland Andrim Baas Bacrana Bavos Bilbringi Blastfield Calenz Cardan Carrick Cavrilhu Centerpoint Centurion Citadel Consortium Craedos Deponn Essien 
+		"Fire Star" Foundry Gallofree Gauntlet Golan "Golden Nyss" Guarja Hammer Hast Haven Horizon Juggerhead Koensayr Krasten Lormar Maelstrom "Ma'Haffee" Nassem Obsidian Obulette Patriim 
+		Peragus Phaylenn Plasma "Pri-Andylan" Saberhing Scarl Sentinel Sienar "Sluis Van" Sovereign "Star Forge" "Sun Razer" Spike Telgorn Vaiken "Void Anvil" Vulture  }
+
+
+		observation_station = { Agarees Alland Andrim Baas Bacrana Bavos Bilbringi Blastfield Calenz Cardan Carrick Cavrilhu Centerpoint Centurion Citadel Consortium Craedos Deponn Essien 
+		"Fire Star" Foundry Gallofree Gauntlet Golan "Golden Nyss" Guarja Hammer Hast Haven Horizon Juggerhead Koensayr Krasten Lormar Maelstrom "Ma'Haffee" Nassem Obsidian Obulette Patriim 
+		Peragus Phaylenn Plasma "Pri-Andylan" Saberhing Scarl Sentinel Sienar "Sluis Van" Sovereign "Star Forge" "Sun Razer" Spike Telgorn Vaiken "Void Anvil" Vulture }
+
+		military_station_small = { Agarees Alland Andrim Baas Bacrana Bavos Bilbringi Blastfield Calenz Cardan Carrick Cavrilhu Centerpoint 
+				Centurion Citadel Consortium Craedos Deponn Essien "Fire Star" Foundry Gallofree Gauntlet Golan "Golden Nyss" Guarja Hammer Hast Haven 
+				Horizon Juggerhead Koensayr Krasten Lormar Maelstrom "Ma'Haffee" Nassem Obsidian Obulette Patriim Peragus Phaylenn Plasma "Pri-Andylan" 
+				Saberhing Scarl Sentinel Sienar "Sluis Van" Sovereign "Star Forge" "Sun Razer" Spike Telgorn Vaiken "Void Anvil" Vulture }
+		military_station_medium = { Agarees Alland Andrim Baas Bacrana Bavos Bilbringi Blastfield Calenz Cardan Carrick Cavrilhu Centerpoint 
+				Centurion Citadel Consortium Craedos Deponn Essien "Fire Star" Foundry Gallofree Gauntlet Golan "Golden Nyss" Guarja Hammer Hast Haven 
+				Horizon Juggerhead Koensayr Krasten Lormar Maelstrom "Ma'Haffee" Nassem Obsidian Obulette Patriim Peragus Phaylenn Plasma "Pri-Andylan" 
+				Saberhing Scarl Sentinel Sienar "Sluis Van" Sovereign "Star Forge" "Sun Razer" Spike Telgorn Vaiken "Void Anvil" Vulture 
+		}
+		military_station_large = { Agarees Alland Andrim Baas Bacrana Bavos Bilbringi Blastfield Calenz Cardan Carrick Cavrilhu Centerpoint
+			Centurion Citadel Consortium Craedos Deponn Essien "Fire Star" Foundry Gallofree Gauntlet Golan "Golden Nyss" Guarja Hammer Hast Haven 
+			Horizon Juggerhead Koensayr Krasten Lormar Maelstrom "Ma'Haffee" Nassem Obsidian Obulette Patriim Peragus Phaylenn Plasma "Pri-Andylan" 
+			Saberhing Scarl Sentinel Sienar "Sluis Van" Sovereign "Star Forge" "Sun Razer" Spike Telgorn Vaiken "Void Anvil" Vulture 
+		}
+		
+}
+	
+
+
+	fleet_names = {
+		random_names = {
+		}
+		sequential_name = "%O% Stellar Fleet"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Colonial Guard Corps"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Assault Corps"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Penal Corps"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Corps"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Drone Corps"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Android Corps"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Jedi Knight Unit"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xeno Corps"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Gene Corps"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = { Iridonia Dathomir Bukk Blok Lok Zur Triz "Kradus V" Iotis Avruuna Zedruot Oklora Skoriix Vestrillon Beruta Korkralla "Saato III"
+
+			}
+		}
+		
+		pc_desert = {
+			names = { Abafar "Altor XIV" Ambria Apatros Aridus "Bar Neth" Baros Blenjeel Bpfassh Cadinth "Ch'hodos" Corbos Dennogra "Dromund Fels" Filve Florrum Fondor Geonosis "Gholondreine beta" Jakku Kamar Klatooine Korriban Molavar Moraband "N'zoth" Ordo Ponemah Rattatak Rhommamool Ronika Ryloth "Sevarcos II" Soterios Sriluur Tatooine "Te Hasa" Utapau Yinchorr "Zonju V"
+			}
+		}
+		
+		pc_tropical = {
+			names = { "Aaris III" Abbaji Abraxin Belkadan Borleias Cadannia "Corvis Minor IV" Cularin Dagobah Despayre "Dromund Kaas" Drongar Duroon Dxun Ergeshui Felucia Generis Ithor Jagomir Kashyyyk Kidron Kowak Lwhekk Moltok Mrisst "Nal Hutta" "New Cov" "Nim Drovis" Onderon Rodia Ruuria Sebiris Seregar Seylott "Ska Gora" Thyferra Toprawa Trandosha Trigalis Woteba Xagobah "Yavin IV" Zakuul
+				
+			}
+		}
+		
+		pc_arid = {
+			names = { Abafar "Altor XIV" Ambria Apatros Aridus "Bar Neth" Baros Blenjeel Bpfassh Cadinth "Ch'hodos" Corbos Dennogra "Dromund Fels" Filve Florrum Fondor Geonosis "Gholondreine beta" Jakku Kamar Klatooine Korriban Molavar Moraband "N'zoth" Ordo Ponemah Rattatak Rhommamool Ronika "Sevarcos II" Soterios Sriluur Tatooine "Te Hasa" Utapau Yinchorr "Zonju V"
+
+			}
+		}
+		
+		pc_continental = { 
+			names = { Aargau "Agriworld 2079" Alderaan "Aphran IV" Arbra Bakura Balmorra Bothawui Callos "Cato Neimodia" Chandrila Corellia Dantooine Drall Endor Halmad Kirtania Kuat Krant Myrkr Naboo "Orron III" "Ragoon VI" Ruan Salliche Tallaan Talus Taris "Telos IV" Tralus Tython Volik Voss
+			}
+		}
+		
+		pc_ocean = {
+			names = { "Ahch-To" Ando "Bal'demnic" Baralou "Bestine IV" Champala "Da Soocha" Deyer Dubrillion "Glee Anselm" "Gorsh" Iskalon Kamino Kattada Lamaredd Lehon Makeb Manaan "Mon Calamari" Neona Ootoola "Paulking XIV" Pelagon Pria Rathalay Sedri Selonia Troxar Varn Velusia Zeffliffl
+			}
+		}
+		
+		pc_tundra = {
+			names = { Abridon Arkania Bardotta Basteel Carlac Galidraan Elom Ensolica "Eredenn Prime" Kaldahan Lanthrym "Meris VI" Mirial "Rafa V" Ziost
+			}
+		}
+		
+		pc_arctic = {
+			names = { "Bakura VI" "Bakura VIII" Belsavis Csilla Fest "Gertafuu VI" Hoth Ilum Jebble "Khar Delba" Kerest Lur Mygeeto "Nar Hekka" Ojom "Orto Plutonia" Polus "Raxus II" Rekkiad "Rhen Var" Rinn Saqqar Syned Tantra
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		full_names = {
+			first_names_male = { Aach Acaadi Aeios Agen Arim Arn "Bao-Dur" Barret Bickell Bracco Braigin Brody Cale Charotke Cie Coret Coria Corin Coris Cronah Crymi Cyrus Dael Dannik Dantin Dao Dar Defte "Denal-Zon" Detorkro Dheno Do Domm Dommu Donbar Donloor Drell Duqua Durgur Eeth Egon Eidolon Eldo Errik Exteen Falner "Fa'Zoll" Feldon Ferrin Fezrik Frazznik Gek Giaal Girik Groj Grollix Grot Haast Haresh Heljus Hull Ivok Iza "Ja'ce" Jacen Jamoh Jaye Jaylen Jiro Jolka Jomar Jonset Jorgellansel Jurgan Juuho "Kao-Cen" Kancras Kateo Kaz Keeth Keicho Keloh Khalu Kilith Klage Kli Koep Kyran Lem Llokay Lo Martonn Mase Matare Mellichae Mennaus Mogg Montrus Morgo Mykka Nak Nek Neskett Numinn Onto Oorn Orth Ovold Pak Pall Parvux Platt Pol Quanera Raikon Ralen Rallyn Raxxus Reiki Revaak Rigel Risold Ror Sanorn Sar Sarguillo Seevi Selro Senu Serdor Ses "Seeth'tal" Sibar Sirak Stevus Ta Targob "T'dai" Ters Thon Tong Towe Travin Treeg Turbis Tyuth Tyzen Uptin Ushallaj Vanto Vadlerio Varn Veag Vegg Velnine Viic Vikto Virk Virne 
+						Vril Vurrha Vuul Wyll Yezo Zan Zarien Zarran Zhin Zubain Zur
+			}
+			first_names_female = { Aaph Akaavi Aleas Alitra Alvania Anniya Anstiss Aveso Baela Bo Bol Bulga "Co'overma" Drakka Elibet Entha Eren Erim Evie Garan Gith Hagen Hallen Hakasha Helarin Hele Idonia Jas Jorelle Kadrian Kalia Karena Kass Kayla Kaysil Keikodi Ki "Kin'ade" Klaua Koon Korventine Krosh Maa Mada Mai Maris Mewomem Lin "O'choa" Odon Onn Porgryn Qista Raimu Rhalia Raxa "Ren'Salla" Roth Seffi Seyda Simi Solida Sora Sugi "Suz-Anz" Teilo Tensa Tettsel Tiaba Tystel Vil Vinda Xuvi Yevra Yith Yondalla Yougga Zakala "Zo'ssa"
+			}
+			second_names = { Aath Agar Anak Anker Ankonori Ars Bazren Bendledon Bhan Binn Brood Bukk Burren Charr Chatak Chel Chul Dar Darach Dav Decan Denigh Detera Een Esmari Gaan Gonwa Itotr Ivaudousoo Jantsk Jik Jinsari Jodh Jopp Judarrl Karner Haus Helk Herron Hesk Hogra Iria Kahmf Kalta Kandela Kander Kapp Keer Kheev Klarrk Koden Kolar Kos Koth Kulmina Larimhor Lawsirk Lo Longmyre Maag Maanki Malaan Mao Margok Marrak Monnro Nire Noth Nyed Odan Oeth Omant Paatzee Pareja Perlis Precore Pyne "Rans'ery" Rey Ruun Saanu Sarlin Sazen Seenath Sendon Sey Shae Silene Simm Singe Sireen Sithrin Spar Taldine Tas Thelcar Tigal Tiwosh Tod Tok Trad Tunall Vanda	Vellos Verwood Voll Vos Vrakth Xebec Yant "Yi'aso" Yolar Zonn
+			}
+			regnal_first_names_male = { Aach Acaadi Aeios Agen Arim Arn "Bao-Dur" Barret Bickell Bracco Braigin Brody Cale Charotke Cie Coret Coria Corin Coris Cronah Crymi Cyrus Dael Dannik Dantin Dao Dar Defte "Denal-Zon" Detorkro Dheno Do Domm Dommu Donbar Donloor Drell Duqua Durgur Eeth Egon Eidolon Eldo Errik Exteen Falner "Fa'Zoll" Feldon Ferrin Fezrik Frazznik Gek Giaal Girik Groj Grollix Grot Haast Haresh Heljus Hull Ivok Iza "Ja'ce" Jacen Jamoh Jaye Jaylen Jiro Jolka Jomar Jonset Jorgellansel Jurgan Juuho "Kao-Cen" Kancras Kateo Kaz Keeth Keicho Keloh Khalu Kilith Klage Kli Koep Kyran Lem Llokay Lo Martonn Mase Matare Mellichae Mennaus Mogg Montrus Morgo Mykka Nak Nek Neskett Numinn Onto Oorn Orth Ovold Pak Pall Parvux Platt Pol Quanera Raikon Ralen Rallyn Raxxus Reiki Revaak Rigel Risold Ror Sanorn Sar Sarguillo Seevi Selro Senu Serdor Ses "Seeth'tal" Sibar Sirak Stevus Ta Targob "T'dai" Ters Thon Tong Towe Travin Treeg Turbis Tyuth Tyzen Uptin Ushallaj Vanto Vadlerio Varn Veag Vegg Velnine Viic Vikto Virk 
+							Virne Vril Vurrha Vuul Wyll Yezo Zan Zarien Zarran Zhin Zubain Zur
+			}
+			regnal_first_names_female = { Aaph Akaavi Aleas Alitra Alvania Anniya Anstiss Aveso Baela Bo Bol Bulga "Co'overma" Drakka Elibet Entha Eren Erim Evie Garan Gith Hagen Hallen Hakasha Helarin Hele Idonia Jas Jorelle Kadrian Kalia Karena Kass Kayla Kaysil Keikodi Ki "Kin'ade" Klaua Koon Korventine Krosh Maa Mada Mai Maris Mewomem Lin "O'choa" Odon Onn Porgryn Qista Raimu Rhalia Raxa "Ren'Salla" Roth Seffi Seyda Simi Solida Sora Sugi "Suz-Anz" Teilo Tensa Tettsel Tiaba Tystel Vil Vinda Xuvi Yevra Yith Yondalla Yougga Zakala "Zo'ssa"
+			} 
+			regnal_second_names = { Aath Agar Anak Anker Ankonori Ars Bazren Bendledon Bhan Binn Brood Bukk Burren Charr Chatak Chel Chul Dar Darach Dav Decan Denigh Detera Een Esmari Gaan Gonwa Itotr Ivaudousoo Jantsk Jik Jinsari Jodh Jopp Judarrl Karner Haus Helk Herron Hesk Hogra Iria Kahmf Kalta Kandela Kander Kapp Keer Kheev Klarrk Koden Kolar Kos Koth Kulmina Larimhor Lawsirk Lo Longmyre Maag Maanki Malaan Mao Margok Marrak Monnro Nire Noth Nyed Odan Oeth Omant Paatzee Pareja Perlis Precore Pyne "Rans'ery" Rey Ruun Saanu Sarlin Sazen Seenath Sendon Sey Shae Silene Simm Singe Sireen Sithrin Spar Taldine Tas Thelcar Tigal Tiwosh Tod Tok Trad Tunall Vanda	Vellos Verwood Voll Vos Vrakth Xebec Yant "Yi'aso" Yolar Zonn
+			}
+		}

@@ -1,0 +1,27 @@
+Resources File for Cal'modPack (merge of ~80 mods)
+
+[h1][b]Cal'modPack - Ressources[/b], version 2.7+[/h1]
+last update : 13.05.2020
+For version 2.7+ of the game. 
+It's a Resource mod for my Cal'modPack,
+
+Hi 
+[b][i]That's a ressource file, compiled with the collection of mods I usually play with, solving all compatibility issues, and tweaking a few parameters.[/i][/b]
+
+Salut
+[b][i]Ce mod de ressources pour le Cal'modPack est une compilation (une fusion) de l'ensemble des mods avec lesquels je joue à Stellaris, dans sa version 2.7+[/i][/b], notamment pour le Let's play que j'ai démarré depuis la sortie du DLC fédération : 
+https://www.youtube.com/playlist?list=PLzBnKdp58-0LKRECarZajR4KwGx8jSv1I
+
+Il a été placé ici pour permettre à ceux qui souhaitent profiter de cette expérience de jeu, avec presque une centaine de mod, et en parallèle de mon autre Mod : French Translation Pack, qui lui ne contient que les traductions.
+https://steamcommunity.com/sharedfiles/filedetails/?id=2027745745
+
+
+Pour limiter le nombre de fichiers transféré lors des mises à jour du modpack, Ce mod contient les ressources, qui en principe ne sont pas amenés à être modifiés régulièrement. Principalement le contenu des répertoires ([i]gfx, event-picture, interface, sound, ...[/i]). 
+
+Le reste des fichiers se trouvant dans le mod principal : 
+https://steamcommunity.com/sharedfiles/filedetails/?id=2058173175
+
+
+[h1]Contenu du modPack[/h1]
+Le Contenu du modpack correspond à l'ensemble des mods présents dans la collection ci-dessous : 
+https://steamcommunity.com/sharedfiles/filedetails/?id=1896824026

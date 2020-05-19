@@ -1,0 +1,351 @@
+#portrait_human_female_01_entity - old
+#"portrait_human_male_01_entity"
+
+portraits = {
+	
+	zabf1 = {	entity = "zabrak_female_entity" 
+				clothes_selector = "human_SW_female_clothes_01" 	
+				hair_selector = "general_no_hair"		
+				greeting_sound = "human_female_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_1.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_2.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_3.dds"
+				}
+	}
+	
+	zabf2 = {	entity = "zabrak_female_entity"	
+				clothes_selector = "human_SW_female_clothes_01" 	
+				hair_selector = "general_no_hair"	
+				greeting_sound = "human_female_greetings_03" 
+				character_textures = {"gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_1_green.dds"
+									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_2_green.dds"
+									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_3_green.dds"
+				}
+	}
+	
+	zabf3 = {	entity = "zabrak_female_entity"	
+				clothes_selector = "human_SW_female_clothes_01" 	
+				hair_selector = "general_no_hair"	
+				greeting_sound = "human_female_greetings_03" 
+				character_textures = {"gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_1_grey.dds"
+									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_2_grey.dds"
+									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_3_grey.dds"
+				}
+	}
+	
+	zabf4 = {	entity = "zabrak_female_entity"	
+				clothes_selector = "human_SW_female_clothes_01" 	
+				hair_selector = "general_no_hair"	
+				greeting_sound = "human_female_greetings_03" 
+				character_textures = {"gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_1_yellow.dds"
+									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_2_yellow.dds"
+									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_3_yellow.dds"
+				}
+	}
+	
+	zabf5 = {	entity = "zabrak_female_entity"	
+				clothes_selector = "human_SW_female_clothes_01" 	
+				hair_selector = "general_no_hair"	
+				greeting_sound = "human_female_greetings_03" 
+				character_textures = {"gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_1_orange.dds"
+									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_2_orange.dds"
+									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_3_orange.dds"
+				}
+	}
+	
+	zabf6 = {	entity = "zabrak_female_entity"	
+				clothes_selector = "human_SW_female_clothes_01" 	
+				hair_selector = "general_no_hair"	
+				greeting_sound = "human_female_greetings_03" 
+				character_textures = {"gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_1_red.dds"
+									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_2_red.dds"
+									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_3_red.dds"
+				}
+	}
+	
+	zabm1 = {	entity = "zabrak_male_entity"	
+				clothes_selector = "human_SW_male_clothes_01" 	
+				hair_selector = "general_no_hair"	
+				greeting_sound = "human_male_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_1.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_2.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_3.dds"
+				}
+	}
+
+	zabm2 = {	entity = "zabrak_male_entity"	
+				clothes_selector = "human_SW_male_clothes_01" 	
+				hair_selector = "general_no_hair"	
+				greeting_sound = "human_male_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_1_green.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_2_green.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_3_green.dds"
+				}
+	}	
+	
+	
+	zabm3 = {	entity = "zabrak_male_entity"	
+				clothes_selector = "human_SW_male_clothes_01" 	
+				hair_selector = "general_no_hair"	
+				greeting_sound = "human_male_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_1_grey.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_2_grey.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_3_grey.dds"
+				}
+	}
+	
+	zabm4 = {	entity = "zabrak_male_entity"	
+				clothes_selector = "human_SW_male_clothes_01" 	
+				hair_selector = "general_no_hair"	
+				greeting_sound = "human_male_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_1_yellow.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_2_yellow.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_3_yellow.dds"
+				}
+	}
+	
+	zabm5 = {	entity = "zabrak_male_entity"	
+				clothes_selector = "human_SW_male_clothes_01" 	
+				hair_selector = "general_no_hair"	
+				greeting_sound = "human_male_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_1_orange.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_2_orange.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_3_orange.dds"
+				}
+	}
+	
+	zabm6 = {	entity = "zabrak_male_entity"	
+				clothes_selector = "human_SW_male_clothes_01" 	
+				hair_selector = "general_no_hair"	
+				greeting_sound = "human_male_greetings_03" 
+				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_1_red.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_2_red.dds"
+									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_3_red.dds"
+				}
+	}
+
+}
+
+portrait_groups = {
+	SW04_zabrak = {
+		default = zabf1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					zabm1
+					zabm2
+					zabm3
+					zabm4
+					zabm5
+					zabm6
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					zabf1
+					zabf2
+					zabf3
+					zabf4
+					zabf5
+					zabf6
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zabm1
+					zabm2
+					zabm3
+					zabm4
+					zabm5
+					zabm6
+					zabf1
+					zabf2
+					zabf3
+					zabf4
+					zabf5
+					zabf6
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zabm1
+					zabm2
+					zabm3
+					zabm4
+					zabm5
+					zabm6
+					zabf1
+					zabf2
+					zabf3
+					zabf4
+					zabf5
+					zabf6
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					zabf1
+					zabf2
+					zabf3
+					zabf4
+					zabf5
+					zabf6
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					zabm1
+					zabm2
+					zabm3
+					zabm4
+					zabm5
+					zabm6
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					zabf1
+					zabf2
+					zabf3
+					zabf4
+					zabf5
+					zabf6
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					zabm1
+					zabm2
+					zabm3
+					zabm4
+					zabm5
+					zabm6
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					zabf1
+					zabf2
+					zabf3
+					zabf4
+					zabf5
+					zabf6
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					zabm1
+					zabm2
+					zabm3
+					zabm4
+					zabm5
+					zabm6
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					zabf1
+					zabf2
+					zabf3
+					zabf4
+					zabf5
+					zabf6
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					zabm1
+					zabm2
+					zabm3
+					zabm4
+					zabm5
+					zabm6
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zabf1
+					zabf2
+					zabf3
+					zabf4
+					zabf5
+					zabf6
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zabm1
+					zabm2
+					zabm3
+					zabm4
+					zabm5
+					zabm6
+					
+				}
+			}
+		}		
+	
+	}
+}

@@ -1,0 +1,66 @@
+
+portraits = {
+	sw_robot_1	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/sw_robot/sw_robot1.dds"} 
+
+			
+	sw_robot_2	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/sw_robot/sw_robot2.dds"} 
+
+			
+	sw_robot_3	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/sw_robot/sw_robot3.dds"} 
+
+	sw_robot_4	= {	greeting_sound = "human_male_greetings_04" 
+					texturefile = "gfx/models/portraits/Star_Wars/sw_robot/sw_robot4.dds"} 
+	}
+
+portrait_groups = {
+	SW18_robot = {
+	default = sw_robot_1
+		game_setup = { 
+			add = {
+				portraits = {
+					sw_robot_1	
+					sw_robot_2
+					sw_robot_3
+					sw_robot_4
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					sw_robot_1	
+					sw_robot_2
+					sw_robot_3
+					sw_robot_4
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					sw_robot_1	
+					sw_robot_2
+					sw_robot_3
+					sw_robot_4
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					sw_robot_1	
+					sw_robot_2
+					sw_robot_3
+					sw_robot_4
+				}
+			}
+		}
+	}
+}

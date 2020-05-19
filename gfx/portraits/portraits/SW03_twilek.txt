@@ -1,0 +1,291 @@
+
+portraits = {
+	
+	#blue
+	twif1	= {	entity = "humanoid_05_female_01_entity"	#female humanoid are fine
+				clothes_selector = "humanoid_05_SW_female_clothes_01" 
+				hair_selector = "twilek_female_01_hair" #blue
+				greeting_sound = "human_female_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_female_body_1.dds"} 
+			}
+	
+	#green	
+	twif2	= {	entity = "humanoid_05_female_01_entity"	#female humanoid are fine
+				clothes_selector = "humanoid_05_SW_female_clothes_01" 
+				hair_selector = "twilek_female_02_hair" #green
+				greeting_sound = "human_female_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_female_body_2.dds"} 
+			}
+	
+	#red
+	twif3	= {	entity = "humanoid_05_female_01_entity"	#female humanoid are fine
+				clothes_selector = "humanoid_05_SW_female_clothes_01" 
+				hair_selector = "twilek_female_03_hair" #red
+				greeting_sound = "human_female_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_female_body_3.dds"} 
+			}
+			
+	#purple
+	twif4	= {	entity = "humanoid_05_female_01_entity"	#female humanoid are fine
+				clothes_selector = "humanoid_05_SW_female_clothes_01" 
+				hair_selector = "twilek_female_04_hair" #purple
+				greeting_sound = "human_female_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_female_body_4.dds"} 
+			}
+			
+	#pink
+	twif5	= {	entity = "humanoid_05_female_01_entity"	#female humanoid are fine
+				clothes_selector = "humanoid_05_SW_female_clothes_01" 
+				hair_selector = "twilek_female_05_hair" #pink
+				greeting_sound = "human_female_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_female_body_5.dds"} 
+			}
+				
+	twim1	= {	entity = "twilek_male_01_entity"	#created new for scalling
+				clothes_selector = "humanoid_05_SW_male_clothes_01" 
+				hair_selector = "twilek_male_01_hair" #blue
+				greeting_sound = "human_male_greetings_04" 
+				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_male_body_1.dds"} 
+			}
+			
+	twim2	= {	entity = "twilek_male_01_entity"	#created new for scalling
+				clothes_selector = "humanoid_05_SW_male_clothes_01" 
+				hair_selector = "twilek_male_02_hair" #green
+				greeting_sound = "human_male_greetings_04" 
+				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_male_body_2.dds"} 
+			}
+			
+	twim3	= {	entity = "twilek_male_01_entity"	#created new for scalling
+				clothes_selector = "humanoid_05_SW_male_clothes_01" 
+				hair_selector = "twilek_male_03_hair" #red
+				greeting_sound = "human_male_greetings_04" 
+				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_male_body_3.dds"} 
+			}
+			
+	twim4	= {	entity = "twilek_male_01_entity"	#created new for scalling
+				clothes_selector = "humanoid_05_SW_male_clothes_01" 
+				hair_selector = "twilek_male_04_hair" #purple
+				greeting_sound = "human_male_greetings_04" 
+				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_male_body_4.dds"} 
+			}
+			
+	twim5	= {	entity = "twilek_male_01_entity"	#created new for scalling
+				clothes_selector = "humanoid_05_SW_male_clothes_01" 
+				hair_selector = "twilek_male_05_hair" #pink
+				greeting_sound = "human_male_greetings_04" 
+				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_male_body_5.dds"} 
+			}
+	
+	}
+portrait_groups = {
+	SW03_twilek = {
+		default = twif1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					twim1
+					twim2
+					twim3
+					twim4
+					twim5
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					twif1
+					twif2
+					twif3
+					twif4
+					twif5
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					twif1
+					twif2
+					twif3
+					twif4
+					twif5
+					twim1
+					twim2
+					twim3
+					twim4
+					twim5
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					twif1
+					twif2
+					twif3
+					twif4
+					twif5
+					twim1
+					twim2
+					twim3
+					twim4
+					twim5
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					twif1
+					twif2
+					twif3
+					twif4
+					twif5
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					twim1
+					twim2
+					twim3
+					twim4
+					twim5
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					twif1
+					twif2
+					twif3
+					twif4
+					twif5
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					twim1
+					twim2
+					twim3
+					twim4
+					twim5
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					twif1
+					twif2
+					twif3
+					twif4
+					twif5
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					twim1
+					twim2
+					twim3
+					twim4
+					twim5
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					twif1
+					twif2
+					twif3
+					twif4
+					twif5
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					twim1
+					twim2
+					twim3
+					twim4
+					twim5
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					twif1
+					twif2
+					twif3
+					twif4
+					twif5
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					twim1
+					twim2
+					twim3
+					twim4
+					twim5
+					
+				}
+			}
+		}		
+	
+	}
+}

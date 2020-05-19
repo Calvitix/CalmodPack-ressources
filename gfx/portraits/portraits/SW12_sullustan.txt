@@ -1,0 +1,201 @@
+
+portraits = {
+	
+
+	sull_1	= {	entity = "sullustan_male_01_entity"	#female resized for sull
+				clothes_selector = "sullustan_clothes_01"
+				hair_selector = "sullustan_01_hair" #orig.
+				greeting_sound = "human_male_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/sullustan/sullustan_body_1.dds"} 
+			}
+			
+	sull_2	= {	entity = "sullustan_male_01_entity"	#female resized for sull
+				clothes_selector = "sullustan_clothes_01"
+				hair_selector = "sullustan_02_hair" #hair and body must match
+				greeting_sound = "human_male_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/sullustan/sullustan_body_2.dds"} 
+			}
+			
+	sull_3	= {	entity = "sullustan_male_01_entity"	#female resized for sull
+				clothes_selector = "sullustan_clothes_01"
+				hair_selector = "sullustan_01_hair" #hair and body must match
+				greeting_sound = "human_male_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/sullustan/sullustan_body_3.dds"} 
+			}
+
+
+	}
+portrait_groups = {
+	SW12_sullustan = {
+		default = sull_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sull_1
+					sull_2
+					sull_3
+					
+				}
+			}
+		}		
+	
+	}
+}

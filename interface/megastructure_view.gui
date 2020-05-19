@@ -1,0 +1,568 @@
+guiTypes = {
+	containerWindowType = {
+		name = "megastructure_view"
+		position = { x = 35 y = -91 }
+		if_resolution = {
+			min_width = 2560
+			position = { x = 55 y = -91 }
+		}
+		size = { width = 570 height = 680 }
+		orientation = lower_left
+		origo = lower_left
+		clipping = no
+		upsound = click
+		background = {
+			name = "bg"
+			spriteType = "GFX_ui_tile_large_bg_plain"
+		}
+		containerWindowType = {
+			name = "tabs"
+			position = { x = -20 y = 48 }
+			size = { width = 100% height = 50 }
+			orientation = lower_left
+			origo = lower_left
+			buttonType = {
+				name = "megastructure_tab"
+				quadTextureSprite = "GFX_tab_1_inactive"
+				position = { x= 0 y = 0 }
+				buttonText = "MEGASTRUCTURE"
+				buttonFont = "cg_16b"
+				clicksound = "tab_click"
+				shortcut = "z"
+			}
+			buttonType = {
+				name = "megastructure_tab_active"
+				quadTextureSprite = "GFX_tab_1_active"
+				position = { x= 0 y = 0 }
+				buttonText = "MEGASTRUCTURE"
+				buttonFont = "cg_16b"
+				clicksound = "tab_click"
+				shortcut = "z"
+			}
+			buttonType = {
+				name = "shipyard_tab"
+				quadTextureSprite = "GFX_tab_2_inactive"
+				position = { x= 129 y = 0 }
+				buttonText = "STARBASE_SHIPYARD_TAB"
+				buttonFont = "cg_16b"
+				clicksound = "tab_click"
+				shortcut = "x"
+			}
+			buttonType = {
+				name = "shipyard_tab_active"
+				quadTextureSprite = "GFX_tab_2_active"
+				position = { x= 129 y = 0 }
+				buttonText = "STARBASE_SHIPYARD_TAB"
+				buttonFont = "cg_16b"
+				clicksound = "tab_click"
+				shortcut = "x"
+			}
+		}
+		### WINDOW HEADER ###
+		buttonType = {
+			name = "close"
+			spriteType = "GFX_close_button"
+			position = { x = -45 y = 7 }
+			orientation = upper_right
+			shortcut = "ESCAPE"
+			pdx_tooltip = "CLOSE_TITLE"
+			clicksound = "back_click"
+		}
+		buttonType = {
+			name = "focus"
+			spriteType = "GFX_fleetview_focus"
+			position = { x = -82 y = 7 }
+			orientation = upper_right
+			shortcut = "q"
+			pdx_tooltip = "TOOLTIP_AMBIENT_OBJECT_FOCUS"
+			clicksound = "back_click"
+		}
+		iconType = {
+			name = "hex_bg"
+			spriteType = "GFX_hex_bg"
+			position = { x = 22 y = -12 }
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line"
+			position = { x = 28 y = 38 }
+			alwaysTransparent = yes
+		}
+		buttonType = {
+			name = "flag"
+			spriteType = "GFX_empire_flag_64"
+			scale = 0.8
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "malgun_goth_24"
+			position = { x = 55 y = 5 }
+			maxWidth = 1000
+			maxHeight = 20
+			fixedSize = yes
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "subtitle"
+			font = "cg_16b"
+			position = { x = 55 y = 28 }
+			maxWidth = 430
+			maxHeight = 40
+			fixedSize = yes
+			format = left
+			text_color_code = "E"
+			alwaysTransparent = yes
+			text = "MEGASTRUCTURE"
+		}
+		containerWindowType = {
+			name = "megastructure_tab"
+			size = { width = 100% height = 100% }
+			containerWindowType = {
+				name = "megastructure_portrait_window"
+				size = { width = 550 height = 188 }
+				position = { x = 10 y = 50 }
+				clipping = yes
+				iconType = {
+					name = "megastructure_portrait"
+					spriteType = "GFX_megastructure_construction_background"
+					position = { x = -270 y = 12 }
+					orientation = center_up
+					alwaysTransparent = yes
+				}
+				iconType = {
+					name = "black_frame"
+					spriteType = "GFX_planetview_black_frame"
+					position = { x = -270 y = 13 }
+					orientation = center_up
+					alwaysTransparent = yes
+				}
+				iconType = {
+					name = "stripes_1"
+					spriteType = "GFX_planetview_stripes_1"
+					position = { x = -276 y = 12 }
+					orientation = center_up
+					alwaysTransparent = yes
+				}
+				iconType = {
+					name = "city_frame"
+					spriteType = "GFX_city_frame"
+					position = { x = -275 y = 9 }
+					orientation = center_up
+				}
+			}
+			buttonType = {
+				name = "box"
+				spriteType = "GFX_planet_bg_tile_frame"
+				position = { x = 11 y = 245 }
+				size = { x = 548 y = 420 }
+				alwaysTransparent = yes
+			}
+			### CONTENT ###
+			containerWindowType = {
+				name = "desc_box"
+				size = { width = 520 height = 106 }
+				position = { x = 25 y = 261 }
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+			}
+			instantTextBoxType = {
+				name = "desc"
+				font = "malgun_goth_24"
+				position = { x = 30 y = 266 }
+				maxWidth = 510
+				maxHeight = 96
+				text = ""
+				format = center
+				text_color_code = "L"
+				scrollbarType = "standardtext_slider_small"
+			}
+			iconType = {
+				name = "desc_line"
+				spriteType = "GFX_line_center"
+				position = { x = -256 y = 372 }
+				orientation = center_up
+				alwaysTransparent = yes
+			}
+			containerWindowType = {
+				name = "information_box"
+				size = { width = 520 height = 110 }
+				position = { x = 25 y = 394 }
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+				containerWindowType = {
+					name = "effects_box"
+					size = { width = 130 height = 90 }
+					position = { x = 10 y = 10 }
+					background = {
+						name = "background"
+						spriteType = "GFX_tiles_dark_area_cut_8"
+					}
+				}
+			}
+			instantTextBoxType = {
+				name = "effects_header"
+				font = "cg_16b"
+				position = { x = 40 y = 406 }
+				maxWidth = 120
+				maxHeight = 18
+				fixedSize = yes
+				text = "EFFECTS"
+				format = center
+			}
+			instantTextBoxType = {
+				name = "effects_desc"
+				font = "cg_16b"
+				position = { x = 40 y = 426 }
+				maxWidth = 120
+				maxHeight = 75
+				fixedSize = yes
+				text = "EFFECTS"
+				format = center
+			}
+			containerWindowType = {
+				name = "production_box"
+				size = { width = 130 height = 90 }
+				position = { x = 220 y = 404 }
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+				instantTextBoxType = {
+					name = "production_header"
+					font = "cg_16b"
+					text = "PRODUCTION"
+					appendText = ":"
+					position = { x = 5 y = 2 }
+					maxWidth = 120
+					maxHeight = 20
+					fixedSize = yes
+					format = center
+					text_color_code = "H"
+				}
+				instantTextBoxType = {
+					name = "production_amount"
+					font = "cg_16b"
+					position = { x = 5 y = 22 }
+					text = "10"
+					maxWidth = 120
+					maxHeight = 75
+					fixedSize = yes
+					format = center
+				}
+			}
+			containerWindowType = {
+				name = "upkeep_box"
+				size = { width = 130 height = 90 }
+				position = { x = 405 y = 404 }
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+				instantTextBoxType = {
+					name = "upkeep_header"
+					font = "cg_16b"
+					text = "MAINTENANCE"
+					appendText = ":"
+					position = { x = 5 y = 2 }
+					maxWidth = 120
+					maxHeight = 20
+					fixedSize = yes
+					format = center
+					text_color_code = "H"
+				}
+				instantTextBoxType = {
+					name = "upkeep_amount"
+					font = "cg_16b"
+					position = { x = 5 y = 22 }
+					text = "10"
+					maxWidth = 120
+					maxHeight = 75
+					fixedSize = yes
+					format = center
+				}
+			}
+			containerWindowType = {
+				name = "possible_upgrades_content"
+				position = { x = 25 y = 514 }
+				size = { width = 520 height = 135 }
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+				instantTextBoxType = {
+					name = "title"
+					font = "malgun_goth_24"
+					position = { x = 10 y = 4 }
+					maxWidth = 500
+					maxHeight = 20
+					format = centre
+					alwaysTransparent = yes
+					text = "UPGRADE"
+				}
+				iconType = {
+					name = "desc_line"
+					spriteType = "GFX_line_center_short"
+					position = { x = -155 y = 22 }
+					orientation = center_up
+					alwaysTransparent = yes
+				}
+				smoothListboxType = {
+					name = "upgrades"
+					position = { x = 8 y = 45 }
+					size = { x = 504 y = 85 }
+					borderSize = { x = 0 y = 0 }
+					spacing = -2
+					scrollbarType = "standardlistbox_slider_thick"
+					offset = { x = -12 y = 0 }
+				}
+			}
+			containerWindowType = {
+				name = "upgrading_content"
+				position = { x = -225 y = 523 }
+				size = { width = 450 height = 34 }
+				orientation = center_up
+				iconType = {
+					name = "upgrade_progress"
+					spriteType = "GFX_ui_progressbar_450"
+					position = { x = 0 y = 0 }
+				}
+				instantTextBoxType = {
+					name = "upgrade_remaining"
+					font = "malgun_goth_24"
+					position = { x = 10 y = 5 }
+					maxWidth = 430
+					maxHeight = 24
+					fixedSize = yes
+					format = center
+					text = "(clock) X days remaining."
+				}
+			}
+		}
+		containerWindowType = {
+			name = "shipyard_tab"
+			position = { x = 0 y = 30 }
+			size = { width = 100% height = -11 }
+			containerWindowType = {
+				name = "capacity_info"
+				position = { x = 15 y = 27 }
+				size = { width = 270 height = 74 }
+				clipping = no
+				background = {
+					name = "orbitals_background"
+					spriteType = "GFX_tiles_frame"
+				}
+				iconType = {
+					name = "shipyard_icon"
+					spriteType = "GFX_starbase_shipyard"
+					position = { x = 8 y = -65 }
+					orientation = LOWER_LEFT
+				}
+				instantTextBoxType = {
+					name = "shipyard_capacity"
+					position = { x = 70 y = -50 }
+					font = "malgun_goth_24"
+					text = "STARBASE_SHIPYARD_CAPACITY"
+					maxWidth = 198
+					maxHeight = 40
+					fixedSize = yes
+					format = left
+					pdx_tooltip = "STARBASE_SHIPYARD_CAPACITY_DESC"
+					orientation = LOWER_LEFT
+				}
+			}
+			containerWindowType = {
+				name = "fleets_info"
+				position = { x = 15 y = 110 }
+				size = { width = 270 height = -1 }
+				background = {
+					name = "orbitals_background"
+					spriteType = "GFX_tiles_frame"
+				}
+				instantTextBoxType = {
+					name = "no_orbitals"
+					font = "cg_16b"
+					text = "PLANETVIEW_NO_DOCKED"
+					position = { x = 0 y = 12 }
+					maxWidth = 270
+					maxHeight = 20
+					fixedSize = yes
+					format = center
+					alwaysTransparent = yes
+				}
+				smoothListBoxType = {
+					name = "fleets_list"
+					position = { x = 10 y = 10 }
+					size = { x = 246 y = 508 }
+					borderSize = { x = 0 y = 0 }
+					scrollbarType = "standardlistbox_slider_thick"
+					autohide_scrollbar = no
+					spacing = 3
+				}
+			}
+			containerWindowType = {
+				name = "modifiers_info"
+				position = { x = 295 y = 27 }
+				size = { width = 260 height = 74 }
+				background = {
+					name = "orbitals_background"
+					spriteType = "GFX_tiles_frame"
+				}
+				gridBoxType = {
+					name = "modifiers_grid"
+					position = { x = 6 y = -40 }
+					size = { width = 248 height = 30 }
+					format = "UPPER_LEFT"
+					slotsize = { width = 84 height = 30 }
+					add_horizontal = yes
+					max_slots_horizontal = 3
+					orientation = LOWER_LEFT
+				}
+				instantTextBoxType = {
+					name = "title"
+					font = "cg_16b"
+					text = "STARBASE_MODIFIER_EFFECTS"
+					position = { x = 0 y = -64 }
+					maxWidth = 260
+					maxHeight = 50
+					fixedSize = yes
+					orientation = LOWER_LEFT
+					#text_color_code = "E"
+					format = CENTER
+					alwaysTransparent = yes
+				}
+			}
+			containerWindowType = {
+				name = "build_queue_info"
+				position = { x = 295 y = 110 }
+				size = { width = 260 height = -1 }
+				background = {
+					name = "build_queue_background"
+					spriteType = "GFX_tiles_frame"
+				}
+				instantTextBoxType = {
+					name = "no_constructions"
+					font = "malgun_goth_24"
+					text = "SHIPYARD_QUEUE"
+					position = { x = 0 y = 8 }
+					maxWidth = 260
+					maxHeight = 20
+					fixedSize = yes
+					format = center
+					alwaysTransparent = yes
+				}
+				smoothListBoxType = {
+					name = "build_queue_list"
+					position = { x = 10 y = 43 }
+					size = { x = 237 y = 433 }
+					borderSize = { x = 0 y = 0 }
+					scrollbarType = "standardlistbox_slider_thick"
+					autohide_scrollbar = no
+					spacing = 3
+					offset = { x = -1 y = 0 }
+				}
+				buttonType = {
+					name = "build"
+					size = { x = 290 y = 35 }
+					position = { x = -2 y = -58 }
+					orientation = lower_left
+					spriteType = "GFX_standard_button_240_34_button"
+					buttonFont = "cg_16b"
+					text = "STARBASE_BUILD_SHIPS"
+					font = "cg_16b"
+					clicksound = planet_view_menu_click_01
+					shortcut = "b"
+					oversound = mouse_over
+				}
+			}
+		}
+	}
+	containerWindowType = {
+		name = "megastructure_side_view"
+		position = { x = 573 y = 0 }
+		size = { width = 400 height = 680 }
+		background = {
+			name = "planet_view_spaceport_construction_panel_background"
+			quadTextureSprite = "GFX_plain_bg_tile"
+		}
+		iconType = {
+			name = "header_hex_bg"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = -273 y = -8 }
+			orientation = center_up
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line_center_short"
+			position = { x = -155 y = 28 }
+			orientation = center_up
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "malgun_goth_24"
+			text = "STARBASE_SHIPS"
+			position = { x = 10 y = 10 }
+			maxWidth = 380
+			maxHeight = 20
+			fixedSize = yes
+			format = CENTER
+		}
+		# Close Button
+		buttonType = {
+			name = "close"
+			quadTextureSprite = "GFX_close"
+			position = { x = -45 y = 7 }
+			orientation = "UPPER_RIGHT"
+			shortcut = "ESCAPE"
+			clicksound = "back_click"
+			actionShortcut = "cancel"
+		}
+		smoothListboxType = {
+			name = "entries_list"
+			position = { x = 10 y = 53 }
+			size = { x = 378 y = 612 }
+			scrollbarType = "standardlistbox_slider_thick"
+			borderSize = { x = 0 y = 0 }
+			offset = { x = -3 y = 0 }
+			spacing = 1
+		}
+	}
+	containerWindowType = {
+		name = "megastructure_upgrade_entry"
+		size = { width = 504 height = 42 }
+		background = {
+			name = "bg"
+			quadTextureSprite = "GFX_ui_button_480_34"
+			clicksound = "megastructure_upgraded"
+		}
+		instantTextBoxType = {
+			name = "title"
+			font = "cg_16b"
+			position = { x = 23 y = 13 }
+			maxWidth = 280
+			maxHeight = 16
+			format = left
+			vertical_alignment = center
+			text_color_code = "H"
+			text = "ring_world_2_intermediate"
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "cost"
+			font = "cg_16b"
+			position = { x = 300 y = 13 }
+			maxWidth = 180
+			maxHeight = 16
+			format = right
+			vertical_alignment = center
+			text = "DBG_MEGA_STRUCTURE_GUI_TEXT"
+			alwaysTransparent = yes
+		}
+	}
+}

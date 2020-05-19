@@ -1,0 +1,236 @@
+portraits = {
+
+	ortolan_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/ortolan/ortolan_1.dds"}
+	ortolan_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/ortolan/ortolan_2.dds"}
+	ortolan_3 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/ortolan/ortolan_3.dds"}
+	ortolan_4 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/ortolan/ortolan_4.dds"}
+	ortolan_5 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/ortolan/ortolan_5.dds"}
+	ortolan_6 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/ortolan/ortolan_6.dds"}
+}
+
+portrait_groups = {
+	SW24_ortolan = {
+		default = ortolan_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					ortolan_1
+					ortolan_2
+					ortolan_3
+					ortolan_4
+					ortolan_5
+					ortolan_6
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

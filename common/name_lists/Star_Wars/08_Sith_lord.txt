@@ -1,0 +1,105 @@
+﻿### Sith_lord 
+sith_lord_names = {
+	### SHIPS
+	randomized = no
+	ship_names = {
+
+		generic = {"ALC-9" "Sun Crusher" "Evuk-Nosk" "Ambria's Fury" "Ascendant Spear" "Storm Fire" "Lindworm" Oppressor Overlord
+		"Emperor's Glory" Eclipse "Red Reaper" "Scream of Ragnos" Euphony Enforcer Voidstar Warhammer "Ziost Shadow" "White Nova"
+		"Red Shrike" Exemplar Sting Steadfast Vigilance Valor Javelin Indignation "Imperial Starship" Fatality
+		}
+
+
+		mining_station = { }
+		research_station = { }
+		observation_station = { }
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		random_names = { }
+		sequential_name = "%O% Empire Armada"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Troopers"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Assault Troopers"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave-Pit Fighters"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Division"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Stupid Robots"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Androids"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Troopers"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Enforcers"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Enforcers"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {Korriban Lehon Ambria Ashas Ree Athiss Begeren Bosthirda "Ch'hodos" "Dromund Fels"
+					"Dromund Ixin" "Dromund Kaas" "Dromund Kalakar" "Kalakar Six" "Dromund Tyne" Jaguada Kalsunor
+					"Khar Delba" "Khar Shian" Korriz "Krayiss Two" Nfolgai Rhelg Ziost
+			}
+		}
+		
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {"Darth Maul" "Darth Vader" "Darth Tyranus" "Darth Sidious" "Darth Plagueis" "Darth Venamis" "Darth Tenebrous"
+			"Darth Cognus" "Set Harth" "Darth Tenebrous" "Darth Krayt" "Darth Millennial" "Darth Gean" "Darth Zannah" "Darth Bane" "Darth Zannah"
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+
+			}
+			
+			regnal_second_names = {
+
+			}
+		}
+	}
+}

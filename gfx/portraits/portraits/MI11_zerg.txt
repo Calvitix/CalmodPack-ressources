@@ -1,0 +1,108 @@
+portraits = {
+	zerg_devourer = { texturefile = "gfx/models/portraits/Miscellaneous/zerg/devourer.dds" }
+	zerg_drone = { texturefile = "gfx/models/portraits/Miscellaneous/zerg/drone.dds" }
+	zerg_hydralisk = { texturefile = "gfx/models/portraits/Miscellaneous/zerg/hydralisk.dds" }
+	zerg_overlord = { texturefile = "gfx/models/portraits/Miscellaneous/zerg/overlord.dds" }
+	zerg_overseer = { texturefile = "gfx/models/portraits/Miscellaneous/zerg/overseer.dds" }
+	zerg_queen = { texturefile = "gfx/models/portraits/Miscellaneous/zerg/zerg_queen.dds" }
+}
+
+portrait_groups = {
+	MI11_zerg = {
+		default = zerg_hydralisk
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					zerg_hydralisk
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					zerg_hydralisk
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zerg_drone
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zerg_hydralisk
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = general
+				}
+				portraits = {
+					zerg_queen
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				portraits = {
+					zerg_devourer
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				portraits = {
+					zerg_overseer
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				portraits = {
+					zerg_overlord
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				portraits = {
+					zerg_overlord
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					zerg_hydralisk
+				}
+			}
+		}
+		
+		
+	}
+}

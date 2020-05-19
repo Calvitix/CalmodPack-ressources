@@ -1,0 +1,45 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_eco_slums"
+		texturefile = "gfx/event_pictures/eco_slums.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes	
+	}
+	spriteType = {
+		name = "GFX_evt_eco_ecology"
+		texturefile = "gfx/event_pictures/eco_ecology.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes	
+	}
+	spriteType = {
+		name = "GFX_evt_eco_pollution"
+		texturefile = "gfx/event_pictures/eco_pollution.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes	
+	}
+	spriteType = {
+		name = "GFX_evt_eco_sprawl"
+		texturefile = "gfx/event_pictures/eco_sprawl.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes	
+	}
+	spriteType = {
+		name = "GFX_evt_eco_climate"
+		texturefile = "gfx/event_pictures/eco_climate.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes	
+	}
+	spriteType = {
+		name = "GFX_evt_eco_conference"
+		texturefile = "gfx/event_pictures/eco_conference.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes	
+	}
+	spriteType = {
+		name = "GFX_evt_eco_environmentalism"
+		texturefile = "gfx/event_pictures/eco_environmentalism.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes	
+	}
+}

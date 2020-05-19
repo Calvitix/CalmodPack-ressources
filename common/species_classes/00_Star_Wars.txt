@@ -1,0 +1,83 @@
+#... gfx/models/portraits/Star_Wars/ ...
+
+StarWars = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = { #actually this is portrait_groups naming must match in "... gfx\portraits\portraits"
+    "SW01_mirialan"
+	"SW02_sith"
+	"SW03_twilek"
+	"SW04_zabrak"
+	"SW16_togruta"
+	"SW21_pantoran"
+	"SW23_empire"
+
+	"SW11_jawa"
+	"SW12_sullustan"
+	"SW13_rodian"
+	
+	"SW07_chiss"
+	"SW25_neimoidian"
+	"SW26_duros"	
+	
+	"SW06_hutt"
+	"SW08_sith_lord"
+	"SW05_jedi"
+
+	"SW09_wookiee"
+	"SW10_gungan"
+
+	"SW14_mon_calamari"
+	"SW15_rebel"
+	"SW17_ewok"
+	"SW18_robot"
+	"SW19_rakata"
+	"SW20_dug"
+	"SW22_chagrian"
+	"SW24_ortolan"
+
+
+  #next 27
+  
+	#to be added
+	#"SW00_mandalorian"
+	#Nikto - to be added
+	}
+
+    non_randomized_portraits = {
+    "SW01_mirialan"
+	"SW02_sith"
+	"SW03_twilek"
+	"SW04_zabrak"
+	"SW16_togruta"
+	"SW21_pantoran"
+	"SW23_empire"
+	"SW06_hutt"
+	"SW08_sith_lord"
+	"SW05_jedi"
+	"SW07_chiss"
+	"SW09_wookiee"
+	"SW10_gungan"
+	"SW11_jawa"
+	"SW12_sullustan"
+	"SW13_rodian"
+	"SW14_mon_calamari"
+	"SW15_rebel"
+	"SW17_ewok"
+	"SW18_robot"
+	"SW19_rakata"
+	"SW20_dug"
+	"SW22_chagrian"
+	"SW24_ortolan"
+	"SW25_neimoidian"
+	"SW26_duros"
+    }
+	
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+}
+
+
+

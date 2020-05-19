@@ -1,0 +1,281 @@
+
+portraits = {
+	
+	#blue
+	togruta_f1	= {	entity = "humanoid_05_female_01_entity"	#female humanoid are fine
+				clothes_selector = "humanoid_05_SW_female_clothes_01" 
+				hair_selector = "togruta_female_01_hair" 
+				greeting_sound = "human_female_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_1.dds"
+									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_1a.dds"
+									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_1b.dds"
+				} 
+			}
+	#red		
+	togruta_f2	= {	entity = "humanoid_05_female_01_entity"
+				clothes_selector = "humanoid_05_SW_female_clothes_01" 
+				hair_selector = "togruta_female_01_hair" 
+				greeting_sound = "human_female_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_2.dds" 
+									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_2a.dds"
+									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_2b.dds"
+				} 
+			}
+	#orange
+	togruta_f3	= {	entity = "humanoid_05_female_01_entity"
+				clothes_selector = "humanoid_05_SW_female_clothes_01" 
+				hair_selector = "togruta_female_01_hair" 
+				greeting_sound = "human_female_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_3.dds" 
+									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_3a.dds"
+									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_3b.dds"
+				} 
+			}	
+
+	#purple / violetinis
+	togruta_f4	= {	entity = "humanoid_05_female_01_entity"	
+				clothes_selector = "humanoid_05_SW_female_clothes_01" 
+				hair_selector = "togruta_female_01_hair" 
+				greeting_sound = "human_female_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_4.dds" 
+									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_4a.dds"
+									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_4b.dds"
+				} 
+			}	
+
+	togruta_m1	= {	entity = "togruta_male_01_entity"	#size redefined
+				clothes_selector = "humanoid_05_SW_male_clothes_01" 
+				hair_selector = "togruta_male_01_hair" 
+				greeting_sound = "human_male_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_1.dds"
+									   "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_1a.dds"
+									   "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_1b.dds"
+				} 
+			}
+
+	togruta_m2	= {	entity = "togruta_male_01_entity"	#size redefined
+				clothes_selector = "humanoid_05_SW_male_clothes_01" 
+				hair_selector = "togruta_male_01_hair" 
+				greeting_sound = "human_male_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_2.dds"
+										"gfx/models/portraits/Star_Wars/togruta/togruta_male_body_2a.dds"
+										"gfx/models/portraits/Star_Wars/togruta/togruta_male_body_2b.dds"
+				} 
+			}
+
+	togruta_m3	= {	entity = "togruta_male_01_entity"	#size redefined
+				clothes_selector = "humanoid_05_SW_male_clothes_01" 
+				hair_selector = "togruta_male_01_hair" 
+				greeting_sound = "human_male_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_3.dds"
+									  "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_3a.dds"
+									  "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_3b.dds"
+				} 
+			}
+
+	togruta_m4	= {	entity = "togruta_male_01_entity"	#size redefined
+				clothes_selector = "humanoid_05_SW_male_clothes_01" 
+				hair_selector = "togruta_male_01_hair" 
+				greeting_sound = "human_male_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_4.dds"
+										"gfx/models/portraits/Star_Wars/togruta/togruta_male_body_4a.dds"
+										"gfx/models/portraits/Star_Wars/togruta/togruta_male_body_4b.dds"
+				} 
+			}
+			
+	}
+portrait_groups = {
+	SW16_togruta = {
+		default = togruta_f3
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					togruta_m1
+					togruta_m2
+					togruta_m3
+					togruta_m4
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+						togruta_f3
+						togruta_f2
+						togruta_f1
+						togruta_f4
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					togruta_f3
+					togruta_f2
+					togruta_f1
+					togruta_f4
+					togruta_m1
+					togruta_m2
+					togruta_m3
+					togruta_m4
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					togruta_f3
+					togruta_f2
+					togruta_f1
+					togruta_f4
+					togruta_m1
+					togruta_m2
+					togruta_m3
+					togruta_m4
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+						togruta_f3
+						togruta_f2
+						togruta_f1
+						togruta_f4
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					togruta_m1
+					togruta_m2
+					togruta_m3
+					togruta_m4
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+						togruta_f3
+						togruta_f2
+						togruta_f1
+						togruta_f4
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					togruta_m1
+					togruta_m2
+					togruta_m3
+					togruta_m4
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+						togruta_f3
+						togruta_f2
+						togruta_f1
+						togruta_f4
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					togruta_m1
+					togruta_m2
+					togruta_m3
+					togruta_m4
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+						togruta_f3
+						togruta_f2
+						togruta_f1
+						togruta_f4
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					togruta_m1
+					togruta_m2
+					togruta_m3
+					togruta_m4
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+						togruta_f3
+						togruta_f2
+						togruta_f1
+						togruta_f4
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					togruta_m1
+					togruta_m2
+					togruta_m3
+					togruta_m4
+					
+				}
+			}
+		}		
+	
+	}
+}

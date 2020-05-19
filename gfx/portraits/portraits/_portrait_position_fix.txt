@@ -1,0 +1,15 @@
+character = {
+ #   size = { x = 475 y = 380 }
+
+  #   entity = {
+  #        orientation = center_down
+  #       position = { x = 50 y = -20 }
+  #       scale = 24
+  #   }
+  #2d Portrait position
+    icon = {
+        orientation = center_down
+        position = { x = 50 y = 0 }
+        scale = 1.0
+    }
+}

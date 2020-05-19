@@ -1,0 +1,637 @@
+###_无尽群星 mm	gfx	###########################################################################
+#_<所有gfx LIOS 且以[name]为id进行覆盖>
+
+
+spriteTypes = {
+	###_evt pic
+	spriteType = {
+		name = "GFX_evt_z_modmenu"
+		texturefile = "gfx/event_pictures/z_modmenu.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_z_modmenu_restoration"
+		texturefile = "gfx/event_pictures/z_modmenu_restoration.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_z_modmenu_no_mod"
+		texturefile = "gfx/event_pictures/z_modmenu_no_mod.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	#_联动mod设置GFX
+	spriteType = {
+		name = "GFX_evt_z_misc_modmenu"
+		texturefile = "gfx/event_pictures/z_misc_modmenu.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	#_璀璨星图-恒星毁灭
+	spriteType = {
+		name = "GFX_evt_z_mm_star_explosion"
+		texturefile = "gfx/event_pictures/z_mm_star_explosion.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	
+	
+	
+	
+	###_开启面板	#########################################################################
+	###_menu buttons
+	spriteType = {
+		name = "GFX_z_modmenu_button"
+		texturefile = "gfx/interface/icons/z_modmenu_button.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	SpriteType = {
+		name = "GFX_z_modmenu_button_left"
+		texturefile = "gfx/interface/icons/z_modmenu_button_left.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	SpriteType = {
+		name = "GFX_z_modmenu_button_big"
+		texturefile = "gfx/interface/icons/z_modmenu_button_big.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	
+	
+	
+	
+	###_小功能	#########################################################################
+	#_自动矿站
+	SpriteType = {
+		name = "GFX_z_mm_misc_button_auto_x"
+		texturefile = "gfx/interface/z_modmenu/z_mm_misc_button_auto_x.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	SpriteType = {
+		name = "GFX_z_mm_misc_button_auto_100"
+		texturefile = "gfx/interface/z_modmenu/z_mm_misc_button_auto_100.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	SpriteType = {
+		name = "GFX_z_mm_misc_button_auto_600"
+		texturefile = "gfx/interface/z_modmenu/z_mm_misc_button_auto_600.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	
+	
+	
+	
+	###_主要区块	#########################################################################
+	#_无尽群星核心
+	spriteType = {
+		name = "GFX_z_mm_framework_button_1"
+		texturefile = "gfx/interface/z_modmenu/z_mm_button_framework_1.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 24.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	###_sm按钮
+	spriteType = {
+		name = "GFX_z_mm_misc_modmenu_button"
+		texturefile = "gfx/interface/z_modmenu/z_mm_button_misc_modmenu.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	###_exit按钮
+	spriteType = {
+		name = "GFX_z_mm_button_exit"
+		texturefile = "gfx/interface/z_modmenu/z_mm_button_exit.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	
+	
+	
+	
+	###_UI sprite
+	corneredTileSpriteType = {
+		name = "GFX_z_modmenu_window_bg"
+		textureFile = "gfx/interface/z_modmenu/z_modmenu_window_bg.dds"
+	}
+	
+	###_子MOD
+	#_人口检测
+	spriteType = {
+		name = "GFX_z_mm_pf_button"
+		texturefile = "gfx/interface/z_modmenu/z_mm_pf_button_rhombus.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_z_mm_pf_button_manual"
+		texturefile = "gfx/interface/z_modmenu/z_mm_pf_button_rhombus_orange.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	#_pf2
+	spriteType = {
+		name = "GFX_z_mm_pf2_button"
+		texturefile = "gfx/interface/z_modmenu/z_mm_pf2_button_rhombus.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_z_mm_pf2_button_merge_ai_species"
+		texturefile = "gfx/interface/z_modmenu/z_mm_pf2_button_rhombus_orange.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	#_statistic
+	spriteType = {
+		name = "GFX_z_mm_statistic_button"
+		texturefile = "gfx/interface/z_modmenu/z_mm_statistic_button_rhombus.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	#_crisis master
+	spriteType = {
+		name = "GFX_z_mm_cm_button"
+		texturefile = "gfx/interface/z_modmenu/z_mm_cm_button_rhombus.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	
+	
+	
+	
+	###_联动MOD	#########################################################################
+	#_dduc
+	spriteType = {
+		name = "GFX_z_mm_dduc_button_1"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_dduc_button_1.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_z_mm_dduc_button_2"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_dduc_button_2.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	#_mem
+	spriteType = {
+		name = "GFX_z_mm_mem_button_1"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_mem_button_1.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_z_mm_mem_button_2"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_mem_button_2.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	#_ESC
+	spriteType = {
+		name = "GFX_z_mm_esc_button_1"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_esc_button_1.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_z_mm_esc_button_2"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_esc_button_2.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	#_ACOT
+	spriteType = {
+		name = "GFX_z_mm_acot_button_1"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_acot_button_1.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_z_mm_acot_button_2"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_acot_button_2.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	#_rls
+	spriteType = {
+		name = "GFX_z_mm_rls_button_1"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_rls_button_1.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_z_mm_rls_button_2"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_rls_button_2.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	#_天灾管理器
+	spriteType = {
+		name = "GFX_z_mm_cmn_button_1"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_cmn_button_1.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_z_mm_cmn_button_2"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_cmn_button_2.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	#_银河大学
+	spriteType = {
+		name = "GFX_z_mm_tgu_button_1"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_tgu_button_1.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_z_mm_tgu_button_2"
+		texturefile = "gfx/interface/z_modmenu/z_mm_sm_tgu_button_2.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+}

@@ -1,0 +1,1023 @@
+﻿### Chiss Ascendancy
+chiss_names = {
+	randomized = no
+
+	ship_names = {
+		generic = {
+		"Bogo Rai" Cam'co Chaf Cormit "Cardas Ferasi" Repplic Jamiron Kinoss Cressus "Klasse Ephemora" Mobus 
+		Naporar	Noris Vaagari Ornfra Schesa Psfavri Rhigar Asdroni Rata Sarvchi Sharb Shihon Sposia Thrago
+		Utegetu Csaplar Inrokini "Brask Oto" Duuvhal
+		}
+		
+		corvette = {
+		"Immobiliser" "Enforcer" "Demolisher" "Rand Ecliptic" "Clawcraft" "Nssis" "Vanquard" 
+		}
+		
+		constructor = {
+			"Constructor"
+		}
+		
+		colonizer = {
+			"Colony"
+		}
+		
+		science = {
+			"Explorer"
+		}
+		
+		destroyer = {
+		"Victory" "Harrow" "Anya Kary" "Dominator" "Allegiance" "Dauntless" "Draklor" "Nartissteu" "Carrak" "Sluis Van" "Revenant" "Talon"
+		}
+		
+		cruiser = {
+		"Shockwave" "Praetor" "Procurator" "Arc Hammer" "Vengeance" "Mandator" "Sovereign" "Garqi" "Ithor" "Kalarba" "Braxant Bonecrusher" "Constrainer" "Rampart" "Sentinel" "Tempest"
+		}
+		
+		battleship = {
+			"Accuser" "Adamant" "Adarga" "Admonitor" "Adjudicator" "Agonizer" "Allecto" "Assassin" "Avarice" "Avenger" "Badi Dea" "Basilisk" "Bellicose" "Chimaera" "Colosses" "Crusader" "Conqueror" "Conquest" "Courageous" "Crynyd" "Death's Head" "Devastator" "Direption" "Emancipator" "Emperor's Revenge" "Emperor's Will" "Engager" "Entor" "Freedom" "Firestorm" "Gauntlet" "Garret" "Glory" "Gnisnal" "Gorgon" "Grey Wolf" "Hammer" "Hydra" "Inflexible" "Intrpid" "Immortal" "Imperator" "Inexorable" "Interrogator" "Invincible" "Iron Fist" "Judicator" "Kreiger" "Leonides" "Majestic" "Malice" "Manticore" "Monarch" "Moonshadow" "Nemesis" "Nihil" "Nitsa" "Peremptory" "Predator" "Pulsar" "Punisher" "Rage" "Rebel Dream" "Reckoning" "Red Gauntlet" "Redoubtable" "Relentless" "Reliance" "Render" "Resolution" "Retribution" "Reyna" "Riesa" "Skyhook" "Stalker" "Steadfast" "Stormhawk" "Thunderflare" "Thunderer" "Tiger" "Tormentor" "Triumph" "Tyrant" "Ultima" "Vanguard" "Vendetta" "Vengeance" "Virulence" "Warrior" "Whirlwind" "Wolf's Claw"
+		}
+		
+		mining_station = { }
+		research_station = { }
+		observation_station = { }
+		
+		transport = {
+			"Transport"
+		}
+
+		military_station_small = {
+			M-1 M-2 M-3 M-4 M-5 M-6 M-7 M-8 M-9 M-10 M-11 M-12 M-13 M-14 M-15 M-16 M-17 M-18 M-19 M-20 M-21 M-22
+			M-23 M-24 M-25 M-26 M-27 M-28 M-29 M-30 M-31 M-32 M-33 M-34 M-35 M-36 M-37 M-38 M-39 M-40 M-41 M-42 M-43 M-44
+		}
+	
+		
+		military_station_medium = { 
+			"%O% Naval Base"
+		}
+		
+		
+		military_station_large = { 
+			"Naval Depot"		
+		}
+		
+	}
+
+	fleet_names = {
+		random_names = {
+			"Chiss Expansionary Defense Force"
+		}
+		sequential_name = "%O% Expansionary Fleet"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Household Phalanx"
+		}
+
+		assault_army = {
+			sequential_name = "%O% CEDF Occupation Division"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Indentured Rifles"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Army"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Hunter-Killer Group"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Synthetic Rangers"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Force Commando"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Bio-Warfare Division"
+		}
+		
+		gene_warrior_army = {
+			random_names = {
+				"SARC-A 'Widowmakers'" "SARC-B 'Immortals'" "SARC-C 'Berserkers'" "SARC-D 'Assassins'"
+				"SARC-E 'Reapers'" "SARC-F 'Nighthawks'" "SARC-I 'Grey Knights'" 
+			}
+			sequential_name = "%O% Bio-Engineered Squadron"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Bogo Rai" Cam'co Chaf Cormit "Cardas Ferasi" Repplic Jamiron Kinoss Cressus "Klasse Ephemora" Mobus 
+				Naporar	Noris Vaagari Ornfra Schesa Psfavri Rhigar Asdroni Rata Sarvchi Sharb Shihon Sposia Thrago
+				Utegetu Csaplar Inrokini "Brask Oto" Duuvhal
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				Cessed Sarm
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				Thearterra Thule
+				
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				Tenupe Alemarar Wasber
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				 Avidich Ool Woteba Toba Wotab Yashuvhu Duuvhal Nirauan
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				Redoubt
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				Oyokal Rentor
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				Valara Saar
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				Csilla Naporar Catlia Celwis Cioral Copero Crustai Csaus Csorb Ilum Formac Massos 
+			} 
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		full_names = {
+			first_names_male = {
+		Prard'orm'nuruodo	Prard'raw'nuruodo	Prard'shi'nuruodo	Prard'itel'nuruodo	Prard'ras'nuruodo	Prard'urama'nuruodo	Prard'ten'nuruodo		
+		
+		Brask'orm'nuruodo	Brask'raw'nuruodo	Brask'shi'nuruodo	Brask'itel'nuruodo	Brask'ras'nuruodo	Brask'urama'nuruodo	Brask'ten'nuruodo			
+
+		Brast'orm'nuruodo	Brast'raw'nuruodo	Brast'shi'nuruodo	Brast'itel'nuruodo	Brast'ras'nuruodo	Brast'urama'nuruodo	Brast'ten'nuruodo			
+	
+		Chaf'orm'nuruodo	Chaf'raw'nuruodo	Chaf'shi'nuruodo	Chaf'itel'nuruodo	Chaf'ras'nuruodo	Chaf'urama'nuruodo	Chaf'ten'nuruodo			
+	
+		Kres'orm'nuruodo	Kres'raw'nuruodo	Kres'shi'nuruodo	Kres'itel'nuruodo	Kres'ras'nuruodo	Kres'urama'nuruodo	Kres'ten'nuruodo			
+		
+		Mitth'orm'nuruodo	Mitth'raw'nuruodo	Mitth'shi'nuruodo	Mitth'itel'nuruodo	Mitth'ras'nuruodo	Mitth'urama'nuruodo	Mitth'ten'nuruodo		
+
+		Ina'orm	'nuruodo	Ina'raw'nuruodo		Ina'shi'nuruodo		Ina'itel'nuruodo	Ina'ras'nuruodo		Ina'urama'nuruodo	Ina'ten'nuruodo			
+
+		Hess'orm'nuruodo	Hess'raw'nuruodo	Hess'shi'nuruodo	Hess'itel'nuruodo	Hess'ras'nuruodo	Hess'urama'nuruodo	Hess'ten'nuruodo			
+		
+		Kthira'orm'nuruodo	Kthira'raw'nuruodo	Kthira'shi'nuruodo	Kthira'itel'nuruodo	Kthira'ras'nuruodo	Kthira'urama'nuruodo	Kthira'ten'nuruodo			
+	
+		Kung'orm'nuruodo	Kung'raw'nuruodo	Kung'shi'nuruodo	Kung'itel'nuruodo	Kung'ras'nuruodo	Kung'urama'nuruodo	Kung'ten'nuruodo		
+			
+		Sev'orm'nuruodo		Sev'raw'nuruodo		Sev'shi'nuruodo		Sev'itel'nuruodo	Sev'ras'nuruodo		Sev'urama'nuruodo	Sev'ten'nuruodo			
+	
+		Ath'orm'nuruodo		Ath'raw'nuruodo		Ath'shi'nuruodo		Ath'itel'nuruodo	Ath'ras'nuruodo		Ath'urama'nuruodo	Ath'ten'nuruodo			
+
+
+
+		Prard'orm'cspalla	Prard'raw'cspalla	Prard'shi'cspalla	Prard'itel'cspalla	Prard'ras'cspalla	Prard'urama'cspalla	Prard'ten'cspalla		
+		
+		Brask'orm'cspalla	Brask'raw'cspalla	Brask'shi'cspalla	Brask'itel'cspalla	Brask'ras'cspalla	Brask'urama'cspalla	Brask'ten'cspalla			
+
+		Brast'orm'cspalla	Brast'raw'cspalla	Brast'shi'cspalla	Brast'itel'cspalla	Brast'ras'cspalla	Brast'urama'cspalla	Brast'ten'cspalla			
+	
+		Chaf'orm'cspalla	Chaf'raw'cspalla	Chaf'shi'cspalla	Chaf'itel'cspalla	Chaf'ras'cspalla	Chaf'urama'cspalla	Chaf'ten'cspalla			
+	
+		Kres'orm'cspalla	Kres'raw'cspalla	Kres'shi'cspalla	Kres'itel'cspalla	Kres'ras'cspalla	Kres'urama'cspalla	Kres'ten'cspalla			
+		
+		Mitth'orm'cspalla	Mitth'raw'cspalla	Mitth'shi'cspalla	Mitth'itel'cspalla	Mitth'ras'cspalla	Mitth'urama'cspalla	Mitth'ten'cspalla		
+
+		Ina'orm	'cspalla	Ina'raw'cspalla		Ina'shi'cspalla		Ina'itel'cspalla	Ina'ras'cspalla		Ina'urama'cspalla	Ina'ten'cspalla			
+
+		Hess'orm'cspalla	Hess'raw'cspalla	Hess'shi'cspalla	Hess'itel'cspalla	Hess'ras'cspalla	Hess'urama'cspalla	Hess'ten'cspalla			
+		
+		Kthira'orm'cspalla	Kthira'raw'cspalla	Kthira'shi'cspalla	Kthira'itel'cspalla	Kthira'ras'cspalla	Kthira'urama'cspalla	Kthira'ten'cspalla			
+	
+		Kung'orm'cspalla	Kung'raw'cspalla	Kung'shi'cspalla	Kung'itel'cspalla	Kung'ras'cspalla	Kung'urama'cspalla	Kung'ten'cspalla		
+			
+		Sev'orm'cspalla		Sev'raw'cspalla		Sev'shi'cspalla		Sev'itel'cspalla	Sev'ras'cspalla		Sev'urama'cspalla	Sev'ten'cspalla			
+	
+		Ath'orm'cspalla		Ath'raw'cspalla		Ath'shi'cspalla		Ath'itel'cspalla	Ath'ras'cspalla		Ath'urama'cspalla	Ath'ten'cspalla			
+
+
+
+		Prard'orm'sabosen	Prard'raw'sabosen	Prard'shi'sabosen	Prard'itel'sabosen	Prard'ras'sabosen	Prard'urama'sabosen	Prard'ten'sabosen		
+		
+		Brask'orm'sabosen	Brask'raw'sabosen	Brask'shi'sabosen	Brask'itel'sabosen	Brask'ras'sabosen	Brask'urama'sabosen	Brask'ten'sabosen			
+
+		Brast'orm'sabosen	Brast'raw'sabosen	Brast'shi'sabosen	Brast'itel'sabosen	Brast'ras'sabosen	Brast'urama'sabosen	Brast'ten'sabosen			
+	
+		Chaf'orm'sabosen	Chaf'raw'sabosen	Chaf'shi'sabosen	Chaf'itel'sabosen	Chaf'ras'sabosen	Chaf'urama'sabosen	Chaf'ten'sabosen			
+	
+		Kres'orm'sabosen	Kres'raw'sabosen	Kres'shi'sabosen	Kres'itel'sabosen	Kres'ras'sabosen	Kres'urama'sabosen	Kres'ten'sabosen			
+		
+		Mitth'orm'sabosen	Mitth'raw'sabosen	Mitth'shi'sabosen	Mitth'itel'sabosen	Mitth'ras'sabosen	Mitth'urama'sabosen	Mitth'ten'sabosen		
+
+		Ina'orm	'sabosen	Ina'raw'sabosen		Ina'shi'sabosen		Ina'itel'sabosen	Ina'ras'sabosen		Ina'urama'sabosen	Ina'ten'sabosen			
+
+		Hess'orm'sabosen	Hess'raw'sabosen	Hess'shi'sabosen	Hess'itel'sabosen	Hess'ras'sabosen	Hess'urama'sabosen	Hess'ten'sabosen			
+		
+		Kthira'orm'sabosen	Kthira'raw'sabosen	Kthira'shi'sabosen	Kthira'itel'sabosen	Kthira'ras'sabosen	Kthira'urama'sabosen	Kthira'ten'sabosen			
+	
+		Kung'orm'sabosen	Kung'raw'sabosen	Kung'shi'sabosen	Kung'itel'sabosen	Kung'ras'sabosen	Kung'urama'sabosen	Kung'ten'sabosen		
+			
+		Sev'orm'sabosen		Sev'raw'sabosen		Sev'shi'sabosen		Sev'itel'sabosen	Sev'ras'sabosen		Sev'urama'sabosen	Sev'ten'sabosen			
+	
+		Ath'orm'sabosen		Ath'raw'sabosen		Ath'shi'sabosen		Ath'itel'sabosen	Ath'ras'sabosen		Ath'urama'sabosen	Ath'ten'sabosen		
+
+
+
+		Prard'orm'inrokini	Prard'raw'inrokini	Prard'shi'inrokini	Prard'itel'inrokini	Prard'ras'inrokini	Prard'urama'inrokini	Prard'ten'inrokini		
+		
+		Brask'orm'inrokini	Brask'raw'inrokini	Brask'shi'inrokini	Brask'itel'inrokini	Brask'ras'inrokini	Brask'urama'inrokini	Brask'ten'inrokini			
+
+		Brast'orm'inrokini	Brast'raw'inrokini	Brast'shi'inrokini	Brast'itel'inrokini	Brast'ras'inrokini	Brast'urama'inrokini	Brast'ten'inrokini			
+	
+		Chaf'orm'inrokini	Chaf'raw'inrokini	Chaf'shi'inrokini	Chaf'itel'inrokini	Chaf'ras'inrokini	Chaf'urama'inrokini	Chaf'ten'inrokini			
+	
+		Kres'orm'inrokini	Kres'raw'inrokini	Kres'shi'inrokini	Kres'itel'inrokini	Kres'ras'inrokini	Kres'urama'inrokini	Kres'ten'inrokini			
+		
+		Mitth'orm'inrokini	Mitth'raw'inrokini	Mitth'shi'inrokini	Mitth'itel'inrokini	Mitth'ras'inrokini	Mitth'urama'inrokini	Mitth'ten'inrokini		
+
+		Ina'orm	'inrokini	Ina'raw'inrokini	Ina'shi'inrokini	Ina'itel'inrokini	Ina'ras'inrokini	Ina'urama'inrokini	Ina'ten'inrokini			
+
+		Hess'orm'inrokini	Hess'raw'inrokini	Hess'shi'inrokini	Hess'itel'inrokini	Hess'ras'inrokini	Hess'urama'inrokini	Hess'ten'inrokini			
+		
+		Kthira'orm'inrokini	Kthira'raw'inrokini	Kthira'shi'inrokini	Kthira'itel'inrokini	Kthira'ras'inrokini	Kthira'urama'inrokini	Kthira'ten'inrokini			
+	
+		Kung'orm'inrokini	Kung'raw'inrokini	Kung'shi'inrokini	Kung'itel'inrokini	Kung'ras'inrokini	Kung'urama'inrokini	Kung'ten'inrokini		
+			
+		Sev'orm'inrokini	Sev'raw'inrokini	Sev'shi'inrokini	Sev'itel'inrokini	Sev'ras'inrokini	Sev'urama'inrokini	Sev'ten'inrokini			
+	
+		Ath'orm'inrokini	Ath'raw'inrokini	Ath'shi'inrokini	Ath'itel'inrokini	Ath'ras'inrokini	Ath'urama'inrokini	Ath'ten'inrokini
+
+
+
+
+		Prard'orm'kleoni	Prard'raw'kleoni	Prard'shi'kleoni	Prard'itel'kleoni	Prard'ras'kleoni	Prard'urama'kleoni	Prard'ten'kleoni		
+		
+		Brask'orm'kleoni	Brask'raw'kleoni	Brask'shi'kleoni	Brask'itel'kleoni	Brask'ras'kleoni	Brask'urama'kleoni	Brask'ten'kleoni			
+
+		Brast'orm'kleoni	Brast'raw'kleoni	Brast'shi'kleoni	Brast'itel'kleoni	Brast'ras'kleoni	Brast'urama'kleoni	Brast'ten'kleoni			
+	
+		Chaf'orm'kleoni		Chaf'raw'kleoni		Chaf'shi'kleoni		Chaf'itel'kleoni	Chaf'ras'kleoni		Chaf'urama'kleoni	Chaf'ten'kleoni			
+	
+		Kres'orm'kleoni		Kres'raw'kleoni		Kres'shi'kleoni		Kres'itel'kleoni	Kres'ras'kleoni		Kres'urama'kleoni	Kres'ten'kleoni			
+		
+		Mitth'orm'kleoni	Mitth'raw'kleoni	Mitth'shi'kleoni	Mitth'itel'kleoni	Mitth'ras'kleoni	Mitth'urama'kleoni	Mitth'ten'kleoni		
+
+		Ina'orm	'kleoni		Ina'raw'kleoni		Ina'shi'kleoni		Ina'itel'kleoni		Ina'ras'kleoni		Ina'urama'kleoni	Ina'ten'kleoni			
+	
+		Hess'orm'kleoni		Hess'raw'kleoni		Hess'shi'kleoni		Hess'itel'kleoni	Hess'ras'kleoni		Hess'urama'kleoni	Hess'ten'kleoni			
+		
+		Kthira'orm'kleoni	Kthira'raw'kleoni	Kthira'shi'kleoni	Kthira'itel'kleoni	Kthira'ras'kleoni	Kthira'urama'kleoni	Kthira'ten'kleoni			
+	
+		Kung'orm'kleoni		Kung'raw'kleoni		Kung'shi'kleoni		Kung'itel'kleoni	Kung'ras'kleoni		Kung'urama'kleoni	Kung'ten'kleoni		
+			
+		Sev'orm'kleoni		Sev'raw'kleoni		Sev'shi'kleoni		Sev'itel'kleoni		Sev'ras'kleoni		Sev'urama'kleoni	Sev'ten'kleoni			
+	
+		Ath'orm'kleoni		Ath'raw'kleoni		Ath'shi'kleoni		Ath'itel'kleoni		Ath'ras'kleoni		Ath'urama'kleoni	Ath'ten'kleoni	
+
+
+
+		Prard'orm'bintrano	Prard'raw'bintrano	Prard'shi'bintrano	Prard'itel'bintrano	Prard'ras'bintrano	Prard'urama'bintrano	Prard'ten'bintrano		
+		
+		Brask'orm'bintrano	Brask'raw'bintrano	Brask'shi'bintrano	Brask'itel'bintrano	Brask'ras'bintrano	Brask'urama'bintrano	Brask'ten'bintrano			
+
+		Brast'orm'bintrano	Brast'raw'bintrano	Brast'shi'bintrano	Brast'itel'bintrano	Brast'ras'bintrano	Brast'urama'bintrano	Brast'ten'bintrano			
+	
+		Chaf'orm'bintrano	Chaf'raw'bintrano	Chaf'shi'bintrano	Chaf'itel'bintrano	Chaf'ras'bintrano	Chaf'urama'bintrano	Chaf'ten'bintrano			
+	
+		Kres'orm'bintrano	Kres'raw'bintrano	Kres'shi'bintrano	Kres'itel'bintrano	Kres'ras'bintrano	Kres'urama'bintrano	Kres'ten'bintrano			
+		
+		Mitth'orm'bintrano	Mitth'raw'bintrano	Mitth'shi'bintrano	Mitth'itel'bintrano	Mitth'ras'bintrano	Mitth'urama'bintrano	Mitth'ten'bintrano		
+
+		Ina'orm	'bintrano	Ina'raw'bintrano	Ina'shi'bintrano	Ina'itel'bintrano	Ina'ras'bintrano	Ina'urama'bintrano	Ina'ten'bintrano			
+	
+		Hess'orm'bintrano	Hess'raw'bintrano	Hess'shi'bintrano	Hess'itel'bintrano	Hess'ras'bintrano	Hess'urama'bintrano	Hess'ten'bintrano			
+		
+		Kthira'orm'bintrano	Kthira'raw'bintrano	Kthira'shi'bintrano	Kthira'itel'bintrano	Kthira'ras'bintrano	Kthira'urama'bintrano	Kthira'ten'bintrano			
+	
+		Kung'orm'bintrano	Kung'raw'bintrano	Kung'shi'bintrano	Kung'itel'bintrano	Kung'ras'bintrano	Kung'urama'bintrano	Kung'ten'bintrano		
+			
+		Sev'orm'bintrano	Sev'raw'bintrano	Sev'shi'bintrano	Sev'itel'bintrano	Sev'ras'bintrano	Sev'urama'bintrano	Sev'ten'bintrano			
+	
+		Ath'orm'bintrano	Ath'raw'bintrano	Ath'shi'bintrano	Ath'itel'bintrano	Ath'ras'bintrano	Ath'urama'bintrano	Ath'ten'bintrano			
+
+
+
+		Prard'orm'barku		Prard'raw'barku		Prard'shi'barku		Prard'itel'barku	Prard'ras'barku		Prard'urama'barku	Prard'ten'barku		
+		
+		Brask'orm'barku		Brask'raw'barku		Brask'shi'barku		Brask'itel'barku	Brask'ras'barku		Brask'urama'barku	Brask'ten'barku			
+
+		Brast'orm'barku		Brast'raw'barku		Brast'shi'barku		Brast'itel'barku	Brast'ras'barku		Brast'urama'barku	Brast'ten'barku			
+	
+		Chaf'orm'barku		Chaf'raw'barku		Chaf'shi'barku		Chaf'itel'barku		Chaf'ras'barku		Chaf'urama'barku	Chaf'ten'barku			
+	
+		Kres'orm'barku		Kres'raw'barku		Kres'shi'barku		Kres'itel'barku		Kres'ras'barku		Kres'urama'barku	Kres'ten'barku			
+		
+		Mitth'orm'barku		Mitth'raw'barku		Mitth'shi'barku		Mitth'itel'barku	Mitth'ras'barku		Mitth'urama'barku	Mitth'ten'barku		
+
+		Ina'orm	'barku		Ina'raw'barku		Ina'shi'barku		Ina'itel'barku		Ina'ras'barku		Ina'urama'barku		Ina'ten'barku			
+	
+		Hess'orm'barku		Hess'raw'barku		Hess'shi'barku		Hess'itel'barku		Hess'ras'barku		Hess'urama'barku	Hess'ten'barku			
+		
+		Kthira'orm'barku	Kthira'raw'barku	Kthira'shi'barku	Kthira'itel'barku	Kthira'ras'barku	Kthira'urama'barku	Kthira'ten'barku			
+	
+		Kung'orm'barku		Kung'raw'barku		Kung'shi'barku		Kung'itel'barku		Kung'ras'barku		Kung'urama'barku	Kung'ten'barku		
+			
+		Sev'orm'barku		Sev'raw'barku		Sev'shi'barku		Sev'itel'barku		Sev'ras'barku		Sev'urama'barku		Sev'ten'barku			
+	
+		Ath'orm'barku		Ath'raw'barku		Ath'shi'barku		Ath'itel'barku		Ath'ras'barku		Ath'urama'barku		Ath'ten'barku	
+
+
+
+		Prard'orm'aklaio	Prard'raw'aklaio	Prard'shi'aklaio	Prard'itel'aklaio	Prard'ras'aklaio	Prard'urama'aklaio	Prard'ten'aklaio		
+		
+		Brask'orm'aklaio	Brask'raw'aklaio	Brask'shi'aklaio	Brask'itel'aklaio	Brask'ras'aklaio	Brask'urama'aklaio	Brask'ten'aklaio			
+
+		Brast'orm'aklaio	Brast'raw'aklaio	Brast'shi'aklaio	Brast'itel'aklaio	Brast'ras'aklaio	Brast'urama'aklaio	Brast'ten'aklaio			
+	
+		Chaf'orm'aklaio		Chaf'raw'aklaio		Chaf'shi'aklaio		Chaf'itel'aklaio	Chaf'ras'aklaio		Chaf'urama'aklaio	Chaf'ten'aklaio			
+	
+		Kres'orm'aklaio		Kres'raw'aklaio		Kres'shi'aklaio		Kres'itel'aklaio	Kres'ras'aklaio		Kres'urama'aklaio	Kres'ten'aklaio			
+		
+		Mitth'orm'aklaio	Mitth'raw'aklaio	Mitth'shi'aklaio	Mitth'itel'aklaio	Mitth'ras'aklaio	Mitth'urama'aklaio	Mitth'ten'aklaio		
+
+		Ina'orm	'aklaio		Ina'raw'aklaio		Ina'shi'aklaio		Ina'itel'aklaio		Ina'ras'aklaio		Ina'urama'aklaio	Ina'ten'aklaio			
+	
+		Hess'orm'aklaio		Hess'raw'aklaio		Hess'shi'aklaio		Hess'itel'aklaio	Hess'ras'aklaio		Hess'urama'aklaio	Hess'ten'aklaio			
+		
+		Kthira'orm'aklaio	Kthira'raw'aklaio	Kthira'shi'aklaio	Kthira'itel'aklaio	Kthira'ras'aklaio	Kthira'urama'aklaio	Kthira'ten'aklaio			
+	
+		Kung'orm'aklaio		Kung'raw'aklaio		Kung'shi'aklaio		Kung'itel'aklaio	Kung'ras'aklaio		Kung'urama'aklaio	Kung'ten'aklaio		
+			
+		Sev'orm'aklaio		Sev'raw'aklaio		Sev'shi'aklaio		Sev'itel'aklaio		Sev'ras'aklaio		Sev'urama'aklaio	Sev'ten'aklaio			
+	
+		Ath'orm'aklaio		Ath'raw'aklaio		Ath'shi'aklaio		Ath'itel'aklaio		Ath'ras'aklaio		Ath'urama'aklaio	Ath'ten'aklaio	
+
+
+
+		Prard'orm'iflar		Prard'raw'iflar		Prard'shi'iflar		Prard'itel'iflar	Prard'ras'iflar		Prard'urama'iflar	Prard'ten'iflar		
+		
+		Brask'orm'iflar		Brask'raw'iflar		Brask'shi'iflar		Brask'itel'iflar	Brask'ras'iflar		Brask'urama'iflar	Brask'ten'iflar			
+
+		Brast'orm'iflar		Brast'raw'iflar		Brast'shi'iflar		Brast'itel'iflar	Brast'ras'iflar		Brast'urama'iflar	Brast'ten'iflar			
+	
+		Chaf'orm'iflar		Chaf'raw'iflar		Chaf'shi'iflar		Chaf'itel'iflar		Chaf'ras'iflar		Chaf'urama'iflar	Chaf'ten'iflar			
+	
+		Kres'orm'iflar		Kres'raw'iflar		Kres'shi'iflar		Kres'itel'iflar		Kres'ras'iflar		Kres'urama'iflar	Kres'ten'iflar			
+		
+		Mitth'orm'iflar		Mitth'raw'iflar		Mitth'shi'iflar		Mitth'itel'iflar	Mitth'ras'iflar		Mitth'urama'iflar	Mitth'ten'iflar		
+
+		Ina'orm	'iflar		Ina'raw'iflar		Ina'shi'iflar		Ina'itel'iflar		Ina'ras'iflar		Ina'urama'iflar		Ina'ten'iflar			
+	
+		Hess'orm'iflar		Hess'raw'iflar		Hess'shi'iflar		Hess'itel'iflar		Hess'ras'iflar		Hess'urama'iflar	Hess'ten'iflar			
+		
+		Kthira'orm'iflar	Kthira'raw'iflar	Kthira'shi'iflar	Kthira'itel'iflar	Kthira'ras'iflar	Kthira'urama'iflar	Kthira'ten'iflar			
+	
+		Kung'orm'iflar		Kung'raw'iflar		Kung'shi'iflar		Kung'itel'iflar		Kung'ras'iflar		Kung'urama'iflar	Kung'ten'iflar		
+			
+		Sev'orm'iflar		Sev'raw'iflar		Sev'shi'iflar		Sev'itel'iflar		Sev'ras'iflar		Sev'urama'iflar		Sev'ten'iflar			
+	
+		Ath'orm'iflar		Ath'raw'iflar		Ath'shi'iflar		Ath'itel'iflar		Ath'ras'iflar		Ath'urama'iflar		Ath'ten'iflar	
+
+
+
+		Prard'orm'tarthi	Prard'raw'tarthi	Prard'shi'tarthi	Prard'itel'tarthi	Prard'ras'tarthi	Prard'urama'tarthi	Prard'ten'tarthi		
+		
+		Brask'orm'tarthi	Brask'raw'tarthi	Brask'shi'tarthi	Brask'itel'tarthi	Brask'ras'tarthi	Brask'urama'tarthi	Brask'ten'tarthi			
+
+		Brast'orm'tarthi	Brast'raw'tarthi	Brast'shi'tarthi	Brast'itel'tarthi	Brast'ras'tarthi	Brast'urama'tarthi	Brast'ten'tarthi			
+	
+		Chaf'orm'tarthi		Chaf'raw'tarthi		Chaf'shi'tarthi		Chaf'itel'tarthi	Chaf'ras'tarthi		Chaf'urama'tarthi	Chaf'ten'tarthi			
+	
+		Kres'orm'tarthi		Kres'raw'tarthi		Kres'shi'tarthi		Kres'itel'tarthi	Kres'ras'tarthi		Kres'urama'tarthi	Kres'ten'tarthi			
+		
+		Mitth'orm'tarthi	Mitth'raw'tarthi	Mitth'shi'tarthi	Mitth'itel'tarthi	Mitth'ras'tarthi	Mitth'urama'tarthi	Mitth'ten'tarthi		
+
+		Ina'orm	'tarthi		Ina'raw'tarthi		Ina'shi'tarthi		Ina'itel'tarthi		Ina'ras'tarthi		Ina'urama'tarthi	Ina'ten'tarthi			
+	
+		Hess'orm'tarthi		Hess'raw'tarthi		Hess'shi'tarthi		Hess'itel'tarthi	Hess'ras'tarthi		Hess'urama'tarthi	Hess'ten'tarthi			
+		
+		Kthira'orm'tarthi	Kthira'raw'tarthi	Kthira'shi'tarthi	Kthira'itel'tarthi	Kthira'ras'tarthi	Kthira'urama'tarthi	Kthira'ten'tarthi			
+	
+		Kung'orm'tarthi		Kung'raw'tarthi		Kung'shi'tarthi		Kung'itel'tarthi	Kung'ras'tarthi		Kung'urama'tarthi	Kung'ten'tarthi		
+			
+		Sev'orm'tarthi		Sev'raw'tarthi		Sev'shi'tarthi		Sev'itel'tarthi		Sev'ras'tarthi		Sev'urama'tarthi	Sev'ten'tarthi			
+	
+		Ath'orm'tarthi		Ath'raw'tarthi		Ath'shi'tarthi		Ath'itel'tarthi		Ath'ras'tarthi		Ath'urama'tarthi	Ath'ten'tarthi	
+
+
+
+		Prard'orm'idahten	Prard'raw'idahten	Prard'shi'idahten	Prard'itel'idahten	Prard'ras'idahten	Prard'urama'idahten	Prard'ten'idahten		
+		
+		Brask'orm'idahten	Brask'raw'idahten	Brask'shi'idahten	Brask'itel'idahten	Brask'ras'idahten	Brask'urama'idahten	Brask'ten'idahten			
+
+		Brast'orm'idahten	Brast'raw'idahten	Brast'shi'idahten	Brast'itel'idahten	Brast'ras'idahten	Brast'urama'idahten	Brast'ten'idahten			
+	
+		Chaf'orm'idahten	Chaf'raw'idahten	Chaf'shi'idahten	Chaf'itel'idahten	Chaf'ras'idahten	Chaf'urama'idahten	Chaf'ten'idahten			
+	
+		Kres'orm'idahten	Kres'raw'idahten	Kres'shi'idahten	Kres'itel'idahten	Kres'ras'idahten	Kres'urama'idahten	Kres'ten'idahten			
+		
+		Mitth'orm'idahten	Mitth'raw'idahten	Mitth'shi'idahten	Mitth'itel'idahten	Mitth'ras'idahten	Mitth'urama'idahten	Mitth'ten'idahten		
+
+		Ina'orm	'idahten	Ina'raw'idahten		Ina'shi'idahten		Ina'itel'idahten	Ina'ras'idahten		Ina'urama'idahten	Ina'ten'idahten			
+	
+		Hess'orm'idahten	Hess'raw'idahten	Hess'shi'idahten	Hess'itel'idahten	Hess'ras'idahten	Hess'urama'idahten	Hess'ten'idahten			
+		
+		Kthira'orm'idahten	Kthira'raw'idahten	Kthira'shi'idahten	Kthira'itel'idahten	Kthira'ras'idahten	Kthira'urama'idahten	Kthira'ten'idahten			
+	
+		Kung'orm'idahten	Kung'raw'idahten	Kung'shi'idahten	Kung'itel'idahten	Kung'ras'idahten	Kung'urama'idahten	Kung'ten'idahten		
+			
+		Sev'orm'idahten		Sev'raw'idahten		Sev'shi'idahten		Sev'itel'idahten	Sev'ras'idahten		Sev'urama'idahten	Sev'ten'idahten			
+	
+		Ath'orm'idahten		Ath'raw'idahten		Ath'shi'idahten		Ath'itel'idahten	Ath'ras'idahten		Ath'urama'idahten	Ath'ten'idahten	
+
+
+
+		Prard'orm'safis		Prard'raw'safis		Prard'shi'safis		Prard'itel'safis	Prard'ras'safis		Prard'urama'safis	Prard'ten'safis		
+		
+		Brask'orm'safis		Brask'raw'safis		Brask'shi'safis		Brask'itel'safis	Brask'ras'safis		Brask'urama'safis	Brask'ten'safis			
+
+		Brast'orm'safis		Brast'raw'safis		Brast'shi'safis		Brast'itel'safis	Brast'ras'safis		Brast'urama'safis	Brast'ten'safis			
+	
+		Chaf'orm'safis		Chaf'raw'safis		Chaf'shi'safis		Chaf'itel'safis		Chaf'ras'safis		Chaf'urama'safis	Chaf'ten'safis			
+	
+		Kres'orm'safis		Kres'raw'safis		Kres'shi'safis		Kres'itel'safis		Kres'ras'safis		Kres'urama'safis	Kres'ten'safis			
+		
+		Mitth'orm'safis		Mitth'raw'safis		Mitth'shi'safis		Mitth'itel'safis	Mitth'ras'safis		Mitth'urama'safis	Mitth'ten'safis		
+
+		Ina'orm	'safis		Ina'raw'safis		Ina'shi'safis		Ina'itel'safis		Ina'ras'safis		Ina'urama'safis		Ina'ten'safis			
+	
+		Hess'orm'safis		Hess'raw'safis		Hess'shi'safis		Hess'itel'safis		Hess'ras'safis		Hess'urama'safis	Hess'ten'safis			
+		
+		Kthira'orm'safis	Kthira'raw'safis	Kthira'shi'safis	Kthira'itel'safis	Kthira'ras'safis	Kthira'urama'safis	Kthira'ten'safis			
+	
+		Kung'orm'safis		Kung'raw'safis		Kung'shi'safis		Kung'itel'safis		Kung'ras'safis		Kung'urama'safis	Kung'ten'safis		
+			
+		Sev'orm'safis		Sev'raw'safis		Sev'shi'safis		Sev'itel'safis		Sev'ras'safis		Sev'urama'safis		Sev'ten'safis			
+	
+		Ath'orm'safis		Ath'raw'safis		Ath'shi'safis		Ath'itel'safis		Ath'ras'safis		Ath'urama'safis		Ath'ten'safis	
+
+
+
+		Prard'orm'ktarloo	Prard'raw'ktarloo	Prard'shi'ktarloo	Prard'itel'ktarloo	Prard'ras'ktarloo	Prard'urama'ktarloo	Prard'ten'ktarloo		
+		
+		Brask'orm'ktarloo	Brask'raw'ktarloo	Brask'shi'ktarloo	Brask'itel'ktarloo	Brask'ras'ktarloo	Brask'urama'ktarloo	Brask'ten'ktarloo			
+
+		Brast'orm'ktarloo	Brast'raw'ktarloo	Brast'shi'ktarloo	Brast'itel'ktarloo	Brast'ras'ktarloo	Brast'urama'ktarloo	Brast'ten'ktarloo			
+	
+		Chaf'orm'ktarloo	Chaf'raw'ktarloo	Chaf'shi'ktarloo	Chaf'itel'ktarloo	Chaf'ras'ktarloo	Chaf'urama'ktarloo	Chaf'ten'ktarloo			
+	
+		Kres'orm'ktarloo	Kres'raw'ktarloo	Kres'shi'ktarloo	Kres'itel'ktarloo	Kres'ras'ktarloo	Kres'urama'ktarloo	Kres'ten'ktarloo			
+		
+		Mitth'orm'ktarloo	Mitth'raw'ktarloo	Mitth'shi'ktarloo	Mitth'itel'ktarloo	Mitth'ras'ktarloo	Mitth'urama'ktarloo	Mitth'ten'ktarloo		
+
+		Ina'orm	'ktarloo	Ina'raw'ktarloo		Ina'shi'ktarloo		Ina'itel'ktarloo	Ina'ras'ktarloo		Ina'urama'ktarloo	Ina'ten'ktarloo			
+	
+		Hess'orm'ktarloo	Hess'raw'ktarloo	Hess'shi'ktarloo	Hess'itel'ktarloo	Hess'ras'ktarloo	Hess'urama'ktarloo	Hess'ten'ktarloo			
+		
+		Kthira'orm'ktarloo	Kthira'raw'ktarloo	Kthira'shi'ktarloo	Kthira'itel'ktarloo	Kthira'ras'ktarloo	Kthira'urama'ktarloo	Kthira'ten'ktarloo			
+	
+		Kung'orm'ktarloo	Kung'raw'ktarloo	Kung'shi'ktarloo	Kung'itel'ktarloo	Kung'ras'ktarloo	Kung'urama'ktarloo	Kung'ten'ktarloo		
+			
+		Sev'orm'ktarloo		Sev'raw'ktarloo		Sev'shi'ktarloo		Sev'itel'ktarloo	Sev'ras'ktarloo		Sev'urama'ktarloo	Sev'ten'ktarloo			
+	
+		Ath'orm'ktarloo		Ath'raw'ktarloo		Ath'shi'ktarloo		Ath'itel'ktarloo	Ath'ras'ktarloo		Ath'urama'ktarloo	Ath'ten'ktarloo	
+
+
+
+		Prard'orm'loro		Prard'raw'loro		Prard'shi'loro		Prard'itel'loro		Prard'ras'loro		Prard'urama'loro	Prard'ten'loro		
+		
+		Brask'orm'loro		Brask'raw'loro		Brask'shi'loro		Brask'itel'loro		Brask'ras'loro		Brask'urama'loro	Brask'ten'loro			
+
+		Brast'orm'loro		Brast'raw'loro		Brast'shi'loro		Brast'itel'loro		Brast'ras'loro		Brast'urama'loro	Brast'ten'loro			
+	
+		Chaf'orm'loro		Chaf'raw'loro		Chaf'shi'loro		Chaf'itel'loro		Chaf'ras'loro		Chaf'urama'loro		Chaf'ten'loro			
+	
+		Kres'orm'loro		Kres'raw'loro		Kres'shi'loro		Kres'itel'loro		Kres'ras'loro		Kres'urama'loro		Kres'ten'loro			
+		
+		Mitth'orm'loro		Mitth'raw'loro		Mitth'shi'loro		Mitth'itel'loro		Mitth'ras'loro		Mitth'urama'loro	Mitth'ten'loro		
+
+		Ina'orm	'loro		Ina'raw'loro		Ina'shi'loro		Ina'itel'loro		Ina'ras'loro		Ina'urama'loro		Ina'ten'loro			
+	
+		Hess'orm'loro		Hess'raw'loro		Hess'shi'loro		Hess'itel'loro		Hess'ras'loro		Hess'urama'loro		Hess'ten'loro			
+		
+		Kthira'orm'loro		Kthira'raw'loro		Kthira'shi'loro		Kthira'itel'loro	Kthira'ras'loro		Kthira'urama'loro	Kthira'ten'loro			
+	
+		Kung'orm'loro		Kung'raw'loro		Kung'shi'loro		Kung'itel'loro		Kung'ras'loro		Kung'urama'loro		Kung'ten'loro		
+			
+		Sev'orm'loro		Sev'raw'loro		Sev'shi'loro		Sev'itel'loro		Sev'ras'loro		Sev'urama'loro		Sev'ten'loro			
+	
+		Ath'orm'loro		Ath'raw'loro		Ath'shi'loro		Ath'itel'loro		Ath'ras'loro		Ath'urama'loro		Ath'ten'loro	
+
+
+
+		Prard'orm'tarthi	Prard'raw'tarthi	Prard'shi'tarthi	Prard'itel'tarthi	Prard'ras'tarthi	Prard'urama'tarthi	Prard'ten'tarthi		
+		
+		Brask'orm'tarthi	Brask'raw'tarthi	Brask'shi'tarthi	Brask'itel'tarthi	Brask'ras'tarthi	Brask'urama'tarthi	Brask'ten'tarthi			
+
+		Brast'orm'tarthi	Brast'raw'tarthi	Brast'shi'tarthi	Brast'itel'tarthi	Brast'ras'tarthi	Brast'urama'tarthi	Brast'ten'tarthi			
+	
+		Chaf'orm'tarthi		Chaf'raw'tarthi		Chaf'shi'tarthi		Chaf'itel'tarthi	Chaf'ras'tarthi		Chaf'urama'tarthi	Chaf'ten'tarthi			
+	
+		Kres'orm'tarthi		Kres'raw'tarthi		Kres'shi'tarthi		Kres'itel'tarthi	Kres'ras'tarthi		Kres'urama'tarthi	Kres'ten'tarthi			
+		
+		Mitth'orm'tarthi	Mitth'raw'tarthi	Mitth'shi'tarthi	Mitth'itel'tarthi	Mitth'ras'tarthi	Mitth'urama'tarthi	Mitth'ten'tarthi		
+
+		Ina'orm	'tarthi		Ina'raw'tarthi		Ina'shi'tarthi		Ina'itel'tarthi		Ina'ras'tarthi		Ina'urama'tarthi	Ina'ten'tarthi			
+	
+		Hess'orm'tarthi		Hess'raw'tarthi		Hess'shi'tarthi		Hess'itel'tarthi	Hess'ras'tarthi		Hess'urama'tarthi	Hess'ten'tarthi			
+		
+		Kthira'orm'tarthi	Kthira'raw'tarthi	Kthira'shi'tarthi	Kthira'itel'tarthi	Kthira'ras'tarthi	Kthira'urama'tarthi	Kthira'ten'tarthi			
+	
+		Kung'orm'tarthi		Kung'raw'tarthi		Kung'shi'tarthi		Kung'itel'tarthi	Kung'ras'tarthi		Kung'urama'tarthi	Kung'ten'tarthi		
+			
+		Sev'orm'tarthi		Sev'raw'tarthi		Sev'shi'tarthi		Sev'itel'tarthi		Sev'ras'tarthi		Sev'urama'tarthi	Sev'ten'tarthi			
+	
+		Ath'orm'tarthi		Ath'raw'tarthi		Ath'shi'tarthi		Ath'itel'tarthi		Ath'ras'tarthi		Ath'urama'tarthi	Ath'ten'tarthi	
+
+
+
+		Prard'orm'terro		Prard'raw'terro		Prard'shi'terro		Prard'itel'terro	Prard'ras'terro		Prard'urama'terro	Prard'ten'terro		
+		
+		Brask'orm'terro		Brask'raw'terro		Brask'shi'terro		Brask'itel'terro	Brask'ras'terro		Brask'urama'terro	Brask'ten'terro			
+
+		Brast'orm'terro		Brast'raw'terro		Brast'shi'terro		Brast'itel'terro	Brast'ras'terro		Brast'urama'terro	Brast'ten'terro			
+	
+		Chaf'orm'terro		Chaf'raw'terro		Chaf'shi'terro		Chaf'itel'terro		Chaf'ras'terro		Chaf'urama'terro	Chaf'ten'terro			
+	
+		Kres'orm'terro		Kres'raw'terro		Kres'shi'terro		Kres'itel'terro		Kres'ras'terro		Kres'urama'terro	Kres'ten'terro			
+		
+		Mitth'orm'terro		Mitth'raw'terro		Mitth'shi'terro		Mitth'itel'terro	Mitth'ras'terro		Mitth'urama'terro	Mitth'ten'terro		
+
+		Ina'orm	'terro		Ina'raw'terro		Ina'shi'terro		Ina'itel'terro		Ina'ras'terro		Ina'urama'terro		Ina'ten'terro			
+	
+		Hess'orm'terro		Hess'raw'terro		Hess'shi'terro		Hess'itel'terro		Hess'ras'terro		Hess'urama'terro	Hess'ten'terro			
+		
+		Kthira'orm'terro	Kthira'raw'terro	Kthira'shi'terro	Kthira'itel'terro	Kthira'ras'terro	Kthira'urama'terro	Kthira'ten'terro			
+	
+		Kung'orm'terro		Kung'raw'terro		Kung'shi'terro		Kung'itel'terro		Kung'ras'terro		Kung'urama'terro	Kung'ten'terro		
+			
+		Sev'orm'terro		Sev'raw'terro		Sev'shi'terro		Sev'itel'terro		Sev'ras'terro		Sev'urama'terro		Sev'ten'terro			
+	
+		Ath'orm'terro		Ath'raw'terro		Ath'shi'terro		Ath'itel'terro		Ath'ras'terro		Ath'urama'terro		Ath'ten'terro	
+				}
+			
+			first_names_female = {
+		Prard'hankyr'nuruodo	Prard'ard'nuruodo	Prard'irolia'nuruodo	Prard'eere'nuruodo	Prard'alan'nuruodo	Prard'ran'nuruodo
+
+		Brask'hankyr'nuruodo	Brask'ard'nuruodo	Brask'irolia'nuruodo	Brask'eere'nuruodo	Brask'alan'nuruodo	Brask'ran'nuruodo
+
+		Brast'hankyr'nuruodo	Brast'ard'nuruodo	Brast'irolia'nuruodo	Brast'eere'nuruodo	Brast'alan'nuruodo	Brast'ran'nuruodo
+
+		Chaf'hankyr'nuruodo	Chaf'arr'nuruodo	Chaf'irolia'nuruodo	Chaf'eere'nuruodo	Chaf'alan'nuruodo	Chaf'ran'nuruodo
+
+		Kres'hankyr'nuruodo	Kres'ard'nuruodo	Kres'irolia'nuruodo	Kres'eere'nuruodo	Kres'alan'nuruodo	Kres'ran'nuruodo
+
+		Mitth'ankyr'nuruodo	Mitth'ard'nuruodo	Mitth'irolia'nuruodo	Mitth'eere'nuruodo	Mitth'alan'nuruodo	Mitth'ran'nuruodo	
+
+		Ina'hankyr'nuruodo	Ina'ard'nuruodo		Ina'irolia'nuruodo	Ina'eere'nuruodo	Ina'alan'nuruodo	Ina'ran'nuruodo
+
+		Hess'hankyr'nuruodo	Hess'ard'nuruodo	Hess'irolia'nuruodo	Hess'eere'nuruodo	Hess'alan'nuruodo	Hess'ran'nuruodo
+
+		Kthira'hankyr'nuruodo	Kthira'ard'nuruodo	Kthira'irolia'nuruodo	Kthira'eere'nuruodo	Kthira'alan'nuruodo	Kthira'ran'nuruodo
+
+		Kung'hankyr'nuruodo	Kung'ard'nuruodo	Kung'irolia'nuruodo	Kung'eere'nuruodo	Kung'alan'nuruodo	Kung'ran'nuruodo
+
+		Sev'hankyr'nuruodo	Sev'ard'nuruodo		Sev'irolia'nuruodo	Sev'eere'nuruodo	Sev'alan'nuruodo	Sev'ran'nuruodo
+
+		Ath'hankyr'nuruodo	Ath'ard'nuruodo		Ath'irolia'nuruodo	Ath'eere'nuruodo	Ath'alan'nuruodo	Ath'ran'nuruodo
+
+
+
+		Prard'hankyr'cspalla	Prard'ard'cspalla	Prard'irolia'cspalla	Prard'eere'cspalla	Prard'alan'cspalla	Prard'ran'cspalla
+
+		Brask'hankyr'cspalla	Brask'ard'cspalla	Brask'irolia'cspalla	Brask'eere'cspalla	Brask'alan'cspalla	Brask'ran'cspalla
+
+		Brast'hankyr'cspalla	Brast'ard'cspalla	Brast'irolia'cspalla	Brast'eere'cspalla	Brast'alan'cspalla	Brast'ran'cspalla
+
+		Chaf'hankyr'cspalla	Chaf'arr'cspalla	Chaf'irolia'cspalla	Chaf'eere'cspalla	Chaf'alan'cspalla	Chaf'ran'cspalla
+
+		Kres'hankyr'cspalla	Kres'ard'cspalla	Kres'irolia'cspalla	Kres'eere'cspalla	Kres'alan'cspalla	Kres'ran'cspalla
+
+		Mitth'ankyr'cspalla	Mitth'ard'cspalla	Mitth'irolia'cspalla	Mitth'eere'cspalla	Mitth'alan'cspalla	Mitth'ran'cspalla	
+
+		Ina'hankyr'cspalla	Ina'ard'cspalla		Ina'irolia'cspalla	Ina'eere'cspalla	Ina'alan'cspalla	Ina'ran'cspalla
+
+		Hess'hankyr'cspalla	Hess'ard'cspalla	Hess'irolia'cspalla	Hess'eere'cspalla	Hess'alan'cspalla	Hess'ran'cspalla
+
+		Kthira'hankyr'cspalla	Kthira'ard'cspalla	Kthira'irolia'cspalla	Kthira'eere'cspalla	Kthira'alan'cspalla	Kthira'ran'cspalla
+
+		Kung'hankyr'cspalla	Kung'ard'cspalla	Kung'irolia'cspalla	Kung'eere'cspalla	Kung'alan'cspalla	Kung'ran'cspalla
+
+		Sev'hankyr'cspalla	Sev'ard'cspalla		Sev'irolia'cspalla	Sev'eere'cspalla	Sev'alan'cspalla	Sev'ran'cspalla
+
+		Ath'hankyr'cspalla	Ath'ard'cspalla		Ath'irolia'cspalla	Ath'eere'cspalla	Ath'alan'cspalla	Ath'ran'cspalla
+
+
+
+		Prard'hankyr'sabosen	Prard'ard'sabosen	Prard'irolia'sabosen	Prard'eere'sabosen	Prard'alan'sabosen	Prard'ran'sabosen
+
+		Brask'hankyr'sabosen	Brask'ard'sabosen	Brask'irolia'sabosen	Brask'eere'sabosen	Brask'alan'sabosen	Brask'ran'sabosen
+
+		Brast'hankyr'sabosen	Brast'ard'sabosen	Brast'irolia'sabosen	Brast'eere'sabosen	Brast'alan'sabosen	Brast'ran'sabosen
+
+		Chaf'hankyr'sabosen	Chaf'arr'sabosen	Chaf'irolia'sabosen	Chaf'eere'sabosen	Chaf'alan'sabosen	Chaf'ran'sabosen
+
+		Kres'hankyr'sabosen	Kres'ard'sabosen	Kres'irolia'sabosen	Kres'eere'sabosen	Kres'alan'sabosen	Kres'ran'sabosen
+
+		Mitth'ankyr'sabosen	Mitth'ard'sabosen	Mitth'irolia'sabosen	Mitth'eere'sabosen	Mitth'alan'sabosen	Mitth'ran'sabosen	
+
+		Ina'hankyr'sabosen	Ina'ard'sabosen		Ina'irolia'sabosen	Ina'eere'sabosen	Ina'alan'sabosen	Ina'ran'sabosen
+
+		Hess'hankyr'sabosen	Hess'ard'sabosen	Hess'irolia'sabosen	Hess'eere'sabosen	Hess'alan'sabosen	Hess'ran'sabosen
+
+		Kthira'hankyr'sabosen	Kthira'ard'sabosen	Kthira'irolia'sabosen	Kthira'eere'sabosen	Kthira'alan'sabosen	Kthira'ran'sabosen
+
+		Kung'hankyr'sabosen	Kung'ard'sabosen	Kung'irolia'sabosen	Kung'eere'sabosen	Kung'alan'sabosen	Kung'ran'sabosen
+
+		Sev'hankyr'sabosen	Sev'ard'sabosen		Sev'irolia'sabosen	Sev'eere'sabosen	Sev'alan'sabosen	Sev'ran'sabosen
+
+		Ath'hankyr'sabosen	Ath'ard'sabosen		Ath'irolia'sabosen	Ath'eere'sabosen	Ath'alan'sabosen	Ath'ran'sabosen
+
+
+
+		Prard'hankyr'inrokini	Prard'ard'inrokini	Prard'irolia'inrokini	Prard'eere'inrokini	Prard'alan'inrokini	Prard'ran'inrokini
+
+		Brask'hankyr'inrokini	Brask'ard'inrokini	Brask'irolia'inrokini	Brask'eere'inrokini	Brask'alan'inrokini	Brask'ran'inrokini
+
+		Brast'hankyr'inrokini	Brast'ard'inrokini	Brast'irolia'inrokini	Brast'eere'inrokini	Brast'alan'inrokini	Brast'ran'inrokini
+
+		Chaf'hankyr'inrokini	Chaf'arr'inrokini	Chaf'irolia'inrokini	Chaf'eere'inrokini	Chaf'alan'inrokini	Chaf'ran'inrokini
+
+		Kres'hankyr'inrokini	Kres'ard'inrokini	Kres'irolia'inrokini	Kres'eere'inrokini	Kres'alan'inrokini	Kres'ran'inrokini
+
+		Mitth'ankyr'inrokini	Mitth'ard'inrokini	Mitth'irolia'inrokini	Mitth'eere'inrokini	Mitth'alan'inrokini	Mitth'ran'inrokini	
+
+		Ina'hankyr'inrokini	Ina'ard'inrokini	Ina'irolia'inrokini	Ina'eere'inrokini	Ina'alan'inrokini	Ina'ran'inrokini
+
+		Hess'hankyr'inrokini	Hess'ard'inrokini	Hess'irolia'inrokini	Hess'eere'inrokini	Hess'alan'inrokini	Hess'ran'inrokini
+
+		Kthira'hankyr'inrokini	Kthira'ard'inrokini	Kthira'irolia'inrokini	Kthira'eere'inrokini	Kthira'alan'inrokini	Kthira'ran'inrokini
+
+		Kung'hankyr'inrokini	Kung'ard'inrokini	Kung'irolia'inrokini	Kung'eere'inrokini	Kung'alan'inrokini	Kung'ran'inrokini
+
+		Sev'hankyr'inrokini	Sev'ard'inrokini	Sev'irolia'inrokini	Sev'eere'inrokini	Sev'alan'inrokini	Sev'ran'inrokini
+
+		Ath'hankyr'inrokini	Ath'ard'inrokini	Ath'irolia'inrokini	Ath'eere'inrokini	Ath'alan'inrokini	Ath'ran'inrokini
+
+
+
+
+		Prard'hankyr'kleoni	Prard'ard'kleoni	Prard'irolia'kleoni	Prard'eere'kleoni	Prard'alan'kleoni	Prard'ran'kleoni
+
+		Brask'hankyr'kleoni	Brask'ard'kleoni	Brask'irolia'kleoni	Brask'eere'kleoni	Brask'alan'kleoni	Brask'ran'kleoni
+
+		Brast'hankyr'kleoni	Brast'ard'kleoni	Brast'irolia'kleoni	Brast'eere'kleoni	Brast'alan'kleoni	Brast'ran'kleoni
+
+		Chaf'hankyr'kleoni	Chaf'arr'kleoni		Chaf'irolia'kleoni	Chaf'eere'kleoni	Chaf'alan'kleoni	Chaf'ran'kleoni
+
+		Kres'hankyr'kleoni	Kres'ard'kleoni		Kres'irolia'kleoni	Kres'eere'kleoni	Kres'alan'kleoni	Kres'ran'kleoni
+
+		Mitth'ankyr'kleoni	Mitth'ard'kleoni	Mitth'irolia'kleoni	Mitth'eere'kleoni	Mitth'alan'kleoni	Mitth'ran'kleoni	
+
+		Ina'hankyr'kleoni	Ina'ard'kleoni		Ina'irolia'kleoni	Ina'eere'kleoni		Ina'alan'kleoni		Ina'ran'kleoni
+
+		Hess'hankyr'kleoni	Hess'ard'kleoni		Hess'irolia'kleoni	Hess'eere'kleoni	Hess'alan'kleoni	Hess'ran'kleoni
+
+		Kthira'hankyr'kleoni	Kthira'ard'kleoni	Kthira'irolia'kleoni	Kthira'eere'kleoni	Kthira'alan'kleoni	Kthira'ran'kleoni
+
+		Kung'hankyr'kleoni	Kung'ard'kleoni		Kung'irolia'kleoni	Kung'eere'kleoni	Kung'alan'kleoni	Kung'ran'kleoni
+
+		Sev'hankyr'kleoni	Sev'ard'kleoni		Sev'irolia'kleoni	Sev'eere'kleoni		Sev'alan'kleoni		Sev'ran'kleoni
+
+		Ath'hankyr'kleoni	Ath'ard'kleoni		Ath'irolia'kleoni	Ath'eere'kleoni		Ath'alan'kleoni		Ath'ran'kleoni
+
+
+
+		Prard'hankyr'bintrano	Prard'ard'bintrano	Prard'irolia'bintrano	Prard'eere'bintrano	Prard'alan'bintrano	Prard'ran'bintrano
+
+		Brask'hankyr'bintrano	Brask'ard'bintrano	Brask'irolia'bintrano	Brask'eere'bintrano	Brask'alan'bintrano	Brask'ran'bintrano
+
+		Brast'hankyr'bintrano	Brast'ard'bintrano	Brast'irolia'bintrano	Brast'eere'bintrano	Brast'alan'bintrano	Brast'ran'bintrano
+
+		Chaf'hankyr'bintrano	Chaf'arr'bintrano	Chaf'irolia'bintrano	Chaf'eere'bintrano	Chaf'alan'bintrano	Chaf'ran'bintrano
+
+		Kres'hankyr'bintrano	Kres'ard'bintrano	Kres'irolia'bintrano	Kres'eere'bintrano	Kres'alan'bintrano	Kres'ran'bintrano
+
+		Mitth'ankyr'bintrano	Mitth'ard'bintrano	Mitth'irolia'bintrano	Mitth'eere'bintrano	Mitth'alan'bintrano	Mitth'ran'bintrano	
+
+		Ina'hankyr'bintrano	Ina'ard'bintrano	Ina'irolia'bintrano	Ina'eere'bintrano	Ina'alan'bintrano	Ina'ran'bintrano
+
+		Hess'hankyr'bintrano	Hess'ard'bintrano	Hess'irolia'bintrano	Hess'eere'bintrano	Hess'alan'bintrano	Hess'ran'bintrano
+
+		Kthira'hankyr'bintrano	Kthira'ard'bintrano	Kthira'irolia'bintrano	Kthira'eere'bintrano	Kthira'alan'bintrano	Kthira'ran'bintrano
+
+		Kung'hankyr'bintrano	Kung'ard'bintrano	Kung'irolia'bintrano	Kung'eere'bintrano	Kung'alan'bintrano	Kung'ran'bintrano
+
+		Sev'hankyr'bintrano	Sev'ard'bintrano	Sev'irolia'bintrano	Sev'eere'bintrano	Sev'alan'bintrano	Sev'ran'bintrano
+
+		Ath'hankyr'bintrano	Ath'ard'bintrano	Ath'irolia'bintrano	Ath'eere'bintrano	Ath'alan'bintrano	Ath'ran'bintrano
+
+
+
+
+		Prard'hankyr'barku	Prard'ard'barku		Prard'irolia'barku	Prard'eere'barku	Prard'alan'barku	Prard'ran'barku
+
+		Brask'hankyr'barku	Brask'ard'barku		Brask'irolia'barku	Brask'eere'barku	Brask'alan'barku	Brask'ran'barku
+
+		Brast'hankyr'barku	Brast'ard'barku		Brast'irolia'barku	Brast'eere'barku	Brast'alan'barku	Brast'ran'barku
+
+		Chaf'hankyr'barku	Chaf'arr'barku		Chaf'irolia'barku	Chaf'eere'barku		Chaf'alan'barku		Chaf'ran'barku
+
+		Kres'hankyr'barku	Kres'ard'barku		Kres'irolia'barku	Kres'eere'barku		Kres'alan'barku		Kres'ran'barku
+
+		Mitth'ankyr'barku	Mitth'ard'barku		Mitth'irolia'barku	Mitth'eere'barku 	Mitth'alan'barku	Mitth'ran'barku	
+
+		Ina'hankyr'barku	Ina'ard'barku		Ina'irolia'barku	Ina'eere'barku		Ina'alan'barku		Ina'ran'barku
+
+		Hess'hankyr'barku	Hess'ard'barku		Hess'irolia'barku	Hess'eere'barku		Hess'alan'barku		Hess'ran'barku
+
+		Kthira'hankyr'barku	Kthira'ard'barku	Kthira'irolia'barku	Kthira'eere'barku 	Kthira'alan'barku	Kthira'ran'barku
+
+		Kung'hankyr'barku	Kung'ard'barku		Kung'irolia'barku	Kung'eere'barku		Kung'alan'barku		Kung'ran'barku
+
+		Sev'hankyr'barku	Sev'ard'barku		Sev'irolia'barku	Sev'eere'barku		Sev'alan'barku		Sev'ran'barku
+
+		Ath'hankyr'barku	Ath'ard'barku		Ath'irolia'barku	Ath'eere'barku		Ath'alan'barku		Ath'ran'barku
+
+
+
+		Prard'hankyr'aklaio	Prard'ard'aklaio	Prard'irolia'aklaio	Prard'eere'aklaio	Prard'alan'aklaio	Prard'ran'aklaio
+
+		Brask'hankyr'aklaio	Brask'ard'aklaio	Brask'irolia'aklaio	Brask'eere'aklaio	Brask'alan'aklaio	Brask'ran'aklaio
+
+		Brast'hankyr'aklaio	Brast'ard'aklaio	Brast'irolia'aklaio	Brast'eere'aklaio	Brast'alan'aklaio	Brast'ran'aklaio
+
+		Chaf'hankyr'aklaio	Chaf'arr'aklaio		Chaf'irolia'aklaio	Chaf'eere'aklaio	Chaf'alan'aklaio	Chaf'ran'aklaio
+
+		Kres'hankyr'aklaio	Kres'ard'aklaio		Kres'irolia'aklaio	Kres'eere'aklaio	Kres'alan'aklaio	Kres'ran'aklaio
+
+		Mitth'ankyr'aklaio	Mitth'ard'aklaio	Mitth'irolia'aklaio	Mitth'eere'aklaio 	Mitth'alan'aklaio	Mitth'ran'aklaio	
+
+		Ina'hankyr'aklaio	Ina'ard'aklaio		Ina'irolia'aklaio	Ina'eere'aklaio		Ina'alan'aklaio		Ina'ran'aklaio
+
+		Hess'hankyr'aklaio	Hess'ard'aklaio		Hess'irolia'aklaio	Hess'eere'aklaio	Hess'alan'aklaio	Hess'ran'aklaio
+
+		Kthira'hankyr'aklaio	Kthira'ard'aklaio	Kthira'irolia'aklaio	Kthira'eere'aklaio 	Kthira'alan'aklaio	Kthira'ran'aklaio
+
+		Kung'hankyr'aklaio	Kung'ard'aklaio		Kung'irolia'aklaio	Kung'eere'aklaio	Kung'alan'aklaio	Kung'ran'aklaio
+
+		Sev'hankyr'aklaio	Sev'ard'aklaio		Sev'irolia'aklaio	Sev'eere'aklaio		Sev'alan'aklaio		Sev'ran'aklaio
+
+		Ath'hankyr'aklaio	Ath'ard'aklaio		Ath'irolia'aklaio	Ath'eere'aklaio		Ath'alan'aklaio		Ath'ran'aklaio
+
+
+
+		Prard'hankyr'iflar	Prard'ard'iflar		Prard'irolia'iflar	Prard'eere'iflar	Prard'alan'iflar	Prard'ran'iflar
+
+		Brask'hankyr'iflar	Brask'ard'iflar		Brask'irolia'iflar	Brask'eere'iflar	Brask'alan'iflar	Brask'ran'iflar
+
+		Brast'hankyr'iflar	Brast'ard'iflar		Brast'irolia'iflar	Brast'eere'iflar	Brast'alan'iflar	Brast'ran'iflar
+
+		Chaf'hankyr'iflar	Chaf'arr'iflar		Chaf'irolia'iflar	Chaf'eere'iflar		Chaf'alan'iflar		Chaf'ran'iflar
+
+		Kres'hankyr'iflar	Kres'ard'iflar		Kres'irolia'iflar	Kres'eere'iflar		Kres'alan'iflar		Kres'ran'iflar
+
+		Mitth'ankyr'iflar	Mitth'ard'iflar		Mitth'irolia'iflar	Mitth'eere'iflar 	Mitth'alan'iflar	Mitth'ran'iflar	
+
+		Ina'hankyr'iflar	Ina'ard'iflar		Ina'irolia'iflar	Ina'eere'iflar		Ina'alan'iflar		Ina'ran'iflar
+
+		Hess'hankyr'iflar	Hess'ard'iflar		Hess'irolia'iflar	Hess'eere'iflar		Hess'alan'iflar		Hess'ran'iflar
+
+		Kthira'hankyr'iflar	Kthira'ard'iflar	Kthira'irolia'iflar	Kthira'eere'iflar 	Kthira'alan'iflar	Kthira'ran'iflar
+
+		Kung'hankyr'iflar	Kung'ard'iflar		Kung'irolia'iflar	Kung'eere'iflar		Kung'alan'iflar		Kung'ran'iflar
+
+		Sev'hankyr'iflar	Sev'ard'iflar		Sev'irolia'iflar	Sev'eere'iflar		Sev'alan'iflar		Sev'ran'iflar
+
+		Ath'hankyr'iflar	Ath'ard'iflar		Ath'irolia'iflar	Ath'eere'iflar		Ath'alan'iflar		Ath'ran'iflar
+
+
+
+		Prard'hankyr'tarthi	Prard'ard'tarthi	Prard'irolia'tarthi	Prard'eere'tarthi	Prard'alan'tarthi	Prard'ran'tarthi
+
+		Brask'hankyr'tarthi	Brask'ard'tarthi	Brask'irolia'tarthi	Brask'eere'tarthi	Brask'alan'tarthi	Brask'ran'tarthi
+
+		Brast'hankyr'tarthi	Brast'ard'tarthi	Brast'irolia'tarthi	Brast'eere'tarthi	Brast'alan'tarthi	Brast'ran'tarthi
+
+		Chaf'hankyr'tarthi	Chaf'arr'tarthi		Chaf'irolia'tarthi	Chaf'eere'tarthi	Chaf'alan'tarthi	Chaf'ran'tarthi
+
+		Kres'hankyr'tarthi	Kres'ard'tarthi		Kres'irolia'tarthi	Kres'eere'tarthi	Kres'alan'tarthi	Kres'ran'tarthi
+
+		Mitth'ankyr'tarthi	Mitth'ard'tarthi	Mitth'irolia'tarthi	Mitth'eere'tarthi 	Mitth'alan'tarthi	Mitth'ran'tarthi	
+
+		Ina'hankyr'tarthi	Ina'ard'tarthi		Ina'irolia'tarthi	Ina'eere'tarthi		Ina'alan'tarthi		Ina'ran'tarthi
+
+		Hess'hankyr'tarthi	Hess'ard'tarthi		Hess'irolia'tarthi	Hess'eere'tarthi	Hess'alan'tarthi	Hess'ran'tarthi
+
+		Kthira'hankyr'tarthi	Kthira'ard'tarthi	Kthira'irolia'tarthi	Kthira'eere'tarthi 	Kthira'alan'tarthi	Kthira'ran'tarthi
+
+		Kung'hankyr'tarthi	Kung'ard'tarthi		Kung'irolia'tarthi	Kung'eere'tarthi	Kung'alan'tarthi	Kung'ran'tarthi
+
+		Sev'hankyr'tarthi	Sev'ard'tarthi		Sev'irolia'tarthi	Sev'eere'tarthi		Sev'alan'tarthi		Sev'ran'tarthi
+
+		Ath'hankyr'tarthi	Ath'ard'tarthi		Ath'irolia'tarthi	Ath'eere'tarthi		Ath'alan'tarthi		Ath'ran'tarthi
+
+
+
+		Prard'hankyr'idahten	Prard'ard'idahten	Prard'irolia'idahten	Prard'eere'idahten	Prard'alan'idahten	Prard'ran'idahten
+
+		Brask'hankyr'idahten	Brask'ard'idahten	Brask'irolia'idahten	Brask'eere'idahten	Brask'alan'idahten	Brask'ran'idahten
+
+		Brast'hankyr'idahten	Brast'ard'idahten	Brast'irolia'idahten	Brast'eere'idahten	Brast'alan'idahten	Brast'ran'idahten
+
+		Chaf'hankyr'idahten	Chaf'arr'idahten	Chaf'irolia'idahten	Chaf'eere'idahten	Chaf'alan'idahten	Chaf'ran'idahten
+
+		Kres'hankyr'idahten	Kres'ard'idahten	Kres'irolia'idahten	Kres'eere'idahten	Kres'alan'idahten	Kres'ran'idahten
+
+		Mitth'ankyr'idahten	Mitth'ard'idahten	Mitth'irolia'idahten	Mitth'eere'idahten 	Mitth'alan'idahten	Mitth'ran'idahten	
+
+		Ina'hankyr'idahten	Ina'ard'idahten		Ina'irolia'idahten	Ina'eere'idahten	Ina'alan'idahten	Ina'ran'idahten
+
+		Hess'hankyr'idahten	Hess'ard'idahten	Hess'irolia'idahten	Hess'eere'idahten	Hess'alan'idahten	Hess'ran'idahten
+
+		Kthira'hankyr'idahten	Kthira'ard'idahten	Kthira'irolia'idahten	Kthira'eere'idahten 	Kthira'alan'idahten	Kthira'ran'idahten
+
+		Kung'hankyr'idahten	Kung'ard'idahten	Kung'irolia'idahten	Kung'eere'idahten	Kung'alan'idahten	Kung'ran'idahten
+
+		Sev'hankyr'idahten	Sev'ard'idahten		Sev'irolia'idahten	Sev'eere'idahten	Sev'alan'idahten	Sev'ran'idahten
+
+		Ath'hankyr'idahten	Ath'ard'idahten		Ath'irolia'idahten	Ath'eere'idahten	Ath'alan'idahten	Ath'ran'idahten
+
+
+
+		Prard'hankyr'safis	Prard'ard'safis		Prard'irolia'safis	Prard'eere'safis	Prard'alan'safis	Prard'ran'safis
+
+		Brask'hankyr'safis	Brask'ard'safis		Brask'irolia'safis	Brask'eere'safis	Brask'alan'safis	Brask'ran'safis
+
+		Brast'hankyr'safis	Brast'ard'safis		Brast'irolia'safis	Brast'eere'safis	Brast'alan'safis	Brast'ran'safis
+
+		Chaf'hankyr'safis	Chaf'arr'safis		Chaf'irolia'safis	Chaf'eere'safis		Chaf'alan'safis		Chaf'ran'safis
+
+		Kres'hankyr'safis	Kres'ard'safis		Kres'irolia'safis	Kres'eere'safis		Kres'alan'safis		Kres'ran'safis
+
+		Mitth'ankyr'safis	Mitth'ard'safis		Mitth'irolia'safis	Mitth'eere'safis 	Mitth'alan'safis	Mitth'ran'safis	
+
+		Ina'hankyr'safis	Ina'ard'safis		Ina'irolia'safis	Ina'eere'safis		Ina'alan'safis		Ina'ran'safis
+
+		Hess'hankyr'safis	Hess'ard'safis		Hess'irolia'safis	Hess'eere'safis		Hess'alan'safis		Hess'ran'safis
+
+		Kthira'hankyr'safis	Kthira'ard'safis	Kthira'irolia'safis	Kthira'eere'safis 	Kthira'alan'safis	Kthira'ran'safis
+
+		Kung'hankyr'safis	Kung'ard'safis		Kung'irolia'safis	Kung'eere'safis		Kung'alan'safis		Kung'ran'safis
+
+		Sev'hankyr'safis	Sev'ard'safis		Sev'irolia'safis	Sev'eere'safis		Sev'alan'safis		Sev'ran'safis
+
+		Ath'hankyr'safis	Ath'ard'safis		Ath'irolia'safis	Ath'eere'safis		Ath'alan'safis		Ath'ran'safis
+
+
+
+		Prard'hankyr'ktarloo	Prard'ard'ktarloo	Prard'irolia'ktarloo	Prard'eere'ktarloo	Prard'alan'ktarloo	Prard'ran'ktarloo
+
+		Brask'hankyr'ktarloo	Brask'ard'ktarloo	Brask'irolia'ktarloo	Brask'eere'ktarloo	Brask'alan'ktarloo	Brask'ran'ktarloo
+
+		Brast'hankyr'ktarloo	Brast'ard'ktarloo	Brast'irolia'ktarloo	Brast'eere'ktarloo	Brast'alan'ktarloo	Brast'ran'ktarloo
+
+		Chaf'hankyr'ktarloo	Chaf'arr'ktarloo	Chaf'irolia'ktarloo	Chaf'eere'ktarloo	Chaf'alan'ktarloo	Chaf'ran'ktarloo
+
+		Kres'hankyr'ktarloo	Kres'ard'ktarloo	Kres'irolia'ktarloo	Kres'eere'ktarloo	Kres'alan'ktarloo	Kres'ran'ktarloo
+
+		Mitth'ankyr'ktarloo	Mitth'ard'ktarloo	Mitth'irolia'ktarloo	Mitth'eere'ktarloo 	Mitth'alan'ktarloo	Mitth'ran'ktarloo	
+
+		Ina'hankyr'ktarloo	Ina'ard'ktarloo		Ina'irolia'ktarloo	Ina'eere'ktarloo	Ina'alan'ktarloo	Ina'ran'ktarloo
+
+		Hess'hankyr'ktarloo	Hess'ard'ktarloo	Hess'irolia'ktarloo	Hess'eere'ktarloo	Hess'alan'ktarloo	Hess'ran'ktarloo
+
+		Kthira'hankyr'ktarloo	Kthira'ard'ktarloo	Kthira'irolia'ktarloo	Kthira'eere'ktarloo 	Kthira'alan'ktarloo	Kthira'ran'ktarloo
+
+		Kung'hankyr'ktarloo	Kung'ard'ktarloo	Kung'irolia'ktarloo	Kung'eere'ktarloo	Kung'alan'ktarloo	Kung'ran'ktarloo
+
+		Sev'hankyr'ktarloo	Sev'ard'ktarloo		Sev'irolia'ktarloo	Sev'eere'ktarloo	Sev'alan'ktarloo	Sev'ran'ktarloo
+
+		Ath'hankyr'ktarloo	Ath'ard'ktarloo		Ath'irolia'ktarloo	Ath'eere'ktarloo	Ath'alan'ktarloo	Ath'ran'ktarloo
+
+
+
+
+		Prard'hankyr'loro	Prard'ard'loro		Prard'irolia'loro	Prard'eere'loro		Prard'alan'loro		Prard'ran'loro
+
+		Brask'hankyr'loro	Brask'ard'loro		Brask'irolia'loro	Brask'eere'loro		Brask'alan'loro		Brask'ran'loro
+
+		Brast'hankyr'loro	Brast'ard'loro		Brast'irolia'loro	Brast'eere'loro		Brast'alan'loro		Brast'ran'loro
+
+		Chaf'hankyr'loro	Chaf'arr'loro		Chaf'irolia'loro	Chaf'eere'loro		Chaf'alan'loro		Chaf'ran'loro
+
+		Kres'hankyr'loro	Kres'ard'loro		Kres'irolia'loro	Kres'eere'loro		Kres'alan'loro		Kres'ran'loro
+
+		Mitth'ankyr'loro	Mitth'ard'loro		Mitth'irolia'loro	Mitth'eere'loro 	Mitth'alan'loro		Mitth'ran'loro	
+
+		Ina'hankyr'loro		Ina'ard'loro		Ina'irolia'loro		Ina'eere'loro		Ina'alan'loro		Ina'ran'loro
+
+		Hess'hankyr'loro	Hess'ard'loro		Hess'irolia'loro	Hess'eere'loro		Hess'alan'loro		Hess'ran'loro
+
+		Kthira'hankyr'loro	Kthira'ard'loro		Kthira'irolia'loro	Kthira'eere'loro 	Kthira'alan'loro	Kthira'ran'loro
+
+		Kung'hankyr'loro	Kung'ard'loro		Kung'irolia'loro	Kung'eere'loro		Kung'alan'loro		Kung'ran'loro
+
+		Sev'hankyr'loro		Sev'ard'loro		Sev'irolia'loro		Sev'eere'loro		Sev'alan'loro		Sev'ran'loro
+
+		Ath'hankyr'loro		Ath'ard'loro		Ath'irolia'loro		Ath'eere'loro		Ath'alan'loro		Ath'ran'loro
+
+
+
+
+
+		Prard'hankyr'tarthi	Prard'ard'tarthi	Prard'irolia'tarthi	Prard'eere'tarthi	Prard'alan'tarthi	Prard'ran'tarthi
+
+		Brask'hankyr'tarthi	Brask'ard'tarthi	Brask'irolia'tarthi	Brask'eere'tarthi	Brask'alan'tarthi	Brask'ran'tarthi
+
+		Brast'hankyr'tarthi	Brast'ard'tarthi	Brast'irolia'tarthi	Brast'eere'tarthi	Brast'alan'tarthi	Brast'ran'tarthi
+
+		Chaf'hankyr'tarthi	Chaf'arr'tarthi		Chaf'irolia'tarthi	Chaf'eere'tarthi	Chaf'alan'tarthi	Chaf'ran'tarthi
+
+		Kres'hankyr'tarthi	Kres'ard'tarthi		Kres'irolia'tarthi	Kres'eere'tarthi	Kres'alan'tarthi	Kres'ran'tarthi
+
+		Mitth'ankyr'tarthi	Mitth'ard'tarthi	Mitth'irolia'tarthi	Mitth'eere'tarthi 	Mitth'alan'tarthi	Mitth'ran'tarthi	
+
+		Ina'hankyr'tarthi	Ina'ard'tarthi		Ina'irolia'tarthi	Ina'eere'tarthi		Ina'alan'tarthi		Ina'ran'tarthi
+
+		Hess'hankyr'tarthi	Hess'ard'tarthi		Hess'irolia'tarthi	Hess'eere'tarthi	Hess'alan'tarthi	Hess'ran'tarthi
+
+		Kthira'hankyr'tarthi	Kthira'ard'tarthi	Kthira'irolia'tarthi	Kthira'eere'tarthi 	Kthira'alan'tarthi	Kthira'ran'tarthi
+
+		Kung'hankyr'tarthi	Kung'ard'tarthi		Kung'irolia'tarthi	Kung'eere'tarthi	Kung'alan'tarthi	Kung'ran'tarthi
+
+		Sev'hankyr'tarthi	Sev'ard'tarthi		Sev'irolia'tarthi	Sev'eere'tarthi		Sev'alan'tarthi		Sev'ran'tarthi
+
+		Ath'hankyr'tarthi	Ath'ard'tarthi		Ath'irolia'tarthi	Ath'eere'tarthi		Ath'alan'tarthi		Ath'ran'tarthi
+
+
+
+		Prard'hankyr'terro	Prard'ard'terro		Prard'irolia'terro	Prard'eere'terro	Prard'alan'terro	Prard'ran'terro
+
+		Brask'hankyr'terro	Brask'ard'terro		Brask'irolia'terro	Brask'eere'terro	Brask'alan'terro	Brask'ran'terro
+
+		Brast'hankyr'terro	Brast'ard'terro		Brast'irolia'terro	Brast'eere'terro	Brast'alan'terro	Brast'ran'terro
+
+		Chaf'hankyr'terro	Chaf'arr'terro		Chaf'irolia'terro	Chaf'eere'terro		Chaf'alan'terro		Chaf'ran'terro
+
+		Kres'hankyr'terro	Kres'ard'terro		Kres'irolia'terro	Kres'eere'terro		Kres'alan'terro		Kres'ran'terro
+
+		Mitth'ankyr'terro	Mitth'ard'terro		Mitth'irolia'terro	Mitth'eere'terro 	Mitth'alan'terro	Mitth'ran'terro	
+
+		Ina'hankyr'terro	Ina'ard'terro		Ina'irolia'terro	Ina'eere'terro		Ina'alan'terro		Ina'ran'terro
+
+		Hess'hankyr'terro	Hess'ard'terro		Hess'irolia'terro	Hess'eere'terro		Hess'alan'terro		Hess'ran'terro
+
+		Kthira'hankyr'terro	Kthira'ard'terro	Kthira'irolia'terro	Kthira'eere'terro 	Kthira'alan'terro	Kthira'ran'terro
+
+		Kung'hankyr'terro	Kung'ard'terro		Kung'irolia'terro	Kung'eere'terro		Kung'alan'terro		Kung'ran'terro
+
+		Sev'hankyr'terro	Sev'ard'terro		Sev'irolia'terro	Sev'eere'terro		Sev'alan'terro		Sev'ran'terro
+
+		Ath'hankyr'terro	Ath'ard'terro		Ath'irolia'terro	Ath'eere'terro		Ath'alan'terro		Ath'ran'terro
+			}
+
+		second_names = {
+			" "
+			}
+		}
+	}		

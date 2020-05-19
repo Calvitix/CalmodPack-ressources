@@ -1,0 +1,270 @@
+﻿#General name list for united races pack
+
+hive_robotic_names = {
+	randomized = no
+
+	ship_names = {
+		generic = {
+			"Ship Unit 01" "Ship Unit 10" "Ship Unit 100" "Ship Unit 101" "Ship Unit 111"
+		}
+
+		corvette = {
+			"Combat Unit X1 00" "Corvette Unit X1" 
+			"Combat Unit X1 01" "Corvette Unit X19"
+			"Combat Unit X1 10" "Corvette Unit X109"
+			"Combat Unit X1 10" "Corvette Unit X109"
+		}
+		
+		destroyer = {
+			"Combat Unit X2 00" "Destroyer Unit X2 00"
+			"Combat Unit X2 01" "Destroyer Unit X2 01"
+			"Combat Unit X2 10" "Destroyer Unit X2 10"
+			"Combat Unit X2 11" "Destroyer Unit X2 10"
+		}
+		
+		cruiser = {
+			"Cruiser Unit X3 00" "Combat Unit X3 00"
+			"Cruiser Unit X3 01" "Combat Unit X3 01"
+			"Cruiser Unit X3 10" "Combat Unit X3 10"
+			"Cruiser Unit X3 11" "Combat Unit X3 11"
+		}
+		
+		battleship = {
+			"Battleship Unit X4 00" "Combat Unit X4 00"
+			"Battleship Unit X4 01" "Combat Unit X4 01"
+			"Battleship Unit X4 10" "Combat Unit X4 10"
+			"Battleship Unit X4 11" "Combat Unit X4 11"
+		}
+		
+		science = {
+			"Explorer Unit 001" "Discover Unit 001" "Infliation Unit 001" 
+		}
+		
+		colonizer = {
+			"Colony Constructor 001" "Colony Constructor 100" "Colony Constructor 100" "Colony Constructor 101" 
+			"Trigger 001" "Trigger 100" "Trigger 100" "Trigger 101"
+			"Builder 001" "Builder 100" "Builder 100" "Builder 101" 
+			"Starter 001" "Starter 100" "Starter 100" "Starter 101"
+		}
+		
+		constructor = {
+			"Builder Drone 001" "Builder Unit 001" "Builder Unit 101" "Builder Unit 111"
+			"Development Unit 001" "Development Unit 101" "Development Unit 111" "Development Unit 000"
+		}
+		
+		
+		mining_station = { }
+		research_station = { }
+		observation_station = { }
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}
+
+		transport = {
+			"Transport X001" "Transport X100" "Transport X010" "Transport X010"
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+		"Type Alpha" "Type Beta" "Type Gamma" "Type Delta" "Type Epsilon" "Type Zeta" "Type Eta" "Type Theta" "Type Iota" 
+		"Type Kappa" "Type Lambda" "Type Mu" "Type Nu" "Type Xi" "Type Omicron" "Type Pi" "Type Rho" "Type Sigma" "Type Tau" 
+		"Type Upsilon" "Type Phi" "Type Chi" "Type Psi" "Type Omega"
+		}		
+	}
+
+	fleet_names = {
+		random_names = {"Combat Group" "Combat Fleet" "Combat Set" "Combat Accumulation" "Combat Set 1"  "Combat Set 10" "Combat Set 101" "Combat Set 100" 
+		}
+		#sequential_name = "%O% Combat Group" 
+	}
+	
+	### ARMIES
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Core Defenders"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Expansion Units"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Warrior Units"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Cloned Warrior Units"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Robotic Warrior Units"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Robotic Warrior Units"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Droid Warrior Units"
+		}
+
+		android_defense_army = {
+			sequential_name = "%O% Droid Warrior Units"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psi Warrior Units"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% XenoMorphed Warrior Units"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Gene Warrior Units"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Central Core" "Alpha Core" "Beta Core" "Delta Core" "Tau Core" "Theta Core" "Sigma Core" "Assembly Core" "Computing Core"  
+				
+				"Central Nexus" "Alpha Nexus" "Beta Nexus" "Delta Nexus" "Tau Nexus" "Theta Nexus" "Sigma Nexus" "Assembly Nexus" "Computing Nexus"  
+				
+				"Development Chamber" "Foundation Chamber" "Calculation Chamber" "Manufacturing Chamber"  "Advancement Chamber"
+				"Assembly Chamber" "Production Chamber" "Expansion Chamber" "Extension Chamber" "Calculation Chamber"
+
+				"Alfa Cluster" "Beta Cluster" "Gamma Cluster" "Delta Cluster" "Epsilon Cluster" "Zeta Cluster" "Eta Cluster" "Theta Cluster" "Tau Cluster" "Sigma Cluster"
+				
+				"Alfa Foundation" "Beta Foundation" "Zeta Foundation" "Gamma Foundation" "Eta Foundation" "Zeta Foundation"  "Theta Foundation" "Tau Foundation" "Sigma Foundation"  
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+		### UNINHABITABLE PLANETS
+		
+		pc_gas_giant = {
+			names = {
+			"Alpha" "Beta" "Gamma" "Delta" "Epsilon" "Zeta" "Eta" "Theta" "Iota" "Kappa" "Lambda" "Mu" "Nu" "Xi" "Omicron" "Pi" "Rho" "Sigma" "Tau" "Upsilon" "Phi" "Chi" "Psi" "Omega" "Orb I" "Orb II" "Orb III" "Orb IV" "Orb V" "Orb VI" "Orb VII" "Orb VIII" "Orb IX" "Orb X"
+			}
+		}
+
+		pc_barren = {
+			names = {
+			"Alpha" "Beta" "Gamma" "Delta" "Epsilon" "Zeta" "Eta" "Theta" "Iota" "Kappa" "Lambda" "Mu" "Nu" "Xi" "Omicron" "Pi" "Rho" "Sigma" "Tau" "Upsilon" "Phi" "Chi" "Psi" "Omega" "Orb I" "Orb II" "Orb III" "Orb IV" "Orb V" "Orb VI" "Orb VII" "Orb VIII" "Orb IX" "Orb X"
+			}
+		}
+
+		pc_molten = {
+			names = {
+			"Alpha" "Beta" "Gamma" "Delta" "Epsilon" "Zeta" "Eta" "Theta" "Iota" "Kappa" "Lambda" "Mu" "Nu" "Xi" "Omicron" "Pi" "Rho" "Sigma" "Tau" "Upsilon" "Phi" "Chi" "Psi" "Omega" "Orb I" "Orb II" "Orb III" "Orb IV" "Orb V" "Orb VI" "Orb VII" "Orb VIII" "Orb IX" "Orb X"
+			}
+		}
+
+		pc_barren_cold = {
+			names = {
+			"Alpha" "Beta" "Gamma" "Delta" "Epsilon" "Zeta" "Eta" "Theta" "Iota" "Kappa" "Lambda" "Mu" "Nu" "Xi" "Omicron" "Pi" "Rho" "Sigma" "Tau" "Upsilon" "Phi" "Chi" "Psi" "Omega" "Orb I" "Orb II" "Orb III" "Orb IV" "Orb V" "Orb VI" "Orb VII" "Orb VIII" "Orb IX" "Orb X"
+			}
+		}
+
+		pc_toxic = {
+			names = {
+			"Alpha" "Beta" "Gamma" "Delta" "Epsilon" "Zeta" "Eta" "Theta" "Iota" "Kappa" "Lambda" "Mu" "Nu" "Xi" "Omicron" "Pi" "Rho" "Sigma" "Tau" "Upsilon" "Phi" "Chi" "Psi" "Omega" "Orb I" "Orb II" "Orb III" "Orb IV" "Orb V" "Orb VI" "Orb VII" "Orb VIII" "Orb IX" "Orb X"
+			}
+		}
+
+		pc_frozen = {
+			names = {
+			"Alpha" "Beta" "Gamma" "Delta" "Epsilon" "Zeta" "Eta" "Theta" "Iota" "Kappa" "Lambda" "Mu" "Nu" "Xi" "Omicron" "Pi" "Rho" "Sigma" "Tau" "Upsilon" "Phi" "Chi" "Psi" "Omega" "Orb I" "Orb II" "Orb III" "Orb IV" "Orb V" "Orb VI" "Orb VII" "Orb VIII" "Orb IX" "Orb X"
+			}
+		}
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+
+			#	"Autonomous Drone 01" "Autonomous Drone 02" "Autonomous Drone 03" "Autonomous Drone 04" "Autonomous Drone 05" "Autonomous Drone 06" "Autonomous Drone 07" "Autonomous Drone 08" "Autonomous Drone 09" "Autonomous Drone 10" "Autonomous Drone 11" "Autonomous Drone 12" "Autonomous Drone 13" "Autonomous Drone 14"
+			}
+			
+			# Always combined with a second name
+			first_names = { Extension Unit Core Processor PlatForm Service
+			}
+			
+			# Always combined with a first name
+			second_names = {01001 00001 10001 11001 
+							01010 00010 10010 11010 
+							01001 00001 10001 11001 
+							01111 00111 10111 11111 
+			}
+			
+			regnal_first_names = {
+			}
+			
+			regnal_second_names = {
+			}
+		}
+	}
+
+	ruler_names = {
+		default = {
+			full_names = {
+				"Nexus Extension" "Central Unit" "Super Core" "Total Definition" 
+				"Prime Sector" "Core Sector" "Prime Node" "Central Node"
+			}
+		}
+	}
+}

@@ -1,0 +1,168 @@
+
+portraits = {
+	
+	pantoran_f1	= {	entity = "zabrak_female_entity"	
+				clothes_selector = "human_SW_female_clothes_01" 
+				hair_selector = "pantoran_female_01_hair" 
+				greeting_sound = "human_female_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/pantoran/pantoran_female_body_01.dds"
+									   "gfx/models/portraits/Star_Wars/pantoran/pantoran_female_body_02.dds"
+									   "gfx/models/portraits/Star_Wars/pantoran/pantoran_female_body_03.dds"
+									   "gfx/models/portraits/Star_Wars/pantoran/pantoran_female_body_04.dds"
+				} 
+			}
+
+	pantoran_m1	= {	entity = "zabrak_male_entity"	
+				clothes_selector = "human_SW_male_clothes_01" 
+				hair_selector = "pantoran_male_01_hair" 
+				greeting_sound = "human_male_greetings_04"
+				character_textures = { "gfx/models/portraits/Star_Wars/pantoran/pantoran_male_body_01.dds"
+									   "gfx/models/portraits/Star_Wars/pantoran/pantoran_male_body_02.dds"
+									   "gfx/models/portraits/Star_Wars/pantoran/pantoran_male_body_03.dds"
+									   "gfx/models/portraits/Star_Wars/pantoran/pantoran_male_body_04.dds"
+				} 
+			}
+			
+	}
+portrait_groups = {
+	SW21_pantoran = {
+		default = pantoran_f1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					pantoran_m1
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					pantoran_f1
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					pantoran_m1
+					pantoran_f1
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					pantoran_m1
+					pantoran_f1
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					pantoran_f1
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					pantoran_m1
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					pantoran_f1
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					pantoran_m1
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					pantoran_f1
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					pantoran_m1
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					pantoran_f1
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					pantoran_m1
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					pantoran_f1
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					pantoran_m1
+					
+				}
+			}
+		}		
+	
+	}
+}

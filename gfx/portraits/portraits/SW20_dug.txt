@@ -1,0 +1,176 @@
+portraits = {
+
+	dug_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/dug/dug_1.dds"}
+	dug_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/dug/dug_2.dds"}
+}
+
+portrait_groups = {
+	SW20_dug = {
+		default = dug_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					dug_1
+					dug_2
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					dug_1
+					dug_2
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					dug_1
+					dug_2
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					dug_1
+					dug_2
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					dug_1
+					dug_2
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					dug_1
+					dug_2
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					dug_1
+					dug_2
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					dug_1
+					dug_2
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					dug_1
+					dug_2
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					dug_1
+					dug_2
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					dug_1
+					dug_2
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					dug_1
+					dug_2
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					dug_1
+					dug_2
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					dug_1
+					dug_2
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+
