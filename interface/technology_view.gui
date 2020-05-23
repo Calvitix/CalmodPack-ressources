@@ -97,7 +97,7 @@ guiTypes = {
 			font = "cg_16b"
 			text = "UI_OVERHAUL_TECHTREE"
 			pdx_tooltip = "UI_OVERHAUL_TECHTREE_TOOLTIP"
-			web_link = "https://tsudico.github.io/stellaris-tech-tree/vanilla/index.html"
+			web_link = "https://turanar.github.io/stellaris-tech-tree/vanilla/index.html"
 		}
 		containerWindowType = {
 			name = "select_window"

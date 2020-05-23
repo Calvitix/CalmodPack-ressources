@@ -3011,16 +3011,6 @@ Effect PdxMeshPlanetRings
 	Defines = { "IS_PLANET" "IS_RING" }
 }
 
-Effect PdxMeshPlanetRingsRS
-{
-	VertexShader = "VertexPdxMeshStandard"
-	PixelShader = "PixelPdxMeshAdditive"
-	RasterizerState = "RasterizerStateNoCulling"
-	BlendState = "BlendStateAdditiveBlend"
-	DepthStencilState = "DepthStencilNoZWrite"
-	Defines = { "IS_PLANET" "IS_RING" }
-}
-
 Effect PdxMeshPlanetRingsSkinned
 {
 	VertexShader = "VertexPdxMeshStandardSkinned"
@@ -3383,13 +3373,6 @@ Effect PdxMeshPlanetEmissiveSkinnedShadow
 }
 
 Effect PdxMeshPlanetRingsShadow
-{
-	VertexShader = "VertexPdxMeshStandardShadow"
-	PixelShader = "PixelPdxMeshStandardShadow"
-	Defines = { "IS_SHADOW" "IS_PLANET" "IS_RING" }
-}
-
-Effect PdxMeshPlanetRingsRSShadow
 {
 	VertexShader = "VertexPdxMeshStandardShadow"
 	PixelShader = "PixelPdxMeshStandardShadow"
@@ -4502,6 +4485,24 @@ Effect OmniMeshShipAnimateUVAlphaSkinnedShadow
 
 
 
+
+
+Effect PdxMeshPlanetRingsRS
+{
+	VertexShader = "VertexPdxMeshStandard"
+	PixelShader = "PixelPdxMeshAdditive"
+	RasterizerState = "RasterizerStateNoCulling"
+	BlendState = "BlendStateAdditiveBlend"
+	DepthStencilState = "DepthStencilNoZWrite"
+	Defines = { "IS_PLANET" "IS_RING" }
+}
+
+Effect PdxMeshPlanetRingsRSShadow
+{
+	VertexShader = "VertexPdxMeshStandardShadow"
+	PixelShader = "PixelPdxMeshStandardShadow"
+	Defines = { "IS_SHADOW" "IS_PLANET" "IS_RING" }
+}
 
 BlendState BlendStateAdditiveBlendRS
 {

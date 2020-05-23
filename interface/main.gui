@@ -395,6 +395,104 @@ guiTypes = {
 					}
 				}
 			}
+
+
+
+
+
+			######### ESPIONAGE POINTS - ALPHA #############
+			containerWindowType = {
+				name = "tb_espionagePoints_A"
+				size = { width = 34 height = 35 }
+				position = { x = 935 y =4 }
+
+				if_resolution = {
+					min_width = 2560
+					position = { x = 892 y =4 }
+				}
+
+				background = {
+					name = "background"
+					spriteType = "GFX_dark_area_cut"
+					clicksound = interface
+				}
+
+				iconType = {
+					name = "icon"
+					spriteType = "GFX_alphaPointSmall"
+					position = { x = 7 y = 2 }
+					tooltip_mode_enabled = yes
+					alwaysTransparent = yes
+				}
+
+				instantTextBoxType={
+					name = "amount"
+					font = "cg_16b"
+					position = { x = 5 y = 16 }
+					maxWidth = 22
+					maxHeight = 16
+					text = "0 / 0"
+					format = center
+					alwaysTransparent = yes
+				}
+			}
+			######## ESPIONAGE POINTS - BETA #############
+			containerWindowType = {
+				name = "tb_espionagePoints_B"
+				size = { width = 34 height = 35 }
+				position = { x = 970 y = 4 }
+
+				if_resolution = {
+					min_width = 2560
+					position = { x = 923 y = 4 }
+					
+				}
+				
+
+				background = {
+					name = "background"
+					spriteType = "GFX_dark_area_cut"
+					clicksound = interface
+				}
+
+				iconType = {
+					name = "icon"
+					spriteType = "GFX_betaPointSmall"
+					position = { x = 7 y = 2 }
+					tooltip_mode_enabled = yes
+					alwaysTransparent = yes
+				}
+
+				instantTextBoxType={
+					name = "amount"
+					font = "cg_16b"
+					position = { x = 5 y = 16 }
+					maxWidth = 22
+					maxHeight = 16
+					text = "0 / 0"
+					format = center
+					alwaysTransparent = yes
+				}
+			}
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
 			dropDownBoxType = {
 				name = "tb_others_group"
 				size = { width = 90 height = 40 }
@@ -575,10 +673,16 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+
+
+
+
+
+
 			containerWindowType = {
 				name = "navy_group"
-				size = { width = 110 height = 40 }
-				position = { x = @extend_c4 y = 2 }
+				size = { width = 80 height = 40 }
+				position = { x = 224 y = 2 }
 				background = {
 					name = "background"
 					spriteType = "GFX_dark_area_cut"
@@ -586,14 +690,14 @@ guiTypes = {
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_fleet_size_icon"
-					position = { x = 45 y = 4 }
+					position = { x = 30 y = 4 }
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "amount"
 					font = "cg_16b"
-					position = { x = 2 y = 22 }
+					position = { x = -15 y = 22 }
 					maxWidth = 106
 					maxHeight = 16
 					text = "0 / 0"

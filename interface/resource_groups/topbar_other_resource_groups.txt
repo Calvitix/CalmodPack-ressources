@@ -110,6 +110,7 @@ tb_others_group = {
 			military_electronics			
 		#Madoka Magica
 			grief_seed
+			grief_cube
 		#Mass Effect: Asari
 			mec_biotics
 		#Mobile Suit Gundam Stellaris
@@ -406,6 +407,7 @@ resources = {
 			military_electronics	
 		#Madoka Magica
 			grief_seed
+			grief_cube
 		#Mass Effect: Asari
 			mec_biotics	
 		#Mobile Suit Gundam Stellaris

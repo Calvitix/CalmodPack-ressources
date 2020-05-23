@@ -157,14 +157,14 @@ guiTypes = {
 				name = "take_point"
 				quadTextureSprite = "GFX_fleet_order_button_follow_friendlies_off"
 				position = { x= -175 y = 10 }
-				Orientation = "UPPER_RIGHT"
+				orientation = "UPPER_RIGHT"
 				buttonFont = "cg_16b"
 			}
 			buttonType = {
 				name = "open_fleet_manager"
 				quadTextureSprite = "GFX_fleet_manager_button"
 				position = { x= -141 y = 10 }
-				Orientation = "UPPER_RIGHT"
+				orientation = "UPPER_RIGHT"
 				buttonFont = "cg_16b"
 				pdx_tooltip = "FLEET_VIEW_OPEN_FLEET_MANAGER"
 			}
@@ -172,7 +172,7 @@ guiTypes = {
 				name = "disband"
 				quadTextureSprite = "GFX_delete_template_button"
 				position = { x= -73 y = 10 }
-				Orientation = "UPPER_RIGHT"
+				orientation = "UPPER_RIGHT"
 				buttonFont = "cg_16b"
 				pdx_tooltip = "FLEET_MANAGER_DELETE_TEMPLATE"
 			}
@@ -180,7 +180,7 @@ guiTypes = {
 				name = "deselect"
 				quadTextureSprite = "GFX_close_square"
 				position = { x= -39 y = 10 }
-				Orientation = "UPPER_RIGHT"
+				orientation = "UPPER_RIGHT"
 				buttonFont = "cg_16b"
 				pdx_tooltip = "DISBAND"
 			}

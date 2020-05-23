@@ -26,7 +26,7 @@ guiTypes = {
 			name = "hide"
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 16 }
-			Orientation = "UPPER_RIGHT"
+			orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 			clicksound = "back_click"
 			actionshortcut = "cancel"
@@ -100,7 +100,7 @@ guiTypes = {
 			position = { x = -165 y = 54}
 			buttonFont = "cg_16b"
 			buttonText = "SAVE"
-			Orientation = "UPPER_RIGHT"
+			orientation = "UPPER_RIGHT"
 			shortcut = "RETURN"
 			defaultSelection = yes
 			clicksound = "confirm_click"
@@ -167,7 +167,7 @@ guiTypes = {
 		iconType = {
 			name = "cloud_file"
 			spriteType = "GFX_cloud_file"
-			Orientation = "UPPER_RIGHT"
+			orientation = "UPPER_RIGHT"
 			position = { x = -76 y = 20 }
 		}		
 		instantTextBoxType = {
@@ -196,7 +196,7 @@ guiTypes = {
 			name = "delete"
 			quadTextureSprite = "GFX_fleetview_delete"
 			position = { x = -48 y = 10 }
-			Orientation = "UPPER_RIGHT"
+			orientation = "UPPER_RIGHT"
 			buttonFont = "cg_16b"
 			pdx_tooltip = "DELETE"
 		}						

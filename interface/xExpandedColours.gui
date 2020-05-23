@@ -199,7 +199,7 @@ guiTypes = {
 			name = "cancel"
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
-			Orientation = "UPPER_RIGHT"
+			orientation = "UPPER_RIGHT"
 			shortCut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"

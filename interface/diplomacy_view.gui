@@ -215,7 +215,7 @@ guiTypes = {
 			#	spriteType = "GFX_tiles_dark_area_cut_8"
 			#}
 			instantTextBoxType = {
-				name = "ethics"
+				name = "ETHICS_LABEL"
 				font = "cg_16b"
 				text = "Ethics"
 				position = { x = 10 y = 3 }
@@ -244,7 +244,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "civics"
 				font = "cg_16b"
-				text = "Civics"
+				text = "CIVICS_LABEL"  #calvitix
 				position = { x = 10 y = 3 }
 				maxWidth = 199
 				maxHeight = 16

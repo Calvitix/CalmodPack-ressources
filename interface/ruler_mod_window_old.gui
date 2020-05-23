@@ -643,7 +643,7 @@ guiTypes = {
 			name = "close"
 			quadTextureSprite = "GFX_close"
 			position = { x= -42 y = 12 }
-			Orientation = "UPPER_RIGHT"
+			orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 			clicksound = "back_click"
 			effect = "close_hobby_button_effect"
@@ -721,7 +721,7 @@ guiTypes = {
 				position = { x = -4900 y = 0 }
 				maxWidth = 500
 				maxHeight = 180
-				Orientation = "UPPER_LEFT"
+				orientation = "UPPER_LEFT"
 				format = center
 				alwaysTransparent = yes
 				text_color_code = "H"

@@ -1,7 +1,7 @@
 entity = {
 	name = "navigation_arrow_entity"
 	pdxmesh = "x3_gate_mesh"
-	scale = 40
+	scale = 32
 	cull_radius=800
 	default_state = "idle"
 	state = { name = "idle" state_time = 5

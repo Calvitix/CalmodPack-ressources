@@ -10,7 +10,7 @@
  ###################################
  UI_OVERHAUL_TECHTREE: "Tech Tree"
  UI_OVERHAUL_TECHTREE_TOOLTIP: "§GClick to open up an external tech tree.§!"
-####################################
+ ####################################
  RENAME_STARBASE_TOOLTIP: "§H$RENAME$ $station_generic_01$§!\n§G$RENAME_OBJECT_DESC$§!"
  RENAME_SECTOR_TOOLTIP: "§H$SECTOR_RENAME$§!\n§G$RENAME_OBJECT_DESC$§!"
  RENAME_FLEET_TOOLTIP: "§H$RENAME_FLEET_TITLE$§!\n§G$RENAME_OBJECT_DESC$§!"

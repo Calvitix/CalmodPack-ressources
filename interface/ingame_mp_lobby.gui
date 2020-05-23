@@ -301,7 +301,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "largefont_ingame_mp_lobby_players_item"
-		size = { width = § height = 110 }
+		size = { width = 440 height = 110 }
 		background = {
 			name = "ingame_mp_lobby_human_item_background"
 			spriteType = "GFX_tiles_frame_light"

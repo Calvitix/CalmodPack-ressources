@@ -77,7 +77,7 @@ PixelShader =
 		float4 main( VS_OUTPUT v ) : PDX_COLOR
 		{
 			float fMinAlpha = 0.01f;
-			float fAlpha = 0.02f;
+			float fAlpha = 0.025f;
 			float4 vPrimColor = float4( v.vPrimaryColor, fAlpha );
 			float4 vSecColor = float4( v.vSecondaryColor, fAlpha );
 			float4 vColor = lerp( vSecColor, vPrimColor, saturate( pow( v.vPrimaryColorFactor, 15 ) ) );

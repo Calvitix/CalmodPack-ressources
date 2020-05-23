@@ -162,7 +162,7 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "gamesetup_contents"
-				size = { width = 574 height = -55 }
+				size = { width = 574 height = -5 }
 				position = { x = -3 y = 50 }
 				orientation = upper_left				verticalScrollbar = "right_vertical_slider_thick"
 				background = {

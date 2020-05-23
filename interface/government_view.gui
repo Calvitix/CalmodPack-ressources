@@ -172,6 +172,56 @@ guiTypes = {
 			shortcut = "v"
 			pdx_tooltip = "GOVERNMENT_ADVISOR_TAB_TOOLTIP"
 		}
+
+
+
+
+
+
+		
+		effectButtonType = {
+			id = "button"
+			name = "manageNetworksButton"
+			position = { x= 386 y = @tabheight }
+			clicksound = interface
+			spriteType = "GFX_tab_2_inactive"
+			buttonText = "Manage_Networks"
+			font = "cg_16b"
+			effect = "manageNetworksButton"
+			# 
+		}
+
+		effectButtonType = {
+			id = "button"
+			name = "manageNetworksButtonActive"
+			position = { x= 386 y = @tabheight }
+			clicksound = interface
+			spriteType = "GFX_tab_2_active"
+			buttonText = "Manage_Networks"
+			font = "cg_16b"
+			effect = "manageNetworksButtonActive"
+			# 
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		###############################
 		# government_window
 		###############################

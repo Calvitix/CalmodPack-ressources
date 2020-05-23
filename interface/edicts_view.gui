@@ -181,7 +181,15 @@ guiTypes = {
 			background = {
 				name = "background"
 				quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+				alwaysTransparent = yes
 			}
+		}
+		buttonType = {
+			name = "select_button"
+			quadTextureSprite = "GFX_checkbox_20_20_01"
+			position = { x = 2 y = 4 }
+			oversound = "no_sound"
+			clicksound = "select_click"
 		}
 		iconType = {
 			name = "type_icon"
@@ -194,37 +202,31 @@ guiTypes = {
 			name = "edicts_name"
 			font = "cg_16b"
 			position = { x = 77 y = 11 }
-			maxWidth = 330
+			maxWidth = 283
 			maxHeight = 16
 			format = left
+			vertical_alignment = center
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "active"
+			font = "cg_16b"
+			position = { x = 360 y = 11 }
+			maxWidth = 75
+			maxHeight = 16
+			fixedSize = yes
+			format = center
+			text = "ACTIVE_GREEN"
 			alwaysTransparent = yes
 		}
 		instantTextBoxType = {
 			name = "cost"
 			font = "cg_16b"
-			position = { x = 464 y = 11 }
-			maxWidth = 75
+			position = { x = 435 y = 11 }
+			maxWidth = 105
 			maxHeight = 16
-			fixedSize = yes
 			format = right
-		}
-		instantTextBoxType = {
-			name = "active"
-			font = "cg_16b"
-			position = { x = 390 y = 11 }
-			maxWidth = 75
-			maxHeight = 16
-			fixedSize = yes
-			format = right
-			text = "ACTIVE_GREEN"
 			alwaysTransparent = yes
-		}
-		buttonType = {
-			name = "select_button"
-			quadTextureSprite = "GFX_checkbox_20_20_01"
-			position = { x = 2 y = 4 }
-			oversound = "no_sound"
-			clicksound = "select_click"
 		}
 	}
 	containerWindowType = {

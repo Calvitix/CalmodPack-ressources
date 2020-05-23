@@ -463,8 +463,16 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "expansion_target_entry"
-		size = { width = 100% height = 58 }
+		size = { width = 1466 height = 58 }
+		if_resolution = {
+			min_width = 2560
+			size = { width = 1566 height = 58 }
+		}
 		clipping = yes
+		background = {
+			name = "hitbox"
+			spriteType = "GFX_invisible"
+		}
 		buttonType = {
 			name = "background"
 			spriteType = "GFX_ui_button_tile_50"
@@ -670,66 +678,6 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "amount"
-			font = "cg_16b"
-			text = "0"
-			position = { x = 20 y = 3 }
-			maxWidth = 20
-			maxHeight = 20
-			fixedSize = yes
-			format = left
-		}
-		instantTextBoxType = {
-			name = "food_amount"
-			font = "cg_16b"
-			text = "0"
-			position = { x = 20 y = 3 }
-			maxWidth = 20
-			maxHeight = 20
-			fixedSize = yes
-			format = left
-		}
-		instantTextBoxType = {
-			name = "energy_amount"
-			font = "cg_16b"
-			text = "0"
-			position = { x = 20 y = 3 }
-			maxWidth = 20
-			maxHeight = 20
-			fixedSize = yes
-			format = left
-		}
-		instantTextBoxType = {
-			name = "minerals_amount"
-			font = "cg_16b"
-			text = "0"
-			position = { x = 20 y = 3 }
-			maxWidth = 20
-			maxHeight = 20
-			fixedSize = yes
-			format = left
-		}
-		instantTextBoxType = {
-			name = "physics_amount"
-			font = "cg_16b"
-			text = "0"
-			position = { x = 20 y = 3 }
-			maxWidth = 20
-			maxHeight = 20
-			fixedSize = yes
-			format = left
-		}
-		instantTextBoxType = {
-			name = "society_amount"
-			font = "cg_16b"
-			text = "0"
-			position = { x = 20 y = 3 }
-			maxWidth = 20
-			maxHeight = 20
-			fixedSize = yes
-			format = left
-		}
-		instantTextBoxType = {
-			name = "engineering_amount"
 			font = "cg_16b"
 			text = "0"
 			position = { x = 20 y = 3 }
