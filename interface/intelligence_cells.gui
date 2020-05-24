@@ -230,7 +230,7 @@ guiTypes = {
 			id = "button"
 			name = "alphaOneName"
 			position = { x = 195 y = 350 }
-			buttonText = "- Opérations étrangères -" #calvitix
+			buttonText = "- OpÃ©rations Ã©trangÃ¨res -" #calvitix
 			font = "malgun_goth_24"
 			effect = "agency_alpha_cover_domestic"
 			oversound = no_sound
@@ -241,7 +241,7 @@ guiTypes = {
 			id = "button"
 			name = "deployedTo"
 			position = { x = 25 y = 400 }
-			buttonText = "Déployé au sein de - "  #calvitix
+			buttonText = "DÃ©ployÃ© au sein de - "  #calvitix
 			font = "cg_16b"
 			effect = "agency_alpha_cover_domestic"
 			oversound = no_sound
@@ -277,7 +277,7 @@ guiTypes = {
 			id = "button"
 			name = "operationType"
 			position = { x = 32 y = 500 }
-			buttonText = "Opération étrangère  -  "
+			buttonText = "OpÃ©ration Ã©trangÃ¨re  -  "
 			font = "cg_16b"
 			effect = "agency_alpha_cover_domestic"
 			oversound = no_sound
@@ -289,7 +289,7 @@ guiTypes = {
 			id = "button"
 			name = "progress"
 			position = { x = 37 y = 550 }
-			buttonText = "Avancée de l'opération -  "
+			buttonText = "AvancÃ©e de l'opÃ©ration -  "
 			font = "cg_16b"
 			effect = "agency_alpha_cover_domestic"
 			oversound = no_sound
@@ -308,7 +308,7 @@ guiTypes = {
 			id = "button"
 			name = "alphaOneName2"
 			position = { x = 199 y = 350 }
-			buttonText = "- Opérations nationales -"
+			buttonText = "- OpÃ©rations nationales -"
 			font = "malgun_goth_24"
 			effect = "agency_alpha_cover_foreign"
 			oversound = no_sound
@@ -320,7 +320,7 @@ guiTypes = {
 			id = "button"
 			name = "deployedTo2"
 			position = { x = 37 y = 420 }
-			buttonText = "Opération principale - "
+			buttonText = "OpÃ©ration principale - "
 			font = "cg_16b"
 			effect = "agency_alpha_cover_foreign"
 			oversound = no_sound
@@ -331,7 +331,7 @@ guiTypes = {
 			id = "button"
 			name = "operationType2"
 			position = { x = 41 y = 485 }
-			buttonText = "Opération nationale -  "
+			buttonText = "OpÃ©ration nationale -  "
 			font = "cg_16b"
 			effect = "agency_alpha_cover_foreign"
 			oversound = no_sound
@@ -342,7 +342,7 @@ guiTypes = {
 			id = "button"
 			name = "progress2"
 			position = { x = 39 y = 550 }
-			buttonText = "Avancée de l'opération - "
+			buttonText = "AvancÃ©e de l'opÃ©ration - "
 			font = "cg_16b"
 			effect = "agency_alpha_cover_foreign"
 			oversound = no_sound
@@ -400,7 +400,7 @@ guiTypes = {
 			name = "alphaOneName3"
 			position = { x =650 y = 350 }
 			clicksound = interface
-			buttonText = "- Opérations étrangères -"
+			buttonText = "- OpÃ©rations Ã©trangÃ¨res -"
 			font = "malgun_goth_24"
 			effect = "agency_beta_cover_domestic"
 			oversound = no_sound
@@ -414,7 +414,7 @@ guiTypes = {
 			name = "deployedTo3"
 			position = { x = 480 y = 405 }
 			clicksound = interface
-			buttonText = "Déployé au sein de - "  #calvitix
+			buttonText = "DÃ©ployÃ© au sein de - "  #calvitix
 			font = "cg_16b"
 			effect = "agency_beta_cover_domestic"
 			oversound = no_sound
@@ -451,7 +451,7 @@ guiTypes = {
 			name = "operationType3"
 			position = { x = 489 y = 503 }
 			clicksound = interface
-			buttonText = "Opération étrangère  -  "
+			buttonText = "OpÃ©ration Ã©trangÃ¨re  -  "
 			font = "cg_16b"
 			effect = "agency_beta_cover_domestic"
 			oversound = no_sound
@@ -462,7 +462,7 @@ guiTypes = {
 			name = "progress3"
 			position = { x = 493 y = 550 }
 			clicksound = interface
-			buttonText = "Avancée de l'opération - "
+			buttonText = "AvancÃ©e de l'opÃ©ration - "
 			font = "cg_16b"
 			effect = "agency_beta_cover_domestic"
 			oversound = no_sound
@@ -477,7 +477,7 @@ guiTypes = {
 			name = "alphaOneName4"
 			position = { x = 660 y = 347 }
 			clicksound = interface
-			buttonText = "- Opérations nationales -"
+			buttonText = "- OpÃ©rations nationales -"
 			font = "malgun_goth_24"
 			effect = "agency_beta_cover_foreign"
 			oversound = no_sound
@@ -489,7 +489,7 @@ guiTypes = {
 			name = "BetaDPrimary"
 			position = { x = 488 y = 423 }
 			clicksound = interface
-			buttonText = "Opération principale - "
+			buttonText = "OpÃ©ration principale - "
 			font = "cg_16b"
 			effect = "agency_beta_cover_foreign"
 			oversound = no_sound
@@ -500,7 +500,7 @@ guiTypes = {
 			name = "operationType4"
 			position = { x = 495 y = 482 }
 			clicksound = interface
-			buttonText = "Opération nationale -  "
+			buttonText = "OpÃ©ration nationale -  "
 			font = "cg_16b"
 			effect = "agency_beta_cover_foreign"
 			oversound = no_sound
@@ -511,7 +511,7 @@ guiTypes = {
 			name = "progress4"
 			position = { x = 490 y = 555 }
 			clicksound = interface
-			buttonText = "Avancée de l'opération -  "
+			buttonText = "AvancÃ©e de l'opÃ©ration -  "
 			font = "cg_16b"
 			effect = "agency_beta_cover_foreign"
 			oversound = no_sound
@@ -950,7 +950,7 @@ guiTypes = {
 			format = left
 			vertical_alignment = bottom
 			scrollbartype = "standardtext_slider"
-			text = "Les membres de notre conseil de sécurité se sont réunis, prêts à superviser nos réseaux de renseignement."
+			text = "Les membres de notre conseil de sÃ©curitÃ© se sont rÃ©unis, prÃªts Ã  superviser nos rÃ©seaux de renseignement."
 		}
 	}
 

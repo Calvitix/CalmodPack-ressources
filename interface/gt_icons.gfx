@@ -8,4 +8,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/modules/gt_bounty_hunter_office.dds"
 	}
 
+	#calvitix
+	spriteType = {
+		name = "GFX_edict_type_options"
+		textureFile = "gfx/interface/icons/menu_icon_policies.dds"
+	}
+
 }

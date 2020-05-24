@@ -209,7 +209,7 @@ guiTypes = {
 			format = left
 			vertical_alignment = bottom
 			scrollbartype = "standardtext_slider"
-			text = "Nos réseaux de renseignement sont actuellement occupés par la sécurité interne, mais nous allons certainement étendre nos opérations en cas de découverte de menaces extérieures."
+			text = "Nos rÃ©seaux de renseignement sont actuellement occupÃ©s par la sÃ©curitÃ© interne, mais nous allons certainement Ã©tendre nos opÃ©rations en cas de dÃ©couverte de menaces extÃ©rieures."
 		}
 	}
 

@@ -1,7 +1,0 @@
-﻿l_french:
-#Mines
- eb_mineral:0 "Deep-Core Mine"
- eb_mineral_desc:0 "A mining facility dedicated to mining deep within a planet."
-#Energy
- eb_energy:0 "Geothermal Power Plant"
- eb_energy_desc:0 "A power generation facility that taps into various heat sources deep below a planet's surface."
