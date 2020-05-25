@@ -166,11 +166,11 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "current_traits_container"
-			size = { width = 517 height = 59 }
+			size = { width = 512 height = 59 }
 			position = { x = 495 y = 47 }
 			clipping = yes
 			margin = { top = 6 bottom = 6 }
-			verticalScrollbar = "right_vertical_slider_thick"
+			verticalScrollbar = "right_vertical_slider_s_thick"
 			background = {
 				name = "background"
 				spriteType = "GFX_invisible"
@@ -178,7 +178,7 @@ guiTypes = {
 			gridBoxType = {
 				name = "traits"
 				position = { x = 12 y = 5 }
-				size = { width = 482 height = 37 }
+				size = { width = 482 height = -10 }
 				slotSize = { width = 37 height = 37 }
 				max_slots_horizontal = 13
 				format = "UPPER_LEFT"
@@ -216,11 +216,11 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "planet_class_traits_container"
-			size = { width = 517 height = 133 }
+			size = { width = 512 height = 133 }
 			position = { x = 495 y = 133 }
 			clipping = yes
 			margin = { top = 6 bottom = 6 }
-			verticalScrollbar = "right_vertical_slider_thick"
+			verticalScrollbar = "right_vertical_slider_s_thick"
 			background = {
 				name = "background"
 				spriteType = "GFX_invisible"
@@ -228,7 +228,7 @@ guiTypes = {
 			gridBoxType = {
 				name = "traits"
 				position = { x = 12 y = 5 }
-				size = { width = 482 height = 111 }
+				size = { width = 482 height = 155 }
 				slotSize = { width = 37 height = 37 }
 				max_slots_horizontal = 13
 				format = "UPPER_LEFT"
@@ -254,7 +254,7 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "available_traits_container"
-			size = { width = 512 height = 290 } # 278 }
+			size = { width = 512 height = 290 }
 			position = { x = 495 y = 293 }
 			clipping = yes
 			margin = { top = 6 bottom = 6 }
@@ -266,7 +266,7 @@ guiTypes = {
 			gridBoxType = {
 				name = "traits"
 				position = { x = 12 y = 5 }
-				size = { width = 475 height = 270 } # 268 }
+				size = { width = 482 height = -10 }
 				slotSize = { width = 37 height = 37 }
 				max_slots_horizontal = 13
 				format = "UPPER_LEFT"
