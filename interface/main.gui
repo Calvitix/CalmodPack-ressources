@@ -53,7 +53,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "topbar"
 			position = { x = 0 y = 0 }
-			size = { width = 1000 height = 46 }
+			size = { width = 1030 height = 46 }
 			if_resolution = {
 				max_width = 2559
 				size = { width = 100% height = 46 }
@@ -400,27 +400,60 @@ guiTypes = {
 
 
 
+
+			containerWindowType = {
+				name = "topbar_bar_espionage"
+				size = { width = 90 height = 37 }
+				if_resolution = {
+					min_width = 2560
+					size = { width = 70 height = 37 }
+				}
+				position = { x = 896 y =10 }
+				
+				background = {
+					name = "topbar_bar_extra"
+					spriteType = "GFX_ui_topbar_bar"
+					alwaysTransparent = yes
+				}
+			}
+
+			containerWindowType = {
+				name = "espionage_group"
+				size = { width = 77 height = 42 }
+				if_resolution = {
+					min_width = 2560
+					size = { width = 57 height = 42 }
+				}
+				position = { x = 902 y =2 }
+				background = {
+					name = "background"
+					spriteType = "GFX_dark_area_cut"
+					clicksound = interface
+				}
+			}
+
+
 			######### ESPIONAGE POINTS - ALPHA #############
 			containerWindowType = {
 				name = "tb_espionagePoints_A"
 				size = { width = 34 height = 35 }
-				position = { x = 935 y =4 }
+				position = { x = 907 y =9 }
 
 				if_resolution = {
 					min_width = 2560
-					position = { x = 892 y =4 }
+					position = { x = 899 y =9 }
 				}
 
 				background = {
 					name = "background"
-					spriteType = "GFX_dark_area_cut"
+					spriteType = "GFX_invisible"
 					clicksound = interface
 				}
 
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_alphaPointSmall"
-					position = { x = 7 y = 2 }
+					position = { x = 7 y = -1 }
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
@@ -440,25 +473,24 @@ guiTypes = {
 			containerWindowType = {
 				name = "tb_espionagePoints_B"
 				size = { width = 34 height = 35 }
-				position = { x = 970 y = 4 }
+				position = { x = 939 y = 9 }
 
 				if_resolution = {
 					min_width = 2560
-					position = { x = 923 y = 4 }
+					position = { x = 928 y = 9 }
 					
 				}
 				
-
 				background = {
 					name = "background"
-					spriteType = "GFX_dark_area_cut"
+					spriteType = "GFX_invisible"
 					clicksound = interface
 				}
 
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_betaPointSmall"
-					position = { x = 7 y = 2 }
+					position = { x = 7 y = -1 }
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
@@ -556,7 +588,7 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "topbar_bar_extended"
-				size = { width = 349 height = 37 }
+				size = { width = 320 height = 37 }
 				position = { x = -7 y = 10 }
 				background = {
 					name = "topbar_bar_extra"

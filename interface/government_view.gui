@@ -182,7 +182,7 @@ guiTypes = {
 		effectButtonType = {
 			id = "button"
 			name = "manageNetworksButton"
-			position = { x= 386 y = @tabheight }
+			position = { x= 381 y = @tabheight }
 			clicksound = interface
 			spriteType = "GFX_tab_2_inactive"
 			buttonText = "Manage_Networks"
@@ -194,7 +194,7 @@ guiTypes = {
 		effectButtonType = {
 			id = "button"
 			name = "manageNetworksButtonActive"
-			position = { x= 386 y = @tabheight }
+			position = { x= 381 y = @tabheight }
 			clicksound = interface
 			spriteType = "GFX_tab_2_active"
 			buttonText = "Manage_Networks"
