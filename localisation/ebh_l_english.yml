@@ -1,0 +1,56 @@
+﻿l_english:
+#Luxury Residence
+ebh_luxury_residence:0 "Luxury Residence 2"
+ebh_luxury_residence_desc:0 "Intricately designed residential towers with luxurious apartments. Advanced zero-g technology is the only thing keeping the more outlandish terrace designs from collapsing."
+
+ebh_luxury_residence2:0 "Luxury Residence 3"
+ebh_luxury_residence2_desc:0 "Intricately designed residential towers with luxurious apartments. Advanced zero-g technology is the only thing keeping the more outlandish terrace designs from collapsing."
+
+ebh_paradise_dome:0 "Paradise Dome 2"
+ebh_paradise_dome_desc:0 "A fully enclosed habitation dome with a self-contained ecosystem, a veritable private paradise for those rich or fortunate enough to live there."
+
+#Communal Housing
+ebh_communal_housing:0 "Communal Housing 2"
+ebh_communal_housing_desc:0 "A block of uniform housing, equal in every way."
+
+ebh_communal_housing2:0 "Communal Housing 3"
+ebh_communal_housing2_desc:0 "A block of uniform housing, equal in every way."
+
+ebh_communal_housing_large:0 "Utopian Communal Housing 2"
+ebh_communal_housing_large_desc:0 "An incredible feat of engineering that combines efficient, practical residences with carefully maintained idyllic landscapes."
+
+#Hive Warrens
+ebh_hive_warren:0 "Hive Warren 2"
+ebh_hive_warren_desc:0 "A vast warren offers shelter for many Drones to rest."
+
+ebh_hive_warren2:0 "Hive Warren 3"
+ebh_hive_warren2_desc:0 "A vast warren offers shelter for many Drones to rest."
+
+ebh_expanded_warren:0 "Expanded Warren 2"
+ebh_expanded_warren_desc:0 "By expanding the warrens, still more Drone can shelter within."
+
+#Machine Housing
+ebh_drone_storage:0 "Drone Storage 2"
+ebh_drone_storage_desc:0 "A storage area for Drones to undergo maintenance."
+
+ebh_drone_storage2:0 "Drone Storage 3"
+ebh_drone_storage2_desc:0 "A storage area for Drones to undergo maintenance."
+
+ebh_drone_megastorage:0 "Upgraded Drone Storage 2"
+ebh_drone_megastorage_desc:0 "With the latest upgrades, while undergoing maintenance a portion of Drones' power-generation can be re-directed to the grid."
+
+#Techs
+ebh_tech_paradise_dome:0 "Advanced Idyllic Architecture"
+ebh_tech_paradise_dome_desc:0 "The height of Idyllic Architecture."
+
+ebh_hive_housing_1:0 "Expanded Warrens"
+ebh_hive_housing_1_desc:0 "Placeholder"
+
+ebh_hive_housing_2:0 "Expanded Warrens 2"
+ebh_hive_housing_2_desc:0 "Placeholder"
+
+ebh_machine_housing_1:0 "Upgraded Drone Storage"
+ebh_machine_housing_1_desc "Placeholder"
+
+ebh_machine_housing_2:0 "Upgraded Drone Storage 2"
+ebh_machine_housing_2_desc:0 "Placeholder"

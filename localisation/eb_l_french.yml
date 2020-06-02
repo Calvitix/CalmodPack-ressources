@@ -1,0 +1,14 @@
+﻿l_french:
+#Mines
+ eb_mineral:0 "Deep-Core Mine"
+ eb_mineral_desc:0 "A mining facility dedicated to mining deep within a planet."
+ 
+ eb_mineral_hab:0 "Asteroid Towing Bays"
+ eb_mineral_hab_desc:0 "A series of ships and towing cables used to haul asteroids close to the habitat allowing for them to be more easily broken down and processed into minerals."
+ eb_mineral_hab_bad:0 "§RThis habitat lacks the mineral deposit necessary to make effective use of this building.§W\n"
+#Energy
+ eb_energy:0 "Geothermal Power Plant"
+ eb_energy_desc:0 "A power generation facility that taps into various heat sources deep below a planet's surface."
+ 
+ eb_energy_hab:0 "Solar Power Plants"
+ eb_energy_hab_desc:0 "Extensive solar panel arrays that line the outer edges of the habitat."
