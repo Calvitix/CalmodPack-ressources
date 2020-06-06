@@ -144,21 +144,33 @@ entity = {
 # PARTICLE LANCE
 ######
 
-
 entity = {
-	name = "humanoid_01_particle_lance_windup_entity"
+	name = "particle_lance_hit_entity"
+	cull_radius = 1.0
 	
-	default_state = "attack"
-	get_state_from_parent = no
-	state = {
-		name = "attack" looping = no state_time = 1.0
-	
-		event = {  trigger_once = yes  }
-		event = {  use_parent_nodes = yes node = xl_gun_01 particle = "particle_lance_muzzle_windup_effect" trigger_once = yes keep_particle = yes }
+	default_state = "idle"
+	state = { name = "idle" state_time = 2 looping = no
+		start_event = { particle = "particle_lance_hit_effect" keep_particle = yes sound = { soundeffect = energy_lance_hit } }
+		start_event = { trigger_once = yes sound = { soundeffect = "distance_energy_lance_hit" } }
 	}
+	state = { name = "stop" state_time = 0.5 looping = no }
+	
+	scale=6.0
 }
 
-
+entity = {
+	name = "tachyon_lance_hit_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 2 looping = no
+		start_event = { particle = "tachyon_lance_hit_effect" keep_particle = yes sound = { soundeffect = tachyon_lance_hit } }
+		start_event = { trigger_once = yes sound = { soundeffect = "distance_tachyon_lance_hit" } }
+	}
+	state = { name = "stop" state_time = 0.5 looping = no }
+	
+	scale=6.0
+}
 
 # SHIELD HIT EFFECT
 

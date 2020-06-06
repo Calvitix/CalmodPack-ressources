@@ -226,7 +226,7 @@ guiTypes = {
 			maxWidth = 105
 			maxHeight = 16
 			format = right
-			alwaysTransparent = yes
+			vertical_alignment = center
 		}
 	}
 	containerWindowType = {

@@ -1,4 +1,4 @@
-@normalprojectilespeed = 1000
+@normalprojectilespeed = 500
 @maxduration = 6.0
 
 # MASS ACCELERATOR

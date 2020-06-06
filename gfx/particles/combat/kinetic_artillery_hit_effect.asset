@@ -210,7 +210,6 @@ particle={
 		emission=2000.000
 		size=0.500
 		rotation={ 0.000 180.000 }
-		force=drag
 	}
 	subsystem={
 		name="shards"

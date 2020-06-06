@@ -23,9 +23,12 @@ particle={
 			alpha=100.000,alpha_fade
 		}
 		position={
+			x=0.000
+			y=0.600
+			z=0.000
 		}
 		duration=-1.000
-		life=1.250
+		life=0.120
 		emission=50.000
 		size=15.000
 	}
