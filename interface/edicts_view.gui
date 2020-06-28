@@ -6,7 +6,7 @@ guiTypes = {
 		hide_position = { x = -100% y = 50 }
 		if_resolution = {
 			min_height = 1200
-			size = { width = 595 height = 1065 }
+			size = { width = 595 height = 1060 }
 		}
 		if_resolution = {
 			min_height = 1440
@@ -144,11 +144,11 @@ guiTypes = {
 				size = { x = 650 y = 852 }  #550
 				if_resolution = {
 					min_height = 1200
-					size = { x = 550 y = 972 }
+					size = { x = 650 y = 984 } #550
 				}
 				if_resolution = {
 					min_height = 1440
-					size = { x = 550 y = 1067 }
+					size = { x = 650 y = 1067 } #550
 				}
 				spacing = 0
 				scrollbarType = "standardlistbox_slider_thick"

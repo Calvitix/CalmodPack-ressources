@@ -470,8 +470,8 @@ guiTypes = {
 					}
 					containerWindowType = {
 						name = "level_info_background"
-						position = { x = 41 y = 311 }
-						size = { width = 146 height = 112 }
+						position = { x = 36 y = 311 }
+						size = { width = 156 height = 112 }
 						background = {
 							name = "background"
 							quadTextureSprite = "GFX_tiles_dark_area_cut_8"

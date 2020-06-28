@@ -292,7 +292,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_standard_button_142_34_button"
 			position = { x = 333 y = -60 }
 			orientation = "LOWER_LEFT"
-			shortCut = "RETURN"
+			shortcut = "RETURN"
 			text = "UPDATE_SPECIES_MOD_TEMPLATE_BUTTON"
 			font = "cg_16b"
 			borderSize = { x = 12 y = 12 }

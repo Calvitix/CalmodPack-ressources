@@ -219,6 +219,10 @@ tb_others_group = {
 		#Star Wars Weapons
 			kyber_crystals
 			tibanna_gas
+		
+		#Starwars:UnknownWorld Shipgirls Story
+			sr_kyber_swgs
+			sr_tibanna_swgs
 			
 		#Stephan's Elemental Economy
 			sr_hydrogen
@@ -540,6 +544,11 @@ resources = {
 		#Star Wars Weapons
 			kyber_crystals
 			tibanna_gas
+		
+		#Starwars:UnknownWorld Shipgirls Story
+			sr_kyber_swgs
+			sr_tibanna_swgs
+			
 		#Stephan's Elemental Economy
 			sr_hydrogen
 			sr_helium_3

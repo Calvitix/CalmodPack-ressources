@@ -30,7 +30,6 @@ guiTypes = {
 		clipping = no
 		size = { width = 956 height = 760 }
 		position = { x = 0 y = 0 }
-		#alwaysTransparent = yes
 		
 		background = {
 			name = "background"
@@ -62,7 +61,7 @@ guiTypes = {
 			name = "close"
 			quadTextureSprite = "GFX_main_close_button_trader"
 			position = { x= -900 y = 9000 } #{ x= -45 y = 16 }
-			orientation = "UPPER_RIGHT"
+			Orientation = "UPPER_RIGHT"
 			# shortcut = "ESCAPE"
 			clicksound = "back_click"
 			
@@ -92,7 +91,7 @@ guiTypes = {
 			name = "confirm_button"
 			quadTextureSprite = "GFX_standard_button_142_34_button"
 			position = { x= -175 y = 564  }
-			orientation = "UPPER_RIGHT"
+			Orientation = "UPPER_RIGHT"
 			font = "cg_16b"
 			text = "MESSAGE_OK"
 			clicksound = "confirmation"
@@ -108,13 +107,12 @@ guiTypes = {
 			font = "malgun_goth_24"
 			format = left
 			text = "Intelligence_Networks_Header" #WHAT APPEARS AT THE VERY TOP, THE TITLE
-			#scale = 3.2
 		}
 
 		containerWindowType = {
 			name = "configButtonContainer"
 			size = { width = 0 height = 0 }
-			position = { x = 891 y = 5   }
+			position = { x = 892 y = 5   }
 
 			if_resolution = {
 				min_width = 2560
@@ -303,7 +301,7 @@ guiTypes = {
 		effectButtonType = {
 			id = "button"
 			name = "alphaOneName2"
-			position = { x = 199 y = 350 }
+			position = { x = 193 y = 350 }
 			buttonText = "- Opérations nationales -"
 			font = "malgun_goth_24"
 			effect = "agency_alpha_cover_foreign"
@@ -400,7 +398,7 @@ guiTypes = {
 		effectButtonType = {
 			id = "button"
 			name = "alphaOneName3"
-			position = { x =650 y = 350 }
+			position = { x =642 y = 350 }
 			clicksound = interface
 			buttonText = "- Opérations étrangères -"
 			font = "malgun_goth_24"
@@ -473,7 +471,7 @@ guiTypes = {
 		effectButtonType = {
 			id = "button"
 			name = "alphaOneName4"
-			position = { x = 660 y = 347 }
+			position = { x = 650 y = 347 }
 			clicksound = interface
 			buttonText = "- Opérations nationales -"
 			font = "malgun_goth_24"
@@ -784,7 +782,7 @@ guiTypes = {
 			position = { x = 93 y = 105 }
 			size = { width = 964 height = 350 }
 			clipping = yes
-			#scale = 0.2
+			scale = 0.2
 			
 			iconType = {
 				name = "portrait"
@@ -1048,7 +1046,7 @@ guiTypes = {
 				position = { x =9000 y = 9000 } #{ x = 490 y = 0 } THIS IS IT, 'WHAT DO WE DO'
 				maxWidth = 500
 				maxHeight = 180
-				orientation = "UPPER_LEFT"
+				Orientation = "UPPER_LEFT"
 				format = center
 				alwaysTransparent = yes
 				text_color_code = "H"
@@ -1062,7 +1060,7 @@ guiTypes = {
 				spacing = 1
 				scrollbartype = "standardlistbox_slider"
 				borderSize = { x = 0 y = 0 }
-				orientation = "UPPER_LEFT"
+				Orientation = "UPPER_LEFT"
 			}
 		}
 	}

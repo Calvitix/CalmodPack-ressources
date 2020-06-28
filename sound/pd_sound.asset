@@ -97,6 +97,18 @@ sound =
 }
 sound =
 {
+	name = "pc_megaflora_01"
+	file = "ambient/continental_planet_01.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_megafloratol_01"
+	file = "ambient/continental_planet_01.wav"
+	always_load = no
+}
+sound =
+{
 	name = "pc_boreal_01"
 	file = "ambient/tundra_planet_01.wav"
 	always_load = no

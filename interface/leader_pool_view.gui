@@ -34,7 +34,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 15 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			clicksound = "back_click"
 		}
 		### list header ###
@@ -206,7 +206,7 @@ guiTypes = {
 			spriteType = "GFX_leader_skill"
 			position = { x = 366 y = 16 }
 		}
-		OverlappingElementsBoxType = {
+		overlappingElementsBoxType = {
 			name = "traits"
 			position = { x = 420 y = 12 }
 			size = { x = 346 y = 16 }

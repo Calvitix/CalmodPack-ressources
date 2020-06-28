@@ -140,7 +140,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}
@@ -364,7 +364,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}
@@ -535,6 +535,16 @@ guiTypes = {
 			}
 		}
 		containerWindowType = {
+			name = "voice_types_frame"
+			position = { x = -390 y = 151 }
+			size = { width = 780 height = -60 }
+			orientation = center_up
+			background = {
+				name = "voice_types_frame"
+				quadTextureSprite = "GFX_planet_bg_tile_frame"
+			}
+		}
+		containerWindowType = {
 			name = "voice_types"
 			position = { x = -386 y = 151 }
 			size = { width = 772 height = -60 }
@@ -544,7 +554,7 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider_thick"
 			background = {
 				name = "voice_types_background"
-				quadTextureSprite = "GFX_planet_bg_tile_frame"
+				quadTextureSprite = "GFX_invisible"
 			}
 			gridBoxType = {
 				name = "gridbox"
@@ -560,7 +570,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}
@@ -730,7 +740,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}
@@ -946,7 +956,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}
@@ -1472,7 +1482,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}
@@ -1948,7 +1958,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}
@@ -2056,7 +2066,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}
@@ -2267,7 +2277,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}
@@ -2386,7 +2396,7 @@ guiTypes = {
 		### GOVERNMENT AUTHORITY ###
 		containerWindowType = {
 			name = "authority_panel"
-			size = { width = 320 height = 250 }
+			size = { width = 320 height = 288 }
 			position = { x = 4 y = 55 }
 			clipping = yes
 			background = {
@@ -2424,29 +2434,22 @@ guiTypes = {
 		}
 		gridBoxType = {
 			name = "authority_grid"
-			position = { x = 14 y = 105 }
+			position = { x = 14 y = 103 }
 			size = { width = 300 height = 50 }
-			slotSize = { width = 60 height = 60 }
+			slotSize = { width = 60 height = 58 }
 			max_slots_horizontal = 5
-			max_slots_vertical = 3
 			format = UPPER_LEFT
 			add_horizontal = yes
 		}
 		### ETHICS ###
 		containerWindowType = {
 			name = "ethics_panel"
-			size = { width = 320 height = 280 }
-			position = { x = 3 y = 305 }
-			if_resolution = {
-				min_height = 1440
-				size = { width = 320 height = 295 }
-				position = { x = 3 y = 315 }
-			}
+			size = { width = 320 height = 288 }
+			position = { x = 327 y = 55 }
 			clipping = yes
 			background = {
-				name = "authority_background"
+				name = "ethics_panel_background"
 				spriteType = "GFX_tiles_frame_light"
-				#alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "authority_header"
@@ -2478,19 +2481,15 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "ethics"
-			size = { width = 310 height = 230 }
-			position = { x = 9 y = 355 }
-			if_resolution = {
-				min_height = 1440
-				position = { x = 9 y = 370 }
+			size = { width = 310 height = 215 }
+			position = { x = 333 y = 110 }
+			background = {
+				name = "ethics_background"
+				spriteType = "GFX_invisible"
 			}
 			instantTextBoxType = {
 				name = "ethic_points_left"
-				position = { x = -155 y = -39 }
-				if_resolution = {
-					min_height = 1440
-					position = { x = -155 y = -29 }
-				}
+				position = { x = -155 y = -20 }
 				font = "malgun_goth_24"
 				maxWidth = 310
 				maxHeight = 20
@@ -2644,58 +2643,57 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "authority_description"
-			size = { width = 320 height = 530 }
-			if_resolution = {
-				min_height = 1440
-				size = { width = 320 height = 730 }
-			}
-			position = { x = 327 y = 55 }
+			position = { x = 3 y = 348 }
+			size = { width = 644 height = -65 }
 			background = {
 				name = "background"
 				spriteType = "GFX_tiles_frame_light"
-				alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "authority_header"
 				position = { x = 0 y = 5 }
-				size = { width = 310 height = 50 }
+				size = { width = 100% height = 50 }
 				iconType = {
 					name = "hex_bg_1"
 					spriteType = "GFX_hex_center_bg"
-					position = { x = -273 y = -4 }
+					position = { x = -150 y = 27 }
 					orientation = center_up
+					centerPosition = yes
 					alwaysTransparent = yes
 				}
 				iconType = {
 					name = "hex_bg_2"
 					spriteType = "GFX_hex_center_bg"
-					position = { x = -273 y = 13 }
+					position = { x = 0 y = 27 }
 					orientation = center_up
+					centerPosition = yes
 					alwaysTransparent = yes
 				}
 				iconType = {
 					name = "hex_bg_3"
 					spriteType = "GFX_hex_center_bg"
-					position = { x = -273 y = 30 }
+					position = { x = 150 y = 27 }
 					orientation = center_up
+					centerPosition = yes
 					alwaysTransparent = yes
 				}
 				iconType = {
 					name = "header_line"
-					spriteType = "GFX_ui_line_center_tiny"
-					position = { x = -122 y = 75 }
+					spriteType = "GFX_line_center"
+					position = { x = 0 y = 50 }
+					centerPosition = yes
 					orientation = center_up
 				}
 			}
 			instantTextBoxType = {
 				name = "desc"
 				font = "cg_16b"
-				position = { x = 15 y = 102 }
-				maxWidth = 290
-				maxHeight = 460
+				position = { x = 16 y = 64 }
+				maxWidth = 612
+				maxHeight = 167
 				if_resolution = {
 					min_height = 1440
-					maxHeight = 660
+					maxHeight = 367
 				}
 				text = ""
 				scrollbarType = "standardtext_slider_small"
@@ -2704,9 +2702,9 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "government_type"
 			font = "large_title_font"
-			position = { x = 342 y = 67 }
-			maxWidth = 290
-			maxHeight = 75
+			position = { x = 8 y = 361 }
+			maxWidth = 634
+			maxHeight = 36
 			text = ""
 			format = center
 			vertical_alignment = center
@@ -2724,7 +2722,6 @@ guiTypes = {
 			background = {
 				name = "dark_area_bg"
 				spriteType = "GFX_tiles_frame_light"
-				alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "civics_header"
@@ -2789,7 +2786,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}
@@ -3073,7 +3070,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}
@@ -3450,7 +3447,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}
@@ -3582,7 +3579,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}
@@ -3690,7 +3687,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_close"
 			position = { x = -45 y = 8 }
 			orientation = "UPPER_RIGHT"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE_TITLE"
 			clicksound = "back_click"
 		}

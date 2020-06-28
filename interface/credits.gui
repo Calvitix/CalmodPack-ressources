@@ -76,7 +76,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_button_animated_142"
 			position = { x = -85 y = -67 }
 			orientation = "CENTER_DOWN"
-			shortCut = "ESCAPE"
+			shortcut = "ESCAPE"
 			clicksound = "back_click"
 			buttontext = "CLOSE"
 			font = "malgun_goth_24"

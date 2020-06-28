@@ -157,14 +157,14 @@ guiTypes = {
 				name = "take_point"
 				quadTextureSprite = "GFX_fleet_order_button_follow_friendlies_off"
 				position = { x= -175 y = 10 }
-				orientation = "UPPER_RIGHT"
+				Orientation = "UPPER_RIGHT"
 				buttonFont = "cg_16b"
 			}
 			buttonType = {
 				name = "open_fleet_manager"
 				quadTextureSprite = "GFX_fleet_manager_button"
 				position = { x= -141 y = 10 }
-				orientation = "UPPER_RIGHT"
+				Orientation = "UPPER_RIGHT"
 				buttonFont = "cg_16b"
 				pdx_tooltip = "FLEET_VIEW_OPEN_FLEET_MANAGER"
 			}
@@ -172,7 +172,7 @@ guiTypes = {
 				name = "disband"
 				quadTextureSprite = "GFX_delete_template_button"
 				position = { x= -73 y = 10 }
-				orientation = "UPPER_RIGHT"
+				Orientation = "UPPER_RIGHT"
 				buttonFont = "cg_16b"
 				pdx_tooltip = "FLEET_MANAGER_DELETE_TEMPLATE"
 			}
@@ -180,7 +180,7 @@ guiTypes = {
 				name = "deselect"
 				quadTextureSprite = "GFX_close_square"
 				position = { x= -39 y = 10 }
-				orientation = "UPPER_RIGHT"
+				Orientation = "UPPER_RIGHT"
 				buttonFont = "cg_16b"
 				pdx_tooltip = "DISBAND"
 			}
@@ -317,7 +317,7 @@ guiTypes = {
 				spriteType = "GFX_queue_progressbar_192"
 				position = { x = 85 y = 44 }
 			}
-			OverlappingElementsBoxType = {
+			overlappingElementsBoxType = {
 				name = "traits"
 				position = { x = 86 y = 62 }
 				size = { x = 156 y = 16 }
@@ -352,13 +352,13 @@ guiTypes = {
 				format = left
 				alwaysTransparent = yes
 			}
-			OverlappingElementsBoxType = {
+			overlappingElementsBoxType = {
 				name = "ethos"
 				position = { x = 86 y = 26 }
 				size = { x = 156 y = 16 }
 				format = left
 			}
-			OverlappingElementsBoxType = {
+			overlappingElementsBoxType = {
 				name = "traits"
 				position = { x = 86 y = 62 }
 				size = { x = 156 y = 16 }
@@ -496,7 +496,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_fleetview_lock_focus"
 				pdx_tooltip = "FOCUS_ON_FLEET"
 				#frame = 1
-				shortCut = "q"
+				shortcut = "q"
 			}
 			instantTextBoxType={
 				name = "orders"

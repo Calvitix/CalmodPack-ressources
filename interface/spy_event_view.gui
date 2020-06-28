@@ -64,7 +64,7 @@ guiTypes = {
 			name = "close"
 			quadTextureSprite = "GFX_main_close_button_trader"
 			position = { x= -4500 y = -4500 } #{ x= -45 y = 16 }
-			orientation = "UPPER_RIGHT"
+			Orientation = "UPPER_RIGHT"
 			clicksound = "back_click"
 		}
 
@@ -101,7 +101,7 @@ guiTypes = {
 			name = "confirm_button"
 			quadTextureSprite = "GFX_standard_button_142_34_button"
 			position = { x= -175 y = 564  }
-			orientation = "UPPER_RIGHT"
+			Orientation = "UPPER_RIGHT"
 			font = "cg_16b"
 			text = "MESSAGE_OK"
 			clicksound = "confirmation"
@@ -330,7 +330,7 @@ guiTypes = {
 				position = { x = 3000 y = 3000 } #{ x = 490 y = 0 } THIS IS IT, 'WHAT DO WE DO'
 				maxWidth = 500
 				maxHeight = 180
-				orientation = "UPPER_LEFT"
+				Orientation = "UPPER_LEFT"
 				format = center
 				alwaysTransparent = yes
 				text_color_code = "H"
@@ -344,7 +344,7 @@ guiTypes = {
 				spacing = 1
 				scrollbartype = "standardlistbox_slider"
 				borderSize = { x = 0 y = 0 }
-				orientation = "UPPER_LEFT"
+				Orientation = "UPPER_LEFT"
 			}
 		}
 	}
