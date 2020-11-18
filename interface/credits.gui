@@ -67,7 +67,7 @@ guiTypes = {
 				size = { x = 800 y = 900 }
 			}
 			borderSize = { x = 0 y = 0 }
-			scrollbartype = "standardlistbox_slider_thick"
+			scrollbarType = "standardlistbox_slider_thick"
 			priority = 100
 			spacing = 4
 		}

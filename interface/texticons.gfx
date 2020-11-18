@@ -7,6 +7,36 @@ spriteTypes = {
 		texturefile = "gfx/interface/social/online_status.dds"
 		noOfFrames = 5
 	}
+	
+	spriteType = {
+		name = "GFX_text_military_size_1"
+		texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_text_military_size_2"
+		texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_text_military_size_4"
+		texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_text_military_size_8"
+		texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_text_military_size_16"
+		texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_16.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_text_military_size_32"
+		texturefile = "gfx/interface/icons/text_icons/icon_text_military_size_32.dds"
+	}
 
 	### ship icons ###
 	
@@ -435,5 +465,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_text_call_favor"
 		texturefile = "gfx/interface/icons/text_icons/call_in_favor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_text_community_in_breach"
+		texturefile = "gfx/interface/icons/text_icons/icon_text_community_in_breach.dds"
 	}
 }

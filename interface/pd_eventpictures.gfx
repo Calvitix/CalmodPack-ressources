@@ -1,6 +1,27 @@
 spriteTypes = {	
 
 	spriteType = {
+		name = "GFX_evt_pdglacial"
+		texturefile = "gfx/event_pictures/pdglacial.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes	
+	}		
+
+	spriteType = {
+		name = "GFX_evt_pdstormfactory"
+		texturefile = "gfx/event_pictures/pdstormfactory.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes	
+	}		
+	
+	spriteType = {
+		name = "GFX_evt_pdseamonster"
+		texturefile = "gfx/event_pictures/pdseamonster.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+
+	spriteType = {
 		name = "GFX_evt_dune"
 		texturefile = "gfx/event_pictures/dune.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
@@ -150,6 +171,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_evt_mushroom2"
 		texturefile = "gfx/event_pictures/mushroom2.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_coral"
+		texturefile = "gfx/event_pictures/pdcoral.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes		
 	}

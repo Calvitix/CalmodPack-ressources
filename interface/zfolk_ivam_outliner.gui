@@ -109,15 +109,14 @@ guiTypes = {
 				priority = 100
 				size = { x = 286 y = 0 }
 				borderSize = { x = 0 y = 0 }
-				scrollbartype = "standardlistbox_slider_thick"
+				scrollbarType = "standardlistbox_slider_thick"
 				spacing = -1
 				defaultSelection = yes
 			}
 		}
 		containerWindowType = {
 			name = "observer_window"
-			size = { width = 260 height = 20 }
-			position = { x = 0 y = 0 }
+			size = { width = 300 height = 20 }
 			show_position = { x = -260 y = -76 }
 			hide_position = { x = 20 y = -76 }
 			animation_time = 200
@@ -141,7 +140,7 @@ guiTypes = {
 			buttonType = {
 				name = "unobserve"
 				quadTextureSprite = "GFX_outliner_unobserve_button"
-				position = { x = -60 y = 3 }
+				position = { x = -110 y = 3 }
 				pdx_tooltip = "OUTLINER_UNOBSERVE_TOOLTIP"
 				orientation = "UPPER_RIGHT"
 				oversound = no_sound
@@ -152,7 +151,7 @@ guiTypes = {
 				priority = 100
 				size = { x = 286 y = 0 }
 				borderSize = { x = 0 y = 0 }
-				scrollbartype = "standardlistbox_slider_thick"
+				scrollbarType = "standardlistbox_slider_thick"
 				spacing = -1
 				defaultSelection = yes
 			}
@@ -203,7 +202,7 @@ guiTypes = {
 			size = { x = 300 y = 0 }
 			borderSize = { x = 0 y = 0 }
 			spacing = 0
-			scrollbartype = "standardlistbox_slider_thick"
+			scrollbarType = "standardlistbox_slider_thick"
 			alwaysTransparent = yes
 		}
 	}
@@ -269,7 +268,7 @@ guiTypes = {
 			priority = 100
 			size = { x = 320 y = 0 }
 			borderSize = { x = 0 y = 0 }
-			scrollbartype = "standardlistbox_slider_thick"
+			scrollbarType = "standardlistbox_slider_thick"
 			alwaysTransparent = yes
 		}
 	}
@@ -430,7 +429,7 @@ guiTypes = {
 			text_color_code = "E"
 			alwaysTransparent = yes
 		}
-		OverlappingElementsBoxType = {
+		overlappingElementsBoxType = {
 			name = "box"
 			orientation = "upper_left"
 			position = { x = 135 y = 0 }
@@ -691,7 +690,7 @@ guiTypes = {
 			position = { x = -188 y = 2 }
 			orientation = upper_right
 			moveable = no
-			OverlappingElementsBoxType = {
+			overlappingElementsBoxType = {
 				name = "box"
 				position = { x = 0 y = 0 }
 				size = { x = 130 y = 22 }
@@ -1050,7 +1049,7 @@ guiTypes = {
 			size = { x = 284 y = 647 }
 			priority = 100
 			borderSize = { x = 0 y = 0 }
-			scrollbartype = "standardlistbox_slider_thick"
+			scrollbarType = "standardlistbox_slider_thick"
 			autohide_scrollbar = no
 			offset = { x = -3 y = 0 }
 			spacing = 0
@@ -1358,7 +1357,7 @@ guiTypes = {
 			size = { width = 100% height = 100% }
 			position = { x = 120 y = 0 }
 			moveable = no
-			OverlappingElementsBoxType = {
+			overlappingElementsBoxType = {
 				name = "box"
 				position = { x = 0 y = 1 }
 				size = { x = 140 y = 30 }
@@ -1512,14 +1511,12 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			scale = 0.0
 			quadTextureSprite = "GFX_outliner_war_vs"
-			alwaysTransparent = no
 		}
 		iconType = {
 			name = "war_status_icon"
 			position = { x = 16 y = 19 }
 			scale = 0.6
 			quadTextureSprite = "GFX_diplomacy_status_war"
-			alwaysTransparent = no
 		}
 		instantTextBoxType = {
 			name = "might"

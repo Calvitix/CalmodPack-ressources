@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "edicts_view"
-		size = { width = 695 height = 945 } #595 calvitix
+		size = { width = 595 height = 940 }
 		show_position = { x = 35 y = 50 }
 		hide_position = { x = -100% y = 50 }
 		if_resolution = {
@@ -125,7 +125,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "edict_list_window"
 			position = { x = 6 y = 45 }
-			size = { width = 683 height = 880 }  #583
+			size = { width = 583 height = 880 }
 			if_resolution = {
 				min_height = 1200
 				size = { width = 583 height = 1000 }
@@ -141,19 +141,18 @@ guiTypes = {
 			smoothListboxType = {
 				name = "edict_list"
 				position = { x = 10 y = 8 }
-				size = { x = 650 y = 852 }  #550
+				size = { x = 550 y = 864 }
 				if_resolution = {
 					min_height = 1200
-					size = { x = 650 y = 984 } #550
+					size = { x = 550 y = 984 }
 				}
 				if_resolution = {
 					min_height = 1440
-					size = { x = 650 y = 1067 } #550
+					size = { x = 550 y = 1069 }
 				}
 				spacing = 0
 				scrollbarType = "standardlistbox_slider_thick"
-				borderSize = { x = 0 y = 0 }
-				autohide_scrollbar = no
+				borderSize = { x = 0 y = 0 }				autohide_scrollbar = no
 			}
 		}
 	}
@@ -163,11 +162,11 @@ guiTypes = {
 	containerWindowType = {
 		name = "empire_edicts_entry"
 		position = { x = 0 y = 0 }
-		size = { width = 650 height = 34 }   #550
+		size = { width = 550 height = 34 }
 		moveable = no
 		containerWindowType = {
 			name = "leader_frame_box"
-			size = { width = 650 height = 32 }   #550
+			size = { width = 550 height = 32 }
 			position = { x = 0 y = 3 }
 			background = {
 				name = "background"
@@ -202,7 +201,7 @@ guiTypes = {
 			name = "edicts_name"
 			font = "cg_16b"
 			position = { x = 77 y = 11 }
-			maxWidth = 423                  #283
+			maxWidth = 283
 			maxHeight = 16
 			format = left
 			vertical_alignment = center
@@ -211,7 +210,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "active"
 			font = "cg_16b"
-			position = { x = 460 y = 11 }   #360
+			position = { x = 360 y = 11 }
 			maxWidth = 75
 			maxHeight = 16
 			fixedSize = yes
@@ -222,7 +221,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "cost"
 			font = "cg_16b"
-			position = { x = 535 y = 11 }   #435
+			position = { x = 435 y = 11 }
 			maxWidth = 105
 			maxHeight = 16
 			format = right
@@ -248,8 +247,7 @@ guiTypes = {
 			fixedSize = yes
 			format = left
 			text = ""
-			fixedsize = yes
-			text_color_code = "G"
+			fixedSize = yes			text_color_code = "G"
 		}
 	}
 }

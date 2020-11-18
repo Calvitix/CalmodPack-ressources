@@ -24,14 +24,24 @@ room_selector = {
 		"personality_honorbound_warriors_room" 		= { always = yes }
 		"personality_fanatic_befrienders_room" 		= { always = yes }
 		"personality_hive_mind_room" 				= { always = yes }
+		"runic_room"								= { always = yes }
+		"scrappy_room"								= { always = yes }
+		"crystalline_room"							= { always = yes }
+		"organic_room"								= { always = yes }
+		"gilded_room"								= { always = yes }
 		"machine_room"								= { always = yes }
 		"lithoid_room"								= { local_has_dlc = "Lithoids Species Pack" }
+		"necroids_room"								= { local_has_dlc = "Necroids Species Pack" }
 	}
 
 	#leader scope
 	ruler = {
 		"default_room"								= { always = no }
 		"lithoid_room"								= { exists = owner owner = { lithoids_portrait = yes } }
+		"necroids_room"								= { exists = owner owner = { necroids_portrait = yes } }
+		"runic_room" = { exists = owner owner = { OR = { has_ai_personality = map_plunderers_of_knowledge has_ai_personality = map_flowers_of_war has_ai_personality = map_unfathomable_artificers } } }
+		"scrappy_room" = { exists = owner owner = { OR = { has_ai_personality = map_adventure_seekers has_ai_personality = map_hopeless_pessimists } } }
+		"gilded_room" = { exists = owner owner = { OR = { has_ai_personality = map_studious_builders has_ai_personality = map_quiet_cultists } } }
 		"personality_hegemonic_imperialists_room" = { exists = owner owner = { OR = { has_ai_personality = hegemonic_imperialists has_ai_personality = map_insecure_imitators has_ai_personality = map_enforcers_of_law has_ai_personality = map_valiant_hearts } } }
 		"personality_federation_builders_room" = { exists = owner owner = { OR = { has_ai_personality = federation_builders has_ai_personality = map_aspiring_precursors } } }
 		"personality_democratic_crusaders_room" = { exists = owner owner = { OR = { has_ai_personality = democratic_crusaders has_ai_personality = map_slave_soldiers has_ai_personality = map_princes_of_madness has_ai_personality = map_proud_nationalists } } }

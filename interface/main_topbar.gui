@@ -591,10 +591,10 @@ guiTypes = {
 					}
 					expandedWindow = {
 						name = "expanded_window"
-						position = { x = -18 y = -100 }
-						hide_position = { x = -18 y = -100 }
-						show_position = { x = -18 y = 43 }
-						size = { width = 100 height = 85 }
+						position = { x = -23 y = -100 }
+						hide_position = { x = -23 y = -100 }
+						show_position = { x = -23 y = 44 }
+						size = { width = 110 height = 85 }
 						show_animation_type = decelerated
 						hide_animation_type = accelerated
 						animation_time = 200
@@ -605,8 +605,9 @@ guiTypes = {
 						gridBoxType = {
 							name = "resources"
 							format = "UPPER_LEFT"
-							size = { width = 99 height = 100% }
-							slotsize = { width = 99 height = 28 }
+							position = { x = 5 y = 5 }
+							size = { width = 100 height = 100% }
+							slotSize = { width = 100 height = 30 }
 							max_slots_horizontal = 1
 						}
 					}
@@ -731,25 +732,32 @@ guiTypes = {
 					}
 					expandedWindow = {
 						name = "expanded_window"
-						hide_position = { x = -48 y = -190 }
-						show_position = { x = -48 y = 44 }
-						size = { width = 215 height = 420 }
+						hide_position = { x = 0 y = -190 }
+						show_position = { x = 0 y = 44 }
+						size = { width = 510 height = 300 }
+						if_resolution = {
+							min_width = 2560
+							size = { width = 710 height = 300 }
+						}
 						show_animation_type = decelerated
 						hide_animation_type = accelerated
 						animation_time = 200
-						clipping = yes
-						verticalScrollbar = "right_vertical_slider_thick"
+						#verticalScrollbar = "right_vertical_slider_thick"
 						background = {
 							name = "bg"
-							spriteType = "GFX_dark_area_cut"
+							spriteType = "GFX_invisible"
 						}
 						gridBoxType = {
 							name = "resources"
 							format = "UPPER_LEFT"
 							position = { x = 5 y = 5 }
 							size = { width = 200 height = -20 }
-							slotsize = { width = 99 height = 30 }
-							max_slots_horizontal = 2
+							slotSize = { width = 100 height = 30 }
+							max_slots_horizontal = 5
+							if_resolution = {
+								min_width = 2560
+								max_slots_horizontal = 7
+							}
 						}
 					}
 				}
@@ -785,25 +793,32 @@ guiTypes = {
 					}
 					expandedWindow = {
 						name = "expanded_window"
-						hide_position = { x = -48 y = -190 }
-						show_position = { x = -48 y = 44 }
-						size = { width = 215 height = 420 }
+						hide_position = { x = 0 y = -190 }
+						show_position = { x = 0 y = 44 }
+						size = { width = 510 height = 300 }
+						if_resolution = {
+							min_width = 2560
+							size = { width = 710 height = 300 }
+						}
 						show_animation_type = decelerated
 						hide_animation_type = accelerated
 						animation_time = 200
-						clipping = yes
-						verticalScrollbar = "right_vertical_slider_thick"
+						#verticalScrollbar = "right_vertical_slider_thick"
 						background = {
 							name = "bg"
-							spriteType = "GFX_dark_area_cut"
+							spriteType = "GFX_invisible"
 						}
 						gridBoxType = {
 							name = "resources"
 							format = "UPPER_LEFT"
 							position = { x = 5 y = 5 }
 							size = { width = 200 height = -20 }
-							slotsize = { width = 99 height = 30 }
-							max_slots_horizontal = 2
+							slotSize = { width = 100 height = 30 }
+							max_slots_horizontal = 5
+							if_resolution = {
+								min_width = 2560
+								max_slots_horizontal = 7
+							}
 						}
 					}
 				}
@@ -1117,7 +1132,7 @@ guiTypes = {
 			position = { x = -204 y = -52 }
 			maxHeight = 16
 			maxWidth = 200
-			fixedsize = yes
+			fixedSize = yes
 			alwaysTransparent = yes
 			text = "Build: 12332"
 			text_color_code = "H"

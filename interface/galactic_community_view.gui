@@ -407,7 +407,7 @@ guiTypes = {
 					name = "council_gridbox"
 					position = { x = 10 y = 34 }
 					size = { width = 256 height = 32 }
-					slotsize = { width = 42 height = 36 }
+					slotSize = { width = 42 height = 36 }
 					max_slots_horizontal = 8
 					max_slots_vertical = 1
 					format = UPPER_LEFT
@@ -448,7 +448,7 @@ guiTypes = {
 						name = "members_gridbox"
 						position = { x = 0 y = 0 }
 						size = { width = 294 height = -20 }
-						slotsize = { width = 42 height = 36 }
+						slotSize = { width = 42 height = 36 }
 						max_slots_horizontal = 7
 						format = UPPER_LEFT
 					}
@@ -633,7 +633,7 @@ guiTypes = {
 						name = "supported_by_gridbox"
 						position = { x = 19 y = 32 }
 						size = { width = 300 height = -20 }
-						slotsize = { width = 42 height = 36 }
+						slotSize = { width = 42 height = 36 }
 						add_horizontal = yes
 						max_slots_horizontal = 7
 						format = UPPER_LEFT
@@ -945,7 +945,7 @@ guiTypes = {
 					name = "supporters_gridbox"
 					position = { x = 63 y = 3 }
 					size = { width = 258 height = 178 }
-					slotsize = { width = 42 height = 36 }
+					slotSize = { width = 42 height = 36 }
 					add_horizontal = yes
 					max_slots_horizontal = 6
 					format = UPPER_LEFT
@@ -977,7 +977,7 @@ guiTypes = {
 					name = "opponents_gridbox"
 					position = { x = 8 y = 3 }
 					size = { width = 258 height = 178 }
-					slotsize = { width = 42 height = 36 }
+					slotSize = { width = 42 height = 36 }
 					add_horizontal = yes
 					max_slots_horizontal = 6
 					format = UPPER_LEFT
@@ -1007,7 +1007,7 @@ guiTypes = {
 					name = "abstaining_gridbox"
 					position = { x = 58 y = 10 }
 					size = { width = 646 height = 108 }
-					slotsize = { width = 42 height = 36 }
+					slotSize = { width = 42 height = 36 }
 					add_horizontal = yes
 					max_slots_horizontal = 15
 					max_slots_vertical = 3

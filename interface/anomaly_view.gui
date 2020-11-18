@@ -403,7 +403,7 @@ guiTypes = {
 				maxHeight = 175
 				format = center
 				text_color_code = "L"
-				scrollbartype = "standardtext_slider_small"
+				scrollbarType = "standardtext_slider_small"
 			}
 		}
 		containerWindowType = {
@@ -430,7 +430,7 @@ guiTypes = {
 				position = { x = 11 y = 10 }
 				size = { x = 651 y = 325 }
 				borderSize = { x = 0 y = 0 }
-				scrollbartype = "standardlistbox_slider_thick"
+				scrollbarType = "standardlistbox_slider_thick"
 				spacing = 5
 			}
 		}

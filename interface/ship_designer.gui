@@ -7,41 +7,41 @@ guiTypes = {
 	# this controls the size of the 3d viewport ui element
 	positionType = {
 		name = "3d_view_size"
-		position = { x = 1310 y = 600 }
+		position = { x = 1300 y = 600 }
 		if_resolution = {
 			min_height = 1080
-			position = { x = 1310 y = 680 }
+			position = { x = 1300 y = 680 }
 		}
 		if_resolution = {
 			min_height = 1200
-			position = { x = 1310 y = 800 }
+			position = { x = 1300 y = 800 }
 		}
 		if_resolution = {
 			min_width = 1680
-			position = { x = 1390 y = 650 }
+			position = { x = 1380 y = 650 }
 			if_resolution = {
 				min_height = 1080
-				position = { x = 1390 y = 680 }
+				position = { x = 1380 y = 680 }
 			}
 			if_resolution = {
 				min_height = 1200
-				position = { x = 1390 y = 795 }
+				position = { x = 1380 y = 800 }
 			}
 		}
 		if_resolution = {
 			min_width = 1920
-			position = { x = 1630 y = 680 }
+			position = { x = 1620 y = 680 }
 			if_resolution = {
 				min_height = 1200
-				position = { x = 1630 y = 795 }
+				position = { x = 1620 y = 800 }
 			}
 		}
 		if_resolution = {
 			min_width = 2560
-			position = { x = 1930 y = 680 }
+			position = { x = 1920 y = 680 }
 			if_resolution = {
 				min_height = 1440
-				position = { x = 1930 y = 1025 }
+				position = { x = 1920 y = 1025 }
 			}
 		}
 	}
@@ -110,22 +110,6 @@ guiTypes = {
 			name = "background"
 			quadTextureSprite = "GFX_tile_large_bg"
 		}
-		containerWindowType = {
-			name = "3d_view_frame"
-			position = { x = 237 y = 59 }
-			size = { width = -11 height = -214 }
-			background = {
-				name = "districts_window_background"
-				spriteType = "GFX_tiles_frame"
-			}
-		}
-		buttonType = {
-			name = "3d_view"
-			quadTextureSprite = "GFX_dummy_3d_ship_view"
-			position = { x = 238 y = 60 }
-			oversound = no_sound
-			clicksound = no_sound
-		}
 		iconType = {
 			name = "hex_bg"
 			spriteType = "GFX_hex_bg"
@@ -157,7 +141,7 @@ guiTypes = {
 			}
 			maxWidth = 400
 			maxHeight = 20
-			fixedsize = yes
+			fixedSize = yes
 		}
 		containerWindowType = {
 			name = "auto_design_background"
@@ -220,6 +204,22 @@ guiTypes = {
 			autohide_scrollbar = no
 			offset = { x = -3 y = 0 }
 		}
+		containerWindowType = {
+			name = "3d_view_frame"
+			position = { x = 247 y = 59 }
+			size = { width = -11 height = -214 }
+			background = {
+				name = "districts_window_background"
+				spriteType = "GFX_tiles_frame"
+			}
+		}
+		buttonType = {
+			name = "3d_view"
+			quadTextureSprite = "GFX_dummy_3d_ship_view"
+			position = { x = 248 y = 60 }
+			oversound = no_sound
+			clicksound = no_sound
+		}
 		instantTextBoxType = {
 			name = "weapons_help_text"
 			font = "cg_16b"
@@ -228,7 +228,7 @@ guiTypes = {
 			orientation = center
 			maxWidth = 680
 			maxHeight = 20
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 			alwaysTransparent = yes
 			text_color_code = "H"
@@ -241,7 +241,7 @@ guiTypes = {
 			orientation = center
 			maxWidth = 680
 			maxHeight = 20
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 			alwaysTransparent = yes
 			text_color_code = "H"
@@ -253,7 +253,7 @@ guiTypes = {
 			position = { x = 296 y = 400 }
 			maxWidth = 728
 			maxHeight = 20
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 			alwaysTransparent = yes
 		}
@@ -371,7 +371,7 @@ guiTypes = {
 				maxWidth = 1000
 				maxHeight = 20
 				text_color_code = "H"
-				fixedsize = yes
+				fixedSize = yes
 			}
 			containerWindowType = {
 				name = "content"
@@ -405,7 +405,7 @@ guiTypes = {
 					position = { x = @label_x_back y = 2 }
 					maxWidth = 250
 					maxHeight = 16
-					fixedsize = yes
+					fixedSize = yes
 					format = left
 					text_color_code = "E"
 				}
@@ -443,7 +443,7 @@ guiTypes = {
 					position = { x = @value_x y = @row_1_text }
 					maxWidth = 260
 					maxHeight = 16
-					fixedsize = yes
+					fixedSize = yes
 					format = left
 					text_color_code = "Y"
 				}
@@ -481,7 +481,7 @@ guiTypes = {
 					position = { x = @value_x y = @row_2_text }
 					maxWidth = 260
 					maxHeight = 16
-					fixedsize = yes
+					fixedSize = yes
 					format = left
 					text_color_code = "Y"
 				}
@@ -519,7 +519,7 @@ guiTypes = {
 					position = { x = @value_x y = @row_3_text }
 					maxWidth = 260
 					maxHeight = 64
-					fixedsize = yes
+					fixedSize = yes
 					format = left
 				}
 				instantTextBoxType = {
@@ -530,7 +530,7 @@ guiTypes = {
 					position = { x = @label_x2_back y = 2 }
 					maxWidth = 250
 					maxHeight = 16
-					fixedsize = yes
+					fixedSize = yes
 					format = left
 					text_color_code = "E"
 				}
@@ -568,7 +568,7 @@ guiTypes = {
 					position = { x = @value_x2 y = @row_1_text }
 					maxWidth = 115
 					maxHeight = 16
-					fixedsize = yes
+					fixedSize = yes
 					format = left
 				}
 				iconType = {
@@ -605,7 +605,7 @@ guiTypes = {
 					position = { x = @value_x2 y = @row_2_text }
 					maxWidth = 115
 					maxHeight = 16
-					fixedsize = yes
+					fixedSize = yes
 					format = left
 				}
 				iconType = {
@@ -642,7 +642,7 @@ guiTypes = {
 					position = { x = @value_x2 y = @row_3_text }
 					maxWidth = 115
 					maxHeight = 16
-					fixedsize = yes
+					fixedSize = yes
 					format = left
 				}
 				iconType = {
@@ -679,7 +679,7 @@ guiTypes = {
 					position = { x = @value_x2 y = @row_4_text }
 					maxWidth = 115
 					maxHeight = 16
-					fixedsize = yes
+					fixedSize = yes
 					format = left
 				}
 				iconType = {
@@ -716,7 +716,7 @@ guiTypes = {
 					position = { x = @value_x3 y = @row_1_text }
 					maxWidth = 115
 					maxHeight = 16
-					fixedsize = yes
+					fixedSize = yes
 					format = left
 				}
 				iconType = {
@@ -753,7 +753,7 @@ guiTypes = {
 					position = { x = @value_x3 y = @row_2_text }
 					maxWidth = 115
 					maxHeight = 16
-					fixedsize = yes
+					fixedSize = yes
 					format = left
 				}
 				iconType = {
@@ -790,7 +790,7 @@ guiTypes = {
 					position = { x = @value_x3 y = @row_3_text }
 					maxWidth = 115
 					maxHeight = 16
-					fixedsize = yes
+					fixedSize = yes
 					format = left
 				}
 				iconType = {
@@ -826,7 +826,7 @@ guiTypes = {
 					position = { x = @value_x3 y = @row_4_text }
 					maxWidth = 115
 					maxHeight = 16
-					fixedsize = yes
+					fixedSize = yes
 					format = left
 				}
 			}
@@ -995,7 +995,7 @@ guiTypes = {
 			position = { x = 0 y = 45 }
 			maxWidth = 340
 			maxHeight = 20
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 		}
 		listBoxType = {
@@ -1025,7 +1025,7 @@ guiTypes = {
 			position = { x = 0 y = 5 }
 			maxWidth = 270
 			maxHeight = 20
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 			alwaysTransparent = yes
 		}
@@ -1046,7 +1046,7 @@ guiTypes = {
 			position = { x = 52 y = 1 }
 			maxWidth = 240
 			maxHeight = 30
-			fixedsize = yes
+			fixedSize = yes
 			format = left
 		}
 	}
@@ -1064,10 +1064,19 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "section_entry_row"
-		size = { width = 100%% height = 295 }
+		size = { width = 1240 height = 295 }
+		if_resolution = {
+			min_width = 1920
+			size = { width = 1490 height = 295 }
+		}
+		if_resolution = {
+			min_width = 2560
+			size = { width = 1775 height = 295 }
+		}
 		background = {
 			name = "background"
-			quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+			quadTextureSprite = "GFX_tiles_frame_notrans"
+			alwaysTransparent = yes
 		}
 		overlappingElementsBoxType = {
 			name = "list"
@@ -1098,7 +1107,7 @@ guiTypes = {
 			position = { x = 29 y = -2 }
 			maxWidth = 40
 			maxHeight = 30
-			fixedsize = yes
+			fixedSize = yes
 			format = left
 		}
 	}
@@ -1122,7 +1131,7 @@ guiTypes = {
 			position = { x = 5 y = 8 }
 			maxWidth = 240
 			maxHeight = 30
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 		}
 		containerWindowType = {
@@ -1148,7 +1157,7 @@ guiTypes = {
 			position = { x = 5 y = 175 }
 			maxWidth = 240
 			maxHeight = 30
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 		}
 		overlappingElementsBoxType = {
@@ -1165,7 +1174,7 @@ guiTypes = {
 			position = { x = 5 y = 222 }
 			maxWidth = 240
 			maxHeight = 30
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 		}
 		overlappingElementsBoxType = {
@@ -1413,7 +1422,7 @@ guiTypes = {
 			position = { x = 52 y = 1 }
 			maxWidth = 240
 			maxHeight = 30
-			fixedsize = yes
+			fixedSize = yes
 			format = left
 			alwaysTransparent = yes
 		}
@@ -1424,7 +1433,7 @@ guiTypes = {
 			position = { x = 52 y = 27 }
 			maxWidth = 240
 			maxHeight = 30
-			fixedsize = yes
+			fixedSize = yes
 			format = left
 			alwaysTransparent = yes
 		}
@@ -1579,7 +1588,7 @@ guiTypes = {
 			position = { x = 6 y = 4 }
 			maxWidth = 185
 			maxHeight = 40
-			fixedsize = yes
+			fixedSize = yes
 			format = left
 			alwaysTransparent = yes
 		}
@@ -1591,7 +1600,7 @@ guiTypes = {
 			position = { x = 6 y = 39 }
 			maxWidth = 170
 			maxHeight = 40
-			fixedsize = yes
+			fixedSize = yes
 			format = left
 			alwaysTransparent = yes
 		}
@@ -1624,7 +1633,7 @@ guiTypes = {
 			position = { x = 1 y = 17 }
 			maxWidth = 208
 			maxHeight = 40
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 			alwaysTransparent = yes
 		}
@@ -1639,7 +1648,7 @@ guiTypes = {
 			position = { x = 0 y = 8 }
 			maxWidth = 206
 			maxHeight = 40
-			fixedsize = yes
+			fixedSize = yes
 			format = left
 			alwaysTransparent = yes
 		}
@@ -1700,7 +1709,7 @@ guiTypes = {
 				position = { x = 0 y = 0 }
 				maxWidth = 280
 				maxHeight = 16
-				fixedsize = yes
+				fixedSize = yes
 				format = center
 				alwaysTransparent = yes
 				text_color_code = "H"
@@ -1809,42 +1818,60 @@ guiTypes = {
 		clipping = no
 		background = {
 			name = "background"
-			quadTextureSprite = "GFX_tile_outliner_bg"
-			position = { x = 84 y = -78 }
+			quadTextureSprite = "GFX_invisible"
 		}
-		iconType = {
-			name = "hex_bg"
-			spriteType = "GFX_hex_bg"
-			position = { x = 64 y = -88 }
-			alwaysTransparent = yes
-		}
-		iconType = {
-			name = "section_header_line"
-			quadTextureSprite = "GFX_line"
-			position = { x = 90 y = -51 }
-			alwaysTransparent = yes
-		}
-		instantTextBoxType = {
-			name = "choose_section_label"
-			font = "malgun_goth_24"
-			text = "CHOOSE_SECTION"
-			position = { x = 100 y = -70 }
-			maxWidth = 170
-			maxHeight = 20			#text_color_code = "E"
-			format = left
-			alwaysTransparent = yes
+		containerWindowType = {
+			name = "header"
+			position = { x = 0 y = 0 }
+			size = { width = -10 height = 50 }
+			orientation = center_up
+			origo = center_up
+			moveable = no
+			background = {
+				name = "background"
+				quadTextureSprite = "GFX_ui_plain_bg_tile"
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "hex_bg"
+				spriteType = "GFX_hex_center_bg"
+				position = { x = 0 y = 25 }
+				centerPosition = yes
+				orientation = center_up
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "section_header_line"
+				quadTextureSprite = "GFX_ui_line_center_tiny"
+				position = { x = 0 y = 34 }
+				centerPosition = yes
+				orientation = center_up
+				alwaysTransparent = yes
+			}
+			instantTextBoxType = {
+				name = "choose_section_label"
+				font = "malgun_goth_24"
+				text = "CHOOSE_SECTION"
+				position = { x = -200 y = 10 }
+				orientation = center_up
+				maxWidth = 400
+				maxHeight = 20
+				#text_color_code = "E"
+				format = center
+				alwaysTransparent = yes
+			}
 		}
 		smoothListBoxType = {
 			name = "list"
-			position = { x = 94 y = -28 }
-			size = { x = 1240 y = 595 }
+			position = { x = 10 y = 50 }
+			size = { x = 1240 y = 600 }
 			if_resolution = {
 				min_width = 1920
-				size = { x = 1490 y = 595 }
+				size = { x = 1490 y = 600 }
 			}
 			if_resolution = {
 				min_width = 2560
-				size = { x = 1775 y = 595 }
+				size = { x = 1775 y = 600 }
 			}
 			spacing = 5
 			scrollbarType = "standardlistbox_slider_thick"
@@ -1852,8 +1879,8 @@ guiTypes = {
 		buttonType = {
 			name = "close"
 			quadTextureSprite = "GFX_close"
-			position = { x = 44 y = -67 }
-			orientation = "UPPER_RIGHT"
+			position = { x = -55 y = 6 }
+			orientation = upper_right
 			shortcut = "ESCAPE"
 			clicksound = "back_click"
 		}
@@ -1873,39 +1900,30 @@ guiTypes = {
 		moveable = no
 		background = {
 			name = "background"
-			quadTextureSprite = "GFX_tile_outliner_bg"
+			quadTextureSprite = "GFX_ui_tile_large_bg_plain"
 		}
 		iconType = {
 			name = "hex_bg"
-			spriteType = "GFX_hex_bg"
-			position = { x = 0 y = -12 }
-			if_resolution = {
-				min_width = 2560
-				position = { x = -10 y = -12 }
-			}
+			spriteType = "GFX_hex_center_bg"
+			position = { x = -21 y = 20 }
+			centerPosition = yes
+			orientation = center_up
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "component_header_line"
-			quadTextureSprite = "GFX_line_short"
-			if_resolution = {
-				min_width = 2560
-				quadTextureSprite = "GFX_line"
-			}
-			position = { x = 5 y = 21 }
+			quadTextureSprite = "GFX_ui_line_center_tiny"
+			position = { x = 7 y = 23 }
 			alwaysTransparent = yes
 		}
 		instantTextBoxType = {
 			name = "select_component_lable"
 			font = "malgun_goth_24"
 			text = "SELECT_COMPONENT"
-			position = { x = 35 y = 5 }
-			if_resolution = {
-				min_width = 2560
-				position = { x = 25 y = 5 }
-			}
-			maxWidth = 170
-			maxHeight = 20
+			position = { x = 22 y = 5 }
+			maxWidth = 214
+			maxHeight = 24
+			format = center
 			text_color_code = "H"
 		}
 		instantTextBoxType = {
@@ -1990,7 +2008,7 @@ guiTypes = {
 		buttonType = {
 			name = "close"
 			quadTextureSprite = "GFX_close"
-			position = { x = -45 y = 13 }
+			position = { x = -45 y = 7 }
 			orientation = "UPPER_RIGHT"
 			shortcut = "ESCAPE"
 			clicksound = "back_click"

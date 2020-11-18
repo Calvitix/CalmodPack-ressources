@@ -182,7 +182,7 @@ guiTypes = {
 				name = "servers"
 				position = { x = 20 y = 160 }
 				size = { x = 1224 y = 792 }
-				scrollbartype = "standardlistbox_slider_thick"
+				scrollbarType = "standardlistbox_slider_thick"
 			}
 			buttonType = {
 				name = "refresh_lan"
@@ -361,7 +361,7 @@ guiTypes = {
 				backGround = ""
 				size = { x = 256 y = 480 }
 				spacing = 1
-				scrollbartype = "standardlistbox_slider"
+				scrollbarType = "standardlistbox_slider"
 				borderSize = { x = 0 y = 0 }
 				autohide_scrollbar = no
 			}
@@ -452,7 +452,7 @@ guiTypes = {
 			maxHeight = 18
 			font = "cg_16b"
 			text = ""
-			fixedsize = yes
+			fixedSize = yes
 			truncate = yes
 			format = center
 		}
@@ -464,7 +464,7 @@ guiTypes = {
 			maxHeight = 18
 			font = "cg_16b"
 			text = ""
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 		}
 		instantTextBoxType = {
@@ -475,7 +475,7 @@ guiTypes = {
 			maxHeight = 18
 			font = "cg_16b"
 			text = "1.0.2"
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 		}
 		instantTextBoxType = {
@@ -486,7 +486,7 @@ guiTypes = {
 			maxHeight = 18
 			font = "cg_16b"
 			text = ""
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 		}
 		instantTextBoxType = {
@@ -497,7 +497,7 @@ guiTypes = {
 			maxHeight = 18
 			font = "cg_16b"
 			text = "Sengoku"
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 		}
 		instantTextBoxType = {
@@ -508,7 +508,7 @@ guiTypes = {
 			maxHeight = 18
 			font = "cg_16b"
 			text = ""
-			fixedsize = yes
+			fixedSize = yes
 			format = center
 		}
 	}
@@ -544,7 +544,7 @@ guiTypes = {
 			maxHeight = 22
 			font = "cg_16b"
 			text = "Player"
-			fixedsize = yes
+			fixedSize = yes
 			#text_color_code = "E"
 		}
 		instantTextBoxType = {
@@ -555,7 +555,7 @@ guiTypes = {
 			maxHeight = 18
 			font = "cg_16b"
 			text = "ONLINE"
-			fixedsize = yes
+			fixedSize = yes
 		}
 	}
 	containerWindowType = {
@@ -642,7 +642,7 @@ guiTypes = {
 				size = { x = 220 y = 260 }
 				horizontal = 0
 				spacing = 2
-				scrollbartype = "standardlistbox_slider"
+				scrollbarType = "standardlistbox_slider"
 				borderSize = { x = 0 y = 20 }
 				#moveable = yes
 			}

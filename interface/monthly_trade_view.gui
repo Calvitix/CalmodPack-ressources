@@ -68,7 +68,7 @@ guiTypes = {
 			name = "monthly_trade_resources_grid"
 			position = { x = 124 y = 110 }
 			size = { width = 60 height = 120 }
-			slotsize = {
+			slotSize = {
 				width = 35
 				height = 35
 			}

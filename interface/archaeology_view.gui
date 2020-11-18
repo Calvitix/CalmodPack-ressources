@@ -222,7 +222,7 @@ guiTypes = {
 			orientation = lower_left
 			size = { width = 674 height = 144 }
 			format = "UPPER_LEFT"
-			slotsize = { width = 530 height = 48 }
+			slotSize = { width = 530 height = 48 }
 			max_slots_horizontal = 1
 			max_slots_vertical = 3
 		}
@@ -564,7 +564,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "header"
-				font = "malgun_goth_24"
+				font = "cg_16b"
 				position = { x = 15 y = 10 }
 				text = "ARC_EXPEDITION_LOG"
 				maxWidth = 120
@@ -644,7 +644,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "text"
-				font = "malgun_goth_24"
+				font = "cg_16b"
 				position = { x = 0 y = 380 }
 				text = "THIS IS LOCKED/FINISHED"
 				maxWidth = 350
@@ -676,7 +676,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "description"
-			font = "malgun_goth_24"
+			font = "cg_16b"
 			position = { x = 0 y = 35 } # will be moved up in code if name is empty
 			text = "THIS HERE IS A LONG DESCRIPTION OF AN EVENT"
 			text_color_code = "L"
