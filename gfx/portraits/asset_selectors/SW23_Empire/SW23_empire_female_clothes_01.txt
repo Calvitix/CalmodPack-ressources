@@ -52,6 +52,7 @@ empire_female_clothes_01 = {
 			"gfx/models/portraits/Star_Wars/human/human_female_clothes_cedfadmiral.dds"
 			"gfx/models/portraits/human/human_female_clothes_governor.dds" 
 			}
+		}
 	}
 }
 

@@ -1,8 +1,0 @@
-################## ASB ########################
-
-category = {
- name = "Ambient"
- soundeffects = {
-		explosion_cap_2_sound
-	}
-}

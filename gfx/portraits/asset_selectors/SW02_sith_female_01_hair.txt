@@ -168,9 +168,7 @@ sith_female_hair_01 = {
 					}
 				}
 			}
-
-			list = {
-				
+			
 			list = {
 				"gfx/models/portraits/human/human_female_hair_red_style_05.dds"
 				"gfx/models/portraits/human/human_female_hair_red_style_05.dds"
@@ -193,8 +191,6 @@ sith_female_hair_01 = {
 				"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
 			}
 		}		
-		
-		
 	}
 }
   

@@ -141,6 +141,7 @@ human_SW_female_clothes_01 = {
 				"gfx/models/portraits/general_store/human_female_type1_5.dds"
 			}
 		}
+	}
 }
 
 

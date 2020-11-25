@@ -5,7 +5,7 @@ objectTypes = {
 #	MUZZLE FLASHES
 ####################
 
-FIGHTERS#################################################################
+#FIGHTERS#################################################################
 
 	pdxparticle = {
 		name = "fighter_gamma_laser_small_hit_particle"
