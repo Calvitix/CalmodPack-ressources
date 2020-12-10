@@ -1,0 +1,151 @@
+particle={
+	name="navgation_light"
+	subsystem={
+		name="glow_base_flare"
+		max_amount=3
+		slave_particles=0
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/glow.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			x=180
+			y=100
+			z=255
+			alpha=255
+		}
+		position={
+			y=0
+		}
+		start=0.000
+		duration=-1.000
+		velocity_pitch={ 0.000 180.000 }
+		velocity_yaw={ 0.000 180.000 }
+		velocity=0.000
+		life=0.160
+		emission=50.000
+		size=0.8
+		particle_yaw=0.000
+		particle_pitch=90.000
+		rotation=0.000
+	}
+
+}
+particle={
+	name="navgation_light_glare"
+	subsystem={
+		name="glow_base_flare"
+		max_amount=3
+		slave_particles=0
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/glow.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			x=200
+			y=200
+			z=255
+			alpha=255,alpha_fade
+		}
+		position={
+			y=0
+		}
+		start=0.000
+		duration=-1.000
+		velocity_pitch={ 0.000 180.000 }
+		velocity_yaw={ 0.000 180.000 }
+		velocity=0.000
+		life=3.160
+		emission=50.000
+		size=1
+		particle_yaw=0.000
+		particle_pitch=90.000
+		rotation=0.000
+	}
+	animation={
+		name="alpha_fade"
+		start=0.000
+		duration=0.1
+		repeat=no
+		minValue=0.000
+		maxValue=1.000
+		curve={
+			0.000 0.000 0.200 1.000 0.700 1.000 1.000 0.000 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="shrink"
+		start=0.000
+		duration=0.3
+		repeat=no
+		minValue=0.000
+		maxValue=1.000
+		curve={
+			0.000 1.000 1.000 0.200 
+		}
+		op="MUL"
+		time="life"
+	}
+
+}
+particle={
+	name="gate_wormwhole"
+	subsystem={
+		name="glow_base_flare"
+		max_amount=1
+		slave_particles=0
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/gate_x3.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			x=180
+			y=100
+			z=255
+			alpha=255
+		}
+		position={
+			y=0
+		}
+		start=0.000
+		duration=-1.000
+		velocity_pitch={ 0.000 180.000 }
+		velocity_yaw={ 0.000 180.000 }
+		velocity=0.000
+		life=6
+		emission=50.000
+		size=12.8
+		particle_yaw=0.000
+		particle_pitch=0.000
+				rotation={ 0.000 0.000 }
+	rotation_speed=60.000
+	}
+
+
+}
