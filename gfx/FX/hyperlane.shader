@@ -76,7 +76,7 @@ PixelShader =
 	[[
 		float4 main( VS_OUTPUT v ) : PDX_COLOR
 		{
-			float fMinAlpha = 0.040f;	//EG??0.035
+			float fMinAlpha = 0.025f;	//EG??0.035
 			float fAlpha = clamp (0.055f - abs( v.vPos.x / 5000.f) - abs( v.vPos.y / 5000.f), 0.040f, 0.055f); // EG0.060f - 4700.fx2 EG=0.025-0.1 'clamp' sets the min value to 0.1 and max to 0.5,'abs' gets rid of the minus,'info' command shows coordinates in the game.
 			float4 vPrimColor = float4( v.vPrimaryColor, fAlpha );
 			float4 vSecColor = float4( v.vSecondaryColor, fAlpha );
