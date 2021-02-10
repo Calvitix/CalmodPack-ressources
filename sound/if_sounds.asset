@@ -1,0 +1,229 @@
+# I spent a lot of time on this mod out of my own free time, and nobody would like it if someone took their creation
+# and stole it, and tried to claim it as thier's. If you want to learn to mod Stellaris, I'm not the best person to
+# ask, but I'm always open to help and if you'd like to make new features or add-ons to this mod, send me a message,
+# and we'll discuss together about either integrating them into this mod, or creating an add-on to this one.
+
+
+category = {
+ name = "Effects"
+ soundeffects = {
+
+    relic_activation_power_stone
+    relic_activation_mind_stone
+    relic_activation_reality_stone
+    relic_activation_soul_stone
+    relic_activation_space_stone
+    relic_activation_time_stone
+    relic_activation_mjolnir
+    event_snap
+    event_infinity_stone_collected
+    relic_activation_gauntlet
+
+ }
+}
+
+########## RELIC ACTIVATION
+
+sound = 
+{
+    name = "sfx_relic_activation_power_stone"
+    file = "is_relic_sounds/relic_activation_power_stone.wav"
+    volume = 1.5
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_mind_stone"
+    file = "is_relic_sounds/relic_activation_mind_stone.wav"
+    volume = 1.5
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_reality_stone"
+    file = "is_relic_sounds/relic_activation_reality_stone.wav"
+    volume = 1.5
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_soul_stone"
+    file = "is_relic_sounds/relic_activation_soul_stone.wav"
+    volume = 1.5
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_space_stone"
+    file = "is_relic_sounds/relic_activation_space_stone.wav"
+    volume = 1.5
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_time_stone"
+    file = "is_relic_sounds/relic_activation_time_stone.wav"
+    volume = 1.5
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_mjolnir"
+    file = "is_relic_sounds/relic_activation_mjolnir.wav"
+    volume = 1.5
+}
+
+sound = 
+{
+    name = "sfx_event_snap"
+    file = "is_relic_sounds/event_snap.wav"
+    volume = 1.0
+}
+
+sound = 
+{
+    name = "sfx_infinity_stone_collected"
+    file = "is_relic_sounds/infinity_stone_collected.wav"
+    volume = 1.0
+}
+
+sound = 
+{
+    name = "sfx_relic_activation_gauntlet"
+    file = "is_relic_sounds/relic_activation_gauntlet.wav"
+    volume = 1.5
+}
+
+
+############### RELIC ACTIVATION
+soundeffect =
+{
+    name = "relic_activation_power_stone"
+    volume = 1.5
+    max_audible = 1
+    max_audible_behaviour = fail
+    playbackrate_random_offset = { -10.0 10.0 }
+    fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_power_stone
+    }
+}
+
+soundeffect =
+{
+    name = "relic_activation_mind_stone"
+    volume = 1.5
+    max_audible = 1
+    max_audible_behaviour = fail
+    playbackrate_random_offset = { -10.0 10.0 }
+    fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_mind_stone
+    }
+}
+
+soundeffect =
+{
+    name = "relic_activation_reality_stone"
+    volume = 1.5
+    max_audible = 1
+    max_audible_behaviour = fail
+    playbackrate_random_offset = { -10.0 10.0 }
+    fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_reality_stone
+    }
+}
+
+soundeffect =
+{
+    name = "relic_activation_soul_stone"
+    volume = 1.5
+    max_audible = 1
+    max_audible_behaviour = fail
+    playbackrate_random_offset = { -10.0 10.0 }
+    fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_soul_stone
+    }
+}
+
+soundeffect =
+{
+    name = "relic_activation_space_stone"
+    volume = 1.5
+    max_audible = 1
+    max_audible_behaviour = fail
+    playbackrate_random_offset = { -10.0 10.0 }
+    fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_space_stone
+    }
+}
+
+soundeffect =
+{
+    name = "relic_activation_time_stone"
+    volume = 1.5
+    max_audible = 1
+    max_audible_behaviour = fail
+    playbackrate_random_offset = { -10.0 10.0 }
+    fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_time_stone
+    }
+}
+
+soundeffect =
+{
+    name = "relic_activation_mjolnir"
+    volume = 1.5
+    max_audible = 1
+    max_audible_behaviour = fail
+    playbackrate_random_offset = { -10.0 10.0 }
+    fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_mjolnir
+    }
+}
+
+soundeffect =
+{
+    name = "event_snap"
+    volume = 1.0
+    max_audible = 1
+    max_audible_behaviour = fail
+    playbackrate_random_offset = { -10.0 10.0 }
+    fade_out = 10
+    sounds = {
+        sound = sfx_event_snap
+    }
+}
+
+soundeffect =
+{
+    name = "event_infinity_stone_collected"
+    volume = 1.0
+    max_audible = 1
+    max_audible_behaviour = fail
+    playbackrate_random_offset = { -10.0 10.0 }
+    fade_out = 10
+    sounds = {
+        sound = sfx_infinity_stone_collected
+    }
+}
+
+soundeffect =
+{
+    name = "relic_activation_gauntlet"
+    volume = 1.5
+    max_audible = 1
+    max_audible_behaviour = fail
+    playbackrate_random_offset = { -10.0 10.0 }
+    fade_out = 10
+    sounds = {
+        sound = sfx_relic_activation_gauntlet
+    }
+}
+
+
