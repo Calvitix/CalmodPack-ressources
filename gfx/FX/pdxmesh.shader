@@ -2376,11 +2376,12 @@ PixelShader =
 			float4 vColor = vRim * float4( PrimaryColor.rbg, RimAlpha );
 
 			vColor.rgb = vColor.rgb * 0.5f;
-			vColor.rgb += PrimaryColor.rgb * vProperties.r;
+			vColor.rgb += lerp(0, PrimaryColor.rgb, vProperties.r);
 
 			if( vDot > 0.f )
 			{
 				float vTime = ( vUVAnimationTime + HdrRange_Time_ClipHeight.y ) * 0.15f;
+				vColor.rgb += lerp(0, PrimaryColor.rgb, vProperties.r);
 				vColor += tex2D( DiffuseMap, In.vUV0 + vUVAnimationDir * vTime );
 				vColor += tex2D( DiffuseMap, ( In.vUV0 + float2( 0.20f, -0.13f ) * vTime * 0.27f ) );
 			}
@@ -2403,7 +2404,7 @@ PixelShader =
 	[[
 		float4 main( VS_OUTPUT_PDXMESHSTANDARD In ) : PDX_COLOR
 		{
-			float3 RimColor = HSVtoRGB( float3( 0.2f, 1.1f, 0.3f ) );
+			float3 RimColor = HSVtoRGB( float3( 1.0f, 0.11f, 0.0f ) );
 			const float RimAlpha = 0.9f;
 			const float vRimStart = 0.11f;
 			const float vRimStop = 0.1f;
@@ -2422,19 +2423,20 @@ PixelShader =
 			float vRim = smoothstep( vRimStart, vRimStop, abs( vDot ) );
 			float4 vColor = vRim * float4( RimColor.rbg, RimAlpha );
 
-			vColor.rgb = vColor.rgb * 0.5f;
-			vColor.rgb += RimColor.rgb * vProperties.r;
+			vColor.rgb = vColor.rgb * 5.9f;
+			vColor.rgb += lerp(0, RimColor.rgb, vProperties.r);
 
 			if( vDot > 0.f )
 			{
 				float vTime = ( vUVAnimationTime + HdrRange_Time_ClipHeight.y ) * 0.15f;
+				vColor.rgb += lerp(0, RimColor.rgb, vProperties.r);
 				vColor += tex2D( DiffuseMap, In.vUV0 + vUVAnimationDir * vTime );
 				vColor += tex2D( DiffuseMap, ( In.vUV0 + float2( 0.20f, -0.13f ) * vTime * 0.27f ) );
 			}
 
 			float3 vEyeDir = normalize( In.vPos.xyz - vCamPos.xyz );
 			float3 reflection = reflect( vEyeDir, In.vNormal );
-			float pulse = ( 0.9f + 0.1f * sin( 3.141f * length( texCUBElod( EnvironmentMap, float4(reflection, 0) ).rgb ) + HdrRange_Time_ClipHeight.y * 1.f - 1.f * In.vSphere.y * 0.125f ) );
+			float pulse = ( 0.9f + 0.1f * sin( 3.141f * length( texCUBElod( EnvironmentMap, float4(reflection, 0) ).rgb ) + HdrRange_Time_ClipHeight.y * 1.f - In.vSphere.z * In.vSphere.y * 0.125f ) );
 			// float pulse = ( 0.9f + 0.1f * sin( 3.141f * length( texCUBElod( EnvironmentMap, float4(reflection, 0) ).rgb ) + 0 ) );
 			vColor += pow( pulse, 40.0f ) * 0.1f;
 
