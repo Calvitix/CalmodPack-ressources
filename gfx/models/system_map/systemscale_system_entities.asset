@@ -1,0 +1,6 @@
+#Calvitix commented : X3 gates instead of arrow
+#entity = {
+#	name = "ss_navigation_arrow_entity"
+#	pdxmesh = "navigation_arrow_mesh"
+#	scale = 120 #180 #60.0
+#}
