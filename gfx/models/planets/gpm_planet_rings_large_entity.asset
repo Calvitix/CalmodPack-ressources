@@ -1,0 +1,57 @@
+#######################
+## Large Ring Sizes ##
+#######################
+
+#calvitix Modif for scale x 3
+@rings_height = -95
+@rings_height_rs = -100
+
+# Metallic Rings
+entity = {
+	name = "gpm_rings_metallic_large"
+	cull_radius = 1500 #500
+	locator = { name = "loc1" position = { 0 @rings_height 0 } rotation = { 0 0 3 }}
+	attach = { "loc1" = "gpm_rings_metallic_large_attach"}
+}
+
+entity = {
+	name = "gpm_rings_metallic_large_attach"
+	pdxmesh = "gpm_rings_metallic_large_mesh"
+	scale = 10.0
+}
+
+# Ice Rings
+entity = {
+	name = "gpm_rings_ice_large"
+	cull_radius = 1500 #500
+	locator = { name = "loc1" position = { 0 @rings_height 0 } rotation = { 0 0 3 }}
+	attach = { "loc1" = "gpm_rings_ice_large_attach"}
+}
+
+entity = {
+	name = "gpm_rings_ice_large_attach"
+	pdxmesh = "gpm_rings_ice_large_mesh"
+	scale = 10.0
+}
+
+######################
+## Real Space Sizes ##
+######################
+
+# Metallic Rings
+entity = {
+	name = "gpm_rings_RS_metallic_large"
+	cull_radius = 1500 #500
+	locator = { name = "loc1" position = { 0 @rings_height_rs 0 } rotation = { 0 0 3 }} # was 0 -75 0
+	attach = { "loc1" = "gpm_rings_metallic_large_attach"}
+	scale = 2.0
+}
+
+# Ice Rings
+entity = {
+	name = "gpm_rings_RS_ice_large"
+	cull_radius = 1500 #500
+	locator = { name = "loc1" position = { 0 @rings_height_rs 0 } rotation = { 0 0 3 }} # was 0 -75 0
+	attach = { "loc1" = "gpm_rings_ice_large_attach"}
+	scale = 2.0
+}
