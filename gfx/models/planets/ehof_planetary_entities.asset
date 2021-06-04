@@ -1,5 +1,5 @@
 #######################				RED TOXIC PLANET				#######################
-
+#Calvitix scale 3 ok, 31/05/2021
 
 entity = {
 	name = "red_toxic_planet_01_entity"
@@ -443,7 +443,7 @@ entity = {
 entity = {
 	name = "orbital_bombardment_effects"
 	pdxmesh = "bombardment_frame_mesh"
-	cull_radius = 500
+	cull_radius = 1500 #500
 	scale = 1.0
 
 	state = { name = "bombard_selective" state_time = 4 looping = no next_state = "bombard_selective" chance = 1

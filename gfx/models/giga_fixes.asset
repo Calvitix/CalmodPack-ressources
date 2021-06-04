@@ -1,6 +1,6 @@
 # Modified by TCOW search [GSM]
 # Modify the fixes
-
+# Calvitix, Scales OK, 31/05/2021
 @ringworld_segment_size = 50
 
 @cull_radius_1 = 1500
