@@ -20,7 +20,7 @@ particle={
 			shader="ParticleAlphaBlend"
 		}
 		color={
-			x=200.000
+			x=210.000
 			y=190.000
 			z=180.000
 			alpha=27.000,flash_fade

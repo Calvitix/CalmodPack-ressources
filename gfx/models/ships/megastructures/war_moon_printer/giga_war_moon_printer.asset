@@ -126,13 +126,12 @@ entity = {
 entity = {
 	name = "war_moon_printer_warmoon_entity"
 	cull_radius = 1000
-
 	pdxmesh = "molluscoid_01_corvette_frame_mesh"
 
+	default_state = "idle"
+	state = { name = idle animation = idle }
 	locator = { name = "loc101" position = { 0 0 0 } rotation = { 0 0 0 } }
-
 	attach = { "loc101" = "giga_moon_printer_printing_entity" }
-
 	scale = 1
 }
 
@@ -170,13 +169,12 @@ entity = {
 entity = {
 	name = "war_moon_printer_stage_1_entity"
 	cull_radius = 1000
-
 	pdxmesh = "molluscoid_01_corvette_frame_mesh"
 
+	default_state = "idle"
+	state = { name = idle animation = idle }
 	locator = { name = "loc103" position = { 0 0 25 } rotation = { 0 0 0 } }
-
 	attach = { "loc103" = "war_moon_printer_core_entity" }
-
 	scale = 1
 }
 
@@ -194,9 +192,10 @@ entity = {
 entity = {
 	name = "war_moon_printer_empty_entity"
 	cull_radius = 1000
-
 	pdxmesh = "molluscoid_01_corvette_frame_mesh"
 
+	default_state = "idle"
+	state = { name = idle animation = idle }
 	locator = { name = "loc101" position = { 0 0 -25 } rotation = { 0 0 0 } }
 	locator = { name = "loc103" position = { 0 0 25 } rotation = { 0 0 0 } }
 	locator = { name = "loc104" position = { 0 0 60 } rotation = { 0 0 0 } }
