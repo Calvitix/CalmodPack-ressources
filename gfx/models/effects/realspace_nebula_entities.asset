@@ -22,6 +22,7 @@
 @entity_scale_7 = 10.5
 @entity_scale_10 = 15
 @entity_scale_15 = 22.5
+@entity_scale_45 = 67.5
 
 @cull_radius = 30000 # 60000
 @small_cull_radius = 500 # 1000
@@ -2920,7 +2921,7 @@ entity = {
 	state = { name = "idle" 
 		start_event = { time = 0 particle = "purple_globule_effect" keep_particle = yes trigger_once = yes }
 	}
-	scale = @entity_scale_5
+	scale = @entity_scale_15
 	cull_radius = @small_cull_radius
 }
 
@@ -2931,7 +2932,7 @@ entity = {
 	state = { name = "idle" 
 		start_event = { time = 0 particle = "purple_globule_effect" keep_particle = yes trigger_once = yes }
 	}
-	scale = @entity_scale_15
+	scale = @entity_scale_45
 	cull_radius = @small_cull_radius
 }
 
@@ -2943,7 +2944,7 @@ entity = {
 	state = { name = "idle" 
 		start_event = { time = 0 particle = "orange_globule_effect" keep_particle = yes trigger_once = yes }
 	}
-	scale = @entity_scale_5
+	scale = @entity_scale_15
 	cull_radius = @small_cull_radius
 }
 
@@ -2954,7 +2955,7 @@ entity = {
 	state = { name = "idle" 
 		start_event = { time = 0 particle = "orange_globule_effect" keep_particle = yes trigger_once = yes }
 	}
-	scale = @entity_scale_15
+	scale = @entity_scale_45
 	cull_radius = @small_cull_radius
 }
 
@@ -2966,7 +2967,7 @@ entity = {
 	state = { name = "idle" 
 		start_event = { time = 0 particle = "red_globule_effect" keep_particle = yes trigger_once = yes }
 	}
-	scale = @entity_scale_5
+	scale = @entity_scale_15
 	cull_radius = @small_cull_radius
 }
 
@@ -2977,7 +2978,7 @@ entity = {
 	state = { name = "idle" 
 		start_event = { time = 0 particle = "red_globule_effect" keep_particle = yes trigger_once = yes }
 	}
-	scale = @entity_scale_15
+	scale = @entity_scale_45
 	cull_radius = @small_cull_radius
 }
 
@@ -2989,7 +2990,7 @@ entity = {
 	state = { name = "idle" 
 		start_event = { time = 0 particle = "blue_globule_effect" keep_particle = yes trigger_once = yes }
 	}
-	scale = @entity_scale_5
+	scale = @entity_scale_15
 	cull_radius = @small_cull_radius
 }
 
@@ -3000,7 +3001,7 @@ entity = {
 	state = { name = "idle" 
 		start_event = { time = 0 particle = "blue_globule_effect" keep_particle = yes trigger_once = yes }
 	}
-	scale = @entity_scale_15
+	scale = @entity_scale_45
 	cull_radius = @small_cull_radius
 }
 
