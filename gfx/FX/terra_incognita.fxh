@@ -30,12 +30,25 @@ float4 ApplyTerraIncognitaValue( float4 vColor, float vBrightness, float vTI)
 	return vColor;
 }
 
+float4 ApplyTerraIncognitaValueIgnoreSaturation( float4 vColor, float vBrightness, float vTI)
+{
+	float Grey = TI_GRAY_BRIGHTNESS * vBrightness; 
+	vColor.rgb = lerp( vec3( Grey ), vColor.rgb, vTI );
+	
+	return vColor;
+}
+
 float4 ApplyTerraIncognita( float4 vColor, float2 vWorldPos2D, float vBrightness, in sampler2D TITexture )
 {
 	float vTI = CalcTerraIncognitaValue( vWorldPos2D, TITexture );
 	return ApplyTerraIncognitaValue( vColor, vBrightness, vTI);
 }
 
-]]
+float4 ApplyTerraIncognitaIgnoreSaturation( float4 vColor, float2 vWorldPos2D, float vBrightness, in sampler2D TITexture )
+{
+	float vTI = CalcTerraIncognitaValue( vWorldPos2D, TITexture );
+	return ApplyTerraIncognitaValueIgnoreSaturation( vColor, vBrightness, vTI);
 }
 
+]]
+}

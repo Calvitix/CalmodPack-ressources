@@ -21,10 +21,6 @@ gfx_settings =
 	galaxy_background_lut = "gfx/worldgfx/colorcorrection_neutral.tga"
 	#center_entity = "spacedust_entity"	
 	
-	
-	
-	
-	
 #	
 #	# Shader settings
 #	cubemap_intensity = 0.7#0.7
@@ -45,12 +41,6 @@ gfx_settings =
 #	# Rim light shader
 #
 #	rim_light_diffuse = hsv { 0.56 0.5 0.25}#0.3	
-	
-	
-	
-	
-	
-	
 	
 	# Shader settings
 	# Is affected by SPECULAR_INTENSITY_MULT
@@ -81,11 +71,7 @@ gfx_settings =
 	# Rim light shader
 	rim_light_diffuse = hsv { 0.56 0.5 0.25}#0.25	#GOOD
 	
-	
-
 	light_hdr_range = 1.0 
-	
-	
 	
 	bright_threshold = 0.95		# used by both bloom and lens flare
 	
@@ -94,7 +80,6 @@ gfx_settings =
 	bloom_scale = 0.8
 	bloom_iterations = 8					# Bloom steps 
 	emissive_bloom_strength = 0.6
-	
 	
 	#Lens flare parameters
 	lens_flare_bloom_width = 3.0			# Blurryness
