@@ -1,10 +1,10 @@
 
 # Original File
 #
-# Calvitix Check 3.0.1  17/04/2021
+# Calvitix Check 3.2  23/11/2021
 #
-# Merge with Real space 3.8
-# Merge with Giga  11/11/2021
+# Merge with Real space 3.8  23/11/2021
+# Merge with Giga  24/11/2021
 
 
 
@@ -4097,6 +4097,46 @@ Effect PdxMeshShipDiffuseEmissiveShadow
 }
 
 Effect PdxMeshShipDiffuseEmissiveSkinnedShadow
+{
+	VertexShader = "VertexPdxMeshStandardSkinnedShadow"
+	PixelShader = "PixelPdxMeshStandardShadow"
+	Defines = { "IS_SHADOW" }
+}
+
+Effect PdxMeshShipDiffuseEmissiveAlpha
+{
+	VertexShader = "VertexPdxMeshStandard"
+	PixelShader = "PixelPdxMeshShip"
+	BlendState = "BlendStateAlphaBlend";
+	Defines = {
+		"PDX_IMPROVED_BLINN_PHONG"
+		"RIM_LIGHT"
+		"RECOLOR_EMISSIVE"
+		"NO_ALPHA_MULTIPLIED_EMISSIVE"
+	}
+}
+
+Effect PdxMeshShipDiffuseEmissiveAlphaSkinned
+{
+	VertexShader = "VertexPdxMeshStandardSkinned"
+	PixelShader = "PixelPdxMeshShip"
+	BlendState = "BlendStateAlphaBlend";
+	Defines = {
+		"PDX_IMPROVED_BLINN_PHONG"
+		"RIM_LIGHT"
+		"RECOLOR_EMISSIVE"
+		"NO_ALPHA_MULTIPLIED_EMISSIVE"
+	}
+}
+
+Effect PdxMeshShipDiffuseEmissiveAlphaShadow
+{
+	VertexShader = "VertexPdxMeshStandardShadow"
+	PixelShader = "PixelPdxMeshStandardShadow"
+	Defines = { "IS_SHADOW" }
+}
+
+Effect PdxMeshShipDiffuseEmissiveAlphaSkinnedShadow
 {
 	VertexShader = "VertexPdxMeshStandardSkinnedShadow"
 	PixelShader = "PixelPdxMeshStandardShadow"
