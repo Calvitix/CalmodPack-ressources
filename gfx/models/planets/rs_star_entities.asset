@@ -91,7 +91,7 @@ entity = { # A Supergiant
 		event = { trigger_once = yes sound = { soundeffect = "falling_star" } }
 		event = { trigger_once = yes sound = { soundeffect = "space_ambient_layer_02" } }
 	 }
-	scale = 0.7 #1.4 #1.0 #Orig_GSM
+	scale = 0.6 #1.4 #1.0 #Orig_GSM
 }
 
 entity = { # B Supergiant
@@ -105,7 +105,7 @@ entity = { # B Supergiant
 		event = { trigger_once = yes sound = { soundeffect = "falling_star" } }
 		event = { trigger_once = yes sound = { soundeffect = "space_ambient_layer_02" } }
 	 }
-	scale = 0.75 #1.5 #1.0 #Orig_GSM
+	scale = 0.7 #1.5 #1.0 #Orig_GSM
 }
 
 entity = { # F Supergiant

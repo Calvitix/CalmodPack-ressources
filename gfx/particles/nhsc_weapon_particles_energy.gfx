@@ -5,37 +5,37 @@ ObjectTypes = {
 	pdxparticle = {
 		name = "nhsc_adv_laser_small_hit_effect"
 		type = "nhsc_adv_laser_hit_effect"
-		scale = 0.5
+		scale = 1
 	}
 
-        pdxparticle = {
+    pdxparticle = {
 		name = "nhsc_adv_laser_medium_hit_effect"
 		type = "nhsc_adv_laser_hit_effect"
-		scale = 0.75
+		scale = 2
 	}
 
 	pdxparticle = {
 		name = "nhsc_adv_laser_large_hit_effect"
 		type = "nhsc_adv_laser_hit_effect"
-		scale = 1.0
+		scale = 3
 	}
 
 	pdxparticle = {
 		name = "nhsc_adv_laser_small_muzzle_particle"
 		type = "nhsc_adv_laser_muzzle_file"
-		scale = 1.0
+		scale = 2
 	}
 
 	pdxparticle = {
 		name = "nhsc_adv_laser_medium_muzzle_particle"
 		type = "nhsc_adv_laser_muzzle_file"
-		scale = 1.5
+		scale = 4
 	}
 
 	pdxparticle = {
 		name = "nhsc_adv_laser_large_muzzle_particle"
 		type = "nhsc_adv_laser_muzzle_file"
-		scale = 2.0
+		scale = 6
 	}
 
 ### Aurora Laser
@@ -43,37 +43,37 @@ ObjectTypes = {
 	pdxparticle = {
 		name = "nhsc_aurora_laser_small_hit_effect"
 		type = "nhsc_aurora_laser_hit_effect"
-		scale = 0.5
+		scale = 1
 	}
 
         pdxparticle = {
 		name = "nhsc_aurora_laser_medium_hit_effect"
 		type = "nhsc_aurora_laser_hit_effect"
-		scale = 0.75
+		scale = 2
 	}
 
 	pdxparticle = {
 		name = "nhsc_aurora_laser_large_hit_effect"
 		type = "nhsc_aurora_laser_hit_effect"
-		scale = 1.0
+		scale = 3
 	}
 
 	pdxparticle = {
 		name = "nhsc_aurora_laser_small_muzzle_particle"
 		type = "nhsc_aurora_laser_muzzle_file"
-		scale = 1.0
+		scale = 2
 	}
 
 	pdxparticle = {
 		name = "nhsc_aurora_laser_medium_muzzle_particle"
 		type = "nhsc_aurora_laser_muzzle_file"
-		scale = 1.5
+		scale = 4
 	}
 
 	pdxparticle = {
 		name = "nhsc_aurora_laser_large_muzzle_particle"
 		type = "nhsc_aurora_laser_muzzle_file"
-		scale = 2.0
+		scale = 6
 	}
 
 ### Antimatter Torpedo

@@ -24,13 +24,13 @@ particle={
 		}
 		position={
 		}
-		duration=-1.000
+		duration=0.600
 		emitter_yaw=180.000
 		velocity_pitch={ 0.000 90.000 }
 		velocity_yaw={ 0.000 90.000 }
 		velocity=3.000
 		life=0.500
-		emission=50.000
+		emission=500.000
 		size={ 8.000 4.000 }
 		rotation={ 0.000 180.000 }
 	}
@@ -61,7 +61,7 @@ particle={
 		}
 		duration=0.100
 		life=0.200
-		emission=100.000
+		emission=10.000
 		size={ 10.000,grow 0.000 }
 		rotation={ 0.000 180.000 }
 	}
@@ -127,7 +127,7 @@ particle={
 	}
 	subsystem={
 		name="bloom_fire"
-		max_amount=100
+		max_amount=1
 		slave_particles=0
 		emitter_type="point"
 		invert=no
@@ -149,18 +149,18 @@ particle={
 		}
 		position={
 		}
-		duration=-1.000
+		duration=0.600
 		velocity_pitch={ 0.000 180.000 }
 		velocity_yaw={ 180.000 180.000 }
 		velocity=0.500
 		life=0.800
-		emission=100.000
+		emission=10.000
 		size={ 0.500,flare_size 1.000 }
 		rotation={ 0.000 180.000 }
 	}
 	subsystem={
 		name="laser_flare"
-		max_amount=100
+		max_amount=5
 		slave_particles=0
 		emitter_type="point"
 		invert=no
@@ -182,19 +182,19 @@ particle={
 		}
 		position={
 		}
-		duration=-1.000
+		duration=0.600
 		emitter_yaw=180.000
 		velocity_pitch={ 0.000 90.000 }
 		velocity_yaw={ 0.000 90.000 }
-		velocity=5.000
+		velocity=2.000
 		life=0.500
-		emission=50.000
+		emission=10.000
 		size={ 1.500 0.500 }
 		rotation={ 0.000 180.000 }
 	}
 	subsystem={
 		name="shockwaves"
-		max_amount=100
+		max_amount=5
 		slave_particles=0
 		emitter_type="point"
 		invert=no
@@ -216,12 +216,12 @@ particle={
 		}
 		position={
 		}
-		duration=-1.000
+		duration=0.600
 		velocity_pitch={ 0.000 90.000 }
 		velocity_yaw={ 180.000 90.000 }
 		velocity=2.000
 		life=0.300
-		emission=5.000
+		emission=50.000
 		size={ 20.000,grow 0.000 }
 		rotation={ 0.000 180.000 }
 	}
@@ -249,13 +249,13 @@ particle={
 		}
 		position={
 		}
-		duration=-1.000
+		duration=0.600
 		emitter_yaw=180.000
 		velocity_pitch={ 0.000 90.000 }
 		velocity_yaw={ 0.000 90.000 }
 		velocity=5.000
 		life=0.500
-		emission=50.000
+		emission=500.000
 		size={ 0.500 0.250 }
 		rotation={ 0.000 180.000 }
 	}

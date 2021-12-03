@@ -14,7 +14,7 @@ entity = {
 	
 	}
 
-	scale = 15
+	scale = 10
 }
 
 entity = { # A
@@ -29,7 +29,7 @@ entity = { # A
 		event = { trigger_once = yes sound = { soundeffect = "space_ambient_layer_02" } }
 	 }
 
-	scale = 1.4 #scale = 1.6
+	scale = 1.1 #scale = 1.6
 }
 
 entity = { # B
@@ -43,7 +43,7 @@ entity = { # B
 		event = { trigger_once = yes sound = { soundeffect = "falling_star" } }
 		event = { trigger_once = yes sound = { soundeffect = "space_ambient_layer_02" } }
 	 }
-	scale = 1.5 #scale = 1.8
+	scale = 1.3 #scale = 1.8
 }
 
 entity = { # F
@@ -57,7 +57,7 @@ entity = { # F
 		event = { trigger_once = yes sound = { soundeffect = "falling_star" } }
 		event = { trigger_once = yes sound = { soundeffect = "space_ambient_layer_02" } }
 	 }
-	scale = 1.3 #scale = 1.5
+	scale = 1.1 #scale = 1.5
 }
 
 entity = { # G
@@ -71,7 +71,7 @@ entity = { # G
 		event = { trigger_once = yes sound = { soundeffect = "falling_star" } }
 		event = { trigger_once = yes sound = { soundeffect = "space_ambient_layer_02" } }
 	 }
-	scale = 1.2 #scale = 1.3
+	scale = 1.1 #scale = 1.3
 }
 
 entity = { # K
@@ -85,7 +85,7 @@ entity = { # K
 		event = { trigger_once = yes sound = { soundeffect = "falling_star" } }
 		event = { trigger_once = yes sound = { soundeffect = "space_ambient_layer_02" } }
 	 }
-	scale = 1.1 #scale = 1.2
+	scale = 1.0 #scale = 1.2
 }
 
 entity = { # M

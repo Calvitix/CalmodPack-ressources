@@ -2,6 +2,7 @@
 # Modify the scale of the Ringworlds
 
 @cull_radius_1 = 1500
+# Calvitix Scale = 3
 
 #####################################
 ### Habitable #######################
@@ -168,19 +169,19 @@ entity = {
 #	locator = { name = "locator11" position = { 996.108		0	-309.474 }	rotation = { 33.75	0 0 } }
 #	locator = { name = "locator12" position = { 1182.17		0	-452.244 }	rotation = { 41.25	0 0 } }
 
-	locator = { name = "locator1"  position = { -7093.02	0	-2713.464 }	rotation = { -41.25	0 0 } }
-	locator = { name = "locator2"  position = { -5976.648	0	-1856.844 }	rotation = { -33.75	0 0 } }
-	locator = { name = "locator3"  position = { -4758.012	0	-1153.266 }	rotation = { -26.25	0 0 } }
-	locator = { name = "locator4"  position = { -3457.968	0	-614.772  }	rotation = { -18.75	0 0 } }
-	locator = { name = "locator5"  position = { -2098.758	0	-250.578  }	rotation = { -11.25	0 0 } }
-	locator = { name = "locator6"  position = { -703.638	0	-66.906   }	rotation = { -3.75	0 0 } }
+	locator = { name = "locator1"  position = { -3546.51	0	-1356.732 }	rotation = { -41.25	0 0 } }
+	locator = { name = "locator2"  position = { -2988.324	0	-928.422 }	rotation = { -33.75	0 0 } }
+	locator = { name = "locator3"  position = { -2379.006	0	-576.633 }	rotation = { -26.25	0 0 } }
+	locator = { name = "locator4"  position = { -1728.984	0	-307.386  }	rotation = { -18.75	0 0 } }
+	locator = { name = "locator5"  position = { -1049.379	0	-125.289  }	rotation = { -11.25	0 0 } }
+	locator = { name = "locator6"  position = { -351.819	0	-33.453   }	rotation = { -3.75	0 0 } }
 
-	locator = { name = "locator7"  position = { 703.638		0	-66.906   }	rotation = { 3.75	0 0 } }
-	locator = { name = "locator8"  position = { 2098.758	0	-250.578  }	rotation = { 11.25	0 0 } }
-	locator = { name = "locator9"  position = { 3457.968	0	-614.772  }	rotation = { 18.75	0 0 } }
-	locator = { name = "locator10" position = { 4758.012	0	-1153.266 }	rotation = { 26.25	0 0 } }
-	locator = { name = "locator11" position = { 5976.648	0	-1856.844 }	rotation = { 33.75	0 0 } }
-	locator = { name = "locator12" position = { 7093.02		0	-2713.464 }	rotation = { 41.25	0 0 } }
+	locator = { name = "locator7"  position = { 351.819		0	-33.453   }	rotation = { 3.75	0 0 } }
+	locator = { name = "locator8"  position = { 1049.379	0	-125.289  }	rotation = { 11.25	0 0 } }
+	locator = { name = "locator9"  position = { 1728.984	0	-307.386  }	rotation = { 18.75	0 0 } }
+	locator = { name = "locator10" position = { 2379.006	0	-576.633 }	rotation = { 26.25	0 0 } }
+	locator = { name = "locator11" position = { 2988.324	0	-928.422 }	rotation = { 33.75	0 0 } }
+	locator = { name = "locator12" position = { 3546.51		0	-1356.732 }	rotation = { 41.25	0 0 } }
 
 	attach = { locator1 = "gargantuan_ruined_tech_entity" }
 	attach = { locator2 = "gargantuan_ruined_tech_entity" }
@@ -210,10 +211,10 @@ entity = {
 #	locator = { name = "ringworld_west"		position = { 0		0	1800	} rotation = { 0	0	0 } }
 #	locator = { name = "ringworld_east" 	position = { 0		0	-1800	} rotation = { 180	0	0 } }
 
-	locator = { name = "ringworld_north"	position = { 10800	0	0		} rotation = { 90	0	0 } }
-	locator = { name = "ringworld_south"	position = { -10800	0	0		} rotation = { -90	0	0 } }
-	locator = { name = "ringworld_west"		position = { 0		0	10800	} rotation = { 0	0	0 } }
-	locator = { name = "ringworld_east" 	position = { 0		0	-10800	} rotation = { 180	0	0 } }
+	locator = { name = "ringworld_north"	position = { 5400	0	0		} rotation = { 90	0	0 } }
+	locator = { name = "ringworld_south"	position = { -5400	0	0		} rotation = { -90	0	0 } }
+	locator = { name = "ringworld_west"		position = { 0		0	5400	} rotation = { 0	0	0 } }
+	locator = { name = "ringworld_east" 	position = { 0		0	-5400	} rotation = { 180	0	0 } }
 
 	attach = { ringworld_north 		= "gargantuan_ruined_quarter_entity" }
 	attach = { ringworld_south 		= "gargantuan_ruined_quarter_entity" }
