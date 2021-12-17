@@ -7,7 +7,7 @@
 entity = {
 	name = "gigaorbitingring_tube_part_entity"
 	pdxmesh = "giga_part_tube_mesh"
-	cull_radius = 1500.0
+	cull_radius = 1500.0 #500
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5 }
@@ -113,7 +113,7 @@ entity = {
 entity = {
 	name = "interstellar_habitat_stacked_core"
 	cull_radius = 1500
-	scale = 12 #Orig_GSM # 2
+	scale = 6 #Orig_GSM # 2
 
 	locator = { name = "loc101" position = { 0 20 0 } rotation = { 0 0 0 } }
 	locator = { name = "loc102" position = { 0 -20 0 } rotation = { 0 180 0 } }
@@ -187,8 +187,8 @@ entity = {
 #	locator = { name = "locator3" position = {  225	0	-60.289 }	rotation = { 30 0 0 } }
 
 	locator = { name = "locator0" position = { 0	0	0       }	rotation = { 0   0 0 } }
-	locator = { name = "locator2" position = { -225	0	-60.289 }	rotation = { -30 0 0 } }
-	locator = { name = "locator3" position = {  225	0	-60.289 }	rotation = { 30  0 0 } }
+	locator = { name = "locator2" position = { -675	0	-180.867 }	rotation = { -30 0 0 } }
+	locator = { name = "locator3" position = {  675	0	-180.867 }	rotation = { 30  0 0 } }
 
 	attach = { locator0 = "giga_ringworld_habitable_entity_01_clouds_entity" }
 	attach = { locator2 = "vanilla_tech_entity" }
@@ -197,16 +197,16 @@ entity = {
 
 entity = {
 	name = "interstellar_full_entity"
-	scale = 0.01
+	scale = 1.2 # 0.01
 	game_data = {
 		size = 6.5
 	}
 
 	locator = { name = "root"				position = { 0		0	0		} rotation = { 0	0	0 } }
-	locator = { name = "ringworld_north"	position = { 450	0	0		} rotation = { 90	0	0 } }
-	locator = { name = "ringworld_south"	position = { -450	0	0		} rotation = { -90	0	0 } }
-	locator = { name = "ringworld_west"		position = { 0		0	450		} rotation = { 0	0	0 } }
-	locator = { name = "ringworld_east" 	position = { 0		0	-450	} rotation = { 180	0	0 } }
+	locator = { name = "ringworld_north"	position = { 1350	0	0		} rotation = { 90	0	0 } }
+	locator = { name = "ringworld_south"	position = { -1350	0	0		} rotation = { -90	0	0 } }
+	locator = { name = "ringworld_west"		position = { 0		0	1350		} rotation = { 0	0	0 } }
+	locator = { name = "ringworld_east" 	position = { 0		0	-1350	} rotation = { 180	0	0 } }
 	attach = { root 			= "interstellar_habitat_entity" }
 	attach = { ringworld_north 	= "interstellar_ringworld_01_entity" }
 	attach = { ringworld_south 	= "interstellar_ringworld_01_entity" }
