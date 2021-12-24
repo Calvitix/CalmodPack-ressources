@@ -1,0 +1,36 @@
+@ringworld_segment_size = 50
+
+entity = {
+	name = "giga_ringworld_3x_seams_entity"
+	cull_radius = 9999
+	game_data = {
+		size = @ringworld_segment_size
+		shader_type = ship
+		emissive_recolor_crunch = 50.0
+	}
+
+	locator = { name = "locator1" 	position = { -675 	0 	-180.867 } rotation = { -30	0 0 } }		#x3
+	locator = { name = "locator2" 	position = { 0		0 	-180.867 } rotation = { 0	0 0 } }		#x3
+	locator = { name = "locator3" 	position = {  675 	0 	-180.867	} rotation = { 30	0 0 } }	#x3
+	attach = { locator1 = "vanilla_construction_entity" }
+	attach = { locator2 = "vanilla_construction_entity" }
+	attach = { locator3 = "vanilla_construction_entity" }
+}
+
+entity = {
+	name = "giga_ringworld_destroyed_entity"
+	cull_radius = 9999
+	game_data = {
+		size = @ringworld_segment_size
+		shader_type = ship
+		emissive_recolor_crunch = 0
+	}
+
+	locator = { name = "locator1" position = { -675		0	-180.867 } rotation = { -30	0 0 } }	#x3
+	locator = { name = "locator2" position = { 0		0	-180.867 } rotation = { 0	0 0 } }	#x3
+	locator = { name = "locator3" position = { 675		0	-180.867 } rotation = { 30	0 0 } }  #x3
+
+	attach = { locator1 = "vanilla_ruined_tech_entity" }
+	attach = { locator2 = "vanilla_ruined_seam_entity" }
+	attach = { locator3 = "vanilla_ruined_habitable_entity" }
+}

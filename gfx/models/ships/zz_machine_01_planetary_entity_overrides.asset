@@ -1,0 +1,219 @@
+###################################################
+################ORBITAL HABITATS###################
+###################################################
+
+entity = {
+	name = "machine_01_habitat_core_entity"  ####Shamfered-Triangular base for the habs.
+	pdxmesh = "machine_01_habitat_core_mesh"
+
+	get_state_from_parent = yes
+	default_state = "habitat_idle"
+	state = { name = "death" state_time = 5 looping = no
+		event = { time = 0.0 node = "explosion_locator_1" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+		event = { time = 0.5 node = "explosion_locator_2" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+		event = { time = 1.5 node = "explosion_locator_3" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+		event = { time = 2.0 node = "explosion_locator_4" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+		event = { time = 3.0 node = "explosion_locator_5" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+		event = { time = 4.0 node = "explosion_locator_2" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+	}
+	state = { name = "construction" state_time = 5 }
+	state = { name = "habitat_idle" state_time = 5
+		start_event = { trigger_once = yes sound = { soundeffect = "habitat_station_hum" stop_on_state_change = yes } }
+		event = { time = 0.0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+	}
+
+	meshsettings = {
+		name = "Habcore.001"
+		texture_specular = "continental_01_habitat_spec.dds" # specular was "continental_01_spec.dds"
+		shader = "PdxMeshTerra" # mesh was PdxMeshPlanet
+	}
+
+	locator = { name = "part1"	position = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+
+	attach = { "part1"				= "machine_01_habitat_nightlights_entity" }
+
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 10.0
+	}
+}
+
+# new entity + use existing mesh
+entity = {
+	name = "machine_01_habitat_nightlights_entity"
+	pdxmesh = "machine_01_habitat_landmass_mesh"
+
+	meshsettings = {
+		name = "Landmass"
+		texture_diffuse = "night_lights.dds"
+		texture_normal = "night_lights.dds"
+		texture_specular = "nospec.dds"
+		shader = "PdxMeshAlphaAdditive"
+	}
+}
+
+entity = {
+	name = "machine_01_habitat_phase_01_entity"
+	pdxmesh = "machine_01_outpost_frame_mesh"
+
+	locator = { name = "part1"	position = { 0 0 0 } }
+
+	attach = { "part1"				= "machine_01_habitat_window_entity" }
+	attach = { "part1" 		 		= "machine_01_habitat_core_entity" }
+
+	scale = 0.8
+
+	default_state = "habitat_idle"
+	state = { name = "death" state_time = 5 looping = no }
+	state = { name = "construction" state_time = 5 }
+	state = { name = "habitat_idle" state_time = 5 }
+
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+}
+
+entity = {
+	name = 		"machine_01_habitat_phase_02_entity"
+	pdxmesh = 	"machine_01_outpost_frame_mesh"
+
+	locator = { name = "part1"	position = { 0 0 0 } }
+	locator = { name = "part2"	position = { 0 4.792 -24.7 } rotation = { 0 0 0 } }
+	locator = { name = "part3"	position = { -21.4 4.792 12.38 } rotation = { 120 0 0 } }
+	locator = { name = "part4"	position = { 21.45 4.792 12.38 } rotation = { 240 0 0 } }
+	locator = { name = "part5"	position = { -10.54 -3.96 -6.09 } rotation = { 60 0 0 } }
+	locator = { name = "part6"	position = { 0 -3.96 12.18 } rotation = { 180 0 0 } }
+	locator = { name = "part7"	position = { 10.54 -3.96 -6.09 } rotation = { 300 0 0 } }
+
+	attach = { "part1"				= "machine_01_habitat_window_entity" }
+	attach = { "part1" 		 		= "machine_01_habitat_core_entity" }
+	attach = { "part2" 		 		= "machine_01_orbital_station_habitat_section_entity" }
+	attach = { "part3" 		 		= "machine_01_orbital_station_habitat_section_entity" }
+	attach = { "part4" 		 		= "machine_01_orbital_station_habitat_section_entity" }
+	attach = { "part5" 		 		= "machine_01_orbital_station_habitat_section_entity" }
+	attach = { "part6" 		 		= "machine_01_orbital_station_habitat_section_entity" }
+	attach = { "part7" 		 		= "machine_01_orbital_station_habitat_section_entity" }
+
+	scale = 0.8
+
+	default_state = "habitat_idle"
+	state = { name = "death" state_time = 5 looping = no }
+	state = { name = "construction" state_time = 5 }
+	state = { name = "habitat_idle" state_time = 5 }
+
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+}
+
+entity = {
+	name = "machine_01_habitat_phase_03_entity"
+	pdxmesh = "machine_01_upgraded_orbital_habitat_frame_mesh"
+	locator = { name = "explosion_effect" position = { 0 3 0 } }
+
+	scale = 1.5
+
+	default_state = "idle"
+	state = { name = "idle" animation = "rotate" animation_speed = 0.2 }
+
+	state = { name = "construction" animation = "rotate" animation_speed = 0.2 state_time = 5 }
+
+	state = { name = "death" animation = "rotate" animation_speed = 0.2 state_time = 5 looping = no
+		event = { time = 4.9 node = "explosion_effect" particle = "large_lithoid_ship_explosion_effect" keep_particle = yes trigger_once = yes
+		sound = { soundeffect = "station_explosion_large" } }
+	}
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+	meshsettings = {
+		shader = "PdxMeshTerra" # this seems to be the secret sauce (PdxMeshTerra)
+	}
+	attach = { "part1" = "machine_01_habitat_phase_03_section_entity" }
+}
+
+entity = {
+	name = "machine_01_habitat_phase_03_section_entity"
+	pdxmesh = "machine_01_upgraded_orbital_habitat_mesh"
+	locator = { name = "shadows1" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "clouds1" position = { 0 0 0 } rotation = { 0 0 0 } scale = 0.999 }
+	scale = 1.5
+
+	default_state = "habitat_idle"
+	state = { name = "habitat_idle" state_time = 100 time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "habitat_station_hum" } }
+		event = { time = 0.0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0.0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0.0 node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0.0 node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+	}
+
+	state = { name = "construction" animation_speed = 0.0 } # animation = "idle"
+
+	state = { name = "death" state_time = 5 looping = no # animation = "death"
+		event = { time = 0.0 node = "explosion_locator_01" particle = "lithoid_ship_explosion_s_effect" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+		event = { time = 1.2 node = "explosion_locator_02" particle = "lithoid_ship_explosion_s_effect" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+		event = { time = 2.0 node = "explosion_locator_03" particle = "lithoid_ship_explosion_s_effect" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+		event = { time = 3.5 node = "explosion_locator_04" particle = "lithoid_ship_explosion_s_effect" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+		event = { time = 4.2 node = "explosion_locator_05" particle = "lithoid_ship_explosion_s_effect" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+	}
+
+	meshsettings = {
+		name = "Landmass"
+		texture_specular = "continental_01_habitat_spec.dds" # specular was "continental_01_spec.dds"
+		shader = "PdxMeshTerra" # mesh was PdxMeshPlanet
+	}
+
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+
+	attach = { "shadows1" = "machine_01_ring_habitat_cloud_shadows_entity" }
+	attach = { "clouds1" = "machine_01_ring_habitat_clouds_entity" }
+}
+
+entity = {
+	name = "machine_01_ring_habitat_cloud_shadows_entity"
+	pdxmesh = machine_01_ring_habitat_nightlights_mesh
+
+	meshsettings = {
+		name = "Cities.001"
+		texture_diffuse = "clouds_medium_shadow_diffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "nospec.dds"
+		shader = "AlphaBlend_00"
+	}
+	game_data = {
+		size = 25
+		uv_animation_speed 		= 0.004
+		uv_animation_direction 	= { 1.0 0.0 }
+	}
+}
+
+entity = {
+	name = "machine_01_ring_habitat_clouds_entity"
+	pdxmesh = machine_01_ring_habitat_nightlights_mesh
+
+	meshsettings = {
+		name = "Cities.001"
+		texture_diffuse = "clouds_medium_diffuse.dds"
+		texture_normal = "clouds_medium_normal.dds"
+		texture_specular = "clouds_medium_specular.dds"
+		shader = "AlphaBlend_00"
+	}
+	game_data = {
+		size = 25
+		uv_animation_speed 		= 0.004
+		uv_animation_direction 	= { 1.0 0.0 }
+	}
+}

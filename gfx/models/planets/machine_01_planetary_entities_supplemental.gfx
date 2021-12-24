@@ -1,0 +1,15 @@
+objectTypes = {
+	## Ringworld Clouds
+	pdxmesh = {
+		name = "machine_01_ringworld_surface_habitable_01_mesh"
+		file = "gfx/models/planets/machine_01_ringworld_habitable_surface.mesh"
+		cull_distance = 999999999.0f
+	}
+
+	## Habitat Landmass (used for city lights)
+	pdxmesh = {
+		name = "machine_01_habitat_landmass_mesh"
+		file = "gfx/models/ships/Habitat_Assets/machine_01_habitat_landmass.mesh"
+		cull_distance = 999999999.0f
+	}
+}
