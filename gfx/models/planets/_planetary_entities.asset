@@ -1,10 +1,10 @@
 
 # Original File
 #
-# Calvitix Check 3.2  23/11/2021
+# Calvitix Check 3.3.2  28/02/2022
 #
 # Merge with Real Space 23/11/2021
-# Merge with Real Space System Scale 23/11/2021
+# Merge with Real Space System Scale 28/02/2022
 #
 # Calvitix Scale changes x3
 
@@ -1886,6 +1886,12 @@ entity = {
 entity = {
 	name = "asteroid_01_entity"
 	pdxmesh = "asteroid_01_mesh"
+	
+	meshsettings = {
+	name = "pSphereShape1"
+	shader = "PdxMeshPlanetEmissive"
+	}
+	
 	default_state = "idle"
 		state = { name = "idle" 
 			event = { sound = { soundeffect = "amb_astroid_fields" } }
@@ -1897,15 +1903,11 @@ entity = {
 entity = {
 	name = "asteroid_entity"
 	pdxmesh = "asteroid_ship_mesh"
-	
 	default_state = "idle"
 		state = { name = "idle" 
-		
 			event = { sound = { soundeffect = "amb_astroid_fields" } }
 		}
 	#state = { name = "idle" animation = "idle" time_offset = { 0 100 } }
-
-	
 	scale = 0.5
 }
 
@@ -5537,11 +5539,7 @@ entity = {
 	
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" time_offset = { 0 100 } 
-		#start_event = { trigger_once = yes sound = { soundeffect = "amb_city_planet" } }
-		#start_event = { trigger_once = yes sound = { soundeffect = "amb_city_planet_flyby" } }
 	}
-	
-	#attach = { planet = "city_planet_surface_ships_entity" }
 	
 }
 
