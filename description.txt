@@ -1,15 +1,15 @@
 Resources File for Cal'modPack (merge of ~120 mods)
 
-[h1][b]Cal'modPack - Ressources[/b], version 3.3+[/h1]
-last update : 19.03.2022
-For version 3.3+ of the game. 
+[h1][b]Cal'modPack - Ressources[/b], version 3.4+[/h1]
+last update : 29.05.2022
+For version 3.4+ of the game. 
 It's a Resource mod for my Cal'modPack,
 
 Hi 
 [b][i]That's a ressource file, compiled with the collection of mods I usually play with, solving all compatibility issues, and tweaking a few parameters.[/i][/b]
 
 Salut
-[b][i]Ce mod de ressources pour le Cal'modPack est une compilation (une fusion) de l'ensemble des mods avec lesquels je joue à Stellaris, dans sa version 3.3+[/i][/b]
+[b][i]Ce mod de ressources pour le Cal'modPack est une compilation (une fusion) de l'ensemble des mods avec lesquels je joue à Stellaris, dans sa version 3.4+[/i][/b]
 Il a été placé ici pour permettre à ceux qui souhaitent profiter de cette expérience de jeu, avec presque une centaine de mod, et en parallèle de mon autre Mod : French Translation Pack, qui lui ne contient que les traductions.
 https://steamcommunity.com/sharedfiles/filedetails/?id=2027745745
 
