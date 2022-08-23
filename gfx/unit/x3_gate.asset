@@ -95,7 +95,7 @@ entity = {
 	cull_radius = 50.0
 	default_state = "idle"
 		state = { name = "idle" state_time = 30
-		event = { time = 0.0 node = "locator1" particle = "nav_1_effect"  keep_particle = yes trigger_once = yes scale = 2}
+		event = { time = 0.0 node = "locator1" particle = "nav_1_effect"  keep_particle = yes trigger_once = yes } #scale = 2
 	#	event = { time = 0.0 node = "locator1" particle = "nav_1_effect"  keep_particle = no trigger_once = yes scale = 2}
 		event = { time = 0.0 node = "locator1" particle = "nav_1_effect"  keep_particle = no  }
 		event = { time = 1.5 node = "locator1" particle = "nav_1_effect"  keep_particle = no sound = { soundeffect = "event_sensor_ping" }}
