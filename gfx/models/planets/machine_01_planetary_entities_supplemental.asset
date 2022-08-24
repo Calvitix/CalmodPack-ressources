@@ -2,18 +2,21 @@
 
 entity = {
 	name = "machine_01_ringworld_habitable_damaged_entity_01_entity"
-	cull_radius = 500.0
+	cull_radius = 1500.0
 	pdxmesh = "machine_01_ringworld_habitable_damaged_01_mesh"
+	scale = 3 #Orig_GSM	
 }
 
 entity = {
 	name = "machine_01_ringworld_seam_damaged_entity_01_entity"
-	cull_radius = 500.0
+	cull_radius = 1500.0
 	pdxmesh = "machine_01_ringworld_seam_damaged_01_mesh"
+	scale = 3 #Orig_GSM	
 }
 
 entity = {
 	name = "machine_01_ringworld_tech_damaged_entity_01_entity"
-	cull_radius = 500.0
+	cull_radius = 1500.0
 	pdxmesh = "machine_01_ringworld_tech_damaged_01_mesh"
+	scale = 3 #Orig_GSM	
 }
