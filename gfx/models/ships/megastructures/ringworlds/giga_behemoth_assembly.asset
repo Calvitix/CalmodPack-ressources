@@ -42,6 +42,7 @@ entity = {
 	locator = { name = "locator7" position = { 1379.739	0	-243.285 }	rotation = { 20		0 0 } } #Orig_GSM
 	locator = { name = "locator8" position = { 2017.044	0	-540.465 }	rotation = { 30		0 0 } } #Orig_GSM
 	locator = { name = "locator9" position = { 2593.065	0	-943.797 }	rotation = { 40		0 0 } } #Orig_GSM
+	
 	attach = { locator1 = "behemoth_construction_entity" }
 	attach = { locator2 = "behemoth_construction_entity" }
 	attach = { locator3 = "behemoth_construction_entity" }

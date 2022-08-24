@@ -72,6 +72,9 @@ entity = {
 	attach = { locator1 = "behemoth_gaia_habitable_entity" }
 	attach = { locator2 = "behemoth_gaia_habitable_entity" }
 	attach = { locator3 = "behemoth_gaia_habitable_entity" }
+	
+	scale = 3 #Orig_GSM
+	
 }
 
 #####################################
@@ -143,6 +146,9 @@ entity = {
 	attach = { locator1 = "arthropoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator2 = "arthropoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator3 = "arthropoid_01_behemoth_gaia_habitable_entity" }
+	
+	scale = 3 #Orig_GSM
+	
 }
 
 #####################################
@@ -214,6 +220,9 @@ entity = {
 	attach = { locator1 = "avian_01_behemoth_gaia_habitable_entity" }
 	attach = { locator2 = "avian_01_behemoth_gaia_habitable_entity" }
 	attach = { locator3 = "avian_01_behemoth_gaia_habitable_entity" }
+	
+	scale = 3 #Orig_GSM
+	
 }
 
 #####################################
@@ -285,6 +294,9 @@ entity = {
 	attach = { locator1 = "fungoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator2 = "fungoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator3 = "fungoid_01_behemoth_gaia_habitable_entity" }
+	
+	scale = 3 #Orig_GSM
+	
 }
 
 #####################################
@@ -356,6 +368,9 @@ entity = {
 	attach = { locator1 = "humanoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator2 = "humanoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator3 = "humanoid_01_behemoth_gaia_habitable_entity" }
+	
+	scale = 3 #Orig_GSM
+	
 }
 
 #####################################
@@ -427,6 +442,9 @@ entity = {
 	attach = { locator1 = "mammalian_01_behemoth_gaia_habitable_entity" }
 	attach = { locator2 = "mammalian_01_behemoth_gaia_habitable_entity" }
 	attach = { locator3 = "mammalian_01_behemoth_gaia_habitable_entity" }
+	
+	scale = 3 #Orig_GSM
+	
 }
 
 #####################################
@@ -498,6 +516,9 @@ entity = {
 	attach = { locator1 = "molluscoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator2 = "molluscoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator3 = "molluscoid_01_behemoth_gaia_habitable_entity" }
+	
+	scale = 3 #Orig_GSM
+	
 }
 
 #####################################
@@ -569,6 +590,9 @@ entity = {
 	attach = { locator1 = "plantoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator2 = "plantoid_01_behemoth_gaia_habitable_entity" }
 	attach = { locator3 = "plantoid_01_behemoth_gaia_habitable_entity" }
+	
+	scale = 3 #Orig_GSM
+	
 }
 
 #####################################

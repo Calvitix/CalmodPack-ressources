@@ -22,17 +22,28 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -864.355	0	-314.599 }	rotation = { -40	0 0 } }
-	locator = { name = "locator2" position = { -672.348	0	-180.155 }	rotation = { -30	0 0 } }
-	locator = { name = "locator3" position = { -459.913	0	-81.095 }	rotation = { -20	0 0 } }
-	locator = { name = "locator4" position = { -233.504	0	-20.429 }	rotation = { -10	0 0 } }
+#	locator = { name = "locator1" position = { -864.355	0	-314.599 }	rotation = { -40	0 0 } }
+#	locator = { name = "locator2" position = { -672.348	0	-180.155 }	rotation = { -30	0 0 } }
+#	locator = { name = "locator3" position = { -459.913	0	-81.095 }	rotation = { -20	0 0 } }
+#	locator = { name = "locator4" position = { -233.504	0	-20.429 }	rotation = { -10	0 0 } }
+#
+#	locator = { name = "locator5" position = { 0	0	0 }				rotation = { 0		0 0 } }
+#
+#	locator = { name = "locator6" position = { 233.504	0	-20.429 }	rotation = { 10		0 0 } }
+#	locator = { name = "locator7" position = { 459.913	0	-81.095 }	rotation = { 20		0 0 } }
+#	locator = { name = "locator8" position = { 672.348	0	-180.155 }	rotation = { 30		0 0 } }
+#	locator = { name = "locator9" position = { 864.355	0	-314.599 }	rotation = { 40		0 0 } }
 
-	locator = { name = "locator5" position = { 0	0	0 }				rotation = { 0		0 0 } }
-
-	locator = { name = "locator6" position = { 233.504	0	-20.429 }	rotation = { 10		0 0 } }
-	locator = { name = "locator7" position = { 459.913	0	-81.095 }	rotation = { 20		0 0 } }
-	locator = { name = "locator8" position = { 672.348	0	-180.155 }	rotation = { 30		0 0 } }
-	locator = { name = "locator9" position = { 864.355	0	-314.599 }	rotation = { 40		0 0 } }
+	locator = { name = "locator1" position = { -2593.065	0	-943.797 }	rotation = { -40	0 0 } } #Orig_GSM
+	locator = { name = "locator2" position = { -2017.044	0	-540.465 }	rotation = { -30	0 0 } } #Orig_GSM
+	locator = { name = "locator3" position = { -1379.739	0	-243.285 }	rotation = { -20	0 0 } } #Orig_GSM
+	locator = { name = "locator4" position = { -700.512	0	-61.287  }	rotation = { -10	0 0 } } #Orig_GSM
+	locator = { name = "locator5" position = { 0			0	0          }	rotation = { 0		0 0 } } #Orig_GSM
+	locator = { name = "locator6" position = { 700.512		0	-61.287  }	rotation = { 10		0 0 } } #Orig_GSM
+	locator = { name = "locator7" position = { 1379.739	0	-243.285 }	rotation = { 20		0 0 } } #Orig_GSM
+	locator = { name = "locator8" position = { 2017.044	0	-540.465 }	rotation = { 30		0 0 } } #Orig_GSM
+	locator = { name = "locator9" position = { 2593.065	0	-943.797 }	rotation = { 40		0 0 } } #Orig_GSM
+	
 
 	attach = { locator1 = "machine_01_behemoth_construction_entity" }
 	attach = { locator2 = "machine_01_behemoth_construction_entity" }
@@ -63,17 +74,28 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -864.355	0	-314.599 }	rotation = { -40	0 0 } }
-	locator = { name = "locator2" position = { -672.348	0	-180.155 }	rotation = { -30	0 0 } }
-	locator = { name = "locator3" position = { -459.913	0	-81.095 }	rotation = { -20	0 0 } }
-	locator = { name = "locator4" position = { -233.504	0	-20.429 }	rotation = { -10	0 0 } }
+#	locator = { name = "locator1" position = { -864.355	0	-314.599 }	rotation = { -40	0 0 } }
+#	locator = { name = "locator2" position = { -672.348	0	-180.155 }	rotation = { -30	0 0 } }
+#	locator = { name = "locator3" position = { -459.913	0	-81.095 }	rotation = { -20	0 0 } }
+#	locator = { name = "locator4" position = { -233.504	0	-20.429 }	rotation = { -10	0 0 } }
+#
+#	locator = { name = "locator5" position = { 0	0	0 }				rotation = { 0		0 0 } }
+#
+#	locator = { name = "locator6" position = { 233.504	0	-20.429 }	rotation = { 10		0 0 } }
+#	locator = { name = "locator7" position = { 459.913	0	-81.095 }	rotation = { 20		0 0 } }
+#	locator = { name = "locator8" position = { 672.348	0	-180.155 }	rotation = { 30		0 0 } }
+#	locator = { name = "locator9" position = { 864.355	0	-314.599 }	rotation = { 40		0 0 } }
 
-	locator = { name = "locator5" position = { 0	0	0 }				rotation = { 0		0 0 } }
-
-	locator = { name = "locator6" position = { 233.504	0	-20.429 }	rotation = { 10		0 0 } }
-	locator = { name = "locator7" position = { 459.913	0	-81.095 }	rotation = { 20		0 0 } }
-	locator = { name = "locator8" position = { 672.348	0	-180.155 }	rotation = { 30		0 0 } }
-	locator = { name = "locator9" position = { 864.355	0	-314.599 }	rotation = { 40		0 0 } }
+	locator = { name = "locator1" position = { -2593.065	0	-943.797 }	rotation = { -40	0 0 } } #Orig_GSM
+	locator = { name = "locator2" position = { -2017.044	0	-540.465 }	rotation = { -30	0 0 } } #Orig_GSM
+	locator = { name = "locator3" position = { -1379.739	0	-243.285 }	rotation = { -20	0 0 } } #Orig_GSM
+	locator = { name = "locator4" position = { -700.512	0	-61.287  }	rotation = { -10	0 0 } } #Orig_GSM
+	locator = { name = "locator5" position = { 0			0	0          }	rotation = { 0		0 0 } } #Orig_GSM
+	locator = { name = "locator6" position = { 700.512		0	-61.287  }	rotation = { 10		0 0 } } #Orig_GSM
+	locator = { name = "locator7" position = { 1379.739	0	-243.285 }	rotation = { 20		0 0 } } #Orig_GSM
+	locator = { name = "locator8" position = { 2017.044	0	-540.465 }	rotation = { 30		0 0 } } #Orig_GSM
+	locator = { name = "locator9" position = { 2593.065	0	-943.797 }	rotation = { 40		0 0 } } #Orig_GSM
+	
 
 	attach = { locator1 = "machine_01_behemoth_tech_entity" }
 	attach = { locator2 = "machine_01_behemoth_tech_entity" }
@@ -484,17 +506,28 @@ entity = {
 	state = { name = "idle" }
 	state = { name = "construction" }
 
-	locator = { name = "locator1" position = { -864.355	0	-314.599 }	rotation = { -40	0 0 } }
-	locator = { name = "locator2" position = { -672.348	0	-180.155 }	rotation = { -30	0 0 } }
-	locator = { name = "locator3" position = { -459.913	0	-81.095 }	rotation = { -20	0 0 } }
-	locator = { name = "locator4" position = { -233.504	0	-20.429 }	rotation = { -10	0 0 } }
+#	locator = { name = "locator1" position = { -864.355	0	-314.599 }	rotation = { -40	0 0 } }
+#	locator = { name = "locator2" position = { -672.348	0	-180.155 }	rotation = { -30	0 0 } }
+#	locator = { name = "locator3" position = { -459.913	0	-81.095 }	rotation = { -20	0 0 } }
+#	locator = { name = "locator4" position = { -233.504	0	-20.429 }	rotation = { -10	0 0 } }
+#
+#	locator = { name = "locator5" position = { 0	0	0 }				rotation = { 0		0 0 } }
+#
+#	locator = { name = "locator6" position = { 233.504	0	-20.429 }	rotation = { 10		0 0 } }
+#	locator = { name = "locator7" position = { 459.913	0	-81.095 }	rotation = { 20		0 0 } }
+#	locator = { name = "locator8" position = { 672.348	0	-180.155 }	rotation = { 30		0 0 } }
+#	locator = { name = "locator9" position = { 864.355	0	-314.599 }	rotation = { 40		0 0 } }
 
-	locator = { name = "locator5" position = { 0	0	0 }				rotation = { 0		0 0 } }
-
-	locator = { name = "locator6" position = { 233.504	0	-20.429 }	rotation = { 10		0 0 } }
-	locator = { name = "locator7" position = { 459.913	0	-81.095 }	rotation = { 20		0 0 } }
-	locator = { name = "locator8" position = { 672.348	0	-180.155 }	rotation = { 30		0 0 } }
-	locator = { name = "locator9" position = { 864.355	0	-314.599 }	rotation = { 40		0 0 } }
+	locator = { name = "locator1" position = { -2593.065	0	-943.797 }	rotation = { -40	0 0 } } #Orig_GSM
+	locator = { name = "locator2" position = { -2017.044	0	-540.465 }	rotation = { -30	0 0 } } #Orig_GSM
+	locator = { name = "locator3" position = { -1379.739	0	-243.285 }	rotation = { -20	0 0 } } #Orig_GSM
+	locator = { name = "locator4" position = { -700.512	0	-61.287  }	rotation = { -10	0 0 } } #Orig_GSM
+	locator = { name = "locator5" position = { 0			0	0          }	rotation = { 0		0 0 } } #Orig_GSM
+	locator = { name = "locator6" position = { 700.512		0	-61.287  }	rotation = { 10		0 0 } } #Orig_GSM
+	locator = { name = "locator7" position = { 1379.739	0	-243.285 }	rotation = { 20		0 0 } } #Orig_GSM
+	locator = { name = "locator8" position = { 2017.044	0	-540.465 }	rotation = { 30		0 0 } } #Orig_GSM
+	locator = { name = "locator9" position = { 2593.065	0	-943.797 }	rotation = { 40		0 0 } } #Orig_GSM
+	
 
 	attach = { locator1 = "machine_01_behemoth_ruined_tech_entity" }
 	attach = { locator2 = "machine_01_behemoth_ruined_tech_entity" }

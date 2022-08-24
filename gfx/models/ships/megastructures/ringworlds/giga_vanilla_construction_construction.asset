@@ -4,10 +4,10 @@
 
 @ringworld_scale = 2.45
 
-@ringworld_north_scale =  2700
-@ringworld_south_scale = -2700
-@ringworld_west_scale  =  2700
-@ringworld_east_scale  = -2700
+@ringworld_north_scale =  1350
+@ringworld_south_scale = -1350
+@ringworld_west_scale  =  1350
+@ringworld_east_scale  = -1350
 
 @cull_radius_1 = 1500
 

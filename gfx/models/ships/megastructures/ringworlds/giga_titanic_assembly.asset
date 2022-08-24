@@ -964,12 +964,19 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
-	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
-	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
-	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
-	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
-	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	#locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
+	#locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
+	#locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
+	#locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
+	#locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
+	#locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+
+	locator = { name = "locator1" position = { -1638.789	0	-577.617 }	rotation = { -37.5	0 0 } }
+	locator = { name = "locator2" position = { -1030.776	0	-226.653  }	rotation = { -22.5	0 0 } }
+	locator = { name = "locator3" position = { -352.5			0	-45 	  }	rotation = { -7.5	0 0 } }
+	locator = { name = "locator4" position = { 352.5			0	-45 	  }	rotation = { 7.5	0 0 } }
+	locator = { name = "locator5" position = { 1030.776		0	-226.653  }	rotation = { 22.5	0 0 } }
+	locator = { name = "locator6" position = { 1638.789		0	-577.617 }	rotation = { 37.5	0 0 } }	
 
 	attach = { locator1 = "necroid_01_titanic_tech_entity" }
 	attach = { locator2 = "necroid_01_titanic_tech_entity" }

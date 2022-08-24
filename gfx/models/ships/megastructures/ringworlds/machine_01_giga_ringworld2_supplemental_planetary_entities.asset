@@ -5,7 +5,7 @@
 #####################################
 entity = {
 	name = "machine_01_titanic_quarter_entity"
-	cull_radius = 9999
+	cull_radius = 1500
 	game_data = {
 		size = @ringworld_segment_size
 		shader_type = ship
@@ -21,12 +21,19 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
-	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
-	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
-	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
-	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
-	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	#locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
+	#locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
+	#locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
+	#locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
+	#locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
+	#locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	
+	locator = { name = "locator1" position = { -1638.789	0	-577.617 }	rotation = { -37.5	0 0 } }
+	locator = { name = "locator2" position = { -1030.776	0	-226.653  }	rotation = { -22.5	0 0 } }
+	locator = { name = "locator3" position = { -352.5			0	-45 	  }	rotation = { -7.5	0 0 } }
+	locator = { name = "locator4" position = { 352.5			0	-45 	  }	rotation = { 7.5	0 0 } }
+	locator = { name = "locator5" position = { 1030.776		0	-226.653  }	rotation = { 22.5	0 0 } }
+	locator = { name = "locator6" position = { 1638.789		0	-577.617 }	rotation = { 37.5	0 0 } }		
 
 	attach = { locator1 = "machine_01_titanic_construction_entity" }
 	attach = { locator2 = "machine_01_titanic_construction_entity" }
@@ -38,7 +45,7 @@ entity = {
 
 entity = {
 	name = "machine_01_titanic_quarter_construction_entity"
-	cull_radius = 9999
+	cull_radius = 1500
 	game_data = {
 		size = @ringworld_segment_size
 		shader_type = ship
@@ -54,12 +61,19 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "ringworld_construction_ambient" } }
 	}
 
-	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
-	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
-	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
-	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
-	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
-	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	#locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
+	#locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
+	#locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
+	#locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
+	#locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
+	#locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	
+	locator = { name = "locator1" position = { -1638.789	0	-577.617 }	rotation = { -37.5	0 0 } }
+	locator = { name = "locator2" position = { -1030.776	0	-226.653  }	rotation = { -22.5	0 0 } }
+	locator = { name = "locator3" position = { -352.5			0	-45 	  }	rotation = { -7.5	0 0 } }
+	locator = { name = "locator4" position = { 352.5			0	-45 	  }	rotation = { 7.5	0 0 } }
+	locator = { name = "locator5" position = { 1030.776		0	-226.653  }	rotation = { 22.5	0 0 } }
+	locator = { name = "locator6" position = { 1638.789		0	-577.617 }	rotation = { 37.5	0 0 } }		
 
 	attach = { locator1 = "machine_01_titanic_tech_entity" }
 	attach = { locator2 = "machine_01_titanic_tech_entity" }
@@ -71,7 +85,7 @@ entity = {
 
 entity = {
 	name = "machine_01_titanic_full_entity"
-	cull_radius = 9999
+	cull_radius = 1500
 	game_data = {
 		size = @ringworld_segment_size
 		shader_type = ship
@@ -94,7 +108,7 @@ entity = {
 entity = {
 	name = "machine_01_titanic_construction_entity"
 	pdxmesh = "machine_01_ringworld_construction_mesh"
-	cull_radius = 9999
+	cull_radius = 1500
 	game_data = {
 		size = @ringworld_segment_size
 		shader_type = ship
@@ -104,7 +118,7 @@ entity = {
 
 entity = {
 	name = "machine_01_titanic_construction_sector_entity"
-	cull_radius = 9999
+	cull_radius = 1500
 	game_data = {
 		size = @ringworld_segment_size
 		shader_type = ship
@@ -130,7 +144,7 @@ entity = {
 entity = {
 	name = "machine_01_titanic_seam_entity"
 	pdxmesh = "machine_01_ringworld_seam_01_mesh"
-	cull_radius = 9999
+	cull_radius = 1500
 	game_data = {
 		size = @ringworld_segment_size
 		shader_type = ship
@@ -144,7 +158,7 @@ entity = {
 
 entity = {
 	name = "machine_01_titanic_seam_sector_entity"
-	cull_radius = 9999
+	cull_radius = 1500
 	game_data = {
 		size = @ringworld_segment_size
 		shader_type = ship
@@ -440,7 +454,7 @@ entity = {
 
 entity = {
 	name = "machine_01_titanic_ruined_quarter_entity"
-	cull_radius = 9999
+	cull_radius = 1500
 	game_data = {
 		size = 50
 		shader_type = ship
@@ -451,13 +465,21 @@ entity = {
 	state = { name = "idle" }
 	state = { name = "construction" }
 
-	locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
-	locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
-	locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
-	locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
-	locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
-	locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
+	#locator = { name = "locator1" position = { -546.263	0	-192.539 }	rotation = { -37.5	0 0 } }
+	#locator = { name = "locator2" position = { -343.592	0	-75.551 }	rotation = { -22.5	0 0 } }
+	#locator = { name = "locator3" position = { -117.5	0	-15 }		rotation = { -7.5	0 0 } }
+	#locator = { name = "locator4" position = { 117.5	0	-15 }		rotation = { 7.5	0 0 } }
+	#locator = { name = "locator5" position = { 343.592	0	-75.551 }	rotation = { 22.5	0 0 } }
+	#locator = { name = "locator6" position = { 546.263	0	-192.539 }	rotation = { 37.5	0 0 } }
 
+	locator = { name = "locator1" position = { -1638.789	0	-577.617 }	rotation = { -37.5	0 0 } }
+	locator = { name = "locator2" position = { -1030.776	0	-226.653  }	rotation = { -22.5	0 0 } }
+	locator = { name = "locator3" position = { -352.5			0	-45 	  }	rotation = { -7.5	0 0 } }
+	locator = { name = "locator4" position = { 352.5			0	-45 	  }	rotation = { 7.5	0 0 } }
+	locator = { name = "locator5" position = { 1030.776		0	-226.653  }	rotation = { 22.5	0 0 } }
+	locator = { name = "locator6" position = { 1638.789		0	-577.617 }	rotation = { 37.5	0 0 } }	
+	
+	
 	attach = { locator1 = "machine_01_titanic_ruined_tech_entity" }
 	attach = { locator2 = "machine_01_titanic_ruined_tech_entity" }
 	attach = { locator3 = "machine_01_titanic_ruined_seam_entity" }
@@ -468,7 +490,7 @@ entity = {
 
 entity = {
 	name = "machine_01_titanic_ruined_full_entity"
-	cull_radius = 9999
+	cull_radius = 1500
 	game_data = {
 		size = 50
 		shader_type = ship

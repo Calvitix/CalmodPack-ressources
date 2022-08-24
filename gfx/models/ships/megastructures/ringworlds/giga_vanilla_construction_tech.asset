@@ -439,4 +439,5 @@ entity = {
 		texture_specular = "ringworld_tech_necroid_01_specular.dds"
 		shader = "PdxMeshTerra"
 	}
+	scale = @ringworld_scale	
 }
