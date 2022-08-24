@@ -1,10 +1,10 @@
 
 # Original File
 #
-# Calvitix Check 3.3.1  23/02/2022
+# Calvitix Check 3.4.5  23/02/2022
 #
 # Merge with Real space 3.8  23/11/2021
-# Merge with Giga  23/02/2022
+# Merge with Giga  22/08/2022
 
 
 
@@ -2830,7 +2830,7 @@ Effect PdxMeshAlphaAnimateUVErosionShadow
 
 Effect PdxMeshAlphaAdditiveAnimateUVErosionSkinnedShadow
 {
-VertexShader = "VertexPdxMeshStandardSkinnedShadow"
+	VertexShader = "VertexPdxMeshStandardSkinnedShadow"
 	PixelShader = "PixelPdxMeshNoShadow"
 	Defines = { "IS_SHADOW" }
 }
