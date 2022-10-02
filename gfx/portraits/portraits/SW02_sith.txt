@@ -1,23 +1,23 @@
 portraits = {
 	# Sith
-	sitf1 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "sith_female_clothes_01" hair_selector = "sith_female_hair_01"	greeting_sound = "human_female_greetings_03"
-	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_female_body_01.dds"}}
-	sitf2 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "sith_female_clothes_01" hair_selector = "sith_female_hair_01"	greeting_sound = "human_female_greetings_03"
-	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_female_body_02.dds"}}
-	sitf3 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "sith_female_clothes_01" hair_selector = "sith_female_hair_01"	greeting_sound = "human_female_greetings_03"
-	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_female_body_03.dds"}}
-	sitf4 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "sith_female_clothes_01" hair_selector = "sith_female_hair_01"	greeting_sound = "human_female_greetings_03"
-	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_female_body_04.dds"}}
+	sitf1 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "sith_female_clothes_01" attachment_selector = "sith_female_hair_01"	greeting_sound = "human_female_greetings_03"
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_female_body_01.dds"} 	custom_attachment_label = "HAIR_STYLE"}
+	sitf2 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "sith_female_clothes_01" attachment_selector = "sith_female_hair_01"	greeting_sound = "human_female_greetings_03"
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_female_body_02.dds"} 	custom_attachment_label = "HAIR_STYLE"}
+	sitf3 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "sith_female_clothes_01" attachment_selector = "sith_female_hair_01"	greeting_sound = "human_female_greetings_03"
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_female_body_03.dds"} 	custom_attachment_label = "HAIR_STYLE"}
+	sitf4 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "sith_female_clothes_01" attachment_selector = "sith_female_hair_01"	greeting_sound = "human_female_greetings_03"
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_female_body_04.dds"} 	custom_attachment_label = "HAIR_STYLE"}
 		
 
-	sitm1 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
-	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_male_body_01.dds"}}	
-	sitm2 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
-	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_male_body_02.dds"}}		
-	sitm3 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
-	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_male_body_03.dds"}}		
-	sitm4 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" hair_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
-	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_male_body_04.dds"}}	
+	sitm1 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" attachment_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_male_body_01.dds"} 	custom_attachment_label = "HAIR_STYLE"}	
+	sitm2 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" attachment_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_male_body_02.dds"} 	custom_attachment_label = "HAIR_STYLE"}		
+	sitm3 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" attachment_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_male_body_03.dds"} 	custom_attachment_label = "HAIR_STYLE"}		
+	sitm4 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "sith_male_clothes_01" attachment_selector = "sith_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+	character_textures = { "gfx/models/portraits/Star_Wars/sith/sith_male_body_04.dds"} 	custom_attachment_label = "HAIR_STYLE"}	
 
 }	
 

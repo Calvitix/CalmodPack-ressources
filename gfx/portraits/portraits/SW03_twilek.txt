@@ -4,76 +4,96 @@ portraits = {
 	#blue
 	twif1	= {	entity = "humanoid_05_female_01_entity"	#female humanoid are fine
 				clothes_selector = "humanoid_05_SW_female_clothes_01" 
-				hair_selector = "twilek_female_01_hair" #blue
+				attachment_selector = "twilek_female_01_hair" #blue
 				greeting_sound = "human_female_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_female_body_1.dds"} 
+				custom_attachment_label = "HAIR_STYLE"
+
 			}
 	
 	#green	
 	twif2	= {	entity = "humanoid_05_female_01_entity"	#female humanoid are fine
 				clothes_selector = "humanoid_05_SW_female_clothes_01" 
-				hair_selector = "twilek_female_02_hair" #green
+				attachment_selector = "twilek_female_02_hair" #green
 				greeting_sound = "human_female_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_female_body_2.dds"} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 	
 	#red
 	twif3	= {	entity = "humanoid_05_female_01_entity"	#female humanoid are fine
 				clothes_selector = "humanoid_05_SW_female_clothes_01" 
-				hair_selector = "twilek_female_03_hair" #red
+				attachment_selector = "twilek_female_03_hair" #red
 				greeting_sound = "human_female_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_female_body_3.dds"} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 			
 	#purple
 	twif4	= {	entity = "humanoid_05_female_01_entity"	#female humanoid are fine
 				clothes_selector = "humanoid_05_SW_female_clothes_01" 
-				hair_selector = "twilek_female_04_hair" #purple
+				attachment_selector = "twilek_female_04_hair" #purple
 				greeting_sound = "human_female_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_female_body_4.dds"} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 			
 	#pink
 	twif5	= {	entity = "humanoid_05_female_01_entity"	#female humanoid are fine
 				clothes_selector = "humanoid_05_SW_female_clothes_01" 
-				hair_selector = "twilek_female_05_hair" #pink
+				attachment_selector = "twilek_female_05_hair" #pink
 				greeting_sound = "human_female_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_female_body_5.dds"} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 				
 	twim1	= {	entity = "twilek_male_01_entity"	#created new for scalling
 				clothes_selector = "humanoid_05_SW_male_clothes_01" 
-				hair_selector = "twilek_male_01_hair" #blue
+				attachment_selector = "twilek_male_01_hair" #blue
 				greeting_sound = "human_male_greetings_04" 
 				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_male_body_1.dds"} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 			
 	twim2	= {	entity = "twilek_male_01_entity"	#created new for scalling
 				clothes_selector = "humanoid_05_SW_male_clothes_01" 
-				hair_selector = "twilek_male_02_hair" #green
+				attachment_selector = "twilek_male_02_hair" #green
 				greeting_sound = "human_male_greetings_04" 
 				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_male_body_2.dds"} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 			
 	twim3	= {	entity = "twilek_male_01_entity"	#created new for scalling
 				clothes_selector = "humanoid_05_SW_male_clothes_01" 
-				hair_selector = "twilek_male_03_hair" #red
+				attachment_selector = "twilek_male_03_hair" #red
 				greeting_sound = "human_male_greetings_04" 
 				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_male_body_3.dds"} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 			
 	twim4	= {	entity = "twilek_male_01_entity"	#created new for scalling
 				clothes_selector = "humanoid_05_SW_male_clothes_01" 
-				hair_selector = "twilek_male_04_hair" #purple
+				attachment_selector = "twilek_male_04_hair" #purple
 				greeting_sound = "human_male_greetings_04" 
 				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_male_body_4.dds"} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 			
 	twim5	= {	entity = "twilek_male_01_entity"	#created new for scalling
 				clothes_selector = "humanoid_05_SW_male_clothes_01" 
-				hair_selector = "twilek_male_05_hair" #pink
+				attachment_selector = "twilek_male_05_hair" #pink
 				greeting_sound = "human_male_greetings_04" 
 				character_textures = { "gfx/models/portraits/Star_Wars/twilek/twilek_male_body_5.dds"} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 	
 	}

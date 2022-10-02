@@ -2077,6 +2077,12 @@ entity = {
 }
 
 entity = {
+	name = "lithoid_01_military_station_section_hangar_entity"
+	pdxmesh = "lithoid_01_military_station_section_heavy_mesh"
+	scale = 1.0
+}
+
+entity = {
 	name = "lithoid_01_wormhole_main_entity"
 	pdxmesh = "blue_white_star_icon_mesh"
 	scale = 10.0

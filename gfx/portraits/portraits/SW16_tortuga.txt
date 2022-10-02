@@ -4,83 +4,99 @@ portraits = {
 	#blue
 	togruta_f1	= {	entity = "humanoid_05_female_01_entity"	#female humanoid are fine
 				clothes_selector = "humanoid_05_SW_female_clothes_01" 
-				hair_selector = "togruta_female_01_hair" 
+				attachment_selector = "togruta_female_01_hair" 
 				greeting_sound = "human_female_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_1.dds"
 									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_1a.dds"
 									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_1b.dds"
-				} 
+				}
+	custom_attachment_label = "HAIR_STYLE"
+				
 			}
 	#red		
 	togruta_f2	= {	entity = "humanoid_05_female_01_entity"
 				clothes_selector = "humanoid_05_SW_female_clothes_01" 
-				hair_selector = "togruta_female_01_hair" 
+				attachment_selector = "togruta_female_01_hair" 
 				greeting_sound = "human_female_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_2.dds" 
 									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_2a.dds"
 									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_2b.dds"
 				} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 	#orange
 	togruta_f3	= {	entity = "humanoid_05_female_01_entity"
 				clothes_selector = "humanoid_05_SW_female_clothes_01" 
-				hair_selector = "togruta_female_01_hair" 
+				attachment_selector = "togruta_female_01_hair" 
 				greeting_sound = "human_female_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_3.dds" 
 									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_3a.dds"
 									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_3b.dds"
 				} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}	
 
 	#purple / violetinis
 	togruta_f4	= {	entity = "humanoid_05_female_01_entity"	
 				clothes_selector = "humanoid_05_SW_female_clothes_01" 
-				hair_selector = "togruta_female_01_hair" 
+				attachment_selector = "togruta_female_01_hair" 
 				greeting_sound = "human_female_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_4.dds" 
 									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_4a.dds"
 									   "gfx/models/portraits/Star_Wars/togruta/togruta_female_body_4b.dds"
 				} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}	
 
 	togruta_m1	= {	entity = "togruta_male_01_entity"	#size redefined
 				clothes_selector = "humanoid_05_SW_male_clothes_01" 
-				hair_selector = "togruta_male_01_hair" 
+				attachment_selector = "togruta_male_01_hair" 
 				greeting_sound = "human_male_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_1.dds"
 									   "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_1a.dds"
 									   "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_1b.dds"
 				} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 
 	togruta_m2	= {	entity = "togruta_male_01_entity"	#size redefined
 				clothes_selector = "humanoid_05_SW_male_clothes_01" 
-				hair_selector = "togruta_male_01_hair" 
+				attachment_selector = "togruta_male_01_hair" 
 				greeting_sound = "human_male_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_2.dds"
 										"gfx/models/portraits/Star_Wars/togruta/togruta_male_body_2a.dds"
 										"gfx/models/portraits/Star_Wars/togruta/togruta_male_body_2b.dds"
 				} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 
 	togruta_m3	= {	entity = "togruta_male_01_entity"	#size redefined
 				clothes_selector = "humanoid_05_SW_male_clothes_01" 
-				hair_selector = "togruta_male_01_hair" 
+				attachment_selector = "togruta_male_01_hair" 
 				greeting_sound = "human_male_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_3.dds"
 									  "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_3a.dds"
 									  "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_3b.dds"
 				} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 
 	togruta_m4	= {	entity = "togruta_male_01_entity"	#size redefined
 				clothes_selector = "humanoid_05_SW_male_clothes_01" 
-				hair_selector = "togruta_male_01_hair" 
+				attachment_selector = "togruta_male_01_hair" 
 				greeting_sound = "human_male_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/togruta/togruta_male_body_4.dds"
 										"gfx/models/portraits/Star_Wars/togruta/togruta_male_body_4a.dds"
 										"gfx/models/portraits/Star_Wars/togruta/togruta_male_body_4b.dds"
 				} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 			
 	}

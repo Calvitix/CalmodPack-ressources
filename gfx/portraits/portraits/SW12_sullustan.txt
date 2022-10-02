@@ -4,23 +4,29 @@ portraits = {
 
 	sull_1	= {	entity = "sullustan_male_01_entity"	#female resized for sull
 				clothes_selector = "sullustan_clothes_01"
-				hair_selector = "sullustan_01_hair" #orig.
+				attachment_selector = "sullustan_01_hair" #orig.
 				greeting_sound = "human_male_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/sullustan/sullustan_body_1.dds"} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 			
 	sull_2	= {	entity = "sullustan_male_01_entity"	#female resized for sull
 				clothes_selector = "sullustan_clothes_01"
-				hair_selector = "sullustan_02_hair" #hair and body must match
+				attachment_selector = "sullustan_02_hair" #hair and body must match
 				greeting_sound = "human_male_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/sullustan/sullustan_body_2.dds"} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 			
 	sull_3	= {	entity = "sullustan_male_01_entity"	#female resized for sull
 				clothes_selector = "sullustan_clothes_01"
-				hair_selector = "sullustan_01_hair" #hair and body must match
+				attachment_selector = "sullustan_01_hair" #hair and body must match
 				greeting_sound = "human_male_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/sullustan/sullustan_body_3.dds"} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 
 

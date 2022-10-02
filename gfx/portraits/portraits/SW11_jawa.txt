@@ -2,34 +2,42 @@ portraits = {
 		
 	SW11_jawa01	= {	entity = "jawa_male_01_entity"	#female resized 
 				clothes_selector = "jawa_clothes_01"
-				hair_selector = "jawa_01_hair" 
+				attachment_selector = "jawa_01_hair" 
 				greeting_sound = "cute_arthopoid_greetings"
 				character_textures = { "gfx/models/portraits/Star_Wars/jawa/body_jawa_1.dds"		  
-				} 
+				}
+	custom_attachment_label = "HAIR_STYLE"
+				
 			}
 			
 	SW11_jawa02	= {	entity = "jawa_male_01_entity"	#female resized 
 				clothes_selector = "jawa_clothes_02"
-				hair_selector = "jawa_02_hair" 
+				attachment_selector = "jawa_02_hair" 
 				greeting_sound = "cute_arthopoid_greetings"
 				character_textures = { "gfx/models/portraits/Star_Wars/jawa/body_jawa_2.dds"
 				} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 			
 	SW11_jawa03	= {	entity = "jawa_male_01_entity"	#female resized 
 				clothes_selector = "jawa_clothes_01"
-				hair_selector = "jawa_01_hair" 
+				attachment_selector = "jawa_01_hair" 
 				greeting_sound = "cute_arthopoid_greetings"
 				character_textures = { "gfx/models/portraits/Star_Wars/jawa/body_jawa_1b.dds"
 				} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 	
 	SW11_jawa04	= {	entity = "jawa_male_01_entity"	#female resized 
 				clothes_selector = "jawa_clothes_02"
-				hair_selector = "jawa_02_hair" 
+				attachment_selector = "jawa_02_hair" 
 				greeting_sound = "cute_arthopoid_greetings"
 				character_textures = { "gfx/models/portraits/Star_Wars/jawa/body_jawa_2b.dds"
 				} 
+					custom_attachment_label = "HAIR_STYLE"
+
 			}
 	
 	}

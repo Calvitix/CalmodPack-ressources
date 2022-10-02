@@ -4,32 +4,36 @@ portraits = {
 
 	rodian_1	= {	entity ="rodian_male_entity"	
 				clothes_selector = "rodian_clothes_01" 
-				hair_selector = "rodian_01_hair" 
+				attachment_selector = "rodian_01_hair" 
 				greeting_sound = "human_male_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/rodian/rodian_body_1a.dds"
 									   "gfx/models/portraits/Star_Wars/rodian/rodian_body_1b.dds"
 									   "gfx/models/portraits/Star_Wars/rodian/rodian_body_1c.dds"
 									} 
+		custom_attachment_label = "HAIR_STYLE"
+							
 			}
 			
 	rodian_2	= {	entity ="rodian_male_entity"	
 				clothes_selector = "rodian_clothes_01" 
-				hair_selector = "rodian_02_hair" 
+				attachment_selector = "rodian_02_hair" 
 				greeting_sound = "human_male_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/rodian/rodian_body_2a.dds"
 									   "gfx/models/portraits/Star_Wars/rodian/rodian_body_2b.dds"
 									   "gfx/models/portraits/Star_Wars/rodian/rodian_body_2c.dds"
 									} 
+		custom_attachment_label = "HAIR_STYLE"
 			}
 
 	rodian_3	= {	entity ="rodian_male_entity"	
 				clothes_selector = "rodian_clothes_01" 
-				hair_selector = "rodian_03_hair" 
+				attachment_selector = "rodian_03_hair" 
 				greeting_sound = "human_male_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/rodian/rodian_body_3a.dds"
 									   "gfx/models/portraits/Star_Wars/rodian/rodian_body_3b.dds"
 									   "gfx/models/portraits/Star_Wars/rodian/rodian_body_3c.dds"
 									} 
+		custom_attachment_label = "HAIR_STYLE"
 			}
 			
 

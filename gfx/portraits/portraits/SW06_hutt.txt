@@ -3,13 +3,15 @@
 portraits = {
 
 
-	hut01 = {	entity = "portrait_mammalian_13_entity_hutt"	clothes_selector = "no_texture" hair_selector = "general_no_hair" greeting_sound = "mammalian_01_greetings"
+	hut01 = {	entity = "portrait_mammalian_13_entity_hutt"	clothes_selector = "no_texture" attachment_selector = "general_no_hair" greeting_sound = "mammalian_01_greetings"
 			character_textures = {
 					"gfx/models/portraits/Star_Wars/hutt/hutt_male_01.dds"
 					"gfx/models/portraits/Star_Wars/hutt/hutt_male_02.dds"
 					"gfx/models/portraits/Star_Wars/hutt/hutt_male_03.dds"
 					
 				}
+					custom_attachment_label = "HAIR_STYLE"
+
 	}
 	
 }

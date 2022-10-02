@@ -5,123 +5,135 @@ portraits = {
 	
 	zabf1 = {	entity = "zabrak_female_entity" 
 				clothes_selector = "human_SW_female_clothes_01" 	
-				hair_selector = "general_no_hair"		
+				attachment_selector = "general_no_hair"		
 				greeting_sound = "human_female_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_1.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_2.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_3.dds"
 				}
+				 	custom_attachment_label = "HAIR_STYLE"
 	}
 	
 	zabf2 = {	entity = "zabrak_female_entity"	
 				clothes_selector = "human_SW_female_clothes_01" 	
-				hair_selector = "general_no_hair"	
+				attachment_selector = "general_no_hair"	
 				greeting_sound = "human_female_greetings_03" 
 				character_textures = {"gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_1_green.dds"
 									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_2_green.dds"
 									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_3_green.dds"
 				}
+				 	custom_attachment_label = "HAIR_STYLE"
 	}
 	
 	zabf3 = {	entity = "zabrak_female_entity"	
 				clothes_selector = "human_SW_female_clothes_01" 	
-				hair_selector = "general_no_hair"	
+				attachment_selector = "general_no_hair"	
 				greeting_sound = "human_female_greetings_03" 
 				character_textures = {"gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_1_grey.dds"
 									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_2_grey.dds"
 									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_3_grey.dds"
 				}
+				 	custom_attachment_label = "HAIR_STYLE"
 	}
 	
 	zabf4 = {	entity = "zabrak_female_entity"	
 				clothes_selector = "human_SW_female_clothes_01" 	
-				hair_selector = "general_no_hair"	
+				attachment_selector = "general_no_hair"	
 				greeting_sound = "human_female_greetings_03" 
 				character_textures = {"gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_1_yellow.dds"
 									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_2_yellow.dds"
 									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_3_yellow.dds"
 				}
+				 	custom_attachment_label = "HAIR_STYLE"
 	}
 	
 	zabf5 = {	entity = "zabrak_female_entity"	
 				clothes_selector = "human_SW_female_clothes_01" 	
-				hair_selector = "general_no_hair"	
+				attachment_selector = "general_no_hair"	
 				greeting_sound = "human_female_greetings_03" 
 				character_textures = {"gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_1_orange.dds"
 									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_2_orange.dds"
 									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_3_orange.dds"
 				}
+				 	custom_attachment_label = "HAIR_STYLE"
 	}
 	
 	zabf6 = {	entity = "zabrak_female_entity"	
 				clothes_selector = "human_SW_female_clothes_01" 	
-				hair_selector = "general_no_hair"	
+				attachment_selector = "general_no_hair"	
 				greeting_sound = "human_female_greetings_03" 
 				character_textures = {"gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_1_red.dds"
 									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_2_red.dds"
 									  "gfx/models/portraits/Star_Wars/zabrak/zabrak_female_body_01_3_red.dds"
 				}
+				 	custom_attachment_label = "HAIR_STYLE"
 	}
 	
 	zabm1 = {	entity = "zabrak_male_entity"	
 				clothes_selector = "human_SW_male_clothes_01" 	
-				hair_selector = "general_no_hair"	
+				attachment_selector = "general_no_hair"	
 				greeting_sound = "human_male_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_1.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_2.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_3.dds"
 				}
+				 	custom_attachment_label = "HAIR_STYLE"
 	}
 
 	zabm2 = {	entity = "zabrak_male_entity"	
 				clothes_selector = "human_SW_male_clothes_01" 	
-				hair_selector = "general_no_hair"	
+				attachment_selector = "general_no_hair"	
 				greeting_sound = "human_male_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_1_green.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_2_green.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_3_green.dds"
 				}
+				 	custom_attachment_label = "HAIR_STYLE"
 	}	
 	
 	
 	zabm3 = {	entity = "zabrak_male_entity"	
 				clothes_selector = "human_SW_male_clothes_01" 	
-				hair_selector = "general_no_hair"	
+				attachment_selector = "general_no_hair"	
 				greeting_sound = "human_male_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_1_grey.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_2_grey.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_3_grey.dds"
 				}
+				 	custom_attachment_label = "HAIR_STYLE"
 	}
 	
 	zabm4 = {	entity = "zabrak_male_entity"	
 				clothes_selector = "human_SW_male_clothes_01" 	
-				hair_selector = "general_no_hair"	
+				attachment_selector = "general_no_hair"	
 				greeting_sound = "human_male_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_1_yellow.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_2_yellow.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_3_yellow.dds"
 				}
+				 	custom_attachment_label = "HAIR_STYLE"
 	}
 	
 	zabm5 = {	entity = "zabrak_male_entity"	
 				clothes_selector = "human_SW_male_clothes_01" 	
-				hair_selector = "general_no_hair"	
+				attachment_selector = "general_no_hair"	
 				greeting_sound = "human_male_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_1_orange.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_2_orange.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_3_orange.dds"
 				}
+				 	custom_attachment_label = "HAIR_STYLE"
 	}
 	
 	zabm6 = {	entity = "zabrak_male_entity"	
 				clothes_selector = "human_SW_male_clothes_01" 	
-				hair_selector = "general_no_hair"	
+				attachment_selector = "general_no_hair"	
 				greeting_sound = "human_male_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_1_red.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_2_red.dds"
 									   "gfx/models/portraits/Star_Wars/zabrak/zabrak_male_body_04_3_red.dds"
 				}
+				 	custom_attachment_label = "HAIR_STYLE"
 	}
 
 }

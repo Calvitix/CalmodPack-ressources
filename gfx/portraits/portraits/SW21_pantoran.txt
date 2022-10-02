@@ -3,24 +3,26 @@ portraits = {
 	
 	pantoran_f1	= {	entity = "zabrak_female_entity"	
 				clothes_selector = "human_SW_female_clothes_01" 
-				hair_selector = "pantoran_female_01_hair" 
+				attachment_selector = "pantoran_female_01_hair" 
 				greeting_sound = "human_female_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/pantoran/pantoran_female_body_01.dds"
 									   "gfx/models/portraits/Star_Wars/pantoran/pantoran_female_body_02.dds"
 									   "gfx/models/portraits/Star_Wars/pantoran/pantoran_female_body_03.dds"
 									   "gfx/models/portraits/Star_Wars/pantoran/pantoran_female_body_04.dds"
 				} 
+				 	custom_attachment_label = "HAIR_STYLE"
 			}
 
 	pantoran_m1	= {	entity = "zabrak_male_entity"	
 				clothes_selector = "human_SW_male_clothes_01" 
-				hair_selector = "pantoran_male_01_hair" 
+				attachment_selector = "pantoran_male_01_hair" 
 				greeting_sound = "human_male_greetings_04"
 				character_textures = { "gfx/models/portraits/Star_Wars/pantoran/pantoran_male_body_01.dds"
 									   "gfx/models/portraits/Star_Wars/pantoran/pantoran_male_body_02.dds"
 									   "gfx/models/portraits/Star_Wars/pantoran/pantoran_male_body_03.dds"
 									   "gfx/models/portraits/Star_Wars/pantoran/pantoran_male_body_04.dds"
 				} 
+				 	custom_attachment_label = "HAIR_STYLE"
 			}
 			
 	}

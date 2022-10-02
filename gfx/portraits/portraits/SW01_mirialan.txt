@@ -5,81 +5,97 @@ portraits = {
 
 	mirf1 = {	entity = "zabrak_female_entity" 
 				clothes_selector = "human_SW_female_clothes_01" 	
-				hair_selector = "mirialan_female_hair_01" 
+				attachment_selector = "mirialan_female_hair_01" 
 				greeting_sound = "human_female_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_01a.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_01b.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_01c.dds"
 				}
+					custom_attachment_label = "HAIR_STYLE"
+
 	}
 
 	mirf2 = {	entity = "zabrak_female_entity" 
 				clothes_selector = "human_SW_female_clothes_01" 	
-				hair_selector = "mirialan_female_hair_01" 	
+				attachment_selector = "mirialan_female_hair_01" 	
 				greeting_sound = "human_female_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_02a.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_02b.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_02c.dds"
 				}
+					custom_attachment_label = "HAIR_STYLE"
+
 	}
 	mirf3 = {	entity = "zabrak_female_entity" 
 				clothes_selector = "human_SW_female_clothes_01" 	
-				hair_selector = "mirialan_female_hair_01" 	
+				attachment_selector = "mirialan_female_hair_01" 	
 				greeting_sound = "human_female_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_03a.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_03b.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_03c.dds"
 				}
+					custom_attachment_label = "HAIR_STYLE"
+
 	}
 
 	mirf4 = {	entity = "zabrak_female_entity" 
 				clothes_selector = "human_SW_female_clothes_01" 	
-				hair_selector = "mirialan_female_hair_01" 	
+				attachment_selector = "mirialan_female_hair_01" 	
 				greeting_sound = "human_female_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_04a.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_04b.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_female_body_04c.dds"
 				}
+					custom_attachment_label = "HAIR_STYLE"
+
 	}	
 
 	mirm1 = {	entity = "zabrak_male_entity" 
 				clothes_selector = "human_SW_male_clothes_01" 	
-				hair_selector = "mirialan_male_hair_01" 
+				attachment_selector = "mirialan_male_hair_01" 
 				greeting_sound = "human_male_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_01a.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_01b.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_01c.dds"
 				}
+					custom_attachment_label = "HAIR_STYLE"
+
 	}
 
 	mirm2 = {	entity = "zabrak_male_entity" 
 				clothes_selector = "human_SW_male_clothes_01" 	
-				hair_selector = "mirialan_male_hair_01" 	
+				attachment_selector = "mirialan_male_hair_01" 	
 				greeting_sound = "human_male_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_02a.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_02b.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_02c.dds"
 				}
+					custom_attachment_label = "HAIR_STYLE"
+
 	}
 	
 	mirm3 = {	entity = "zabrak_male_entity" 
 				clothes_selector = "human_SW_male_clothes_01" 	
-				hair_selector = "mirialan_male_hair_01" 	
+				attachment_selector = "mirialan_male_hair_01" 	
 				greeting_sound = "human_male_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_03a.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_03b.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_03c.dds"
 				}
+					custom_attachment_label = "HAIR_STYLE"
+
 	}	
 
 	mirm4 = {	entity = "zabrak_male_entity" 
 				clothes_selector = "human_SW_male_clothes_01" 	
-				hair_selector = "mirialan_male_hair_01" 	
+				attachment_selector = "mirialan_male_hair_01" 	
 				greeting_sound = "human_male_greetings_03" 
 				character_textures = { "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_04a.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_04b.dds"
 									   "gfx/models/portraits/Star_Wars/mirialan/mirialan_male_body_04c.dds"
 				}
+					custom_attachment_label = "HAIR_STYLE"
+
 	}
 	
 	}

@@ -1,16 +1,20 @@
 portraits = {
-	wookiee_male = {	entity = "portrait_mammalian_13_entity"	clothes_selector = "no_texture" hair_selector = "general_no_hair" greeting_sound = "mammalian_01_greetings"
+	wookiee_male = {	entity = "portrait_mammalian_13_entity"	clothes_selector = "no_texture" attachment_selector = "general_no_hair" greeting_sound = "mammalian_01_greetings"
 			character_textures = {
 					"gfx/models/portraits/Star_Wars/wookiee/wookiee_male_01.dds"
 					"gfx/models/portraits/Star_Wars/wookiee/wookiee_male_02.dds"					
 				}
+					custom_attachment_label = "HAIR_STYLE"
+
 	}
 	
-	wookiee_female = {	entity = "portrait_mammalian_13_entity"	clothes_selector = "no_texture" hair_selector = "general_no_hair" greeting_sound = "mammalian_01_greetings"
+	wookiee_female = {	entity = "portrait_mammalian_13_entity"	clothes_selector = "no_texture" attachment_selector = "general_no_hair" greeting_sound = "mammalian_01_greetings"
 			character_textures = {
 					"gfx/models/portraits/Star_Wars/wookiee/wookiee_female_01.dds"
 				
 				}
+					custom_attachment_label = "HAIR_STYLE"
+
 	}
 }
 

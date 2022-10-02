@@ -9,7 +9,7 @@
 ##############################################################
 
 portraits = {
-	protoss_male_01 	= {	entity = "protoss_male_01_entity"	clothes_selector = "protoss_male_clothes_01" hair_selector = "general_no_hair"	greeting_sound = "reptilian_01_greetings"
+	protoss_male_01 	= {	entity = "protoss_male_01_entity"	clothes_selector = "protoss_male_clothes_01" attachment_selector = "general_no_hair"	greeting_sound = "reptilian_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/Miscellaneous/protoss/protoss_male.dds"
 			"gfx/models/portraits/Miscellaneous/protoss/protoss_male2.dds"
@@ -20,8 +20,10 @@ portraits = {
 			"gfx/models/portraits/Miscellaneous/protoss/protoss_male3_1.dds"
 			"gfx/models/portraits/Miscellaneous/protoss/protoss_male4_1.dds"
 		}
+		custom_attachment_label = "HAIR_STYLE"
+
 	}	
-	protoss_female_01 	= {	entity = "protoss_female_01_entity"		clothes_selector = "protoss_female_clothes_01" hair_selector = "general_no_hair"	greeting_sound = "reptilian_01_greetings"
+	protoss_female_01 	= {	entity = "protoss_female_01_entity"		clothes_selector = "protoss_female_clothes_01" attachment_selector = "general_no_hair"	greeting_sound = "reptilian_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/Miscellaneous/protoss/protoss_female.dds"
 			"gfx/models/portraits/Miscellaneous/protoss/protoss_female2.dds"
@@ -32,6 +34,8 @@ portraits = {
 			"gfx/models/portraits/Miscellaneous/protoss/protoss_female3_1.dds"
 			"gfx/models/portraits/Miscellaneous/protoss/protoss_female4_1.dds"
 		}
+		custom_attachment_label = "HAIR_STYLE"
+
 	}	
 		
 	

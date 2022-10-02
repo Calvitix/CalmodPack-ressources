@@ -3,52 +3,67 @@ portraits = {
 	
 
 	rebel_m1	= {	greeting_sound = "human_male_greetings_04" 
-					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_1.dds"} 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_1.dds" 		custom_attachment_label = "HAIR_STYLE"
+} 
 
 			
 	rebel_m2	= {	greeting_sound = "human_male_greetings_04" 
-					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_2.dds"} 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_2.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 
 			
 	rebel_m3	= {	greeting_sound = "human_male_greetings_04" 
-					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_3.dds"} 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_3.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 
 	rebel_m4	= {	greeting_sound = "human_male_greetings_04" 
-					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_4.dds"} 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_4.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 
 	rebel_m5	= {	greeting_sound = "human_male_greetings_04" 
-	texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_5.dds"} 
+	texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_5.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 			
 	rebel_m6	= {	greeting_sound = "human_male_greetings_04" 
-					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_6.dds"} 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_6.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 			
 	rebel_m7	= {	greeting_sound = "human_male_greetings_04" 
-					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_7.dds"} 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_male_7.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 
 			
 	rebel_f1	= {	greeting_sound = "human_female_greetings_04" 
-					texturefile ="gfx/models/portraits/Star_Wars/rebel/rebel_female_1.dds"} 
+					texturefile ="gfx/models/portraits/Star_Wars/rebel/rebel_female_1.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 			
 	rebel_f2	= {	greeting_sound = "human_female_greetings_04" 
-					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_2.dds"} 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_2.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 
 	rebel_f3	= {	greeting_sound = "human_female_greetings_04" 
-					texturefile ="gfx/models/portraits/Star_Wars/rebel/rebel_female_3.dds"} 
+					texturefile ="gfx/models/portraits/Star_Wars/rebel/rebel_female_3.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 
 	rebel_f4	= {	greeting_sound = "human_female_greetings_04" 
-					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_4.dds"} 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_4.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 
 	rebel_f5	= {	greeting_sound = "human_female_greetings_04" 
-					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_5.dds"} 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_5.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 
 	rebel_f6	= {	greeting_sound = "human_female_greetings_04" 
-					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_6.dds"} 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_6.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 
 	rebel_f7	= {	greeting_sound = "human_female_greetings_04" 
-					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_7.dds"} 
+					texturefile = "gfx/models/portraits/Star_Wars/rebel/rebel_female_7.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 
 	rebel_f8	= {	greeting_sound = "human_female_greetings_04" 
-					texturefile ="gfx/models/portraits/Star_Wars/rebel/rebel_female_8.dds"} 
+					texturefile ="gfx/models/portraits/Star_Wars/rebel/rebel_female_8.dds"		custom_attachment_label = "HAIR_STYLE"
+} 
 
 
 	}

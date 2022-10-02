@@ -1,9 +1,13 @@
 portraits = {
 
-	rakata_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/rakata/rakata_1.dds"}
-	rakata_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/rakata/rakata_2.dds"}
-	rakata_3 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/rakata/rakata_3.dds"}
-	rakata_4 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/rakata/rakata_4.dds"}
+	rakata_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/rakata/rakata_1.dds"		custom_attachment_label = "HAIR_STYLE"
+}
+	rakata_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/rakata/rakata_2.dds"		custom_attachment_label = "HAIR_STYLE"
+}
+	rakata_3 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/rakata/rakata_3.dds"		custom_attachment_label = "HAIR_STYLE"
+}
+	rakata_4 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Star_Wars/rakata/rakata_4.dds"		custom_attachment_label = "HAIR_STYLE"
+}
 }
 
 portrait_groups = {

@@ -2,10 +2,10 @@ portraits = {
 
 	neimoidian_1 = {	entity = "human_female_entity_bigger"
 				clothes_selector = "neimoidian_clothes_01"	
-				hair_selector = "neimoidian_hair_1"		
+				attachment_selector = "neimoidian_hair_1"		
 				greeting_sound = "human_male_greetings_03" 
 				character_textures = { "gfx/models/portraits/empty_body.dds"}
-				}
+				}				
 
 }
 
